@@ -1,6 +1,6 @@
 # 🎬 Looney Tunes Shorts Index & Collector's Archive (1929–1969)
 
-An interactive search engine, historical credits archive, and home media track index for all **1,016 classic theatrical Looney Tunes and Merrie Melodies shorts**.
+An interactive search engine, historical credits archive, and home media track index for all **1,039 classic and revival Looney Tunes and Merrie Melodies shorts (1929–2014)**.
 
 Built as a lightweight, zero-dependency web app with instant client-side search, chronological era filtering, multi-format media tracking, and private visitor personalization.
 
@@ -21,7 +21,7 @@ Built as a lightweight, zero-dependency web app with instant client-side search,
   * Tracks disc numbers, titles, and track locations across **30 physical releases** (Blu-ray, DVD, and LaserDisc).
   * Grouped by format first (`Blu-ray`, `DVD`, `LaserDisc`) and sorted alphabetically.
   * **Strict Inclusion Search:** Check off the sets you own to filter exclusively to released shorts in your collection.
-  * **Clear All:** Searches the entire 1,016 title catalog (including unreleased cartoons).
+  * **Clear All:** Searches the entire 1,039 title catalog (including unreleased cartoons).
   * **Multi-User Profiles:** Save different library setups (e.g. "Living Room", "LaserDiscs", etc.) directly in your browser.
 * **⭐ Private Star Ratings (1–5 ★):**
   * Rate any short with 1 to 5 stars directly on its card.
@@ -96,7 +96,7 @@ https://<YOUR-USERNAME>.github.io/looney-tunes-index/
 ## 📁 File Structure
 
 * `index.html`: Complete web application UI, search engine, era timeline, and ratings/notes system.
-* `database.json`: Master JSON catalog of all 1,016 theatrical shorts.
+* `database.json`: Master JSON catalog of all 1,039 theatrical and revival shorts.
 * `database.js`: Offline/CORS-safe fallback database definition.
 * `custom_overrides.json`: Protected manual overrides (never overwritten by scraper runs).
 * `server.py`: Zero-dependency local editing server with REST endpoints.

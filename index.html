@@ -523,6 +523,21 @@
       color: #ffffff;
     }
 
+    .band-revival {
+      background: linear-gradient(90deg, #7c3aed, #a855f7);
+      color: #ffffff;
+    }
+
+    .era-revival {
+      border-color: #c084fc;
+      color: #7e22ce;
+    }
+    .era-revival.active, .era-revival:hover {
+      background: #7e22ce;
+      color: #ffffff;
+      border-color: #7e22ce;
+    }
+
     .slider-range-highlight {
       position: absolute;
       top: 6px;
@@ -1143,13 +1158,13 @@
       <!-- Home Media Sets / My Collection Dropdown with Checkmarks -->
       <div class="custom-multiselect-container" id="mediaSetDropdownContainer">
         <button type="button" class="multiselect-trigger" id="mediaSetTriggerBtn" onclick="toggleMediaSetDropdown(event)">
-          <span id="mediaSetTriggerText">🎬 All Database Titles (1,016 Shorts)</span>
+          <span id="mediaSetTriggerText">🎬 All Database Titles (1,039 Shorts)</span>
           <span class="dropdown-caret">▼</span>
         </button>
         <div class="multiselect-popover" id="mediaSetPopover" style="display: none;">
           <div class="popover-header">
             <span style="font-weight: 600; color: #0f172a; font-size: 0.88rem;">Home Media Sets / My Collection</span>
-            <span style="font-size: 0.78rem; color: #64748b;" id="popoverCountLabel">0 of 30 (searching all 1,016)</span>
+            <span style="font-size: 0.78rem; color: #64748b;" id="popoverCountLabel">0 of 30 (searching all 1,039)</span>
           </div>
 
           <!-- User Library Profiles Bar -->
@@ -1171,7 +1186,7 @@
           <div class="popover-actions">
             <button type="button" class="popover-btn popover-btn-primary" onclick="loadCurrentUserLibrary()" title="Select sets in your saved library">📚 My Library</button>
             <button type="button" class="popover-btn" onclick="selectAllSets(true)" title="Check all 30 sets (searches only released cartoons)">Select All (Released Only)</button>
-            <button type="button" class="popover-btn" onclick="selectAllSets(false)" title="Uncheck all sets to search the entire 1,016 cartoon database including unreleased shorts">Clear All (Search All 1,016)</button>
+            <button type="button" class="popover-btn" onclick="selectAllSets(false)" title="Uncheck all sets to search the entire 1,039 cartoon database including unreleased shorts">Clear All (Search All 1,039)</button>
             <button type="button" class="popover-btn" onclick="selectOnlyFormat('Blu-ray')">Only Blu-ray</button>
             <button type="button" class="popover-btn" onclick="selectOnlyFormat('DVD')">Only DVD</button>
             <button type="button" class="popover-btn" onclick="selectOnlyFormat('LaserDisc')">Only LaserDisc</button>
@@ -1186,50 +1201,53 @@
       <div class="timeline-header">
         <div class="timeline-title-group">
           <span class="timeline-heading">⏳ Theatrical Era Timeline</span>
-          <span class="timeline-range-badge" id="timelineRangeText">1929 – 1969</span>
+          <span class="timeline-range-badge" id="timelineRangeText">1929 – 2014</span>
         </div>
         <div class="timeline-era-pills">
-          <button type="button" class="era-pill era-all active" onclick="setEraPreset(1929, 1969, this)">All Years (1929–1969)</button>
+          <button type="button" class="era-pill era-all active" onclick="setEraPreset(1929, 2014, this)">All Years (1929–Present)</button>
           <button type="button" class="era-pill era-bw" onclick="setEraPreset(1929, 1943, this)" title="Bosko, Buddy, and early B&W Porky/Daffy through Puss n' Booty">🎞️ B&W Era (1929–1943)</button>
           <button type="button" class="era-pill era-war" onclick="setEraPreset(1941, 1945, this)" title="WWII military spoofs, war bonds, and patriotic shorts">🎖️ War Years (1941–1945)</button>
           <button type="button" class="era-pill era-gold" onclick="setEraPreset(1946, 1959, this)" title="Post-war peak Technicolor boom">⭐ Golden Age (1946–1959)</button>
           <button type="button" class="era-pill era-tv" onclick="setEraPreset(1960, 1969, this)" title="The Bugs Bunny Show TV era & late theatricals">📺 TV & Late Era (1960–1969)</button>
+          <button type="button" class="era-pill era-revival" onclick="setEraPreset(1979, 2014, this)" title="Modern revivals, theatrical shorts, and new theatricals">✨ Revival Era (1979–Present)</button>
           <button type="button" class="era-pill" id="notesOnlyFilterBtn" onclick="toggleNotesOnlyFilter(this)" title="Filter to shorts where you added personal notes" style="margin-left: 4px; border-color: #93c5fd; color: #1d4ed8;">📝 Has Notes</button>
         </div>
       </div>
 
       <div class="slider-wrapper">
         <div class="timeline-bands-track">
-          <div class="band-segment band-bw" style="left: 0%; width: 35%;" onclick="setEraPreset(1929, 1943, document.querySelector('.era-bw'))" title="Black & White Era (1929–1943)">
+          <div class="band-segment band-bw" style="left: 0%; width: 17%;" onclick="setEraPreset(1929, 1943, document.querySelector('.era-bw'))" title="Black & White Era (1929–1943)">
             <span class="band-label">🎞️ B&W (1929–43)</span>
           </div>
-          <div class="band-segment band-war" style="left: 30%; width: 10%;" onclick="setEraPreset(1941, 1945, document.querySelector('.era-war'))" title="War Years (1941–1945)">
+          <div class="band-segment band-war" style="left: 14%; width: 6%;" onclick="setEraPreset(1941, 1945, document.querySelector('.era-war'))" title="War Years (1941–1945)">
             <span class="band-label">🎖️ War (41–45)</span>
           </div>
-          <div class="band-segment band-gold" style="left: 42.5%; width: 32.5%;" onclick="setEraPreset(1946, 1959, document.querySelector('.era-gold'))" title="Golden Age Color (1946–1959)">
+          <div class="band-segment band-gold" style="left: 20%; width: 16%;" onclick="setEraPreset(1946, 1959, document.querySelector('.era-gold'))" title="Golden Age Color (1946–1959)">
             <span class="band-label">⭐ Golden Age (1946–59)</span>
           </div>
-          <div class="band-segment band-tv" style="left: 77.5%; width: 22.5%;" onclick="setEraPreset(1960, 1969, document.querySelector('.era-tv'))" title="TV & Late Era (1960–1969)">
+          <div class="band-segment band-tv" style="left: 36.5%; width: 11%;" onclick="setEraPreset(1960, 1969, document.querySelector('.era-tv'))" title="TV & Late Era (1960–1969)">
             <span class="band-label">📺 TV Era (1960–69)</span>
+          </div>
+          <div class="band-segment band-revival" style="left: 58.8%; width: 41.2%;" onclick="setEraPreset(1979, 2014, document.querySelector('.era-revival'))" title="Revival Era (1979–Present)">
+            <span class="band-label">✨ Revival (1979–Present)</span>
           </div>
         </div>
 
         <div class="slider-range-highlight" id="sliderHighlight" style="left: 0%; width: 100%;"></div>
 
-        <input type="range" id="sliderMin" min="1929" max="1969" value="1929" step="1" oninput="handleSliderChange()">
-        <input type="range" id="sliderMax" min="1929" max="1969" value="1969" step="1" oninput="handleSliderChange()">
+        <input type="range" id="sliderMin" min="1929" max="2014" value="1929" step="1" oninput="handleSliderChange()">
+        <input type="range" id="sliderMax" min="1929" max="2014" value="2014" step="1" oninput="handleSliderChange()">
       </div>
 
       <div class="timeline-ticks">
         <span>1929</span>
-        <span>1935</span>
         <span>1940</span>
-        <span>1945</span>
         <span>1950</span>
-        <span>1955</span>
         <span>1960</span>
-        <span>1965</span>
-        <span>1969</span>
+        <span>1970</span>
+        <span>1985</span>
+        <span>2000</span>
+        <span>2014</span>
       </div>
     </div>
 
@@ -1246,7 +1264,7 @@
 
   <footer class="app-footer">
     <div>
-      <div style="font-weight: 600; color: #334155;">🎬 Looney Tunes Archival Catalog & Index (1929–1969)</div>
+      <div style="font-weight: 600; color: #334155;">🎬 Looney Tunes Archival Catalog & Index (1,039 Cartoons, 1929–2014)</div>
       <div style="font-size: 0.74rem; color: #94a3b8; margin-top: 2px;">
         Archival fan research tool. Star ratings, notes, and collections are kept 100% private in your browser.
       </div>
@@ -2564,9 +2582,9 @@
 
   // --- Timeline State ---
   const MIN_YEAR_CONST = 1929;
-  const MAX_YEAR_CONST = 1969;
+  const MAX_YEAR_CONST = 2014;
   let activeMinYear = 1929;
-  let activeMaxYear = 1969;
+  let activeMaxYear = 2014;
 
   function getFormatOrder(fmt) {
     const f = (fmt || '').toLowerCase();
@@ -2639,7 +2657,7 @@
     populateUserProfileSelect();
 
     // Default starting condition is "Clear All" (0 sets selected)
-    // so you can search the entire database of all 1,016 shorts right when you get started!
+    // so you can search the entire database of all 1,039 shorts right when you get started!
     selectedMediaSets = new Set();
 
     renderMediaSetCheckboxes();
@@ -2687,7 +2705,7 @@
     const countLabel = document.getElementById('popoverCountLabel');
     if (countLabel) {
       if (selectedMediaSets.size === 0) {
-        countLabel.textContent = `0 of ${allMediaSets.length} (searching all 1,016)`;
+        countLabel.textContent = `0 of ${allMediaSets.length} (searching all 1,039)`;
       } else if (selectedMediaSets.size === allMediaSets.length) {
         countLabel.textContent = `All ${allMediaSets.length} selected (released only)`;
       } else {
@@ -2707,7 +2725,7 @@
     const countLabel = document.getElementById('popoverCountLabel');
     if (countLabel) {
       if (selectedMediaSets.size === 0) {
-        countLabel.textContent = `0 of ${allMediaSets.length} (searching all 1,016)`;
+        countLabel.textContent = `0 of ${allMediaSets.length} (searching all 1,039)`;
       } else if (selectedMediaSets.size === allMediaSets.length) {
         countLabel.textContent = `All ${allMediaSets.length} selected (released only)`;
       } else {
@@ -2749,7 +2767,7 @@
     const profName = data.activeProfile || "My Library";
 
     if (count === 0) {
-      triggerText.textContent = `🎬 All Database Titles (1,016 Shorts)`;
+      triggerText.textContent = `🎬 All Database Titles (1,039 Shorts)`;
     } else if (count === total) {
       triggerText.textContent = `📀 All Scanned Media (${total}/${total} Sets)`;
     } else {
@@ -2831,7 +2849,7 @@
     const pills = document.querySelectorAll('.era-pill');
     pills.forEach(p => p.classList.remove('active'));
 
-    if (activeMinYear === 1929 && activeMaxYear === 1969) {
+    if (activeMinYear === 1929 && activeMaxYear === 2014) {
       document.querySelector('.era-all')?.classList.add('active');
     } else if (activeMinYear === 1929 && activeMaxYear === 1943) {
       document.querySelector('.era-bw')?.classList.add('active');
@@ -2841,6 +2859,8 @@
       document.querySelector('.era-gold')?.classList.add('active');
     } else if (activeMinYear === 1960 && activeMaxYear === 1969) {
       document.querySelector('.era-tv')?.classList.add('active');
+    } else if (activeMinYear === 1979 && activeMaxYear === 2014) {
+      document.querySelector('.era-revival')?.classList.add('active');
     }
   }
 
@@ -2882,7 +2902,7 @@
 
       // 2. Media Sets / "My Collection" filtering
       // - If sets are checked (selectedMediaSets.size > 0): ONLY include shorts that appear on at least one checked set!
-      // - If NO sets are checked (selectedMediaSets.size === 0, e.g. "Clear All"): search the entire database of 1016 titles (including unreleased shorts)!
+      // - If NO sets are checked (selectedMediaSets.size === 0, e.g. "Clear All"): search the entire database of 1,039 titles (including unreleased shorts)!
       if (selectedMediaSets.size > 0) {
         const inSelectedSets = (short.media_locations || []).some(loc => selectedMediaSets.has(loc.set_name));
         if (!inSelectedSets) return false;
