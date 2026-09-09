@@ -1143,13 +1143,13 @@
       <!-- Home Media Sets / My Collection Dropdown with Checkmarks -->
       <div class="custom-multiselect-container" id="mediaSetDropdownContainer">
         <button type="button" class="multiselect-trigger" id="mediaSetTriggerBtn" onclick="toggleMediaSetDropdown(event)">
-          <span id="mediaSetTriggerText">📀 All Media Sets</span>
+          <span id="mediaSetTriggerText">🎬 All Database Titles (1,016 Shorts)</span>
           <span class="dropdown-caret">▼</span>
         </button>
         <div class="multiselect-popover" id="mediaSetPopover" style="display: none;">
           <div class="popover-header">
             <span style="font-weight: 600; color: #0f172a; font-size: 0.88rem;">Home Media Sets / My Collection</span>
-            <span style="font-size: 0.78rem; color: #64748b;" id="popoverCountLabel">All selected</span>
+            <span style="font-size: 0.78rem; color: #64748b;" id="popoverCountLabel">0 of 30 (searching all 1,016)</span>
           </div>
 
           <!-- User Library Profiles Bar -->
@@ -2477,12 +2477,12 @@
 
     const defaultSets = (legacySets && Array.isArray(legacySets))
       ? legacySets
-      : allMediaSets.map(s => s.set_name);
+      : [];
 
     const initial = {
-      activeProfile: "Sean",
+      activeProfile: "My Library",
       profiles: {
-        "Sean": defaultSets
+        "My Library": defaultSets
       }
     };
     saveUserProfilesData(initial);
@@ -2536,7 +2536,7 @@
 
   window.saveCurrentUserLibrary = function() {
     const data = getUserProfilesData();
-    const currentProf = data.activeProfile || "Sean";
+    const currentProf = data.activeProfile || "My Library";
     data.profiles[currentProf] = Array.from(selectedMediaSets);
     saveUserProfilesData(data);
 
@@ -2553,7 +2553,7 @@
 
   window.loadCurrentUserLibrary = function() {
     const data = getUserProfilesData();
-    const currentProf = data.activeProfile || "Sean";
+    const currentProf = data.activeProfile || "My Library";
     const savedSets = data.profiles[currentProf] || [];
 
     selectedMediaSets = new Set(savedSets.filter(s => allMediaSets.some(m => m.set_name === s)));
@@ -2635,15 +2635,12 @@
       return a.set_name.localeCompare(b.set_name);
     });
 
-    // Populate user profile dropdown and load active user's saved library
+    // Populate user profile dropdown
     populateUserProfileSelect();
-    const profData = getUserProfilesData();
-    const savedForActive = profData.profiles[profData.activeProfile] || [];
-    if (savedForActive.length > 0) {
-      selectedMediaSets = new Set(savedForActive.filter(s => setsMap.has(s)));
-    } else {
-      selectedMediaSets = new Set(allMediaSets.map(s => s.set_name));
-    }
+
+    // Default starting condition is "Clear All" (0 sets selected)
+    // so you can search the entire database of all 1,016 shorts right when you get started!
+    selectedMediaSets = new Set();
 
     renderMediaSetCheckboxes();
     updateMediaSetTriggerLabel();
