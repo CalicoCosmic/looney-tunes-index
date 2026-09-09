@@ -1,5 +1,4 @@
-// Complete Looney Tunes Shorts Index & Home Media Catalog (1,039 Cartoons)
-const database = [
+window.LOONEY_TUNES_DATABASE = [
   {
     "id": "bosko-the-talk-ink-kid",
     "title": "Bosko, the Talk-Ink Kid",
