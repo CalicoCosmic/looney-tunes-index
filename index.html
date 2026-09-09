@@ -1,0 +1,3188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Looney Tunes Short & Home Media Finder</title>
+  <script src="database.js"></script>
+  <style>
+    :root {
+      --bg-color: #f7f9fa;
+      --card-bg: #ffffff;
+      --border-color: #e2e8f0;
+      --primary-color: #c92a2a;
+      --primary-dark: #a61e1e;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --tag-bg: #f1f5f9;
+      --tag-char-bg: #fee2e2;
+      --tag-char-text: #991b1b;
+      
+      /* Format Badge Themes */
+      --media-dvd-bg: #fef3c7;
+      --media-dvd-text: #92400e;
+      --media-bd-bg: #dbeafe;
+      --media-bd-text: #1e40af;
+      --media-laserdisc-bg: #ede9fe;
+      --media-laserdisc-text: #6b21a8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      line-height: 1.5;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    header h1 {
+      font-size: 2.1rem;
+      color: var(--primary-color);
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    header p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* Control Panel */
+    .controls {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 18px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+    }
+
+    .search-row {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .search-input {
+      flex: 1;
+      padding: 12px 16px;
+      font-size: 1.05rem;
+      border: 1.5px solid var(--border-color);
+      border-radius: 8px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--primary-color);
+    }
+
+    .filter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 10px;
+    }
+
+    .filter-select {
+      width: 100%;
+      height: 38px;
+      padding: 8px 10px;
+      font-size: 0.88rem;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      background-color: #fff;
+      color: var(--text-main);
+      cursor: pointer;
+    }
+
+    /* Multi-select Collection Dropdown */
+    .custom-multiselect-container {
+      position: relative;
+      width: 100%;
+    }
+
+    .multiselect-trigger {
+      width: 100%;
+      height: 38px;
+      padding: 8px 12px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      background-color: #fff;
+      color: var(--text-main);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    .multiselect-trigger:hover {
+      border-color: #94a3b8;
+    }
+
+    .dropdown-caret {
+      font-size: 0.7rem;
+      color: #64748b;
+      margin-left: 6px;
+    }
+
+    .multiselect-popover {
+      position: absolute;
+      top: calc(100% + 6px);
+      right: 0;
+      width: 520px;
+      max-width: min(520px, 94vw);
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+      z-index: 100;
+      padding: 14px;
+    }
+
+    @media (max-width: 640px) {
+      .multiselect-popover {
+        position: fixed;
+        top: 15%;
+        left: 3%;
+        right: 3%;
+        width: auto;
+        max-width: unset;
+      }
+    }
+
+    .popover-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #e2e8f0;
+      margin-bottom: 8px;
+    }
+
+    .popover-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-bottom: 10px;
+    }
+
+    .popover-user-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 6px 8px;
+      margin-bottom: 8px;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .user-select-wrap {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .user-label {
+      font-size: 0.76rem;
+      font-weight: 700;
+      color: #475569;
+    }
+
+    .user-profile-select {
+      font-size: 0.74rem;
+      font-weight: 600;
+      color: #0f172a;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+      padding: 3px 6px;
+      cursor: pointer;
+      max-width: 140px;
+    }
+
+    .popover-mini-btn {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: #2563eb;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 4px;
+      padding: 3px 6px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .popover-mini-btn:hover {
+      background: #dbeafe;
+      color: #1d4ed8;
+    }
+
+    .user-save-wrap {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .popover-btn-save-lib {
+      background: #f0fdf4 !important;
+      border-color: #86efac !important;
+      color: #166534 !important;
+      font-weight: 700 !important;
+    }
+    .popover-btn-save-lib:hover {
+      background: #dcfce7 !important;
+      color: #14532d !important;
+    }
+
+    .popover-btn-primary {
+      background: #fff7ed !important;
+      border-color: #fdba74 !important;
+      color: #c2410c !important;
+      font-weight: 700 !important;
+    }
+    .popover-btn-primary:hover {
+      background: #ffedd5 !important;
+      color: #9a3412 !important;
+    }
+
+    .save-feedback {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #16a34a;
+    }
+
+    .popover-btn {
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+      padding: 4px 8px;
+      font-size: 0.73rem;
+      font-weight: 600;
+      color: #334155;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .popover-group-header {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #475569;
+      background: #f1f5f9;
+      padding: 5px 8px;
+      border-radius: 4px;
+      margin-top: 8px;
+      margin-bottom: 3px;
+      border-left: 3px solid #3b82f6;
+    }
+    .popover-group-header:first-child {
+      margin-top: 0;
+    }
+
+    .popover-list {
+      max-height: 340px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      padding-right: 6px;
+    }
+
+    .popover-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.84rem;
+      user-select: none;
+      transition: background 0.12s;
+    }
+
+    .popover-item:hover {
+      background: #f1f5f9;
+    }
+
+    .popover-item-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .popover-item-title {
+      white-space: normal;
+      line-height: 1.3;
+      color: #1e293b;
+      font-weight: 500;
+      word-break: normal;
+    }
+
+    .popover-count-tag {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #64748b;
+      background: #f1f5f9;
+      padding: 2px 7px;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+
+    .popover-checkbox {
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+      accent-color: #c2410c;
+      flex-shrink: 0;
+    }
+
+    .popover-badge {
+      font-size: 0.68rem;
+      font-weight: 600;
+      padding: 2px 6px;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+
+    .badge-dvd {
+      background: #e2e8f0;
+      color: #334155;
+    }
+
+    .badge-bluray {
+      background: #dbeafe;
+      color: #1e40af;
+    }
+
+    .badge-laserdisc {
+      background: #fef3c7;
+      color: #92400e;
+    }
+
+    /* Era Timeline Container */
+    .timeline-container {
+      margin-top: 14px;
+      padding: 12px 14px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+    }
+
+    .timeline-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .timeline-title-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .timeline-heading {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .timeline-range-badge {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: #c2410c;
+      background: #ffedd5;
+      padding: 2px 8px;
+      border-radius: 12px;
+      border: 1px solid #fed7aa;
+    }
+
+    .timeline-era-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .era-pill {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 16px;
+      padding: 3px 10px;
+      font-size: 0.74rem;
+      font-weight: 600;
+      color: #475569;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .era-pill:hover {
+      border-color: #94a3b8;
+      color: #0f172a;
+      transform: translateY(-1px);
+    }
+
+    .era-pill.active {
+      background: #c2410c;
+      color: #ffffff;
+      border-color: #c2410c;
+      box-shadow: 0 2px 5px rgba(194, 65, 12, 0.3);
+    }
+
+    /* Timeline Slider & Track Bands */
+    .slider-wrapper {
+      position: relative;
+      height: 36px;
+      margin: 8px 0 4px 0;
+    }
+
+    .timeline-bands-track {
+      position: absolute;
+      top: 9px;
+      left: 0;
+      right: 0;
+      height: 18px;
+      border-radius: 9px;
+      overflow: hidden;
+      background: #e2e8f0;
+      box-shadow: inset 0 1px 3px rgba(0,0,0,0.15);
+    }
+
+    .band-segment {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.65rem;
+      font-weight: 700;
+      cursor: pointer;
+      user-select: none;
+      color: #ffffff;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.85);
+      transition: filter 0.15s ease;
+    }
+
+    .band-label {
+      color: #ffffff;
+      white-space: nowrap;
+      pointer-events: none;
+    }
+
+    .band-segment:hover {
+      filter: brightness(1.15);
+    }
+
+    .band-bw {
+      background: linear-gradient(90deg, #1e293b, #475569);
+      color: #ffffff;
+    }
+
+    .band-war {
+      background: linear-gradient(90deg, #57534e, #78716c);
+      color: #ffffff;
+    }
+
+    .band-gold {
+      background: linear-gradient(90deg, #b45309, #f59e0b);
+      color: #ffffff;
+    }
+
+    .band-tv {
+      background: linear-gradient(90deg, #0284c7, #38bdf8);
+      color: #ffffff;
+    }
+
+    .slider-range-highlight {
+      position: absolute;
+      top: 6px;
+      height: 24px;
+      border-radius: 8px;
+      background: transparent;
+      border: 3.5px solid #c2410c;
+      pointer-events: none;
+      z-index: 2;
+      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.5), 0 2px 6px rgba(194, 65, 12, 0.35);
+      transition: left 0.05s ease, width 0.05s ease;
+      box-sizing: border-box;
+    }
+
+    .slider-wrapper input[type="range"] {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 36px;
+      -webkit-appearance: none;
+      appearance: none;
+      background: transparent;
+      pointer-events: none;
+      z-index: 3;
+      margin: 0;
+    }
+
+    .slider-wrapper input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #c2410c;
+      border: 2.5px solid #ffffff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.35);
+      cursor: pointer;
+      pointer-events: auto;
+      transition: transform 0.1s ease, background 0.1s ease;
+    }
+
+    .slider-wrapper input[type="range"]::-webkit-slider-thumb:hover {
+      transform: scale(1.2);
+      background: #9a3412;
+    }
+
+    .slider-wrapper input[type="range"]::-moz-range-thumb {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #c2410c;
+      border: 2.5px solid #ffffff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.35);
+      cursor: pointer;
+      pointer-events: auto;
+    }
+
+    .timeline-ticks {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.68rem;
+      font-weight: 500;
+      color: #94a3b8;
+      padding: 0 4px;
+      user-select: none;
+    }
+
+    .stats-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 12px;
+      padding-top: 10px;
+      border-top: 1px dashed var(--border-color);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .load-file-btn {
+      font-size: 0.8rem;
+      color: #2563eb;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    /* Results */
+    .results-list {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+    }
+
+    .card-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+    }
+
+    .card-year {
+      font-weight: 400;
+      color: var(--text-muted);
+    }
+
+    .card-series {
+      font-size: 0.9rem;
+      font-style: italic;
+      color: var(--text-muted);
+    }
+
+    /* Character Tags */
+    .characters-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+
+    .char-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      margin-right: 4px;
+    }
+
+    .char-badge {
+      background: var(--tag-char-bg);
+      color: var(--tag-char-text);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid #fca5a5;
+    }
+
+    /* Credits Grid */
+    .credits-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 8px 16px;
+      background: #fafafa;
+      border-radius: 8px;
+      padding: 12px;
+      font-size: 0.88rem;
+      margin-bottom: 14px;
+    }
+
+    .credit-item {
+      display: flex;
+      gap: 6px;
+    }
+
+    .credit-label {
+      font-weight: 600;
+      color: #475569;
+      min-width: 90px;
+    }
+
+    .credit-val {
+      color: #0f172a;
+    }
+
+    /* Media Releases Box */
+    .media-box {
+      border: 1px solid #e2e8f0;
+      background: #f8fafc;
+      border-radius: 8px;
+      padding: 12px 14px;
+    }
+
+    .media-header {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #475569;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .media-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .media-item {
+      font-size: 0.9rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      line-height: 1.4;
+    }
+
+    .format-badge {
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .format-dvd {
+      background: var(--media-dvd-bg);
+      color: var(--media-dvd-text);
+      border: 1px solid #fcd34d;
+    }
+
+    .format-bluray {
+      background: var(--media-bd-bg);
+      color: var(--media-bd-text);
+      border: 1px solid #93c5fd;
+    }
+
+    .format-laserdisc {
+      background: var(--media-laserdisc-bg);
+      color: var(--media-laserdisc-text);
+      border: 1px solid #d8b4fe;
+    }
+
+    .location-details strong {
+      color: #0f172a;
+    }
+
+    .commentary-note {
+      font-size: 0.82rem;
+      color: #059669;
+      margin-left: 4px;
+      font-style: italic;
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 48px;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+
+    /* Edit Button & Modal Styles */
+    .btn-edit {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      color: #334155;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s ease;
+    }
+    .btn-edit:hover {
+      background: #e2e8f0;
+      border-color: #94a3b8;
+      color: #0f172a;
+      transform: translateY(-1px);
+    }
+
+    /* Star Rating Widget */
+    .rating-container {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+    .stars-row {
+      display: inline-flex;
+      gap: 2px;
+      cursor: pointer;
+    }
+    .star-btn {
+      font-size: 1.15rem;
+      line-height: 1;
+      color: #cbd5e1;
+      transition: color 0.12s, transform 0.12s;
+      user-select: none;
+    }
+    .star-btn:hover,
+    .star-btn.hovered {
+      color: #f59e0b;
+      transform: scale(1.18);
+    }
+    .star-btn.filled {
+      color: #f59e0b;
+    }
+    .btn-clear-rating {
+      background: none;
+      border: none;
+      color: #94a3b8;
+      font-size: 0.82rem;
+      cursor: pointer;
+      padding: 0 2px;
+      line-height: 1;
+      opacity: 0.7;
+    }
+    .btn-clear-rating:hover {
+      color: #ef4444;
+      opacity: 1;
+    }
+
+    /* User Personal Notes */
+    .card-actions-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-note-toggle {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      color: #475569;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s ease;
+    }
+    .btn-note-toggle:hover {
+      background: #eff6ff;
+      border-color: #93c5fd;
+      color: #1e40af;
+    }
+    .btn-note-toggle.has-note {
+      background: #eff6ff;
+      border-color: #3b82f6;
+      color: #1d4ed8;
+      font-weight: 700;
+    }
+
+    .card-note-drawer {
+      margin-top: 10px;
+      margin-bottom: 12px;
+      background: #f8fafc;
+      border: 1px solid #bfdbfe;
+      border-radius: 8px;
+      padding: 10px 12px;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,0.03);
+    }
+    .note-textarea {
+      width: 100%;
+      height: 68px;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      padding: 8px;
+      font-size: 0.85rem;
+      color: #1e293b;
+      font-family: inherit;
+      resize: vertical;
+      box-sizing: border-box;
+      background: #ffffff;
+    }
+    .note-textarea:focus {
+      outline: none;
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
+    }
+    .note-drawer-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 6px;
+      font-size: 0.74rem;
+    }
+    .note-auto-save-label {
+      color: #16a34a;
+      font-weight: 600;
+    }
+    .btn-note-delete {
+      background: none;
+      border: none;
+      color: #ef4444;
+      cursor: pointer;
+      font-size: 0.74rem;
+      text-decoration: underline;
+      padding: 0;
+    }
+
+    /* Admin Mode Badge & Controls */
+    .admin-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      color: #b91c1c;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 12px;
+      letter-spacing: 0.3px;
+    }
+    .admin-exit-btn {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      color: #64748b;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 6px;
+      transition: all 0.15s;
+    }
+    .admin-exit-btn:hover {
+      background: #f1f5f9;
+      color: #0f172a;
+    }
+
+    /* App Footer */
+    .app-footer {
+      margin-top: 40px;
+      padding: 24px 0 32px 0;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.82rem;
+      color: #64748b;
+    }
+    .footer-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .footer-btn {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      color: #475569;
+      padding: 5px 12px;
+      border-radius: 6px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.15s;
+    }
+    .footer-btn:hover {
+      background: #f1f5f9;
+      color: #0f172a;
+    }
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(15, 23, 42, 0.6);
+      backdrop-filter: blur(4px);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .modal-box {
+      background: #ffffff;
+      border-radius: 12px;
+      max-width: 680px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.25);
+      padding: 24px;
+      box-sizing: border-box;
+    }
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 12px;
+      margin-bottom: 16px;
+    }
+    .modal-close {
+      background: transparent;
+      border: none;
+      font-size: 1.6rem;
+      cursor: pointer;
+      color: #64748b;
+      line-height: 1;
+    }
+    .modal-close:hover {
+      color: #0f172a;
+    }
+    .form-label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #475569;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+    .form-input {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      font-size: 0.92rem;
+      color: #0f172a;
+      box-sizing: border-box;
+      font-family: inherit;
+    }
+    .form-input:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(194, 65, 12, 0.15);
+    }
+    .modal-btn-cancel {
+      padding: 8px 16px;
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      color: #475569;
+    }
+    .modal-btn-cancel:hover {
+      background: #e2e8f0;
+    }
+    .modal-btn-save {
+      padding: 8px 20px;
+      background: var(--primary);
+      border: none;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      color: #ffffff;
+      box-shadow: 0 2px 4px rgba(194, 65, 12, 0.2);
+    }
+    .modal-btn-save:hover {
+      background: #9a3412;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap;">
+      <div>
+        <h1>🎬 Looney Tunes Shorts Index</h1>
+        <p>Search classic animated shorts, production credits, and home media track locations across Blu-ray, DVD, and LaserDisc.</p>
+      </div>
+      <div id="adminHeaderBadge" style="display: none; align-items: center; gap: 6px; margin-top: 4px;">
+        <span class="admin-badge">🛡️ Admin Active</span>
+        <button type="button" class="admin-exit-btn" onclick="toggleAdminMode(false)">Exit Admin</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="controls">
+    <div class="search-row">
+      <input type="text" id="searchInput" class="search-input" placeholder="Search by title, director, character, format (Blu-ray/DVD/LaserDisc), set, or track..." autofocus>
+    </div>
+
+    <div class="filter-grid">
+      <select id="charFilter" class="filter-select">
+        <option value="">All Featured Characters</option>
+      </select>
+      <select id="directorFilter" class="filter-select">
+        <option value="">All Directors</option>
+      </select>
+      <select id="formatFilter" class="filter-select">
+        <option value="">All Formats (Blu-ray, DVD, LaserDisc)</option>
+      </select>
+      <select id="ratingFilter" class="filter-select" onchange="render()" title="Filter by your personal star rating">
+        <option value="">All Ratings (Any)</option>
+        <option value="any">⭐ Rated by Me (1–5★)</option>
+        <option value="5">⭐⭐⭐⭐⭐ 5 Stars Only</option>
+        <option value="4">⭐⭐⭐⭐ 4+ Stars</option>
+        <option value="3">⭐⭐⭐ 3+ Stars</option>
+        <option value="unrated">⚪ Unrated Shorts</option>
+      </select>
+
+      <!-- Home Media Sets / My Collection Dropdown with Checkmarks -->
+      <div class="custom-multiselect-container" id="mediaSetDropdownContainer">
+        <button type="button" class="multiselect-trigger" id="mediaSetTriggerBtn" onclick="toggleMediaSetDropdown(event)">
+          <span id="mediaSetTriggerText">📀 All Media Sets</span>
+          <span class="dropdown-caret">▼</span>
+        </button>
+        <div class="multiselect-popover" id="mediaSetPopover" style="display: none;">
+          <div class="popover-header">
+            <span style="font-weight: 600; color: #0f172a; font-size: 0.88rem;">Home Media Sets / My Collection</span>
+            <span style="font-size: 0.78rem; color: #64748b;" id="popoverCountLabel">All selected</span>
+          </div>
+
+          <!-- User Library Profiles Bar -->
+          <div class="popover-user-row">
+            <div class="user-select-wrap">
+              <span class="user-label">👤 Profile:</span>
+              <select id="userLibraryProfileSelect" class="user-profile-select" onchange="handleUserProfileChange(this.value)" title="Switch active user library profile">
+              </select>
+              <button type="button" class="popover-mini-btn" onclick="promptNewUserProfile()" title="Create a new user profile">➕ New Profile</button>
+            </div>
+            <div class="user-save-wrap">
+              <button type="button" class="popover-btn popover-btn-save-lib" onclick="saveCurrentUserLibrary()" title="Save current checkmarks to this user profile">
+                💾 Save as My Library
+              </button>
+              <span id="saveLibFeedback" class="save-feedback" style="display: none;">✓ Saved!</span>
+            </div>
+          </div>
+
+          <div class="popover-actions">
+            <button type="button" class="popover-btn popover-btn-primary" onclick="loadCurrentUserLibrary()" title="Select sets in your saved library">📚 My Library</button>
+            <button type="button" class="popover-btn" onclick="selectAllSets(true)" title="Check all 30 sets (searches only released cartoons)">Select All (Released Only)</button>
+            <button type="button" class="popover-btn" onclick="selectAllSets(false)" title="Uncheck all sets to search the entire 1,016 cartoon database including unreleased shorts">Clear All (Search All 1,016)</button>
+            <button type="button" class="popover-btn" onclick="selectOnlyFormat('Blu-ray')">Only Blu-ray</button>
+            <button type="button" class="popover-btn" onclick="selectOnlyFormat('DVD')">Only DVD</button>
+            <button type="button" class="popover-btn" onclick="selectOnlyFormat('LaserDisc')">Only LaserDisc</button>
+          </div>
+          <div class="popover-list" id="mediaSetCheckboxList"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interactive Era Timeline Slider -->
+    <div class="timeline-container">
+      <div class="timeline-header">
+        <div class="timeline-title-group">
+          <span class="timeline-heading">⏳ Theatrical Era Timeline</span>
+          <span class="timeline-range-badge" id="timelineRangeText">1929 – 1969</span>
+        </div>
+        <div class="timeline-era-pills">
+          <button type="button" class="era-pill era-all active" onclick="setEraPreset(1929, 1969, this)">All Years (1929–1969)</button>
+          <button type="button" class="era-pill era-bw" onclick="setEraPreset(1929, 1943, this)" title="Bosko, Buddy, and early B&W Porky/Daffy through Puss n' Booty">🎞️ B&W Era (1929–1943)</button>
+          <button type="button" class="era-pill era-war" onclick="setEraPreset(1941, 1945, this)" title="WWII military spoofs, war bonds, and patriotic shorts">🎖️ War Years (1941–1945)</button>
+          <button type="button" class="era-pill era-gold" onclick="setEraPreset(1946, 1959, this)" title="Post-war peak Technicolor boom">⭐ Golden Age (1946–1959)</button>
+          <button type="button" class="era-pill era-tv" onclick="setEraPreset(1960, 1969, this)" title="The Bugs Bunny Show TV era & late theatricals">📺 TV & Late Era (1960–1969)</button>
+          <button type="button" class="era-pill" id="notesOnlyFilterBtn" onclick="toggleNotesOnlyFilter(this)" title="Filter to shorts where you added personal notes" style="margin-left: 4px; border-color: #93c5fd; color: #1d4ed8;">📝 Has Notes</button>
+        </div>
+      </div>
+
+      <div class="slider-wrapper">
+        <div class="timeline-bands-track">
+          <div class="band-segment band-bw" style="left: 0%; width: 35%;" onclick="setEraPreset(1929, 1943, document.querySelector('.era-bw'))" title="Black & White Era (1929–1943)">
+            <span class="band-label">🎞️ B&W (1929–43)</span>
+          </div>
+          <div class="band-segment band-war" style="left: 30%; width: 10%;" onclick="setEraPreset(1941, 1945, document.querySelector('.era-war'))" title="War Years (1941–1945)">
+            <span class="band-label">🎖️ War (41–45)</span>
+          </div>
+          <div class="band-segment band-gold" style="left: 42.5%; width: 32.5%;" onclick="setEraPreset(1946, 1959, document.querySelector('.era-gold'))" title="Golden Age Color (1946–1959)">
+            <span class="band-label">⭐ Golden Age (1946–59)</span>
+          </div>
+          <div class="band-segment band-tv" style="left: 77.5%; width: 22.5%;" onclick="setEraPreset(1960, 1969, document.querySelector('.era-tv'))" title="TV & Late Era (1960–1969)">
+            <span class="band-label">📺 TV Era (1960–69)</span>
+          </div>
+        </div>
+
+        <div class="slider-range-highlight" id="sliderHighlight" style="left: 0%; width: 100%;"></div>
+
+        <input type="range" id="sliderMin" min="1929" max="1969" value="1929" step="1" oninput="handleSliderChange()">
+        <input type="range" id="sliderMax" min="1929" max="1969" value="1969" step="1" oninput="handleSliderChange()">
+      </div>
+
+      <div class="timeline-ticks">
+        <span>1929</span>
+        <span>1935</span>
+        <span>1940</span>
+        <span>1945</span>
+        <span>1950</span>
+        <span>1955</span>
+        <span>1960</span>
+        <span>1965</span>
+        <span>1969</span>
+      </div>
+    </div>
+
+    <div class="stats-bar">
+      <span id="resultsCount">Loading database...</span>
+      <label class="load-file-btn">
+        Load Local database.json
+        <input type="file" id="filePicker" accept=".json" style="display: none;">
+      </label>
+    </div>
+  </div>
+
+  <main id="resultsList" class="results-list"></main>
+
+  <footer class="app-footer">
+    <div>
+      <div style="font-weight: 600; color: #334155;">🎬 Looney Tunes Archival Catalog & Index (1929–1969)</div>
+      <div style="font-size: 0.74rem; color: #94a3b8; margin-top: 2px;">
+        Archival fan research tool. Star ratings, notes, and collections are kept 100% private in your browser.
+      </div>
+    </div>
+    <div class="footer-actions">
+      <button type="button" class="footer-btn" onclick="exportUserData()" title="Download a JSON backup of your star ratings, notes, and library collection">📤 Backup My Data</button>
+      <label class="footer-btn" title="Restore ratings, notes, and library collection from a backup JSON file">
+        📥 Restore Data
+        <input type="file" id="userDataImportInput" accept=".json" style="display: none;" onchange="importUserData(event)">
+      </label>
+      <button type="button" class="footer-btn" id="adminToggleBtn" onclick="toggleAdminPrompt()" title="Toggle Admin Mode for catalog edits">🛡️ Admin Access</button>
+    </div>
+  </footer>
+</div>
+
+<!-- Edit Modal Overlay -->
+<div id="editModalOverlay" class="modal-overlay" style="display: none;">
+  <div class="modal-box">
+    <div class="modal-header">
+      <h2 id="modalTitleText" style="margin: 0; font-size: 1.25rem; color: #0f172a;">✏️ Edit Cartoon Entry</h2>
+      <button class="modal-close" onclick="closeEditModal()">&times;</button>
+    </div>
+    <form id="editForm" onsubmit="handleSaveEdit(event)">
+      <input type="hidden" id="editShortId">
+      
+      <div style="display: grid; grid-template-columns: 2fr 1fr 1.5fr 1.2fr; gap: 12px; margin-bottom: 12px;">
+        <div>
+          <label class="form-label">Title</label>
+          <input type="text" id="editTitle" class="form-input" required>
+        </div>
+        <div>
+          <label class="form-label">Year</label>
+          <input type="number" id="editYear" class="form-input" min="1929" max="1975">
+        </div>
+        <div>
+          <label class="form-label">Release Date</label>
+          <input type="text" id="editReleaseDate" class="form-input" placeholder="e.g. August 8, 1953">
+        </div>
+        <div>
+          <label class="form-label">Series</label>
+          <select id="editSeries" class="form-input">
+            <option value="Looney Tunes">Looney Tunes</option>
+            <option value="Merrie Melodies">Merrie Melodies</option>
+          </select>
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px;">
+        <div>
+          <label class="form-label">Primary Director</label>
+          <input type="text" id="editDirector" class="form-input">
+        </div>
+        <div>
+          <label class="form-label">Full Director Credit (e.g. Co-Directors)</label>
+          <input type="text" id="editDirectorCredit" class="form-input">
+        </div>
+      </div>
+
+      <div style="margin-bottom: 12px;">
+        <label class="form-label">Featured Characters (comma-separated)</label>
+        <textarea id="editCharacters" class="form-input" rows="2" placeholder="e.g. Bugs Bunny, Toro the Bull"></textarea>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-bottom: 12px;">
+        <div>
+          <label class="form-label">Story / Writer</label>
+          <input type="text" id="editStory" class="form-input">
+        </div>
+        <div>
+          <label class="form-label">Layout</label>
+          <input type="text" id="editLayout" class="form-input">
+        </div>
+        <div>
+          <label class="form-label">Backgrounds</label>
+          <input type="text" id="editBackgrounds" class="form-input">
+        </div>
+      </div>
+
+      <div style="margin-bottom: 12px;">
+        <label class="form-label">Animators (comma-separated)</label>
+        <textarea id="editAnimation" class="form-input" rows="2" placeholder="e.g. Ben Washam, Ken Harris"></textarea>
+      </div>
+
+      <div style="margin-bottom: 12px;">
+        <label class="form-label">Voice Cast (comma-separated)</label>
+        <input type="text" id="editVoiceCast" class="form-input" placeholder="e.g. Mel Blanc, June Foray">
+      </div>
+
+      <div style="margin-bottom: 16px;">
+        <label class="form-label">Synopsis</label>
+        <textarea id="editSynopsis" class="form-input" rows="3"></textarea>
+      </div>
+
+      <div style="display: flex; justify-content: flex-end; gap: 10px;">
+        <button type="button" class="modal-btn-cancel" onclick="closeEditModal()">Cancel</button>
+        <button type="submit" class="modal-btn-save" id="saveBtn">💾 Save Changes</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+  let database = [];
+
+  // Fallback initial starter data if database.json isn't served over http
+  const fallbackData = [
+  {
+    "id": "i-havent-got-a-hat-1935",
+    "title": "I Haven't Got a Hat",
+    "year": 1935,
+    "series": "Merrie Melodies",
+    "director": "Friz Freleng",
+    "story": "Unknown",
+    "layout": "Robert McKimson (animator)",
+    "backgrounds": "Unknown",
+    "animation": [
+      "Jack King",
+      "Cal Dalton",
+      "Robert McKimson"
+    ],
+    "voice_actors": [
+      "Joe Twerp (Porky Pig debut)",
+      "Bernice Hansen"
+    ],
+    "musical_director": "Bernard B. Brown / Norman Spencer",
+    "featured_characters": [
+      "Porky Pig",
+      "Beans",
+      "Little Kitty",
+      "Ham and Ex",
+      "Oliver Owl"
+    ],
+    "synopsis": "Miss Prissy's animal school holds a recitation contest. Porky Pig makes his historic screen debut struggling to recite 'The Midnight Ride of Paul Revere'.",
+    "media_locations": [
+      {
+        "set_name": "Porky Pig 101",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1: 1935\u20131936",
+        "track_number": 1,
+        "audio_commentary": [
+          "Jerry Beck"
+        ]
+      },
+      {
+        "set_name": "Looney Tunes Golden Collection: Volume 3",
+        "format": "DVD",
+        "disc_number": 3,
+        "disc_title": "Porky and the Pigs",
+        "track_number": 18,
+        "audio_commentary": [
+          "Jerry Beck"
+        ]
+      },
+      {
+        "set_name": "The Golden Age of Looney Tunes: Volume 1",
+        "format": "LaserDisc",
+        "disc_number": 2,
+        "disc_title": "Side 4: Hamateur Night",
+        "track_number": 2,
+        "audio_commentary": []
+      }
+    ],
+    "director_aliases": [
+      "Isadore Freleng",
+      "I. Freleng",
+      "Friz Freleng",
+      
+    ]
+  },
+  {
+    "id": "gold-diggers-of-49-1935",
+    "title": "Gold Diggers of '49",
+    "year": 1935,
+    "series": "Looney Tunes",
+    "director": "Tex Avery",
+    "story": "Unknown",
+    "layout": "Tex Avery",
+    "backgrounds": "Unknown",
+    "animation": [
+      "Bob Clampett",
+      "Chuck Jones",
+      "Virgil Ross",
+      "Sid Sutherland"
+    ],
+    "voice_actors": [
+      "Joe Twerp",
+      "Tommy Bond"
+    ],
+    "musical_director": "Norman Spencer",
+    "featured_characters": [
+      "Porky Pig",
+      "Beans",
+      "Little Kitty"
+    ],
+    "synopsis": "Tex Avery's directorial debut at Termite Terrace. Prospector Beans and Porky search for gold in the wild west while fighting off outlaws.",
+    "media_locations": [
+      {
+        "set_name": "Porky Pig 101",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1: 1935\u20131936",
+        "track_number": 2,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Golden Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 4,
+        "disc_title": "The Early Daze",
+        "track_number": 2,
+        "audio_commentary": [
+          "Michael Barrier"
+        ]
+      }
+    ],
+    "director_aliases": [
+      "Fred Avery",
+      "J. Fred Avery",
+      "Tex Avery"
+    ]
+  },
+  {
+    "id": "porky-in-wackyland-1938",
+    "title": "Porky in Wackyland",
+    "year": 1938,
+    "series": "Looney Tunes",
+    "director": "Bob Clampett",
+    "story": "Warren Foster (uncredited)",
+    "backgrounds": "Alex Ignatiev",
+    "layout": "Robert Clampett",
+    "animation": [
+      "Norman McCabe",
+      "I. Ellis"
+    ],
+    "voice_actors": [
+      "Mel Blanc"
+    ],
+    "musical_director": "Carl Stalling",
+    "featured_characters": [
+      "Porky Pig",
+      "The Dodo"
+    ],
+    "synopsis": "Porky Pig flies to Darkest Africa in search of the last surviving Do-Do bird, ending up in a bizarre, surreal dimension.",
+    "media_locations": [
+      {
+        "set_name": "Porky Pig 101",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2: 1937\u20131938",
+        "track_number": 16,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Golden Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 4,
+        "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
+        "track_number": 8,
+        "audio_commentary": [
+          "Michael Barrier"
+        ]
+      },
+      {
+        "set_name": "Looney Tunes Platinum Collection: Volume 2",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 1,
+        "audio_commentary": [
+          "Michael Barrier"
+        ]
+      },
+      {
+        "set_name": "The Golden Age of Looney Tunes: Volume 1",
+        "format": "LaserDisc",
+        "disc_number": 4,
+        "disc_title": "Side 7: Bob Clampett",
+        "track_number": 1,
+        "audio_commentary": []
+      }
+    ],
+    "director_aliases": [
+      "Robert Clampett",
+      "Bob Clampett"
+    ]
+  },
+  {
+    "id": "sinkin-in-the-bathtub-1930",
+    "title": "Sinkin' in the Bathtub",
+    "year": 1930,
+    "series": "Looney Tunes",
+    "director": "Hugh Harman, Rudolf Ising",
+    "story": "Unknown",
+    "layout": "Hugh Harman",
+    "backgrounds": "Unknown",
+    "animation": [
+      "Isadore Freleng",
+      "Norm Blackburn",
+      "Rollin Hamilton",
+      "Carman Maxwell"
+    ],
+    "voice_actors": [
+      "Carman Maxwell (Bosko)",
+      "Rochelle Hudson (Honey)"
+    ],
+    "musical_director": "Frank Marsales",
+    "featured_characters": [
+      "Bosko",
+      "Honey"
+    ],
+    "synopsis": "The very first Warner Bros. theatrical cartoon ever released, starring Bosko singing in a bathtub and taking Honey out on a lively jalopy ride.",
+    "media_locations": [
+      {
+        "set_name": "Looney Tunes Collector's Vault: Volume 1",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1: Remastered Rarities",
+        "track_number": 19,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Golden Collection: Volume 3",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Hollywood Caricatures and the Bunny",
+        "track_number": 1,
+        "audio_commentary": [
+          "Michael Barrier",
+          "Jerry Beck"
+        ]
+      },
+      {
+        "set_name": "The Golden Age of Looney Tunes: Volume 1",
+        "format": "LaserDisc",
+        "disc_number": 1,
+        "disc_title": "Side 2: 1930s Musicals",
+        "track_number": 1,
+        "audio_commentary": []
+      }
+    ],
+    "director_aliases": [
+      "Hugh Harman",
+      "Rudolf Ising",
+      "Rudy Ising"
+    ]
+  },
+  {
+    "id": "daffy-the-commando-1943",
+    "title": "Daffy - The Commando",
+    "year": 1943,
+    "series": "Looney Tunes",
+    "director": "Friz Freleng",
+    "story": "Michael Maltese",
+    "layout": "Hawley Pratt",
+    "backgrounds": "Richard H. Thomas",
+    "animation": [
+      "Ken Champin"
+    ],
+    "voice_actors": [
+      "Mel Blanc"
+    ],
+    "musical_director": "Carl Stalling",
+    "featured_characters": [
+      "Daffy Duck",
+      "Von Vulture",
+      "Adolf Hitler"
+    ],
+    "synopsis": "Daffy Duck parachutes behind enemy lines into Nazi Germany, creating total hysteria for General Von Vulture and taking a whack at the dictator himself.",
+    "media_locations": [
+      {
+        "set_name": "Looney Tunes Collector's Vault: Volume 1",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2: HD Debuts",
+        "track_number": 6,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Golden Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Patriotic Pals",
+        "track_number": 4,
+        "audio_commentary": [
+          "Greg Ford"
+        ]
+      }
+    ],
+    "director_aliases": [
+      "Isadore Freleng",
+      "I. Freleng",
+      "Friz Freleng",
+      
+    ]
+  },
+  {
+    "id": "ballot-box-bunny-1951",
+    "title": "Ballot Box Bunny",
+    "year": 1951,
+    "series": "Merrie Melodies",
+    "director": "Friz Freleng",
+    "story": "Warren Foster",
+    "layout": "Hawley Pratt",
+    "backgrounds": "Paul Julian",
+    "animation": [
+      "Virgil Ross",
+      "Arthur Davis",
+      "Manuel Perez",
+      "Ken Champin"
+    ],
+    "voice_actors": [
+      "Mel Blanc"
+    ],
+    "musical_director": "Carl Stalling",
+    "featured_characters": [
+      "Bugs Bunny",
+      "Yosemite Sam"
+    ],
+    "synopsis": "Bugs Bunny runs for mayor against the corrupt, crooked Yosemite Sam, pulling out every theatrical political trick to win the voters.",
+    "media_locations": [
+      {
+        "set_name": "Looney Tunes Collector's Vault: Volume 1",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2: HD Debuts",
+        "track_number": 1,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Golden Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Best of Bugs Bunny",
+        "track_number": 13,
+        "audio_commentary": []
+      }
+    ],
+    "director_aliases": [
+      "Isadore Freleng",
+      "I. Freleng",
+      "Friz Freleng",
+      
+    ]
+  },
+  {
+    "id": "duck-amuck-1953",
+    "title": "Duck Amuck",
+    "year": 1953,
+    "series": "Merrie Melodies",
+    "director": "Chuck Jones",
+    "story": "Michael Maltese",
+    "backgrounds": "Philip DeGuard",
+    "layout": "Maurice Noble",
+    "animation": [
+      "Ken Harris",
+      "Lloyd Vaughan",
+      "Ben Washam"
+    ],
+    "voice_actors": [
+      "Mel Blanc"
+    ],
+    "musical_director": "Carl Stalling",
+    "featured_characters": [
+      "Daffy Duck",
+      "Bugs Bunny"
+    ],
+    "synopsis": "Daffy Duck is continually harassed by an off-screen animator who manipulates his surroundings, costume, and physical form.",
+    "media_locations": [
+      {
+        "set_name": "Looney Tunes Golden Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Best of Bugs Bunny",
+        "track_number": 4,
+        "audio_commentary": [
+          "Michael Maltese (archival)",
+          "Greg Ford"
+        ]
+      },
+      {
+        "set_name": "Looney Tunes Platinum Collection: Volume 1",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 8,
+        "audio_commentary": [
+          "Michael Maltese (archival)",
+          "Greg Ford"
+        ]
+      }
+    ],
+    "director_aliases": [
+      "Charles M. Jones",
+      "Charles Jones",
+      "Chuck Jones"
+    ]
+  },
+  {
+    "id": "rabbit-of-seville-1950",
+    "title": "Rabbit of Seville",
+    "year": 1950,
+    "series": "Looney Tunes",
+    "director": "Chuck Jones",
+    "story": "Michael Maltese",
+    "backgrounds": "Philip DeGuard",
+    "layout": "Robert Gribbroek",
+    "animation": [
+      "Ken Harris",
+      "Phil Monroe",
+      "Lloyd Vaughan",
+      "Ben Washam"
+    ],
+    "voice_actors": [
+      "Mel Blanc",
+      "Arthur Q. Bryan (uncredited)"
+    ],
+    "musical_director": "Carl Stalling",
+    "featured_characters": [
+      "Bugs Bunny",
+      "Elmer Fudd"
+    ],
+    "synopsis": "Bugs Bunny gives Elmer Fudd a frantic, operatic shave and makeover to the overture of Rossini's The Barber of Seville.",
+    "media_locations": [
+      {
+        "set_name": "Looney Tunes Golden Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Best of Bugs Bunny - Part 2",
+        "track_number": 2,
+        "audio_commentary": [
+          "Eric Goldberg"
+        ]
+      },
+      {
+        "set_name": "Looney Tunes Platinum Collection: Volume 1",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 20,
+        "audio_commentary": [
+          "Eric Goldberg"
+        ]
+      }
+    ],
+    "director_aliases": [
+      "Charles M. Jones",
+      "Charles Jones",
+      "Chuck Jones"
+    ]
+  },
+  {
+    "id": "whats-opera-doc-1957",
+    "title": "What's Opera, Doc?",
+    "year": 1957,
+    "series": "Merrie Melodies",
+    "director": "Chuck Jones",
+    "story": "Michael Maltese",
+    "backgrounds": "Philip DeGuard",
+    "layout": "Maurice Noble",
+    "animation": [
+      "Ken Harris",
+      "Richard Thompson",
+      "Abe Levitow"
+    ],
+    "voice_actors": [
+      "Mel Blanc",
+      "Arthur Q. Bryan (uncredited)"
+    ],
+    "musical_director": "Milt Franklyn",
+    "featured_characters": [
+      "Bugs Bunny",
+      "Elmer Fudd"
+    ],
+    "synopsis": "Elmer Fudd as the demigod Siegfried hunts Bugs Bunny through a grand, Wagnerian operatic landscape.",
+    "media_locations": [
+      {
+        "set_name": "Looney Tunes Golden Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 4,
+        "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
+        "track_number": 1,
+        "audio_commentary": [
+          "Chuck Jones",
+          "Michael Maltese",
+          "Maurice Noble (archival)"
+        ]
+      },
+      {
+        "set_name": "Looney Tunes Platinum Collection: Volume 1",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 25,
+        "audio_commentary": [
+          "Chuck Jones",
+          "Michael Maltese",
+          "Maurice Noble (archival)"
+        ]
+      }
+    ],
+    "director_aliases": [
+      "Charles M. Jones",
+      "Charles Jones",
+      "Chuck Jones"
+    ]
+  },
+  {
+    "id": "baseball-bugs-1946",
+    "title": "Baseball Bugs",
+    "year": 1946,
+    "series": "Looney Tunes",
+    "director": "Friz Freleng",
+    "story": "Michael Maltese",
+    "backgrounds": "Richard H. Thomas",
+    "layout": "Hawley Pratt",
+    "animation": [
+      "Ken Champin",
+      "Gerry Chiniquy",
+      "Manuel Perez",
+      "Virgil Ross"
+    ],
+    "voice_actors": [
+      "Mel Blanc",
+      "Bea Benaderet (uncredited)"
+    ],
+    "musical_director": "Carl Stalling",
+    "featured_characters": [
+      "Bugs Bunny",
+      "The Gashouse Gorillas"
+    ],
+    "synopsis": "Bugs single-handedly takes on the intimidating, brutish Gashouse Gorillas baseball team at the Polo Grounds.",
+    "media_locations": [
+      {
+        "set_name": "Looney Tunes Golden Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Best of Bugs Bunny",
+        "track_number": 1,
+        "audio_commentary": [
+          "Dana Gould"
+        ]
+      },
+      {
+        "set_name": "Looney Tunes Platinum Collection: Volume 1",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 3,
+        "audio_commentary": [
+          "Dana Gould"
+        ]
+      },
+      {
+        "set_name": "The Golden Age of Looney Tunes: Volume 1",
+        "format": "LaserDisc",
+        "disc_number": 1,
+        "disc_title": "Side 1: 1940s All-Stars",
+        "track_number": 3,
+        "audio_commentary": []
+      }
+    ],
+    "director_aliases": [
+      "Isadore Freleng",
+      "I. Freleng",
+      "Friz Freleng",
+      
+    ]
+  },
+  {
+    "id": "fast-and-furry-ous-1949",
+    "title": "Fast and Furry-ous",
+    "year": 1949,
+    "series": "Looney Tunes",
+    "director": "Chuck Jones",
+    "story": "Michael Maltese",
+    "backgrounds": "Philip DeGuard",
+    "layout": "Robert Gribbroek",
+    "animation": [
+      "Ken Harris",
+      "Phil Monroe",
+      "Lloyd Vaughan",
+      "Ben Washam"
+    ],
+    "voice_actors": [
+      "Paul Julian (Road Runner)",
+      "Mel Blanc"
+    ],
+    "musical_director": "Carl Stalling",
+    "featured_characters": [
+      "Wile E. Coyote",
+      "Road Runner"
+    ],
+    "synopsis": "The very first pairing of Wile E. Coyote and the Road Runner, introducing Acme Corporation gadgets and elaborate failed traps.",
+    "media_locations": [
+      {
+        "set_name": "Looney Tunes Golden Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Best of Bugs Bunny",
+        "track_number": 9,
+        "audio_commentary": [
+          "Michael Barrier"
+        ]
+      },
+      {
+        "set_name": "Looney Tunes Platinum Collection: Volume 1",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 10,
+        "audio_commentary": [
+          "Michael Barrier"
+        ]
+      }
+    ],
+    "director_aliases": [
+      "Charles M. Jones",
+      "Charles Jones",
+      "Chuck Jones"
+    ]
+  },
+  {
+    "id": "i-love-to-singa-1936",
+    "title": "I Love to Singa",
+    "year": 1936,
+    "series": "Merrie Melodies",
+    "director": "Tex Avery",
+    "story": "Unknown",
+    "layout": "Tex Avery",
+    "backgrounds": "Unknown",
+    "animation": [
+      "Charles Jones",
+      "Virgil Ross",
+      "Bob Clampett"
+    ],
+    "voice_actors": [
+      "Tommy Bond (Owl Jolson speaking)",
+      "Bernice Hansen",
+      "Billy Bletcher"
+    ],
+    "musical_director": "Norman Spencer",
+    "featured_characters": [
+      "Owl Jolson",
+      "Professor Fritz Owl"
+    ],
+    "synopsis": "Young Owl Jolson wants to sing modern jazz rather than the classical opera demanded by his strict German father, leading him to Jack Rabbit's Amateur Hour.",
+    "media_locations": [
+      {
+        "set_name": "The Golden Age of Looney Tunes: Volume 1",
+        "format": "LaserDisc",
+        "disc_number": 1,
+        "disc_title": "Side 1: 1930s Musicals",
+        "track_number": 2,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Golden Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 4,
+        "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
+        "track_number": 3,
+        "audio_commentary": [
+          "Michael Barrier"
+        ]
+      },
+      {
+        "set_name": "Looney Tunes Platinum Collection: Volume 1",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 11,
+        "audio_commentary": [
+          "Michael Barrier"
+        ]
+      }
+    ],
+    "director_aliases": [
+      "Fred Avery",
+      "J. Fred Avery",
+      "Tex Avery"
+    ]
+  },
+  {
+    "id": "a-wild-hare-1940",
+    "title": "A Wild Hare",
+    "year": 1940,
+    "series": "Merrie Melodies",
+    "director": "Tex Avery",
+    "story": "Rich Hogan",
+    "layout": "Robert McKimson",
+    "backgrounds": "John Didrik Johnsen",
+    "animation": [
+      "Virgil Ross",
+      "Rod Scribner",
+      "Robert McKimson"
+    ],
+    "voice_actors": [
+      "Mel Blanc (Bugs Bunny)",
+      "Arthur Q. Bryan (Elmer Fudd)"
+    ],
+    "musical_director": "Carl Stalling",
+    "featured_characters": [
+      "Bugs Bunny",
+      "Elmer Fudd"
+    ],
+    "synopsis": "The definitive first pairing of Bugs Bunny and Elmer Fudd, introducing Bugs' famous catchphrase 'What's up, Doc?' and Elmer's hunting routine.",
+    "media_locations": [
+      {
+        "set_name": "The Golden Age of Looney Tunes: Volume 1",
+        "format": "LaserDisc",
+        "disc_number": 1,
+        "disc_title": "Side 2: Firsts",
+        "track_number": 4,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Golden Collection: Volume 3",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Hollywood Caricatures and the Bunny",
+        "track_number": 2,
+        "audio_commentary": [
+          "Greg Ford"
+        ]
+      },
+      {
+        "set_name": "Looney Tunes Platinum Collection: Volume 2",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 1,
+        "audio_commentary": [
+          "Greg Ford"
+        ]
+      }
+    ],
+    "director_aliases": [
+      "Fred Avery",
+      "J. Fred Avery",
+      "Tex Avery"
+    ]
+  },
+  {
+    "id": "the-night-watchman-1938",
+    "title": "The Night Watchman",
+    "year": 1938,
+    "series": "Merrie Melodies",
+    "director": "Chuck Jones",
+    "story": "Tedd Pierce",
+    "layout": "Griffith Foxley",
+    "backgrounds": "Arthur Loomer",
+    "animation": [
+      "Ken Harris",
+      "Phil Monroe",
+      "Robert Cannon"
+    ],
+    "voice_actors": [
+      "Mel Blanc",
+      "Thelma Boardman"
+    ],
+    "musical_director": "Carl Stalling",
+    "featured_characters": [
+      "Tommy Cat"
+    ],
+    "synopsis": "Chuck Jones' directorial debut. A young kitten stands watch for his ailing father and defends a kitchen against a fierce army of robber mice.",
+    "media_locations": [
+      {
+        "set_name": "The Golden Age of Looney Tunes: Volume 1",
+        "format": "LaserDisc",
+        "disc_number": 3,
+        "disc_title": "Side 5: Chuck Jones",
+        "track_number": 1,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Golden Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 4,
+        "disc_title": "Kitty Korner",
+        "track_number": 1,
+        "audio_commentary": [
+          "Jerry Beck"
+        ]
+      }
+    ],
+    "director_aliases": [
+      "Charles M. Jones",
+      "Charles Jones",
+      "Chuck Jones"
+    ]
+  },
+  {
+    "id": "rhapsody-rabbit-1946",
+    "title": "Rhapsody Rabbit",
+    "year": 1946,
+    "series": "Merrie Melodies",
+    "director": "Friz Freleng",
+    "story": "Michael Maltese",
+    "layout": "Hawley Pratt",
+    "backgrounds": "Richard H. Thomas",
+    "animation": [
+      "Gerry Chiniquy",
+      "Manuel Perez",
+      "Virgil Ross",
+      "Ken Champin"
+    ],
+    "voice_actors": [
+      "Mel Blanc"
+    ],
+    "musical_director": "Carl Stalling (performed by Jakob Gimpel)",
+    "featured_characters": [
+      "Bugs Bunny"
+    ],
+    "synopsis": "Concert pianist Bugs Bunny attempts to deliver a highbrow recital of Liszt's Hungarian Rhapsody No. 2 despite an obstructive mouse living inside the piano.",
+    "media_locations": [
+      {
+        "set_name": "The Golden Age of Looney Tunes: Volume 1",
+        "format": "LaserDisc",
+        "disc_number": 3,
+        "disc_title": "Side 6: Friz Freleng",
+        "track_number": 7,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Golden Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 4,
+        "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
+        "track_number": 4,
+        "audio_commentary": [
+          "Daniel Goldmark"
+        ]
+      },
+      {
+        "set_name": "Looney Tunes Platinum Collection: Volume 2",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 5,
+        "audio_commentary": [
+          "Daniel Goldmark"
+        ]
+      }
+    ],
+    "director_aliases": [
+      "Isadore Freleng",
+      "I. Freleng",
+      "Friz Freleng",
+      
+    ]
+  }
+];
+
+  // Try loading from database.js first (bypasses browser file:// CORS restrictions), then fetch, then fallback
+  async function initDatabase() {
+    if (window.LOONEY_TUNES_DATABASE && Array.isArray(window.LOONEY_TUNES_DATABASE) && window.LOONEY_TUNES_DATABASE.length > 0) {
+      database = window.LOONEY_TUNES_DATABASE;
+    } else {
+      try {
+        const resp = await fetch('database.json');
+        if (resp.ok) {
+          database = await resp.json();
+        } else {
+          database = fallbackData;
+        }
+      } catch (e) {
+        database = fallbackData;
+      }
+    }
+    updateAdminUI();
+    populateFilters();
+    render();
+  }
+
+  // Handle manual file picking
+  document.getElementById('filePicker').addEventListener('change', function (e) {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = function (event) {
+      try {
+        database = JSON.parse(event.target.result);
+        populateFilters();
+        render();
+      } catch (err) {
+        alert('Invalid JSON file.');
+      }
+    };
+    reader.readAsText(file);
+  });
+
+  // --- Admin Mode State & Security ---
+  const ADMIN_PASSCODE_KEY = 'lt_admin_passcode';
+  const ADMIN_MODE_KEY = 'lt_admin_mode';
+  const DEFAULT_ADMIN_PASSCODE = 'acme';
+
+  function checkIsAdminMode() {
+    const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    const sessionAdmin = sessionStorage.getItem(ADMIN_MODE_KEY) === 'true';
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('admin') === '1') {
+      sessionStorage.setItem(ADMIN_MODE_KEY, 'true');
+      return true;
+    }
+    return isLocalhost || sessionAdmin;
+  }
+
+  let isAdminMode = checkIsAdminMode();
+
+  window.toggleAdminPrompt = function() {
+    if (isAdminMode) {
+      if (confirm("You are currently in Admin Mode. Exit Admin Mode?")) {
+        toggleAdminMode(false);
+      }
+    } else {
+      const input = prompt("Enter Admin Passcode to enable catalog editing (default: acme):");
+      if (!input) return;
+      const savedPass = localStorage.getItem(ADMIN_PASSCODE_KEY) || DEFAULT_ADMIN_PASSCODE;
+      if (input.trim() === savedPass) {
+        toggleAdminMode(true);
+      } else {
+        alert("Incorrect passcode.");
+      }
+    }
+  };
+
+  window.toggleAdminMode = function(enable) {
+    isAdminMode = enable;
+    sessionStorage.setItem(ADMIN_MODE_KEY, enable ? 'true' : 'false');
+    updateAdminUI();
+    render();
+  };
+
+  function updateAdminUI() {
+    const badge = document.getElementById('adminHeaderBadge');
+    if (badge) badge.style.display = isAdminMode ? 'flex' : 'none';
+    const toggleBtn = document.getElementById('adminToggleBtn');
+    if (toggleBtn) {
+      toggleBtn.textContent = isAdminMode ? '🛡️ Exit Admin' : '🛡️ Admin Access';
+    }
+  }
+
+  // --- Visitor Star Ratings & Notes State ---
+  const RATINGS_STORAGE_KEY = 'lt_visitor_ratings';
+  const NOTES_STORAGE_KEY = 'lt_visitor_notes';
+  let activeNotesOnly = false;
+  const openNoteDrawers = new Set();
+  let noteDebounceTimer = null;
+
+  function getVisitorRatings() {
+    try {
+      const raw = localStorage.getItem(RATINGS_STORAGE_KEY);
+      return raw ? JSON.parse(raw) : {};
+    } catch(e) {
+      return {};
+    }
+  }
+
+  function saveVisitorRatings(ratings) {
+    try {
+      localStorage.setItem(RATINGS_STORAGE_KEY, JSON.stringify(ratings));
+    } catch(e) {}
+  }
+
+  function getCartoonRating(shortId) {
+    const ratings = getVisitorRatings();
+    return Number(ratings[shortId]) || 0;
+  }
+
+  window.setCartoonRating = function(shortId, stars) {
+    const ratings = getVisitorRatings();
+    if (ratings[shortId] === stars) {
+      delete ratings[shortId]; // clicking same star clears rating
+    } else {
+      ratings[shortId] = stars;
+    }
+    saveVisitorRatings(ratings);
+    render();
+  };
+
+  window.clearCartoonRating = function(shortId) {
+    const ratings = getVisitorRatings();
+    delete ratings[shortId];
+    saveVisitorRatings(ratings);
+    render();
+  };
+
+  function getVisitorNotes() {
+    try {
+      const raw = localStorage.getItem(NOTES_STORAGE_KEY);
+      return raw ? JSON.parse(raw) : {};
+    } catch(e) {
+      return {};
+    }
+  }
+
+  function saveVisitorNotes(notes) {
+    try {
+      localStorage.setItem(NOTES_STORAGE_KEY, JSON.stringify(notes));
+    } catch(e) {}
+  }
+
+  function getCartoonNote(shortId) {
+    const notes = getVisitorNotes();
+    return notes[shortId] || '';
+  }
+
+  window.toggleNoteDrawer = function(shortId) {
+    if (openNoteDrawers.has(shortId)) {
+      openNoteDrawers.delete(shortId);
+    } else {
+      openNoteDrawers.add(shortId);
+    }
+    render();
+  };
+
+  window.handleNoteInput = function(shortId, text) {
+    clearTimeout(noteDebounceTimer);
+    const saveLabel = document.getElementById(`note_saved_${shortId}`);
+    if (saveLabel) saveLabel.textContent = 'Saving...';
+
+    noteDebounceTimer = setTimeout(() => {
+      const notes = getVisitorNotes();
+      if (text && text.trim()) {
+        notes[shortId] = text;
+      } else {
+        delete notes[shortId];
+      }
+      saveVisitorNotes(notes);
+      if (saveLabel) saveLabel.textContent = '✓ Saved in browser';
+
+      const btn = document.querySelector(`#card_${shortId} .btn-note-toggle`);
+      if (btn) {
+        const has = Boolean(text && text.trim());
+        btn.className = `btn-note-toggle ${has ? 'has-note' : ''}`;
+        btn.textContent = `📝 ${has ? 'Note (Saved)' : 'Note'}`;
+      }
+    }, 350);
+  };
+
+  window.clearCartoonNote = function(shortId) {
+    if (!confirm("Delete your personal note for this cartoon?")) return;
+    const notes = getVisitorNotes();
+    delete notes[shortId];
+    saveVisitorNotes(notes);
+    render();
+  };
+
+  window.toggleNotesOnlyFilter = function(btnEl) {
+    activeNotesOnly = !activeNotesOnly;
+    if (activeNotesOnly) {
+      btnEl.classList.add('active');
+    } else {
+      btnEl.classList.remove('active');
+    }
+    render();
+  };
+
+  // --- Data Backup & Restore (JSON) ---
+  window.exportUserData = function() {
+    const data = {
+      app: "Looney Tunes Shorts Finder",
+      version: 1,
+      exportedAt: new Date().toISOString(),
+      userProfiles: getUserProfilesData(),
+      ratings: getVisitorRatings(),
+      notes: getVisitorNotes()
+    };
+
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `looney_tunes_user_backup_${new Date().toISOString().slice(0,10)}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
+
+  window.importUserData = function(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      try {
+        const data = JSON.parse(e.target.result);
+        if (data.userProfiles) saveUserProfilesData(data.userProfiles);
+        if (data.ratings) localStorage.setItem(RATINGS_STORAGE_KEY, JSON.stringify(data.ratings));
+        if (data.notes) localStorage.setItem(NOTES_STORAGE_KEY, JSON.stringify(data.notes));
+
+        alert("Data restored successfully! Your ratings, notes, and collections have been updated.");
+        populateUserProfileSelect();
+        loadCurrentUserLibrary();
+        render();
+      } catch (err) {
+        alert("Invalid backup JSON file: " + err.message);
+      }
+    };
+    reader.readAsText(file);
+    event.target.value = '';
+  };
+
+  // --- Media Sets & User Library Profile State ---
+  let allMediaSets = []; // list of { set_name, format, count }
+  let selectedMediaSets = new Set();
+  const USER_PROFILES_STORAGE_KEY = 'looney_tunes_user_profiles';
+  const COLLECTION_STORAGE_KEY = 'looney_tunes_my_collection';
+
+  function getUserProfilesData() {
+    const raw = localStorage.getItem(USER_PROFILES_STORAGE_KEY);
+    if (raw) {
+      try {
+        const data = JSON.parse(raw);
+        if (data && data.profiles && typeof data.profiles === 'object' && data.activeProfile) {
+          return data;
+        }
+      } catch (e) {}
+    }
+
+    // Migrate from legacy single-collection key if available
+    let legacySets = null;
+    const legacy = localStorage.getItem(COLLECTION_STORAGE_KEY);
+    if (legacy) {
+      try { legacySets = JSON.parse(legacy); } catch (e) {}
+    }
+
+    const defaultSets = (legacySets && Array.isArray(legacySets))
+      ? legacySets
+      : allMediaSets.map(s => s.set_name);
+
+    const initial = {
+      activeProfile: "Sean",
+      profiles: {
+        "Sean": defaultSets
+      }
+    };
+    saveUserProfilesData(initial);
+    return initial;
+  }
+
+  function saveUserProfilesData(data) {
+    try {
+      localStorage.setItem(USER_PROFILES_STORAGE_KEY, JSON.stringify(data));
+    } catch (e) {}
+  }
+
+  function populateUserProfileSelect() {
+    const select = document.getElementById('userLibraryProfileSelect');
+    if (!select) return;
+    const data = getUserProfilesData();
+    select.innerHTML = '';
+    Object.keys(data.profiles).forEach(pName => {
+      const opt = document.createElement('option');
+      opt.value = pName;
+      opt.textContent = pName;
+      if (pName === data.activeProfile) opt.selected = true;
+      select.appendChild(opt);
+    });
+  }
+
+  window.handleUserProfileChange = function(newProfile) {
+    const data = getUserProfilesData();
+    if (data.profiles[newProfile]) {
+      data.activeProfile = newProfile;
+      saveUserProfilesData(data);
+      loadCurrentUserLibrary();
+    }
+  };
+
+  window.promptNewUserProfile = function() {
+    const name = prompt("Enter a name for the new user profile (e.g. 'Jane' or 'Living Room'):");
+    if (!name || !name.trim()) return;
+    const trimmed = name.trim();
+    const data = getUserProfilesData();
+    if (!data.profiles[trimmed]) {
+      data.profiles[trimmed] = selectedMediaSets.size > 0
+        ? Array.from(selectedMediaSets)
+        : allMediaSets.map(s => s.set_name);
+    }
+    data.activeProfile = trimmed;
+    saveUserProfilesData(data);
+    populateUserProfileSelect();
+    loadCurrentUserLibrary();
+  };
+
+  window.saveCurrentUserLibrary = function() {
+    const data = getUserProfilesData();
+    const currentProf = data.activeProfile || "Sean";
+    data.profiles[currentProf] = Array.from(selectedMediaSets);
+    saveUserProfilesData(data);
+
+    const fb = document.getElementById('saveLibFeedback');
+    if (fb) {
+      fb.style.display = 'inline';
+      clearTimeout(window._saveLibTimeout);
+      window._saveLibTimeout = setTimeout(() => {
+        fb.style.display = 'none';
+      }, 2000);
+    }
+    updateMediaSetTriggerLabel();
+  };
+
+  window.loadCurrentUserLibrary = function() {
+    const data = getUserProfilesData();
+    const currentProf = data.activeProfile || "Sean";
+    const savedSets = data.profiles[currentProf] || [];
+
+    selectedMediaSets = new Set(savedSets.filter(s => allMediaSets.some(m => m.set_name === s)));
+    renderMediaSetCheckboxes();
+    updateMediaSetTriggerLabel();
+    render();
+  };
+
+  // --- Timeline State ---
+  const MIN_YEAR_CONST = 1929;
+  const MAX_YEAR_CONST = 1969;
+  let activeMinYear = 1929;
+  let activeMaxYear = 1969;
+
+  function getFormatOrder(fmt) {
+    const f = (fmt || '').toLowerCase();
+    if (f.includes('blu')) return 1;
+    if (f.includes('dvd')) return 2;
+    if (f.includes('laser')) return 3;
+    return 4;
+  }
+
+  function populateFilters() {
+    const charSelect = document.getElementById('charFilter');
+    const dirSelect = document.getElementById('directorFilter');
+    const fmtSelect = document.getElementById('formatFilter');
+
+    const chars = new Set();
+    const directors = new Set();
+    const formats = new Set();
+    const setsMap = new Map();
+
+    database.forEach(item => {
+      if (item.featured_characters) {
+        item.featured_characters.forEach(c => chars.add(c));
+      }
+      if (item.directors && Array.isArray(item.directors)) {
+        item.directors.forEach(d => {
+          if (d && d !== 'Unknown' && d !== 'N/A') directors.add(d);
+        });
+      } else if (item.director && item.director !== 'Unknown' && item.director !== 'N/A') {
+        directors.add(item.director);
+      }
+      if (item.media_locations) {
+        const seenInShort = new Set();
+        item.media_locations.forEach(loc => {
+          if (loc.format && loc.format.toLowerCase() !== 'vhs') {
+            formats.add(loc.format);
+          }
+          if (loc.set_name && (!loc.format || loc.format.toLowerCase() !== 'vhs') && !seenInShort.has(loc.set_name)) {
+            seenInShort.add(loc.set_name);
+            const current = setsMap.get(loc.set_name) || { format: loc.format || 'DVD', count: 0 };
+            current.count++;
+            setsMap.set(loc.set_name, current);
+          }
+        });
+      }
+    });
+
+    fillSelect(charSelect, Array.from(chars).sort(), "All Featured Characters");
+    fillSelect(dirSelect, Array.from(directors).sort(), "All Directors");
+    const sortedFormats = Array.from(formats).sort((a, b) => {
+      const ordA = getFormatOrder(a);
+      const ordB = getFormatOrder(b);
+      if (ordA !== ordB) return ordA - ordB;
+      return a.localeCompare(b);
+    });
+    fillSelect(fmtSelect, sortedFormats, "All Formats (Blu-ray, DVD, LaserDisc)");
+
+    // Populate Media Sets sorted by format (Blu-ray -> DVD -> LaserDisc) then alphabetically
+    allMediaSets = Array.from(setsMap.entries()).map(([name, data]) => ({
+      set_name: name,
+      format: data.format,
+      count: data.count
+    })).sort((a, b) => {
+      const ordA = getFormatOrder(a.format);
+      const ordB = getFormatOrder(b.format);
+      if (ordA !== ordB) return ordA - ordB;
+      return a.set_name.localeCompare(b.set_name);
+    });
+
+    // Populate user profile dropdown and load active user's saved library
+    populateUserProfileSelect();
+    const profData = getUserProfilesData();
+    const savedForActive = profData.profiles[profData.activeProfile] || [];
+    if (savedForActive.length > 0) {
+      selectedMediaSets = new Set(savedForActive.filter(s => setsMap.has(s)));
+    } else {
+      selectedMediaSets = new Set(allMediaSets.map(s => s.set_name));
+    }
+
+    renderMediaSetCheckboxes();
+    updateMediaSetTriggerLabel();
+  }
+
+  function renderMediaSetCheckboxes() {
+    const listEl = document.getElementById('mediaSetCheckboxList');
+    if (!listEl) return;
+
+    let html = '';
+    let currentGroup = null;
+
+    allMediaSets.forEach(s => {
+      const fmt = s.format || 'Other';
+      if (fmt !== currentGroup) {
+        currentGroup = fmt;
+        let icon = '📀';
+        if (fmt.toLowerCase().includes('blu')) icon = '💿';
+        else if (fmt.toLowerCase().includes('laser')) icon = '💽';
+
+        const groupSetsCount = allMediaSets.filter(x => x.format === fmt).length;
+        html += `<div class="popover-group-header">${icon} ${fmt} (${groupSetsCount})</div>`;
+      }
+
+      const isChecked = selectedMediaSets.has(s.set_name) ? 'checked' : '';
+      let badgeClass = 'badge-dvd';
+      if (s.format.toLowerCase().includes('blu')) badgeClass = 'badge-bluray';
+      else if (s.format.toLowerCase().includes('laser')) badgeClass = 'badge-laserdisc';
+
+      const safeId = 'chk_' + Math.random().toString(36).substr(2, 9);
+      html += `
+        <label class="popover-item" for="${safeId}">
+          <div class="popover-item-left">
+            <input type="checkbox" id="${safeId}" class="popover-checkbox" ${isChecked} onchange="handleMediaSetToggle('${encodeURIComponent(s.set_name)}', this.checked)">
+            <span class="popover-badge ${badgeClass}">${s.format}</span>
+            <span class="popover-item-title" title="${s.set_name}">${s.set_name}</span>
+          </div>
+          <span class="popover-count-tag">${s.count}</span>
+        </label>
+      `;
+    });
+    listEl.innerHTML = html;
+
+    const countLabel = document.getElementById('popoverCountLabel');
+    if (countLabel) {
+      if (selectedMediaSets.size === 0) {
+        countLabel.textContent = `0 of ${allMediaSets.length} (searching all 1,016)`;
+      } else if (selectedMediaSets.size === allMediaSets.length) {
+        countLabel.textContent = `All ${allMediaSets.length} selected (released only)`;
+      } else {
+        countLabel.textContent = `${selectedMediaSets.size} of ${allMediaSets.length} selected`;
+      }
+    }
+  }
+
+  window.handleMediaSetToggle = function(encodedSetName, isChecked) {
+    const setName = decodeURIComponent(encodedSetName);
+    if (isChecked) {
+      selectedMediaSets.add(setName);
+    } else {
+      selectedMediaSets.delete(setName);
+    }
+    updateMediaSetTriggerLabel();
+    const countLabel = document.getElementById('popoverCountLabel');
+    if (countLabel) {
+      if (selectedMediaSets.size === 0) {
+        countLabel.textContent = `0 of ${allMediaSets.length} (searching all 1,016)`;
+      } else if (selectedMediaSets.size === allMediaSets.length) {
+        countLabel.textContent = `All ${allMediaSets.length} selected (released only)`;
+      } else {
+        countLabel.textContent = `${selectedMediaSets.size} of ${allMediaSets.length} selected`;
+      }
+    }
+    render();
+  };
+
+  window.selectAllSets = function(select) {
+    if (select) {
+      selectedMediaSets = new Set(allMediaSets.map(s => s.set_name));
+    } else {
+      selectedMediaSets.clear();
+    }
+    renderMediaSetCheckboxes();
+    updateMediaSetTriggerLabel();
+    render();
+  };
+
+  window.selectOnlyFormat = function(fmt) {
+    selectedMediaSets.clear();
+    allMediaSets.forEach(s => {
+      if (s.format.toLowerCase().includes(fmt.toLowerCase())) {
+        selectedMediaSets.add(s.set_name);
+      }
+    });
+    renderMediaSetCheckboxes();
+    updateMediaSetTriggerLabel();
+    render();
+  };
+
+  function updateMediaSetTriggerLabel() {
+    const triggerText = document.getElementById('mediaSetTriggerText');
+    if (!triggerText) return;
+    const total = allMediaSets.length;
+    const count = selectedMediaSets.size;
+    const data = getUserProfilesData();
+    const profName = data.activeProfile || "My Library";
+
+    if (count === 0) {
+      triggerText.textContent = `🎬 All Database Titles (1,016 Shorts)`;
+    } else if (count === total) {
+      triggerText.textContent = `📀 All Scanned Media (${total}/${total} Sets)`;
+    } else {
+      const saved = data.profiles[profName] || [];
+      const isExactMatch = saved.length === count && saved.every(s => selectedMediaSets.has(s));
+      if (isExactMatch) {
+        triggerText.textContent = `📚 ${profName} (${count}/${total} Sets)`;
+      } else {
+        triggerText.textContent = `⭐ Selected Media (${count}/${total} Sets)`;
+      }
+    }
+  }
+
+  window.toggleMediaSetDropdown = function(event) {
+    if (event) event.stopPropagation();
+    const popover = document.getElementById('mediaSetPopover');
+    if (!popover) return;
+    const isShowing = popover.style.display !== 'none';
+    popover.style.display = isShowing ? 'none' : 'block';
+  };
+
+  // Close media popover on outside click
+  document.addEventListener('click', e => {
+    const container = document.getElementById('mediaSetDropdownContainer');
+    if (container && !container.contains(e.target)) {
+      const popover = document.getElementById('mediaSetPopover');
+      if (popover) popover.style.display = 'none';
+    }
+  });
+
+  // --- Timeline Dual Slider Functions ---
+  window.handleSliderChange = function() {
+    const sliderMin = document.getElementById('sliderMin');
+    const sliderMax = document.getElementById('sliderMax');
+    if (!sliderMin || !sliderMax) return;
+    let minVal = parseInt(sliderMin.value, 10);
+    let maxVal = parseInt(sliderMax.value, 10);
+
+    if (minVal > maxVal) {
+      const temp = minVal;
+      minVal = maxVal;
+      maxVal = temp;
+      sliderMin.value = minVal;
+      sliderMax.value = maxVal;
+    }
+
+    activeMinYear = minVal;
+    activeMaxYear = maxVal;
+
+    const totalSpan = MAX_YEAR_CONST - MIN_YEAR_CONST;
+    const leftPct = ((activeMinYear - MIN_YEAR_CONST) / totalSpan) * 100;
+    const widthPct = ((activeMaxYear - activeMinYear) / totalSpan) * 100;
+    const highlight = document.getElementById('sliderHighlight');
+    if (highlight) {
+      highlight.style.left = `${leftPct}%`;
+      highlight.style.width = `${widthPct}%`;
+    }
+
+    const rangeText = document.getElementById('timelineRangeText');
+    if (rangeText) {
+      rangeText.textContent = `${activeMinYear} – ${activeMaxYear}`;
+    }
+
+    updateEraPillsState();
+    render();
+  };
+
+  window.setEraPreset = function(minY, maxY, btnEl) {
+    const sliderMin = document.getElementById('sliderMin');
+    const sliderMax = document.getElementById('sliderMax');
+    if (sliderMin && sliderMax) {
+      sliderMin.value = minY;
+      sliderMax.value = maxY;
+      handleSliderChange();
+    }
+  };
+
+  function updateEraPillsState() {
+    const pills = document.querySelectorAll('.era-pill');
+    pills.forEach(p => p.classList.remove('active'));
+
+    if (activeMinYear === 1929 && activeMaxYear === 1969) {
+      document.querySelector('.era-all')?.classList.add('active');
+    } else if (activeMinYear === 1929 && activeMaxYear === 1943) {
+      document.querySelector('.era-bw')?.classList.add('active');
+    } else if (activeMinYear === 1941 && activeMaxYear === 1945) {
+      document.querySelector('.era-war')?.classList.add('active');
+    } else if (activeMinYear === 1946 && activeMaxYear === 1959) {
+      document.querySelector('.era-gold')?.classList.add('active');
+    } else if (activeMinYear === 1960 && activeMaxYear === 1969) {
+      document.querySelector('.era-tv')?.classList.add('active');
+    }
+  }
+
+  function fillSelect(select, items, defaultLabel, labelFn = x => x) {
+    const current = select.value;
+    select.innerHTML = `<option value="">${defaultLabel}</option>`;
+    items.forEach(val => {
+      const opt = document.createElement('option');
+      opt.value = val;
+      opt.textContent = labelFn(val);
+      select.appendChild(opt);
+    });
+    if (items.includes(current)) select.value = current;
+  }
+
+  function normalizeText(str) {
+    if (!str) return '';
+    return str
+      .toString()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
+  }
+
+  function render() {
+    const rawQuery = document.getElementById('searchInput').value.trim();
+    const query = normalizeText(rawQuery);
+    const selectedChar = document.getElementById('charFilter').value;
+    const selectedDir = document.getElementById('directorFilter').value;
+    const selectedFormat = document.getElementById('formatFilter').value;
+    const ratingSelect = document.getElementById('ratingFilter');
+    const selectedRating = ratingSelect ? ratingSelect.value : '';
+
+    const queryTerms = query ? query.split(/\s+/).filter(Boolean) : [];
+
+    const filtered = database.filter(short => {
+      // 1. Year range filtering
+      if (short.year && (short.year < activeMinYear || short.year > activeMaxYear)) return false;
+
+      // 2. Media Sets / "My Collection" filtering
+      // - If sets are checked (selectedMediaSets.size > 0): ONLY include shorts that appear on at least one checked set!
+      // - If NO sets are checked (selectedMediaSets.size === 0, e.g. "Clear All"): search the entire database of 1016 titles (including unreleased shorts)!
+      if (selectedMediaSets.size > 0) {
+        const inSelectedSets = (short.media_locations || []).some(loc => selectedMediaSets.has(loc.set_name));
+        if (!inSelectedSets) return false;
+      }
+
+      // 3. Character filtering
+      if (selectedChar) {
+        const normChar = normalizeText(selectedChar);
+        const hasChar = (short.featured_characters || []).some(c => normalizeText(c) === normChar);
+        if (!hasChar) return false;
+      }
+
+      // 4. Director filtering
+      if (selectedDir) {
+        const normDir = normalizeText(selectedDir);
+        const allDirs = (short.directors || [short.director]).concat(short.director_aliases || []);
+        const matchesDir = allDirs.some(d => d && normalizeText(d) === normDir) ||
+                           (normalizeText(short.director_credit || short.director || '').includes(normDir));
+        if (!matchesDir) return false;
+      }
+
+      // 5. Format filtering
+      if (selectedFormat) {
+        const hasFormat = (short.media_locations || []).some(m => m.format === selectedFormat);
+        if (!hasFormat) return false;
+      }
+
+      // 6. Personal Star Rating filtering
+      if (selectedRating) {
+        const r = getCartoonRating(short.id);
+        if (selectedRating === 'any' && r < 1) return false;
+        if (selectedRating === '5' && r !== 5) return false;
+        if (selectedRating === '4' && r < 4) return false;
+        if (selectedRating === '3' && r < 3) return false;
+        if (selectedRating === 'unrated' && r > 0) return false;
+      }
+
+      // 7. Personal Notes filtering
+      if (activeNotesOnly) {
+        const n = getCartoonNote(short.id);
+        if (!n || !n.trim()) return false;
+      }
+
+      // 8. Text query filtering
+      if (queryTerms.length === 0) return true;
+
+      // Search across all text fields and visitor personal notes with accent-insensitive normalization
+      const searchable = normalizeText([
+        short.title,
+        short.series,
+        short.year,
+        short.release_date,
+        short.director,
+        short.director_credit,
+        (short.directors || []).join(" "),
+        (short.director_aliases || []).join(" "),
+        short.story,
+        short.backgrounds,
+        short.layout,
+        (short.animation || []).join(" "),
+        (short.voice_actors || []).join(" "),
+        (short.featured_characters || []).join(" "),
+        getCartoonNote(short.id),
+        (short.media_locations || []).map(m => `${m.format} ${m.set_name} disc ${m.disc_number} ${m.disc_title || ''} track ${m.track_number} ${(m.audio_commentary || []).join ? m.audio_commentary.join(" ") : (m.audio_commentary || '')}`).join(" ")
+      ].join(" "));
+
+      return queryTerms.every(term => searchable.includes(term));
+    });
+
+    const countEl = document.getElementById('resultsCount');
+    countEl.textContent = `Showing ${filtered.length} of ${database.length} cartoons`;
+
+    const listEl = document.getElementById('resultsList');
+    if (filtered.length === 0) {
+      listEl.innerHTML = `<div class="no-results">No cartoons found matching your criteria.</div>`;
+      return;
+    }
+
+    listEl.innerHTML = filtered.map(short => {
+      const charBadges = (short.featured_characters || []).map(c => `<span class="char-badge">${c}</span>`).join("");
+      const animators = Array.isArray(short.animation) ? short.animation.join(", ") : (short.animation || "—");
+      const voices = Array.isArray(short.voice_actors) ? short.voice_actors.join(", ") : (short.voice_actors || "—");
+
+      const userRating = getCartoonRating(short.id);
+      const userNote = getCartoonNote(short.id);
+      const hasNote = Boolean(userNote && userNote.trim());
+      const isNoteOpen = openNoteDrawers.has(short.id);
+
+      const mediaHtml = (short.media_locations || []).map(loc => {
+        const rawFmt = (loc.format || 'DVD').trim();
+        let fmtClass = 'format-dvd';
+        let mediaIcon = '📀';
+        
+        if (rawFmt.toLowerCase().includes('blu')) {
+          fmtClass = 'format-bluray';
+          mediaIcon = '💿';
+        } else if (rawFmt.toLowerCase().includes('laser')) {
+          fmtClass = 'format-laserdisc';
+          mediaIcon = '💽';
+        }
+
+        const commentary = loc.audio_commentary && loc.audio_commentary.length > 0
+          ? `<span class="commentary-note">💬 Commentary: ${loc.audio_commentary.join("; ")}</span>`
+          : '';
+
+        const discOrTape = 'Disc';
+
+        return `
+          <li class="media-item">
+            <span class="format-badge ${fmtClass}">${mediaIcon} ${rawFmt}</span>
+            <div class="location-details">
+              <strong>${loc.set_name}</strong> — 
+              ${discOrTape} ${loc.disc_number || '?'}${loc.disc_title ? ` (<em>${loc.disc_title}</em>)` : ''}, 
+              <strong>Track ${loc.track_number || '?'}</strong>
+              ${commentary}
+            </div>
+          </li>
+        `;
+      }).join("");
+
+      return `
+        <article class="card" id="card_${short.id}">
+          <div class="card-header">
+            <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 6px;">
+              <span class="card-title">${short.title}</span> 
+              <span class="card-year">(${short.year || '?'})</span>
+              ${short.release_date ? `<span style="font-size: 0.82rem; font-weight: 500; color: #64748b;">📅 ${short.release_date}</span>` : ''}
+              
+              <!-- Star Rating Widget -->
+              <div class="rating-container" title="Your private rating (saved to your browser)">
+                <div class="stars-row">
+                  ${[1, 2, 3, 4, 5].map(star => {
+                    const isFilled = userRating >= star;
+                    return `<span class="star-btn ${isFilled ? 'filled' : ''}" onclick="setCartoonRating('${short.id}', ${star})" title="${star} Star${star > 1 ? 's' : ''}">★</span>`;
+                  }).join('')}
+                </div>
+                ${userRating > 0 ? `<button type="button" class="btn-clear-rating" onclick="clearCartoonRating('${short.id}')" title="Clear rating">&times;</button>` : ''}
+              </div>
+            </div>
+
+            <div class="card-actions-row">
+              <span class="card-series">${short.series || ''}</span>
+              <button type="button" class="btn-note-toggle ${hasNote ? 'has-note' : ''}" onclick="toggleNoteDrawer('${short.id}')" title="Add or view personal notes">
+                📝 ${hasNote ? 'Note (Saved)' : 'Note'}
+              </button>
+              ${isAdminMode ? `<button class="btn-edit" onclick="openEditModal('${short.id}')" title="Edit cartoon entry (Admin Only)">✏️ Edit</button>` : ''}
+            </div>
+          </div>
+
+          <!-- Personal Notes Drawer -->
+          <div id="note_drawer_${short.id}" class="card-note-drawer" style="display: ${isNoteOpen ? 'block' : 'none'};">
+            <textarea class="note-textarea" placeholder="Write your personal notes, review, or memories for this cartoon (auto-saved in your browser)..." oninput="handleNoteInput('${short.id}', this.value)">${userNote || ''}</textarea>
+            <div class="note-drawer-footer">
+              <span class="note-auto-save-label" id="note_saved_${short.id}">${hasNote ? '✓ Saved in browser' : ''}</span>
+              ${hasNote ? `<button type="button" class="btn-note-delete" onclick="clearCartoonNote('${short.id}')">Delete Note</button>` : '<span></span>'}
+            </div>
+          </div>
+
+          ${charBadges ? `
+            <div class="characters-row">
+              <span class="char-label">Featured:</span>
+              ${charBadges}
+            </div>
+          ` : ''}
+
+          ${short.synopsis ? `
+            <p style="font-size: 0.88rem; color: #334155; margin-bottom: 12px; line-height: 1.45; background: #f1f5f9; padding: 8px 12px; border-radius: 6px;">
+              ${short.synopsis}
+            </p>
+          ` : ''}
+
+          <div class="credits-grid">
+            <div class="credit-item"><span class="credit-label">Released:</span> <span class="credit-val">${short.release_date || (short.year ? String(short.year) : '—')}</span></div>
+            <div class="credit-item"><span class="credit-label">Director:</span> <span class="credit-val">${(() => {
+              let d = short.director_credit || short.director || '—';
+              if (short.director_aliases && short.director_aliases.length > 0) {
+                const alts = short.director_aliases.filter(a => a && !d.toLowerCase().includes(a.toLowerCase()));
+                if (alts.length > 0) d += ` <span style="color: #64748b; font-size: 0.8rem; font-weight: 400;">(aka ${alts.join(', ')})</span>`;
+              }
+              return d;
+            })()}</span></div>
+            <div class="credit-item"><span class="credit-label">Story:</span> <span class="credit-val">${short.story || '—'}</span></div>
+            <div class="credit-item"><span class="credit-label">Layout:</span> <span class="credit-val">${short.layout || '—'}</span></div>
+            <div class="credit-item"><span class="credit-label">Backgrounds:</span> <span class="credit-val">${short.backgrounds || '—'}</span></div>
+            <div class="credit-item" style="grid-column: 1 / -1;"><span class="credit-label">Animation:</span> <span class="credit-val">${animators}</span></div>
+            <div class="credit-item" style="grid-column: 1 / -1;"><span class="credit-label">Voice Cast:</span> <span class="credit-val">${voices}</span></div>
+          </div>
+
+          <div class="media-box">
+            <div class="media-header">Home Media Releases & Track Info</div>
+            <ul class="media-list">
+              ${mediaHtml || '<li style="color: #64748b; font-size: 0.85rem; font-style: italic;">⚪ Not found on scanned DVD/Blu-ray/LaserDisc sets (or unreleased on disc).</li>'}
+            </ul>
+          </div>
+        </article>
+      `;
+    }).join("");
+  }
+
+  // --- Modal Edit Functions ---
+  window.openEditModal = function(id) {
+    const short = database.find(x => x.id === id);
+    if (!short) return;
+
+    document.getElementById('editShortId').value = short.id;
+    document.getElementById('editTitle').value = short.title || '';
+    document.getElementById('editYear').value = short.year || '';
+    document.getElementById('editReleaseDate').value = short.release_date || '';
+    document.getElementById('editSeries').value = short.series || 'Looney Tunes';
+    document.getElementById('editDirector').value = short.director || '';
+    document.getElementById('editDirectorCredit').value = short.director_credit || short.director || '';
+    document.getElementById('editCharacters').value = (short.featured_characters || []).join(', ');
+    document.getElementById('editStory').value = short.story && short.story !== '—' ? short.story : '';
+    document.getElementById('editLayout').value = short.layout && short.layout !== '—' ? short.layout : '';
+    document.getElementById('editBackgrounds').value = short.backgrounds && short.backgrounds !== '—' ? short.backgrounds : '';
+    document.getElementById('editAnimation').value = (short.animation || []).join(', ');
+    document.getElementById('editVoiceCast').value = (short.voice_actors || []).join(', ');
+    document.getElementById('editSynopsis').value = short.synopsis || '';
+
+    document.getElementById('modalTitleText').textContent = `✏️ Edit: ${short.title} (${short.year || '?'})`;
+    document.getElementById('editModalOverlay').style.display = 'flex';
+  };
+
+  window.closeEditModal = function() {
+    document.getElementById('editModalOverlay').style.display = 'none';
+  };
+
+  window.handleSaveEdit = async function(event) {
+    event.preventDefault();
+    const id = document.getElementById('editShortId').value;
+    const short = database.find(x => x.id === id);
+    if (!short) return;
+
+    const charsRaw = document.getElementById('editCharacters').value;
+    const animRaw = document.getElementById('editAnimation').value;
+    const voicesRaw = document.getElementById('editVoiceCast').value;
+
+    const payload = {
+      title: document.getElementById('editTitle').value.trim(),
+      year: parseInt(document.getElementById('editYear').value, 10) || null,
+      release_date: document.getElementById('editReleaseDate').value.trim(),
+      series: document.getElementById('editSeries').value,
+      director: document.getElementById('editDirector').value.trim(),
+      director_credit: document.getElementById('editDirectorCredit').value.trim(),
+      featured_characters: charsRaw.split(',').map(s => s.trim()).filter(Boolean),
+      story: document.getElementById('editStory').value.trim() || '—',
+      layout: document.getElementById('editLayout').value.trim() || '—',
+      backgrounds: document.getElementById('editBackgrounds').value.trim() || '—',
+      animation: animRaw.split(',').map(s => s.trim()).filter(Boolean),
+      voice_actors: voicesRaw.split(',').map(s => s.trim()).filter(Boolean),
+      synopsis: document.getElementById('editSynopsis').value.trim()
+    };
+
+    const saveBtn = document.getElementById('saveBtn');
+    saveBtn.textContent = 'Saving...';
+    saveBtn.disabled = true;
+
+    try {
+      const resp = await fetch(`/api/cartoons/${encodeURIComponent(id)}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      if (resp.ok) {
+        const resData = await resp.json();
+        Object.assign(short, resData.cartoon || payload);
+      } else {
+        Object.assign(short, payload);
+      }
+    } catch (err) {
+      Object.assign(short, payload);
+      console.warn('Server offline or running file://. Applied to in-memory view.', err);
+    }
+
+    saveBtn.textContent = '💾 Save Changes';
+    saveBtn.disabled = false;
+    closeEditModal();
+    populateFilters();
+    render();
+  };
+
+  // Close modal on escape key or clicking overlay background
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeEditModal();
+  });
+  document.getElementById('editModalOverlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('editModalOverlay')) closeEditModal();
+  });
+
+  // Event Listeners for instant filtering
+  document.getElementById('searchInput').addEventListener('input', render);
+  document.getElementById('charFilter').addEventListener('change', render);
+  document.getElementById('directorFilter').addEventListener('change', render);
+  document.getElementById('formatFilter').addEventListener('change', render);
+
+  // Initialize
+  initDatabase();
+</script>
+</body>
+</html>

@@ -1,0 +1,1244 @@
+{{Short description|Blu-ray collection}}
+'''''Looney Tunes Collector's Vault''''' is a series of 2-disc [[Blu-ray]]s from [[Warner Bros. Home Entertainment]]'s [[Warner Archive Collection|Warner Archive]] division collecting various ''[[Looney Tunes]]'' and ''[[Merrie Melodies]]'' theatrical animated short subjects from [[Warner Bros. Cartoons]]. It is the spiritual successor to the ''[[Looney Tunes Collector's Choice]]'' Blu-ray series.
+
+Unlike the previous ''Collector's Choice'' series - which only contained a single disc with 25 cartoons - ''Collector's Vault'' contains two discs with 50 cartoons (51 on ''Volume 2''). Usually, the first disc would contain 25 shorts never-before-remastered on DVD or Blu-ray, while the second disc would contain 25 shorts previously released on DVD making their Blu-ray debut.
+
+==Volume 1==
+{{Infobox film
+| name           = Looney Tunes Collector's Vault: Volume 1
+| image          = LT Collector's Vault V1.jpg
+| caption        = Blu-ray Disc cover
+| director       = [[Chuck Jones]]<br>[[Friz Freleng]]<br>[[Robert McKimson]]<br>[[Tex Avery]]<br>[[Arthur Davis (animator)|Arthur Davis]]<br>[[Bob Clampett]]<br>[[Ben Hardaway]]<br>[[Cal Dalton]]
+| producer       = [[Leon Schlesinger]]<br>[[Eddie Selzer]]<br>[[John W. Burton (film producer)|John W. Burton]]
+| writer         = 
+| narrator       = 
+| starring       = [[Mel Blanc]]
+| music          = {{ubl|[[Carl Stalling]]|[[Milt Franklyn]]|[[William Lava]]}}
+| cinematography = 
+| editing        = 
+| distributor    = [[Warner Bros. Home Entertainment]]
+| released       = {{Film date|2025|06|17}}
+| runtime        = 
+| country        = United States
+| language       = English
+| budget         = 
+| gross          = 
+}}
+''Looney Tunes Collector's Vault: Volume 1'' was announced on March 13, 2025<ref name=V1Announcement /> and released on June 17, 2025.<ref name="Miller III">{{cite web |last1=Miller III |first1=Randy |title=Looney Tunes Collector's Vault: Volume 1 Blu-ray Review |url=https://www.blu-ray.com/movies/Looney-Tunes-Collectors-Vault-Volume-1-Blu-ray/384090/#Review |website=Blu-Ray.com |access-date=10 June 2025}}</ref> The first disc contains 24 shorts never-before-released on DVD or Blu-ray in restored form. In addition, ''[[Double or Mutton]]'' (1955), which was previously released as part of ''[[Looney Tunes Collector's Choice#Volume 4|Collector's Choice: Volume 4]]'', is also included on this set. According to [[Jerry Beck]] and George Feltenstein, this was a mistake; they apologized for its inclusion, and promised fans that the first disc of ''Volume 2'' would include 26 cartoons to make up for the double dip.<ref name="Extras Vol. 1 Reveal">{{cite web |last1=Millard |first1=Tim |title=Introducing Looney Tunes Collector's Vault Vol. 1 |url=https://podcasts.apple.com/au/podcast/introducing-looney-tunes-collectors-vault-vol-1/id1567580798?i=1000704784952 |website=The Extras |publisher=Apple Podcasts |access-date=28 April 2025}}</ref><ref>{{cite web |last1=Millard |first1=Tim |title=Introducing the #LooneyTunes Collector's Vault V1 |url=https://www.youtube.com/watch?v=pFfheohtBZg&t=210s |website=The Extras TV |publisher=YouTube |access-date=28 April 2025}}</ref><ref>{{cite web |last1=Millard |first1=Tim |title=Details You Want to Know About the Upcoming #LooneyTunes Collector's Vault V1 |url=https://www.youtube.com/watch?v=N1l8oSfgIIc&t=98s |website=The Extras |date=March 25, 2025 |publisher=YouTube |access-date=23 April 2025}}</ref>
+
+Much like ''Collector's Choice: Volume 4'', only three cartoons were specifically restored for this set: ''[[A Day at the Zoo]]'' (1939), ''[[Of Fox and Hounds]]'' (1940) and ''[[Each Dawn I Crow]]'' (1949). The other 21 new cartoons on disc one are all restorations previously done for [[HBO Max]] and [[MeTV]], with Warner Archive correcting the [[Photoshopped]] title cards.<ref name="Thad">{{cite web |last1=Komorowski |first1=Thad |title=The Thad Review: "Looney Tunes: Collector's Vault Vol. 1" |url=https://cartoonresearch.com/index.php/the-thad-review-looney-tunes-collectors-vault-vol-1/ |website=Cartoon Research |access-date=10 June 2025}}</ref>
+
+The second disc contains 25 cartoons previously restored and released on the various ''[[Looney Tunes Golden Collection]]'' and ''[[Looney Tunes Super Stars]]'' DVD sets, as well as ''[[The Essential Daffy Duck]]'', but having not yet been released on Blu-ray. One cartoon, ''[[Tom Turk and Daffy]]'' (1944), received new, improved color grading from its original release on the ''[[Looney Tunes Super Stars' Porky & Friends: Hilarious Ham]]'' DVD.<ref>{{cite web |last1=Millard |first1=Tim |title=Warner Archive Unveils Looney Tunes Collector's Vault PLUS Two January Blu-ray Reviews |url=https://podcasts.apple.com/us/podcast/warner-archive-unveils-looney-tunes-collectors-vault/id1567580798?i=1000700161143 |website=The Extras |publisher=Apple Podcasts |access-date=23 April 2025}}</ref><ref name="Thad" /><ref name=V1Announcement>{{Cite web |url=https://www.blu-ray.com/news/?id=36122 |title=Looney Tunes Collector's Vault: Volume 1 Blu-ray |access-date=July 16, 2026 |website=www.blu-ray.com}}</ref> Disc two of ''Collector's Vault: Volume 1'' did not carry over any of the [[audio commentaries]] and alternate audio tracks made for the ''Golden Collections''.
+
+''Volume 1'' contains the following cartoons:<ref>{{Cite web |url=https://www.blu-ray.com/news/?id=36373 |title=Looney Tunes Collector's Vault: Volume 1 Blu-ray |access-date=July 16, 2026 |website=www.blu-ray.com}}</ref>
+
+===Disc 1===
+{|class="wikitable sortable"
+|-
+!#
+!Title
+!Characters
+!Year
+!Director
+!Series
+|-
+|1
+|''[[Bars and Stripes Forever]]''
+|
+|1939
+|[[Ben Hardaway]],<br>[[Cal Dalton]]
+!MM
+|-
+|2
+|''[[Beauty and the Beast (1934 film)|Beauty and the Beast]]''
+|
+|1934
+|[[Friz Freleng]]
+!MM
+|-
+|3
+|''[[A Day at the Zoo]]''
+|[[Elmer Fudd#Elmer Fudd in his true early years|Proto-Elmer]]
+|1939
+|[[Tex Avery]]
+!MM
+|-
+|4
+|''[[The Dixie Fryer]]''
+|[[Foghorn Leghorn|Foghorn]]
+|1960
+|[[Robert McKimson]]
+!MM
+|-
+|5
+|''[[Double or Mutton]]''
+|[[Ralph Wolf and Sam Sheepdog|Ralph and Sam]]
+|1955
+|[[Chuck Jones]]
+!LT
+|-
+|6
+|''[[Each Dawn I Crow]]''
+|[[Elmer Fudd|Elmer]]
+|1949
+|[[Friz Freleng]]
+!MM
+|-
+|7
+|''[[Easy Peckin's]]''
+|
+|1953
+|[[Robert McKimson]]
+!LT
+|-
+|8
+|''[[Feather Dusted]]''
+|[[Egghead Jr.]], [[Foghorn Leghorn|Foghorn]], [[Miss Prissy|Prissy]]
+|1955
+|[[Robert McKimson]]
+!MM
+|-
+|9
+|''[[A Fox in a Fix]]''
+|
+|1951
+|[[Robert McKimson]]
+!MM
+|-
+|10
+|''[[Good Night Elmer]]''
+|[[Elmer Fudd|Elmer]]
+|1940
+|[[Chuck Jones]]
+!MM
+|-
+|11
+|''[[Goofy Gophers (film)|Goofy Gophers]]''
+|[[Goofy Gophers]], [[Bugs Bunny|Bugs]] (cameo)
+|1947
+|[[Arthur Davis (animator)|Arthur Davis]]
+!LT
+|-
+|12
+|''[[I'd Love to Take Orders From You]]''
+|
+|1936
+|[[Tex Avery]]
+!MM
+|-
+|13
+|''[[A Kiddie's Kitty]]''
+|[[Sylvester the Cat|Sylvester]]
+|1955
+|[[Friz Freleng]]
+!MM
+|-
+|14
+|''[[Let It Be Me (1936 film)|Let It Be Me]]''
+|Emily the Chicken
+|1936
+|[[Friz Freleng]]
+!MM
+|-
+|15
+|''[[Of Fox and Hounds]]''
+|[[Willoughby (Looney Tunes)|Willoughby]]
+|1940
+|[[Tex Avery]]
+!MM
+|-
+|16
+|''[[Quackodile Tears]]''
+|[[Daffy Duck|Daffy]]
+|1962
+|[[Arthur Davis (animator)|Arthur Davis]]
+!MM
+|-
+|17
+|''[[Ready, Woolen and Able]]''
+|[[Ralph Wolf and Sam Sheepdog|Ralph and Sam]]
+|1960
+|[[Chuck Jones]]
+!MM
+|-
+|18
+|''[[Robin Hood Makes Good]]''
+|
+|1939
+|[[Chuck Jones]]
+!MM
+|-
+|19
+|''[[The Squawkin' Hawk]]''
+|[[Henery Hawk|Henery]]
+|1942
+|[[Chuck Jones]]
+!MM
+|-
+|20
+|''[[Terrier Stricken|Terrier-Stricken]]''
+|[[Claude Cat|Claude]], [[Frisky Puppy]]
+|1952
+|[[Chuck Jones]]
+!MM
+|-
+|21
+|''[[Tweet and Lovely]]''
+|[[Hector the Bulldog|Hector]], [[Sylvester the Cat|Sylvester]], [[Tweety]]
+|1959
+|[[Friz Freleng]]
+!MM
+|-
+|22
+|''[[Tweety's Circus]]''
+|[[Sylvester the Cat|Sylvester]], [[Tweety]]
+|1955
+|[[Friz Freleng]]
+!MM
+|-
+|23
+|''[[Two's a Crowd (film)|Two's a Crowd]]''
+|[[Claude Cat|Claude]], [[Frisky Puppy]]
+|1950
+|[[Chuck Jones]]
+!LT
+|-
+|24
+|''[[Wild About Hurry]]''
+|[[Wile E. Coyote and the Road Runner]]
+|1959
+|[[Chuck Jones]]
+!MM
+|-
+|25
+|''[[Zip 'N Snort]]''
+|[[Wile E. Coyote and the Road Runner]]
+|1961
+|[[Chuck Jones]]
+!MM
+|}
+
+===Disc 2===
+{|class="wikitable sortable"
+|-
+!#
+!Title
+!Characters
+!Year
+!Director
+!Series
+|-
+|1
+|''[[Ain't She Tweet]]''
+|[[Granny (Looney Tunes)|Granny]], [[Sylvester the Cat|Sylvester]], [[Tweety]]
+|1952
+|[[Friz Freleng]]
+!LT
+|-
+|2
+|''[[Banty Raids]]''
+|[[Barnyard Dawg|Barnyard]], [[Foghorn Leghorn|Foghorn]]
+|1963
+|[[Robert McKimson]]
+!MM
+|-
+|3
+|''[[Birth of a Notion (film)|Birth of a Notion]]''
+|[[Daffy Duck|Daffy]]
+|1947
+|[[Robert McKimson]]
+!LT
+|-
+|4
+|''[[Bye, Bye Bluebeard]]''
+|[[Porky Pig|Porky]]
+|1949
+|[[Arthur Davis (animator)|Arthur Davis]]
+!MM
+|-
+|5
+|''[[Cat-Tails for Two]]''
+|[[Speedy Gonzales|Speedy]]
+|1953
+|[[Robert McKimson]]
+!MM
+|-
+|6
+|''[[Daffy Dilly]]''
+|[[Daffy Duck|Daffy]]
+|1948
+|[[Chuck Jones]]
+!MM
+|-
+|7
+|''[[Daffy Duck & Egghead]]''
+|[[Daffy Duck|Daffy]], [[Egghead (Looney Tunes)|Egghead]]
+|1938
+|[[Tex Avery]]
+!MM
+|-
+|8
+|''[[Gee Whiz-z-z-z-z-z-z]]''
+|[[Wile E. Coyote and the Road Runner]]
+|1956
+|[[Chuck Jones]]
+!LT
+|-
+|9
+|''[[Gonzales' Tamales]]''
+|[[Speedy Gonzales|Speedy]], [[Sylvester the Cat|Sylvester]]
+|1957
+|[[Friz Freleng]]
+!LT
+|-
+|10
+|''[[Hare Conditioned]]''
+|[[Bugs Bunny|Bugs]]
+|1945
+|[[Chuck Jones]]
+!LT
+|-
+|11
+|''[[Hare Trigger]]''
+|[[Bugs Bunny|Bugs]], [[Yosemite Sam|Sam]]
+|1945
+|[[Friz Freleng]]
+!MM
+|-
+|12
+|''[[Hare Trimmed]]''
+|[[Bugs Bunny|Bugs]], [[Granny (Looney Tunes)|Granny]], [[Yosemite Sam|Sam]]
+|1953
+|[[Friz Freleng]]
+!MM
+|-
+|13
+|''[[Horton Hatches the Egg (film)|Horton Hatches the Egg]]''
+|
+|1942
+|[[Bob Clampett]]
+!MM
+|-
+|14
+|''[[Little Boy Boo]]''
+|[[Egghead Jr.]], [[Foghorn Leghorn|Foghorn]], [[Miss Prissy|Prissy]]
+|1954
+|[[Robert McKimson]]
+!LT
+|-
+|15
+|''[[Much Ado About Nutting]]''
+|
+|1953
+|[[Chuck Jones]]
+!MM
+|-
+|16
+|''[[Odor-able Kitty]]''
+|[[Pepé Le Pew|Pepé]], [[Claude Cat|Claude]]
+|1945
+|[[Chuck Jones]]
+!LT
+|-
+|17
+|''[[Past Perfumance]]''
+|[[Pepé Le Pew|Pepé]]
+|1955
+|[[Chuck Jones]]
+!MM
+|-
+|18
+|''[[Porky's Duck Hunt]]''
+|[[Daffy Duck|Daffy]], [[Porky Pig|Porky]]
+|1937
+|[[Tex Avery]]
+!LT
+|-
+|19
+|''[[Rabbit Punch]]''
+|[[Bugs Bunny|Bugs]], [[List of Looney Tunes and Merrie Melodies characters|The Crusher]]
+|1948
+|[[Chuck Jones]]
+!MM
+|-
+|20
+|''[[Red Riding Hoodwinked]]''
+|[[Granny (Looney Tunes)|Granny]], [[Sylvester the Cat|Sylvester]], [[Tweety]]
+|1955
+|[[Friz Freleng]]
+!LT
+|-
+|21
+|''[[Rhapsody Rabbit]]''
+|[[Bugs Bunny|Bugs]]
+|1946
+|[[Friz Freleng]]
+!MM
+|-
+|22
+|''[[Snow Business]]''
+|[[Granny (Looney Tunes)|Granny]], [[Sylvester the Cat|Sylvester]], [[Tweety]]
+|1953
+|[[Friz Freleng]]
+!LT
+|-
+|23
+|''[[Tom Turk and Daffy]]''
+|[[Daffy Duck|Daffy]], [[Porky Pig|Porky]]
+|1944
+|[[Chuck Jones]]
+!LT
+|-
+|24
+|''[[Two Crows from Tacos]]''
+|[[List of Looney Tunes and Merrie Melodies characters|Jose and Manuel]]
+|1956
+|[[Friz Freleng]]
+!MM
+|-
+|25
+|''[[Zoom and Bored]]''
+|[[Wile E. Coyote and the Road Runner]]
+|1957
+|[[Chuck Jones]]
+!MM
+|}
+
+==Volume 2==
+{{Infobox film
+| name           = Looney Tunes Collector's Vault: Volume 2
+| image          = LT Collector's Vault V2.jpg
+| caption        = Blu-ray Disc cover
+| director       = [[Chuck Jones]]<br>[[Friz Freleng]]<br>[[Robert McKimson]]<br>[[Arthur Davis (animator)|Arthur Davis]]<br>[[Maurice Noble]]<br>[[Norman McCabe]]<br>[[Hawley Pratt]]<br>[[Tex Avery]]<br>[[Bob Clampett]]<br>[[Phil Monroe]]<br>[[Frank Tashlin]]<br>[[Richard Thompson (animator)|Richard Thompson]]
+| producer       = [[Leon Schlesinger]]<br>[[Eddie Selzer]]<br>[[John W. Burton (film producer)|John W. Burton]]<br>[[David H. DePatie]]
+| writer         = 
+| narrator       = 
+| starring       = [[Mel Blanc]]
+| music          = {{ubl|[[Norman Spencer (composer)|Norman Spencer]]|[[Carl Stalling]]|[[Milt Franklyn]]|[[William Lava]]}}
+| cinematography = 
+| editing        = 
+| distributor    = [[Warner Bros. Home Entertainment]]
+| released       = {{Film date|2026|03|24}}
+| runtime        = 
+| country        = United States
+| language       = English
+| budget         = 
+| gross          = 
+}}
+''Looney Tunes Collector's Vault: Volume 2'' was officially announced on December 23, 2025 and released on March 24, 2026, having been delayed from an original December 2025 release due to Warner Archive focusing its efforts on ''[[Tom and Jerry: The Golden Era Anthology]]''.<ref name="Vol. 2 Reveal">{{cite web|title= Looney Tunes Collector's Vault: Volume 2 Blu-ray|url=https://www.blu-ray.com/news/?id=37641|website=Blu-Ray.com|date=December 23, 2025|access-date=December 24, 2025}}</ref><ref>{{cite web |last1=Millard |first1=Tim |title=EXCLUSIVE! Looney Tunes Collector's Vault Volume 2 UPDATE! |url=https://www.youtube.com/watch?v=sM3Vv4UG0Eo |website=The Extras TV |publisher=YouTube |access-date=8 November 2025}}</ref>
+
+The first disc contains 26 shorts never-before-released on DVD or Blu-ray in restored form, one more than the previous volume in order to make up for the mistaken inclusion of ''[[Double or Mutton]]'' (1955). Only four cartoons were restored specifically for this set: ''[[A-Lad-In His Lamp]]'' (1948), ''[[Ain't That Ducky]]'' (1945), ''[[The Daffy Duckaroo]]'' (1942), and ''[[I Taw a Putty Tat]]'' (1948). The other 22 cartoons on disc one - including ''[[Little Blabbermouse]]'' (1940), which was originally included as an unrestored bonus short on the ''[[Looney Tunes Mouse Chronicles: The Chuck Jones Collection]]'' Blu-ray and DVD sets - are all restorations previously done for [[HBO Max]] and [[MeTV]], with Warner Archive correcting the [[Photoshopped]] title cards. In addition ''[[The Rattled Rooster]]'' (1948) had its original opening title sequence restored, as opposed to the [[List of Warner Bros. cartoons with Blue Ribbon reissues|Blue Ribbon]] reissue titles featured on previous releases.<ref name="Vol. 2 Review">{{Cite web|url=https://www.blu-ray.com/movies/Looney-Tunes-Collectors-Vault-Volume-2-Blu-ray/403480/ |title=Looney Tunes Collector's Vault: Volume 2 Blu-ray (Warner Archive Collection) |access-date=March 25, 2026 |website=blu-ray.com}}</ref>
+
+As with the previous volume, the second disc contains 25 cartoons previously restored and released on the various ''[[Looney Tunes Golden Collection]]'' and ''[[Looney Tunes Super Stars]]'' DVD sets, but having not yet been released on Blu-ray. One cartoon, ''[[Hop and Go]]'' (1943) - which was previously released as an unrestored extra on ''[[Looney Tunes Golden Collection: Volume 6]]'' - uses the restored print with the uncensored ending that first aired on [[MeTV+]], with the stereo mix being removed. Disc two of ''Collector's Vault: Volume 2'' also carried over five of the audio commentaries from the ''Golden Collection'' series.<ref name="Vol. 2 Review" />
+
+Due to the [[politically incorrect]] nature of cartoons such as ''A-Lad-In His Lamp'' and ''The Daffy Duckaroo'', both discs begin with the standard "products of their time" disclaimer - first introduced on the ''[[Looney Tunes Golden Collection: Volume 4]]'' DVD set in 2006.<ref>{{cite web |last1=E |first1=Timmothy |title=Looney Tunes Collector's Vault Volume 2 Blu-Ray Review |url=https://www.hometheaterforum.com/looney-tunes-collectors-vault-volume-2-blu-ray-review/ |website=Home Theater Forum |access-date=8 April 2026}}</ref>
+
+''Volume 2'' contains the following cartoons:<ref name="Vol. 2 Reveal" />
+
+===Disc 1===
+{|class="wikitable sortable"
+|-
+!#
+!Title
+!Characters
+!Year
+!Director
+!Series
+|-
+|1
+|''[[A-Lad-In His Lamp]]''
+|[[Bugs Bunny|Bugs]]
+|1948
+|[[Robert McKimson]]
+!LT
+|-
+|2
+|''[[Ain't That Ducky]]''
+|[[Daffy Duck|Daffy]]
+|1945
+|[[Friz Freleng]]
+!LT
+|-
+|3
+|''[[The Bird Came C.O.D.]]''
+|[[Conrad the Cat|Conrad]]
+|1942
+|[[Chuck Jones]]
+!MM
+|-
+|4
+|''[[Bone Sweet Bone]]''
+|
+|1948
+|[[Arthur Davis (animator)|Arthur Davis]]
+!MM
+|-
+|5
+|''[[Boston Quackie]]''
+|[[Daffy Duck|Daffy]], [[Porky Pig|Porky]]
+|1957
+|[[Robert McKimson]]
+!LT
+|-
+|6
+|''[[Boulevardier from the Bronx]]''
+|Emily the Chicken
+|1936
+|[[Friz Freleng]]
+!MM
+|-
+|7
+|''[[Country Boy (1935 film)|Country Boy]]''
+|
+|1935
+|[[Friz Freleng]]
+!MM
+|-
+|8
+|''[[The Daffy Duckaroo]]''
+|[[Daffy Duck|Daffy]]
+|1942
+|[[Norman McCabe]]
+!LT
+|-
+|9
+|''[[Dr. Jerkyl's Hide]]''
+|[[Spike the Bulldog and Chester the Terrier|Spike and Chester]], [[Sylvester the Cat|Sylvester]]
+|1954
+|[[Friz Freleng]]
+!LT
+|-
+|10
+|''[[The EGGcited Rooster]]''
+|[[Barnyard Dawg|Barnyard]], [[Foghorn Leghorn|Foghorn]], [[Henery Hawk|Henery]]
+|1952
+|[[Robert McKimson]]
+!MM
+|-
+|11
+|''[[Fastest with the Mostest]]''
+|[[Wile E. Coyote and the Road Runner]]
+|1960
+|[[Chuck Jones]]
+!LT
+|-
+|12
+|''[[Fowl Weather]]''
+|[[Granny (Looney Tunes)|Granny]], [[Hector the Bulldog|Hector]], [[Sylvester the Cat|Sylvester]], [[Tweety]]
+|1953
+|[[Friz Freleng]]
+!MM
+|-
+|13
+|''[[I Taw a Putty Tat]]''
+|[[Sylvester the Cat|Sylvester]], [[Tweety]]
+|1948
+|[[Friz Freleng]]
+!MM
+|-
+|14
+|''[[I Gopher You]]''
+|[[Goofy Gophers]]
+|1954
+|[[Friz Freleng]]
+!MM
+|-
+|15
+|''[[I Was a Teenage Thumb]]''
+|
+|1963
+|[[Chuck Jones]],<br>[[Maurice Noble]]
+!MM
+|-
+|16
+|''[[Little Blabbermouse]]''
+|Little Blabbermouse
+|1940
+|[[Friz Freleng]]
+!MM
+|-
+|17
+|''[[Mother Was a Rooster]]''
+|[[Barnyard Dawg|Barnyard]], [[Foghorn Leghorn|Foghorn]]
+|1962
+|[[Robert McKimson]]
+!MM
+|-
+|18
+|''[[Pests for Guests]]''
+|[[Elmer Fudd|Elmer]], [[Goofy Gophers]]
+|1955
+|[[Friz Freleng]]
+!MM
+|-
+|19
+|''[[The Rattled Rooster]]''
+|
+|1948
+|[[Arthur Davis (animator)|Arthur Davis]]
+!LT
+|-
+|20
+|''[[A Sheep in the Deep]]''
+|[[Ralph Wolf and Sam Sheepdog|Ralph and Sam]]
+|1962
+|[[Chuck Jones]],<br>[[Maurice Noble]]
+!MM
+|-
+|21
+|''[[Sock a Doodle Do]]''
+|[[Barnyard Dawg|Barnyard]], [[Foghorn Leghorn|Foghorn]]
+|1952
+|[[Robert McKimson]]
+!LT
+|-
+|22
+|''[[A Street Cat Named Sylvester]]''
+|[[Granny (Looney Tunes)|Granny]], [[Hector the Bulldog|Hector]], [[Sylvester the Cat|Sylvester]], [[Tweety]]
+|1953
+|[[Friz Freleng]]
+!LT
+|-
+|23
+|''[[To Itch His Own]]''
+|
+|1958
+|[[Chuck Jones]]
+!MM
+|-
+|24
+|''[[A Waggily Tale]]''
+|
+|1958
+|[[Friz Freleng]]
+!LT
+|-
+|25
+|''[[Woolen Under Where]]''
+|[[Ralph Wolf and Sam Sheepdog|Ralph and Sam]]
+|1963
+|[[Phil Monroe]],<br>[[Richard Thompson (animator)|Richard Thompson]]
+!MM
+|-
+|26
+|''[[Zoom at the Top]]''
+|[[Wile E. Coyote and the Road Runner]]
+|1962
+|[[Chuck Jones]],<br>[[Maurice Noble]]
+!MM
+|}
+
+===Disc 2===
+{|class="wikitable sortable"
+|-
+!#
+!Title
+!Characters
+!Year
+!Director
+!Series
+|-
+|1
+|''[[Awful Orphan]]''
+|[[Charlie Dog|Charlie]], [[Porky Pig|Porky]]
+|1949
+|[[Chuck Jones]]
+!MM
+|-
+|2
+|''[[A Bird in a Guilty Cage]]''
+|[[Sylvester the Cat|Sylvester]], [[Tweety]]
+|1952
+|[[Friz Freleng]]
+!LT
+|-
+|3
+|''[[Bowery Bugs]]''
+|[[Bugs Bunny|Bugs]]
+|1949
+|[[Arthur Davis (animator)|Arthur Davis]]
+!MM
+|-
+|4
+|''[[Claws for Alarm]]''
+|[[Porky Pig|Porky]], [[Sylvester the Cat|Sylvester]]
+|1954
+|[[Chuck Jones]]
+!MM
+|-
+|5
+|''[[Crowing Pains]]''
+|[[Barnyard Dawg|Barnyard]], [[Foghorn Leghorn|Foghorn]], [[Henery Hawk|Henery]], [[Sylvester the Cat|Sylvester]]
+|1947
+|[[Robert McKimson]]
+!LT
+|-
+|6
+|''[[Frigid Hare]]''
+|[[Bugs Bunny|Bugs]], [[Playboy Penguin|Playboy]]
+|1949
+|[[Chuck Jones]]
+!MM
+|-
+|7
+|''[[Hare Remover]]''
+|[[Bugs Bunny|Bugs]], [[Elmer Fudd|Elmer]]
+|1946
+|[[Frank Tashlin]]
+!MM
+|-
+|8
+|''[[The Heckling Hare]]''
+|[[Bugs Bunny|Bugs]], [[Willoughby (Looney Tunes)|Willoughby]]
+|1941
+|[[Tex Avery]]
+!MM
+|-
+|9
+|''[[Hop and Go]]''
+|
+|1943
+|[[Norman McCabe]]
+!LT
+|-
+|10
+|''[[Hyde and Hare]]''
+|[[Bugs Bunny|Bugs]]
+|1955
+|[[Friz Freleng]]
+!LT
+|-
+|11
+|''[[Jumpin' Jupiter]]''
+|[[Porky Pig|Porky]], [[Sylvester the Cat|Sylvester]]
+|1955
+|[[Chuck Jones]]
+!MM
+|-
+|12
+|''[[The Last Hungry Cat]]''
+|[[Sylvester the Cat|Sylvester]], [[Tweety]]
+|1961
+|[[Friz Freleng]], [[Hawley Pratt]]
+!MM
+|-
+|13
+|''[[Mexican Boarders]]''
+|[[List of Looney Tunes and Merrie Melodies characters#Slowpoke Rodriguez|Slowpoke]], [[Speedy Gonzales|Speedy]], [[Sylvester the Cat|Sylvester]]
+|1962
+|[[Friz Freleng]], [[Hawley Pratt]]
+!LT
+|-
+|14
+|''[[Mouse Menace]]''
+|[[Porky Pig|Porky]]
+|1946
+|[[Arthur Davis (animator)|Arthur Davis]]
+!LT
+|-
+|15
+|''[[Odor of the Day]]''
+|[[Pepé Le Pew|Pepé]]
+|1948
+|[[Arthur Davis (animator)|Arthur Davis]]
+!LT
+|-
+|16
+|''[[Often an Orphan]]''
+|[[Charlie Dog|Charlie]], [[Porky Pig|Porky]]
+|1949
+|[[Chuck Jones]]
+!MM
+|-
+|17
+|''[[The Pest That Came to Dinner]]''
+|[[Porky Pig|Porky]]
+|1948
+|[[Arthur Davis (animator)|Arthur Davis]]
+!LT
+|-
+|18
+|''[[Ready, Set, Zoom!]]''
+|[[Wile E. Coyote and the Road Runner]]
+|1955
+|[[Chuck Jones]]
+!LT
+|-
+|19
+|''[[Scent-imental Over You]]''
+|[[Pepé Le Pew|Pepé]]
+|1947
+|[[Chuck Jones]]
+!LT
+|-
+|20
+|''[[Stop! Look! And Hasten!]]''
+|[[Wile E. Coyote and the Road Runner]]
+|1954
+|[[Chuck Jones]]
+!MM
+|-
+|21
+|''[[To Beep or Not to Beep]]''
+|[[Wile E. Coyote and the Road Runner]]
+|1963
+|[[Chuck Jones]], [[Maurice Noble]]
+!MM
+|-
+|22
+|''[[Wagon Heels]]''
+|[[Porky Pig|Porky]]
+|1945
+|[[Bob Clampett]]
+!MM
+|-
+|23
+|''[[Whoa, Be-Gone!]]''
+|[[Wile E. Coyote and the Road Runner]]
+|1958
+|[[Chuck Jones]]
+!MM
+|-
+|24
+|''[[Wise Quackers]]''
+|[[Daffy Duck|Daffy]], [[Elmer Fudd|Elmer]]
+|1949
+|[[Friz Freleng]]
+!LT
+|-
+|25
+|''[[You Were Never Duckier]]''
+|[[Daffy Duck|Daffy]], [[Henery Hawk|Henery]]
+|1948
+|[[Chuck Jones]]
+!MM
+|}
+
+====Special features====
+*'''Audio commentaries'''
+**[[Michael Barrier (historian)|Michael Barrier]] on ''[[Bowery Bugs]]''
+**[[Greg Ford (animator)|Greg Ford]] on ''[[The Heckling Hare]]'', ''[[Mexican Boarders]]'', ''[[Stop! Look! And Hasten!]]''
+**[[Eric Goldberg (film director)|Eric Goldberg]] on ''[[You Were Never Duckier]]''
+
+==Volume 3==
+{{Infobox film
+| name           = Looney Tunes Collector's Vault: Volume 3
+| image          = LT Collector's Vault Volume 3.jpg
+| caption        = Blu-ray Disc cover
+| director       = [[Friz Freleng]]<br>[[Chuck Jones]]<br>[[Robert McKimson]]<br>[[Frank Tashlin]]<br>[[Rudolf Ising]]<br>[[Tex Avery]]<br>[[Arthur Davis (animator)|Arthur Davis]]<br>[[Hugh Harman]]<br>[[Abe Levitow]]<br>[[Hawley Pratt]]
+| producer       = [[Leon Schlesinger]]<br>[[Eddie Selzer]]<br>[[John W. Burton (film producer)|John W. Burton]]
+| writer         = 
+| narrator       = 
+| starring       = [[Mel Blanc]]
+| music          = {{ubl|[[Frank Marsales]]|[[Bernard B. Brown]]|[[Norman Spencer (composer)|Norman Spencer]]|[[Carl Stalling]]|[[Milt Franklyn]]}}
+| cinematography = 
+| editing        = 
+| distributor    = [[Warner Bros. Home Entertainment]]
+| released       = {{Film date|2026|09|08}}
+| runtime        = 
+| country        = United States
+| language       = English
+| budget         = 
+| gross          = 
+}}
+''Looney Tunes Collector's Vault: Volume 3'' was announced on July 9, 2026 and released on September 8, 2026.<ref name="Vol. 3 Reveal">{{cite web|title= Looney Tunes Collector's Vault: Volume 3 Blu-ray |url=https://www.blu-ray.com/news/?id=38669|website=Blu-Ray.com|date=July 9, 2026|access-date=July 9, 2026}}</ref>
+
+The first disc contains 25 cartoons never-before-released on DVD or Blu-ray in restored form, including both ''[[Sinkin' in the Bathtub]]'' (1930) and ''[[Lady, Play Your Mandolin!]]'' (1931), the first ''[[Looney Tunes]]'' and ''[[Merrie Melodies]]'' cartoons, respectively. Only five cartoons were restored specifically for this set: ''[[A Feather in His Hare]]'' (1948), ''[[Horse Hare]]'' (1960), ''[[Nothing But the Tooth]]'' (1948), the aforementioned ''Sinkin' in the Bathtub'' - which was previously released as an unrestored extra on ''[[Looney Tunes Golden Collection: Volume 3]]'' and ''[[Looney Tunes Platinum Collection: Volume 2]]'', and ''[[Slightly Daffy]]'' (1944). The other 20 cartoons on disc one, including some of those initially released as unrestored extras on other official ''Looney Tunes'' DVD and Blu-ray sets, are all restorations previously done for [[HBO Max]] and [[MeTV]].<ref name="Vol. 3 Reveal" />
+
+As with the first two volumes, the second disc contains 25 cartoons previously restored and released on the various ''[[Looney Tunes Golden Collection]]'' and ''[[Looney Tunes Super Stars]]'' DVD sets, but having not yet been released on Blu-ray. Similar to ''Volume 2'', disc two of ''Volume 3'' carried over five of the audio commentaries from the ''Golden Collection'' DVDs.<ref name="Vol. 3 Reveal" />
+
+''Volume 3'' contains the following cartoons:<ref name="Vol. 3 Reveal" />
+
+===Disc 1===
+{|class="wikitable sortable"
+|-
+!#
+!Title
+!Characters
+!Year
+!Director
+!Series
+|-
+|1
+|''[[Billboard Frolics]]''
+|
+|1935
+|[[Friz Freleng]]
+!MM
+|-
+|2
+|''[[The Country Mouse]]''
+|
+|1935
+|[[Friz Freleng]]
+!MM
+|-
+|3
+|''[[Dog Gone Modern]]''
+|[[Two Curious Puppies]]
+|1939
+|[[Chuck Jones]]
+!MM
+|-
+|4
+|''[[Don't Axe Me]]''
+|[[Barnyard Dawg|Barnyard]], [[Daffy Duck|Daffy]], [[Elmer Fudd|Elmer]]
+|1958
+|[[Robert McKimson]]
+!MM
+|-
+|5
+|''[[Don't Look Now (1936 film)|Don't Look Now]]''
+|
+|1936
+|[[Tex Avery]]
+!MM
+|-
+|6
+|''[[Feather Bluster]]''
+|[[Barnyard Dawg|Barnyard]], [[Foghorn Leghorn|Foghorn]]
+|1958
+|[[Robert McKimson]]
+!MM
+|-
+|7
+|''[[A Feather in His Hare]]''
+|[[Bugs Bunny|Bugs]]
+|1948
+|[[Chuck Jones]]
+!LT
+|-
+|8
+|''[[The Gay Anties]]''
+|
+|1947
+|[[Friz Freleng]]
+!MM
+|-
+|9
+|''[[Horse Hare]]''
+|[[Bugs Bunny|Bugs]], [[Yosemite Sam|Sam]]
+|1960
+|[[Friz Freleng]]
+!LT
+|-
+|10
+|''[[Joe Glow, the Firefly]]''
+|
+|1941
+|[[Chuck Jones]]
+!LT
+|-
+|11
+|''[[Lady, Play Your Mandolin!]]''
+|[[Foxy (Merrie Melodies)|Foxy]]
+|1931
+|[[Rudolf Ising]]
+!MM
+|-
+|12
+|''[[The Lyin' Mouse]]''
+|
+|1937
+|[[Friz Freleng]]
+!MM
+|-
+|13
+|''[[Mice Follies (1960 film)|Mice Follies]]''
+|[[The Honey-Mousers]]
+|1960
+|[[Robert McKimson]]
+!LT
+|-
+|14
+|''[[My Green Fedora]]''
+|
+|1935
+|[[Friz Freleng]]
+!MM
+|-
+|15
+|''[[Nothing But the Tooth]]''
+|[[Porky Pig|Porky]]
+|1948
+|[[Arthur Davis (animator)|Arthur Davis]]
+!MM
+|-
+|16
+|''[[Of Thee I Sting]]''
+|
+|1946
+|[[Friz Freleng]]
+!LT
+|-
+|17
+|''[[A Pizza Tweety-Pie]]''
+|[[Granny (Looney Tunes)|Granny]], [[Sylvester the Cat|Sylvester]], [[Tweety]]
+|1958
+|[[Friz Freleng]]
+!LT
+|-
+|18
+|''[[Shake Your Powder Puff]]''
+|
+|1934
+|[[Friz Freleng]]
+!MM
+|-
+|19
+|''[[Sinkin' in the Bathtub]]''
+|[[Bosko]]
+|1930
+|[[Hugh Harman]], [[Rudolf Ising]]
+!LT
+|-
+|20
+|''[[Sleepy Time Possum]]''
+|
+|1951
+|[[Robert McKimson]]
+!MM
+|-
+|21
+|''[[Slightly Daffy]]''
+|[[Daffy Duck|Daffy]], [[Porky Pig|Porky]]
+|1944
+|[[Friz Freleng]]
+!MM
+|-
+|22
+|''[[A Star Is Hatched]]''
+|Emily the Chicken
+|1938
+|[[Friz Freleng]]
+!MM
+|-
+|23
+|''[[Tree Cornered Tweety]]''
+|[[Sylvester the Cat|Sylvester]], [[Tweety]]
+|1956
+|[[Friz Freleng]]
+!MM
+|-
+|24
+|''[[Trick or Tweet]]''
+|[[Sylvester the Cat|Sylvester]], [[Tweety]]
+|1959
+|[[Friz Freleng]]
+!MM
+|-
+|25
+|''[[Tweet and Sour]]''
+|[[Granny (Looney Tunes)|Granny]], [[Sylvester the Cat|Sylvester]], [[Tweety]]
+|1956
+|[[Friz Freleng]]
+!LT
+|}
+
+===Disc 2===
+{|class="wikitable sortable"
+|-
+!#
+!Title
+!Characters
+!Year
+!Director
+!Series
+|-
+|1
+|''[[Ballot Box Bunny]]''
+|[[Bugs Bunny|Bugs]], [[Yosemite Sam|Sam]]
+|1951
+|[[Friz Freleng]]
+!MM
+|-
+|2
+|''[[Boobs in the Woods]]''
+|[[Daffy Duck|Daffy]], [[Porky Pig|Porky]]
+|1950
+|[[Robert McKimson]]
+!LT
+|-
+|3
+|''[[Booby Hatched]]''
+|
+|1944
+|[[Frank Tashlin]]
+!LT
+|-
+|4
+|''[[Case of the Missing Hare]]''
+|[[Bugs Bunny|Bugs]]
+|1942
+|[[Chuck Jones]]
+!MM
+|-
+|5
+|''[[Conrad the Sailor]]''
+|[[Conrad the Cat|Conrad]], [[Daffy Duck|Daffy]]
+|1942
+|[[Chuck Jones]]
+!MM
+|-
+|6
+|''[[Daffy – The Commando]]''
+|[[Daffy Duck|Daffy]]
+|1943
+|[[Friz Freleng]]
+!LT
+|-
+|7
+|''[[Duck Soup to Nuts]]''
+|[[Daffy Duck|Daffy]], [[Porky Pig|Porky]]
+|1944
+|[[Friz Freleng]]
+!LT
+|-
+|8
+|''[[Fox-Terror]]''
+|[[Barnyard Dawg|Barnyard]], [[Foghorn Leghorn|Foghorn]]
+|1957
+|[[Robert McKimson]]
+!MM
+|-
+|9
+|''[[Foxy by Proxy]]''
+|[[Bugs Bunny|Bugs]], [[Willoughby (Looney Tunes)|Willoughby]]
+|1952
+|[[Friz Freleng]]
+!MM
+|-
+|10
+|''[[Fresh Airedale]]''
+|
+|1945
+|[[Chuck Jones]]
+!MM
+|-
+|11
+|''[[Goldimouse and the Three Cats]]''
+|[[Sylvester the Cat|Sylvester]], [[Sylvester Jr.]]
+|1960
+|[[Friz Freleng]]
+!LT
+|-
+|12
+|''[[Herr Meets Hare]]''
+|[[Bugs Bunny|Bugs]]
+|1945
+|[[Friz Freleng]]
+!MM
+|-
+|13
+|''[[Holiday for Shoestrings]]''
+|
+|1946
+|[[Friz Freleng]]
+!MM
+|-
+|14
+|''[[Hollywood Daffy]]''
+|[[Daffy Duck|Daffy]]
+|1946
+|[[Hawley Pratt]]
+!MM
+|-
+|15
+|''[[I Got Plenty of Mutton]]''
+|
+|1944
+|[[Frank Tashlin]]
+!LT
+|-
+|16
+|''[[Mississippi Hare]]''
+|[[Bugs Bunny|Bugs]], [[List of Looney Tunes and Merrie Melodies characters#Colonel Shuffle|Colonel Shuffle]]
+|1949
+|[[Chuck Jones]]
+!LT
+|-
+|17
+|''[[Mutiny on the Bunny]]''
+|[[Bugs Bunny|Bugs]], [[Yosemite Sam|Sam]]
+|1950
+|[[Friz Freleng]]
+!LT
+|-
+|18
+|''[[My Favorite Duck]]''
+|[[Daffy Duck|Daffy]], [[Porky Pig|Porky]]
+|1942
+|[[Chuck Jones]]
+!LT
+|-
+|19
+|''[[Pizzicato Pussycat]]''
+|
+|1955
+|[[Friz Freleng]]
+!MM
+|-
+|20
+|''[[Puss n' Booty]]''
+|
+|1943
+|[[Frank Tashlin]]
+!LT
+|-
+|21
+|''[[Rabbit's Kin]]''
+|[[Bugs Bunny|Bugs]], [[Pete Puma]]
+|1952
+|[[Robert McKimson]]
+!MM
+|-
+|22
+|''[[Really Scent]]''
+|[[Pepé Le Pew|Pepé]], [[Penelope Pussycat|Penelope]]
+|1959
+|[[Abe Levitow]]
+!MM
+|-
+|23
+|''[[Stage Door Cartoon]]''
+|[[Bugs Bunny|Bugs]], [[Elmer Fudd|Elmer]]
+|1944
+|[[Friz Freleng]]
+!MM
+|-
+|24
+|''[[A Star Is Bored]]''
+|[[Bugs Bunny|Bugs]], [[Daffy Duck|Daffy]], [[Elmer Fudd|Elmer]], [[Yosemite Sam|Sam]]
+|1956
+|[[Friz Freleng]]
+!LT
+|-
+|25
+|''[[The Windblown Hare]]''
+|[[Bugs Bunny|Bugs]]
+|1949
+|[[Robert McKimson]]
+!LT
+|}
+
+====Special features====
+*'''Audio commentaries'''
+**[[Greg Ford (animator)|Greg Ford]] on ''[[Case of the Missing Hare]]'', ''[[Fresh Airedale]]'', and ''[[Herr Meets Hare]]''
+**[[Eric Goldberg (film director)|Eric Goldberg]] on ''[[Mississippi Hare]]''
+**[[Jerry Beck]] on ''[[My Favorite Duck]]''
+
+==See also==
+* [[Looney Tunes and Merrie Melodies filmography]]
+** [[Looney Tunes and Merrie Melodies filmography (1929–1939)]]
+** [[Looney Tunes and Merrie Melodies filmography (1940–1949)]]
+** [[Looney Tunes and Merrie Melodies filmography (1950–1959)]]
+** [[Looney Tunes and Merrie Melodies filmography (1960–1969)]]
+** [[Looney Tunes and Merrie Melodies filmography (1970–present)]]
+
+==References==
+{{Reflist}}
+
+{{Looney Tunes & Merrie Melodies}}
+{{Looney Tunes and Merrie Melodies DVD and Blu-ray releases}}
+
+[[Category:Looney Tunes home video releases]]
