@@ -4362,6 +4362,10 @@
     if (searchInput) searchInput.focus();
   }
 
+  window.addToken = addToken;
+  window.getActiveTokens = function() { return activeTokens; };
+  window.setActiveTokens = function(tokens) { activeTokens = tokens; };
+
   window.removeToken = function(tokenId) {
     activeTokens = activeTokens.filter(t => t.id !== tokenId);
     updateOmniboxPlaceholder();
@@ -4464,14 +4468,15 @@
         label: item.displayName,
         icon: item.icon
       });
-    } else if (item.type === 'species') {
+    } else if (item.type === 'species' || item.type === 'species_group') {
       addToken({
         id: 'species_' + item.filterValue,
         type: 'species',
         value: item.filterValue,
         label: item.displayName,
         icon: item.icon,
-        chars: item.chars
+        chars: item.chars,
+        characterList: item.chars
       });
     } else if (item.type === 'format') {
       addToken({
@@ -4489,7 +4494,9 @@
         label: item.displayName,
         icon: item.icon,
         minYear: item.minYear,
-        maxYear: item.maxYear
+        maxYear: item.maxYear,
+        startYear: item.minYear,
+        endYear: item.maxYear
       });
     } else if (item.type === 'title' || item.type === 'generic') {
       const searchInput = getOmniboxInput();
@@ -5261,78 +5268,92 @@
     const selectedRatings = getSelectedRatings();
     const inMyLibOnly = Boolean(document.getElementById('myLibraryOnlyToggle')?.checked);
 
-    // Categorize active Omnibox tokens
-    const charTokens = activeTokens.filter(t => t.type === 'character');
-    const speciesTokens = activeTokens.filter(t => t.type === 'species');
-    const dirTokens = activeTokens.filter(t => t.type === 'director');
-    const fmtTokens = activeTokens.filter(t => t.type === 'format');
-    const eraTokens = activeTokens.filter(t => t.type === 'era');
-
-    // Aggregate character filter criteria (OR logic across selected character chips and species groups)
-    const targetCharNames = charTokens.map(t => normalizeText(t.value));
-    const targetSpeciesChars = [];
-    speciesTokens.forEach(t => (t.chars || []).forEach(c => targetSpeciesChars.push(normalizeText(c))));
-    const hasCharCriteria = targetCharNames.length > 0 || targetSpeciesChars.length > 0;
-
-    // Aggregate director filter criteria (OR logic across selected directors)
-    const targetDirs = dirTokens.map(t => normalizeText(t.value));
-
-    // Aggregate format filter criteria (OR logic across selected formats)
-    const hasUnreleasedFmt = fmtTokens.some(t => t.value === 'unreleased');
-    const discFmts = fmtTokens.filter(t => t.value !== 'unreleased').map(t => t.value.toLowerCase());
-
     const filtered = database.filter(short => {
-      // 1. Era Tokens & Timeline Era filtering
-      if (eraTokens.length > 0) {
-        const yr = short.year;
-        const matchesAnyEra = eraTokens.some(t => yr >= t.minYear && yr <= t.maxYear);
-        if (!matchesAnyEra) return false;
+      // 1. Omnibox active tokens strict AND (intersection) evaluation
+      if (activeTokens.length > 0) {
+        const passesTokens = activeTokens.every(token => {
+          switch (token.type) {
+            case 'character': {
+              // Cartoon MUST contain this character in its characters list
+              const shortChars = short.featured_characters || short.characters || [];
+              const target = normalizeText(token.value);
+              return shortChars.some(char => {
+                const nc = normalizeText(char);
+                return nc === target || nc.includes(target) || (target.includes(nc) && nc.length > 5);
+              });
+            }
+
+            case 'species':
+            case 'species_group': {
+              // If a species group token is used (e.g. "Cats"), the cartoon MUST contain at least one character from that species
+              const charList = (token.characterList || token.chars || (typeof SPECIES_MAP !== 'undefined' && SPECIES_MAP[token.value] ? SPECIES_MAP[token.value].characters : [])).map(c => normalizeText(c));
+              const shortChars = (short.featured_characters || short.characters || []).map(c => normalizeText(c));
+              return shortChars.some(char => {
+                if (char === 'honey' && charList.some(sc => sc.includes('bunny'))) return false;
+                return charList.some(sc => char === sc || char.includes(sc) || (sc.includes(char) && char.length > 5));
+              });
+            }
+
+            case 'director': {
+              // Cartoon MUST be directed by this director
+              const targetDir = normalizeText(token.value);
+              const allDirs = (short.directors || [short.director]).concat(short.director_aliases || []).filter(Boolean).map(d => normalizeText(d));
+              const dirCredit = normalizeText(short.director_credit || short.director || '');
+              return allDirs.some(d => d.includes(targetDir) || targetDir.includes(d)) || dirCredit.includes(targetDir);
+            }
+
+            case 'format': {
+              // Cartoon MUST be available on this format (BD, DVD, LD, etc.)
+              let fmtVal = (token.value || '').toLowerCase();
+              if (fmtVal === 'bd' || fmtVal === 'bluray') fmtVal = 'blu-ray';
+              if (fmtVal === 'ld') fmtVal = 'laserdisc';
+              const locs = short.media_locations || [];
+              if (fmtVal === 'unreleased') {
+                return locs.length === 0;
+              }
+              return locs.some(loc => {
+                const lf = (loc.format || '').toLowerCase();
+                return lf.includes(fmtVal) || fmtVal.includes(lf);
+              }) || ((short.formats || []).some(f => {
+                const lf = (typeof f === 'string' ? f : '').toLowerCase();
+                return lf.includes(fmtVal) || fmtVal.includes(lf);
+              }));
+            }
+
+            case 'era': {
+              // Cartoon release year MUST fall within the era bounds
+              const start = token.startYear ?? token.minYear;
+              const end = token.endYear ?? token.maxYear;
+              const yr = short.year;
+              if (start !== undefined && end !== undefined && yr !== undefined) {
+                return yr >= start && yr <= end;
+              }
+              return true;
+            }
+
+            case 'title': {
+              return normalizeText(short.title).includes(normalizeText(token.value));
+            }
+
+            default:
+              return true;
+          }
+        });
+
+        if (!passesTokens) return false;
       }
+
+      // 2. Timeline Era filter presets
       if (short.year && (short.year < activeMinYear || short.year > activeMaxYear)) return false;
 
-      // 2. "In My Library Only" filtering
+      // 3. "In My Library Only" filtering
       if (inMyLibOnly) {
         if (selectedMediaSets.size === 0) return false;
         const hasOwnedSet = (short.media_locations || []).some(loc => selectedMediaSets.has(loc.set_name));
         if (!hasOwnedSet) return false;
       }
 
-      // 3. Character & Species filtering (OR logic across selected characters and groups)
-      if (hasCharCriteria) {
-        const shortChars = (short.featured_characters || []).map(c => normalizeText(c));
-        const matchesChar = shortChars.some(c => {
-          for (const tc of targetCharNames) {
-            if (c === tc || c.includes(tc) || (tc.includes(c) && c.length > 5)) return true;
-          }
-          for (const sc of targetSpeciesChars) {
-            if (c === 'honey' && sc.includes('bunny')) continue;
-            if (c === sc || c.includes(sc) || (sc.includes(c) && c.length > 5)) return true;
-          }
-          return false;
-        });
-        if (!matchesChar) return false;
-      }
-
-      // 4. Director filtering (OR logic across selected directors, AND with characters)
-      if (targetDirs.length > 0) {
-        const allDirs = (short.directors || [short.director]).concat(short.director_aliases || []).map(d => normalizeText(d));
-        const dirCredit = normalizeText(short.director_credit || short.director || '');
-        const matchesDir = targetDirs.some(td => allDirs.includes(td) || dirCredit.includes(td));
-        if (!matchesDir) return false;
-      }
-
-      // 5. Format filtering (OR logic across selected formats)
-      if (fmtTokens.length > 0) {
-        const locs = short.media_locations || [];
-        const matchesDisc = discFmts.length > 0 && locs.some(loc => {
-          const lf = (loc.format || '').toLowerCase();
-          return discFmts.some(f => lf.includes(f));
-        });
-        const matchesUnreleased = hasUnreleasedFmt && locs.length === 0;
-        if (!matchesDisc && !matchesUnreleased) return false;
-      }
-
-      // 6. Personal Star Rating filtering (Multi-select)
+      // 4. Personal Star Rating filtering (Multi-select)
       if (selectedRatings.length > 0) {
         const r = getCartoonRating(short.id);
         const matchesRating = selectedRatings.some(val => {
@@ -5342,13 +5363,13 @@
         if (!matchesRating) return false;
       }
 
-      // 7. Personal Notes filtering
+      // 5. Personal Notes filtering
       if (activeNotesOnly) {
         const n = getCartoonNote(short.id);
         if (!n || !n.trim()) return false;
       }
 
-      // 8. Text query filtering (title, synopses, descriptions, keywords)
+      // 6. Text query filtering (title, synopses, descriptions, keywords)
       if (!matchesSearch(short, rawQuery)) return false;
 
       return true;
