@@ -4233,6 +4233,10 @@
     mouse: {
       terms: ['mouse', 'mice', 'rodent'],
       characters: ['Speedy Gonzales', 'Hubie', 'Bertie', 'Sniffles', 'Slowpoke Rodriguez']
+    },
+    kangaroo: {
+      terms: ['kangaroo', 'kangaroos', 'joey', 'joeys', 'marsupial', 'marsupials'],
+      characters: ['Hippety Hopper']
     }
   };
 
@@ -4291,7 +4295,8 @@
     bird: { label: 'Birds', icon: '🐥' },
     duck: { label: 'Ducks', icon: '🦆' },
     pig: { label: 'Pigs', icon: '🐷' },
-    mouse: { label: 'Mice / Rodents', icon: '🐭' }
+    mouse: { label: 'Mice / Rodents', icon: '🐭' },
+    kangaroo: { label: 'Kangaroos / Marsupials', icon: '🦘' }
   };
 
   const FORMAT_SUGGESTIONS = [
@@ -4329,7 +4334,7 @@
     if (lower.includes('bosko')) return '🎩';
     if (lower.includes('witch hazel')) return '🧙‍♀️';
     if (lower.includes('henery hawk') || lower.includes('buzzard')) return '🦅';
-    if (lower.includes('hippety hopper')) return '🦘';
+    if (lower.includes('hippety hopper') || lower.includes('claude hopper') || lower.includes('kangaroo')) return '🦘';
     if (lower.includes('penelope')) return '🐈‍⬛';
     if (lower.includes('mac') || lower.includes('tosh') || lower.includes('gophers')) return '🐹';
     if (lower.includes('gremlin')) return '😈';
