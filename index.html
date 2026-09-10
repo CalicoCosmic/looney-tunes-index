@@ -71,45 +71,6 @@
       text-align: center;
     }
 
-    .header-actions-wrap {
-      position: absolute;
-      right: 0;
-      top: 0;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .header-library-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: #ffffff;
-      border: 1.5px solid #cbd5e1;
-      border-radius: 8px;
-      padding: 6px 12px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: #334155;
-      cursor: pointer;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-      transition: all 0.15s ease;
-      white-space: nowrap;
-    }
-
-    .header-library-btn:hover {
-      background: #f8fafc;
-      border-color: #94a3b8;
-      color: #0f172a;
-      transform: translateY(-1px);
-    }
-
-    .admin-header-badge-wrap {
-      display: none;
-      align-items: center;
-      gap: 6px;
-    }
-
     /* Sticky Controls Toolbar */
     .sticky-controls-bar {
       position: sticky;
@@ -1573,28 +1534,6 @@
       font-size: 1.1rem;
     }
 
-    /* Edit Button & Modal Styles */
-    .btn-edit {
-      background: #f8fafc;
-      border: 1px solid #cbd5e1;
-      color: #334155;
-      padding: 4px 10px;
-      border-radius: 6px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      transition: all 0.15s ease;
-    }
-    .btn-edit:hover {
-      background: #e2e8f0;
-      border-color: #94a3b8;
-      color: #0f172a;
-      transform: translateY(-1px);
-    }
-
     /* Compact Star Rating Button & Popover */
     .rating-popover-wrapper {
       position: relative;
@@ -1839,37 +1778,6 @@
       padding: 0;
     }
 
-    /* Admin Mode Badge & Controls */
-    .admin-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      background: #fef2f2;
-      border: 1px solid #fecaca;
-      color: #b91c1c;
-      font-size: 0.75rem;
-      font-weight: 700;
-      padding: 3px 8px;
-      border-radius: 12px;
-      letter-spacing: 0.3px;
-    }
-    .admin-exit-btn {
-      background: #ffffff;
-      border: 1px solid #cbd5e1;
-      color: #64748b;
-      font-size: 0.72rem;
-      font-weight: 600;
-      padding: 2px 7px;
-      border-radius: 4px;
-      cursor: pointer;
-      margin-left: 6px;
-      transition: all 0.15s;
-    }
-    .admin-exit-btn:hover {
-      background: #f1f5f9;
-      color: #0f172a;
-    }
-
     /* App Footer */
     .app-footer {
       margin-top: 40px;
@@ -1952,42 +1860,6 @@
     .modal-close:hover {
       color: #0f172a;
     }
-    .form-label {
-      display: block;
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: #475569;
-      margin-bottom: 4px;
-      text-transform: uppercase;
-      letter-spacing: 0.4px;
-    }
-    .form-input {
-      width: 100%;
-      padding: 8px 12px;
-      border: 1px solid #cbd5e1;
-      border-radius: 6px;
-      font-size: 0.92rem;
-      color: #0f172a;
-      box-sizing: border-box;
-      font-family: inherit;
-    }
-    .form-input:focus {
-      outline: none;
-      border-color: var(--primary);
-      box-shadow: 0 0 0 3px rgba(194, 65, 12, 0.15);
-    }
-    .modal-btn-cancel {
-      padding: 8px 16px;
-      background: #f1f5f9;
-      border: 1px solid #cbd5e1;
-      border-radius: 6px;
-      font-weight: 600;
-      cursor: pointer;
-      color: #475569;
-    }
-    .modal-btn-cancel:hover {
-      background: #e2e8f0;
-    }
     .modal-btn-save {
       padding: 8px 20px;
       background: var(--primary);
@@ -2011,19 +1883,6 @@
         padding: 12px 12px 32px 12px;
         max-width: 100%;
         overflow-x: hidden;
-      }
-
-      .header-actions-wrap {
-        position: static;
-        justify-content: center;
-        margin-bottom: 12px;
-        flex-wrap: wrap;
-      }
-
-      .header-library-btn {
-        min-height: 44px;
-        padding: 8px 16px;
-        font-size: 0.92rem;
       }
 
       .sticky-controls-bar {
@@ -2210,12 +2069,6 @@
 
 <div class="container">
   <header>
-    <div class="header-actions-wrap">
-      <div id="adminHeaderBadge" class="admin-header-badge-wrap">
-        <span class="admin-badge">🛡️ Admin Active</span>
-        <button type="button" class="admin-exit-btn" onclick="toggleAdminMode(false)">Exit Admin</button>
-      </div>
-    </div>
     <h1>🎬 Looney Tunes Shorts Index</h1>
     <p>A physical media search index for classic Looney Tunes &amp; Merrie Melodies shorts.</p>
   </header>
@@ -2321,95 +2174,8 @@
         📥 Restore Data
         <input type="file" id="userDataImportInput" accept=".json" style="display: none;" onchange="importUserData(event)">
       </label>
-      <button type="button" class="footer-btn" id="adminToggleBtn" onclick="toggleAdminPrompt()" title="Toggle Admin Mode for catalog edits">🛡️ Admin Access</button>
     </div>
   </footer>
-</div>
-
-<!-- Edit Modal Overlay -->
-<div id="editModalOverlay" class="modal-overlay" style="display: none;">
-  <div class="modal-box">
-    <div class="modal-header">
-      <h2 id="modalTitleText" style="margin: 0; font-size: 1.25rem; color: #0f172a;">✏️ Edit Cartoon Entry</h2>
-      <button class="modal-close" onclick="closeEditModal()">&times;</button>
-    </div>
-    <form id="editForm" onsubmit="handleSaveEdit(event)">
-      <input type="hidden" id="editShortId">
-      
-      <div style="display: grid; grid-template-columns: 2fr 1fr 1.5fr 1.2fr; gap: 12px; margin-bottom: 12px;">
-        <div>
-          <label class="form-label">Title</label>
-          <input type="text" id="editTitle" class="form-input" required>
-        </div>
-        <div>
-          <label class="form-label">Year</label>
-          <input type="number" id="editYear" class="form-input" min="1929" max="1975">
-        </div>
-        <div>
-          <label class="form-label">Release Date</label>
-          <input type="text" id="editReleaseDate" class="form-input" placeholder="e.g. August 8, 1953">
-        </div>
-        <div>
-          <label class="form-label">Series</label>
-          <select id="editSeries" class="form-input">
-            <option value="Looney Tunes">Looney Tunes</option>
-            <option value="Merrie Melodies">Merrie Melodies</option>
-          </select>
-        </div>
-      </div>
-
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px;">
-        <div>
-          <label class="form-label">Primary Director</label>
-          <input type="text" id="editDirector" class="form-input">
-        </div>
-        <div>
-          <label class="form-label">Full Director Credit (e.g. Co-Directors)</label>
-          <input type="text" id="editDirectorCredit" class="form-input">
-        </div>
-      </div>
-
-      <div style="margin-bottom: 12px;">
-        <label class="form-label">Featured Characters (comma-separated)</label>
-        <textarea id="editCharacters" class="form-input" rows="2" placeholder="e.g. Bugs Bunny, Toro the Bull"></textarea>
-      </div>
-
-      <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-bottom: 12px;">
-        <div>
-          <label class="form-label">Story / Writer</label>
-          <input type="text" id="editStory" class="form-input">
-        </div>
-        <div>
-          <label class="form-label">Layout</label>
-          <input type="text" id="editLayout" class="form-input">
-        </div>
-        <div>
-          <label class="form-label">Backgrounds</label>
-          <input type="text" id="editBackgrounds" class="form-input">
-        </div>
-      </div>
-
-      <div style="margin-bottom: 12px;">
-        <label class="form-label">Animators (comma-separated)</label>
-        <textarea id="editAnimation" class="form-input" rows="2" placeholder="e.g. Ben Washam, Ken Harris"></textarea>
-      </div>
-
-      <div style="margin-bottom: 12px;">
-        <label class="form-label">Voice Cast (comma-separated)</label>
-        <input type="text" id="editVoiceCast" class="form-input" placeholder="e.g. Mel Blanc, June Foray">
-      </div>
-
-      <div style="margin-bottom: 16px;">
-        <label class="form-label">Synopsis</label>
-        <textarea id="editSynopsis" class="form-input" rows="3"></textarea>
-      </div>
-
-      <div style="display: flex; justify-content: flex-end; gap: 10px;">
-        <button type="button" class="modal-btn-cancel" onclick="closeEditModal()">Cancel</button>
-        <button type="submit" class="modal-btn-save" id="saveBtn">💾 Save Changes</button>
-      </div>
-    </form>
-  </div>
 </div>
 
 <!-- Customize Library Modal Overlay -->
@@ -3363,7 +3129,6 @@
       }
     }
     initCollapsiblePanels();
-    updateAdminUI();
     populateFilters();
     render();
   }
@@ -3397,57 +3162,6 @@
       };
       reader.readAsText(file);
     });
-  }
-
-  // --- Admin Mode State & Security ---
-  const ADMIN_PASSCODE_KEY = 'lt_admin_passcode';
-  const ADMIN_MODE_KEY = 'lt_admin_mode';
-  const DEFAULT_ADMIN_PASSCODE = 'acme';
-
-  function checkIsAdminMode() {
-    const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-    const sessionAdmin = sessionStorage.getItem(ADMIN_MODE_KEY) === 'true';
-    const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('admin') === '1') {
-      sessionStorage.setItem(ADMIN_MODE_KEY, 'true');
-      return true;
-    }
-    return isLocalhost || sessionAdmin;
-  }
-
-  let isAdminMode = checkIsAdminMode();
-
-  window.toggleAdminPrompt = function() {
-    if (isAdminMode) {
-      if (confirm("You are currently in Admin Mode. Exit Admin Mode?")) {
-        toggleAdminMode(false);
-      }
-    } else {
-      const input = prompt("Enter Admin Passcode to enable catalog editing (default: acme):");
-      if (!input) return;
-      const savedPass = localStorage.getItem(ADMIN_PASSCODE_KEY) || DEFAULT_ADMIN_PASSCODE;
-      if (input.trim() === savedPass) {
-        toggleAdminMode(true);
-      } else {
-        alert("Incorrect passcode.");
-      }
-    }
-  };
-
-  window.toggleAdminMode = function(enable) {
-    isAdminMode = enable;
-    sessionStorage.setItem(ADMIN_MODE_KEY, enable ? 'true' : 'false');
-    updateAdminUI();
-    render();
-  };
-
-  function updateAdminUI() {
-    const badge = document.getElementById('adminHeaderBadge');
-    if (badge) badge.style.display = isAdminMode ? 'flex' : 'none';
-    const toggleBtn = document.getElementById('adminToggleBtn');
-    if (toggleBtn) {
-      toggleBtn.textContent = isAdminMode ? '🛡️ Exit Admin' : '🛡️ Admin Access';
-    }
   }
 
   // --- Visitor Star Ratings & Notes State ---
@@ -5777,7 +5491,6 @@
               <div class="card-header-bottom-right">
                 <div class="card-actions-row">
                   <span class="card-series">${short.series || ''}</span>
-                  ${isAdminMode ? `<button type="button" class="btn-edit" onclick="event.stopPropagation(); openEditModal('${short.id}')" title="Edit cartoon entry (Admin Only)">✏️ Edit</button>` : ''}
                   <button type="button" class="btn-note-toggle note-btn ${hasNote ? 'has-note' : ''}" onclick="event.stopPropagation(); handleCardNoteClick('${short.id}')" title="${hasNote ? 'Edit Note' : 'Add Note'}" aria-label="Notes">
                     📝
                   </button>
@@ -5873,98 +5586,12 @@
   }
   window.render = render;
 
-  // --- Modal Edit Functions ---
-  window.openEditModal = function(id) {
-    const short = database.find(x => x.id === id);
-    if (!short) return;
-
-    document.getElementById('editShortId').value = short.id;
-    document.getElementById('editTitle').value = short.title || '';
-    document.getElementById('editYear').value = short.year || '';
-    document.getElementById('editReleaseDate').value = short.release_date || '';
-    document.getElementById('editSeries').value = short.series || 'Looney Tunes';
-    document.getElementById('editDirector').value = short.director || '';
-    document.getElementById('editDirectorCredit').value = short.director_credit || short.director || '';
-    document.getElementById('editCharacters').value = (short.featured_characters || []).join(', ');
-    document.getElementById('editStory').value = short.story && short.story !== '—' ? short.story : '';
-    document.getElementById('editLayout').value = short.layout && short.layout !== '—' ? short.layout : '';
-    document.getElementById('editBackgrounds').value = short.backgrounds && short.backgrounds !== '—' ? short.backgrounds : '';
-    document.getElementById('editAnimation').value = (short.animation || []).join(', ');
-    document.getElementById('editVoiceCast').value = (short.voice_actors || []).join(', ');
-    document.getElementById('editSynopsis').value = short.synopsis || '';
-
-    document.getElementById('modalTitleText').textContent = `✏️ Edit: ${short.title} (${short.year || '?'})`;
-    document.getElementById('editModalOverlay').style.display = 'flex';
-  };
-
-  window.closeEditModal = function() {
-    document.getElementById('editModalOverlay').style.display = 'none';
-  };
-
-  window.handleSaveEdit = async function(event) {
-    event.preventDefault();
-    const id = document.getElementById('editShortId').value;
-    const short = database.find(x => x.id === id);
-    if (!short) return;
-
-    const charsRaw = document.getElementById('editCharacters').value;
-    const animRaw = document.getElementById('editAnimation').value;
-    const voicesRaw = document.getElementById('editVoiceCast').value;
-
-    const payload = {
-      title: document.getElementById('editTitle').value.trim(),
-      year: parseInt(document.getElementById('editYear').value, 10) || null,
-      release_date: document.getElementById('editReleaseDate').value.trim(),
-      series: document.getElementById('editSeries').value,
-      director: document.getElementById('editDirector').value.trim(),
-      director_credit: document.getElementById('editDirectorCredit').value.trim(),
-      featured_characters: charsRaw.split(',').map(s => s.trim()).filter(Boolean),
-      story: document.getElementById('editStory').value.trim() || '—',
-      layout: document.getElementById('editLayout').value.trim() || '—',
-      backgrounds: document.getElementById('editBackgrounds').value.trim() || '—',
-      animation: animRaw.split(',').map(s => s.trim()).filter(Boolean),
-      voice_actors: voicesRaw.split(',').map(s => s.trim()).filter(Boolean),
-      synopsis: document.getElementById('editSynopsis').value.trim()
-    };
-
-    const saveBtn = document.getElementById('saveBtn');
-    saveBtn.textContent = 'Saving...';
-    saveBtn.disabled = true;
-
-    try {
-      const resp = await fetch(`/api/cartoons/${encodeURIComponent(id)}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-      if (resp.ok) {
-        const resData = await resp.json();
-        Object.assign(short, resData.cartoon || payload);
-      } else {
-        Object.assign(short, payload);
-      }
-    } catch (err) {
-      Object.assign(short, payload);
-      console.warn('Server offline or running file://. Applied to in-memory view.', err);
-    }
-
-    saveBtn.textContent = '💾 Save Changes';
-    saveBtn.disabled = false;
-    closeEditModal();
-    populateFilters();
-    render();
-  };
-
   // Close modals on escape key or clicking overlay background
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') {
-      closeEditModal();
       closeLibraryModal();
       closeAllRatingPopovers();
     }
-  });
-  document.getElementById('editModalOverlay')?.addEventListener('click', e => {
-    if (e.target === document.getElementById('editModalOverlay')) closeEditModal();
   });
   document.getElementById('libraryModalOverlay')?.addEventListener('click', e => {
     if (e.target === document.getElementById('libraryModalOverlay')) closeLibraryModal();

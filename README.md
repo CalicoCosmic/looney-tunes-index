@@ -36,20 +36,10 @@ Built as a lightweight, zero-dependency web app with instant client-side search,
 
 ---
 
-## 🛡️ Admin Dashboard & Catalog Editing
+## 🔒 100% Private, Client-Side Architecture
 
-To prevent public visitors from altering the master catalog while keeping it easy for you to manage:
-
-1. **Visitor View (Default):**
-   * The `✏️ Edit` buttons are completely hidden from public visitors.
-   * Master records are read-only.
-2. **Admin Access:**
-   * Click **🛡️ Admin Access** in the footer (or pass `?admin=1` in the URL).
-   * Enter the Admin Passcode (default: `acme`).
-   * Once authenticated, the **🛡️ Admin Active** badge appears and `✏️ Edit` buttons are revealed on every cartoon card.
-3. **Local 1-Click Editing Server:**
-   * On your Mac, double-click [`run_editor.command`](run_editor.command) to start the local backend server (`http://127.0.0.1:8000`).
-   * When connected locally, edits save permanently to `database.json`, `database.js`, and `custom_overrides.json`.
+* **Zero Tracking / Pure Client-Side:** All searches, ratings, notes, and collection customizations happen 100% locally within your browser using `localStorage`.
+* **Public Reference Catalog:** The master records are strictly read-only for all visitors, serving as a clean, fast reference tool without login gates or passwords.
 
 ---
 
