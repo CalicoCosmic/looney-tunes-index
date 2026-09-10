@@ -822,183 +822,102 @@
       border: 1px solid #fed7aa;
     }
 
-    .timeline-era-pills {
+    /* Modern Boxy Era Button Cards */
+    .timeline-era-group {
       display: flex;
       flex-wrap: wrap;
-      gap: 6px;
+      gap: 8px;
+      align-items: stretch;
+      margin-top: 8px;
     }
 
-    .era-pill {
-      background: #ffffff;
-      border: 1px solid #cbd5e1;
-      border-radius: 16px;
-      padding: 3px 10px;
-      font-size: 0.74rem;
-      font-weight: 600;
-      color: #475569;
-      cursor: pointer;
-      transition: all 0.15s ease;
-    }
-
-    .era-pill:hover {
-      border-color: #94a3b8;
-      color: #0f172a;
-      transform: translateY(-1px);
-    }
-
-    .era-pill.active {
-      background: #c2410c;
-      color: #ffffff;
-      border-color: #c2410c;
-      box-shadow: 0 2px 5px rgba(194, 65, 12, 0.3);
-    }
-
-    /* Timeline Slider & Track Bands */
-    .slider-wrapper {
-      position: relative;
-      height: 36px;
-      margin: 8px 0 4px 0;
-    }
-
-    .timeline-bands-track {
-      position: absolute;
-      top: 9px;
-      left: 0;
-      right: 0;
-      height: 18px;
-      border-radius: 9px;
-      overflow: hidden;
-      background: #e2e8f0;
-      box-shadow: inset 0 1px 3px rgba(0,0,0,0.15);
-    }
-
-    .band-segment {
-      position: absolute;
-      top: 0;
-      bottom: 0;
+    .era-card-btn {
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      font-size: 0.65rem;
-      font-weight: 700;
-      cursor: pointer;
-      user-select: none;
-      color: #ffffff;
-      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.85);
-      transition: filter 0.15s ease;
-    }
-
-    .band-label {
-      color: #ffffff;
-      white-space: nowrap;
-      pointer-events: none;
-    }
-
-    .band-segment:hover {
-      filter: brightness(1.15);
-    }
-
-    .band-bw {
-      background: linear-gradient(90deg, #1e293b, #475569);
-      color: #ffffff;
-    }
-
-    .band-war {
-      background: linear-gradient(90deg, #57534e, #78716c);
-      color: #ffffff;
-    }
-
-    .band-gold {
-      background: linear-gradient(90deg, #b45309, #f59e0b);
-      color: #ffffff;
-    }
-
-    .band-tv {
-      background: linear-gradient(90deg, #0284c7, #38bdf8);
-      color: #ffffff;
-    }
-
-    .band-revival {
-      background: linear-gradient(90deg, #7c3aed, #a855f7);
-      color: #ffffff;
-    }
-
-    .era-revival {
-      border-color: #c084fc;
-      color: #7e22ce;
-    }
-    .era-revival.active, .era-revival:hover {
-      background: #7e22ce;
-      color: #ffffff;
-      border-color: #7e22ce;
-    }
-
-    .slider-range-highlight {
-      position: absolute;
-      top: 6px;
-      height: 24px;
+      padding: 8px 14px;
       border-radius: 8px;
-      background: transparent;
-      border: 3.5px solid #c2410c;
-      pointer-events: none;
-      z-index: 2;
-      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.5), 0 2px 6px rgba(194, 65, 12, 0.35);
-      transition: left 0.05s ease, width 0.05s ease;
+      border: 1px solid var(--border-color, #cbd5e1);
+      background: #ffffff;
+      cursor: pointer;
+      transition: all 0.15s ease-in-out;
+      user-select: none;
+      min-width: 110px;
+      flex: 1 1 auto;
+      text-align: center;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+    }
+
+    .era-card-btn:hover {
+      background: #f8fafc;
+      border-color: #94a3b8;
+      transform: translateY(-1px);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .era-card-title {
+      font-size: 0.86rem;
+      font-weight: 700;
+      color: #1e293b;
+      line-height: 1.25;
+      white-space: nowrap;
+    }
+
+    .era-card-years {
+      font-size: 0.74rem;
+      color: #64748b;
+      margin-top: 2px;
+      line-height: 1.15;
+      white-space: nowrap;
+    }
+
+    .era-card-btn.active {
+      background: #eff6ff;
+      border-color: #2563eb;
+      box-shadow: 0 0 0 1.5px #2563eb;
+    }
+
+    .era-card-btn.active .era-card-title {
+      color: #1d4ed8;
+    }
+
+    .era-card-btn.active .era-card-years {
+      color: #2563eb;
+      font-weight: 600;
+    }
+
+    /* Personal Notes Toggle Button */
+    .notes-toggle-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 6px 12px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border-radius: 8px;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      color: #475569;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s ease-in-out;
+      user-select: none;
+      height: 38px;
       box-sizing: border-box;
     }
 
-    .slider-wrapper input[type="range"] {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 36px;
-      -webkit-appearance: none;
-      appearance: none;
-      background: transparent;
-      pointer-events: none;
-      z-index: 3;
-      margin: 0;
+    .notes-toggle-btn:hover {
+      background: #f8fafc;
+      border-color: #94a3b8;
+      color: #1e293b;
     }
 
-    .slider-wrapper input[type="range"]::-webkit-slider-thumb {
-      -webkit-appearance: none;
-      appearance: none;
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background: #c2410c;
-      border: 2.5px solid #ffffff;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.35);
-      cursor: pointer;
-      pointer-events: auto;
-      transition: transform 0.1s ease, background 0.1s ease;
-    }
-
-    .slider-wrapper input[type="range"]::-webkit-slider-thumb:hover {
-      transform: scale(1.2);
-      background: #9a3412;
-    }
-
-    .slider-wrapper input[type="range"]::-moz-range-thumb {
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background: #c2410c;
-      border: 2.5px solid #ffffff;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.35);
-      cursor: pointer;
-      pointer-events: auto;
-    }
-
-    .timeline-ticks {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.68rem;
-      font-weight: 500;
-      color: #94a3b8;
-      padding: 0 4px;
-      user-select: none;
+    .notes-toggle-btn.active {
+      background: #eff6ff;
+      border-color: #2563eb;
+      color: #1d4ed8;
+      box-shadow: 0 0 0 1.5px #2563eb;
     }
 
     .stats-bar {
@@ -1612,6 +1531,10 @@
         <option value="3">⭐⭐⭐ 3+ Stars</option>
         <option value="unrated">⚪ Unrated Shorts</option>
       </select>
+
+      <button type="button" class="notes-toggle-btn" id="notesOnlyFilterBtn" onclick="toggleNotesOnlyFilter(this)" title="Filter to shorts where you added personal notes">
+        📝 Has Notes
+      </button>
     </div>
 
     <!-- Active Filter Chips & Unified Clear All Action -->
@@ -1628,58 +1551,40 @@
 
   <!-- Collapsible Secondary Panels (Default: Collapsed) -->
   <div id="collapsiblePanels" class="collapsible-panels" style="display: none;">
-    <!-- Interactive Era Timeline Slider -->
+    <!-- Historical Era Timeline -->
     <div class="timeline-container">
       <div class="timeline-header">
         <div class="timeline-title-group">
           <span class="timeline-heading">⏳ Theatrical Era Timeline</span>
-          <span class="timeline-range-badge" id="timelineRangeText">1929 – 2014</span>
-        </div>
-        <div class="timeline-era-pills">
-          <button type="button" class="era-pill era-all active" onclick="setEraPreset(1929, 2014, this)">All Years (1929–Present)</button>
-          <button type="button" class="era-pill era-bw" onclick="setEraPreset(1929, 1943, this)" title="Bosko, Buddy, and early B&W Porky/Daffy through Puss n' Booty">🎞️ B&W Era (1929–1943)</button>
-          <button type="button" class="era-pill era-war" onclick="setEraPreset(1941, 1945, this)" title="WWII military spoofs, war bonds, and patriotic shorts">🎖️ War Years (1941–1945)</button>
-          <button type="button" class="era-pill era-gold" onclick="setEraPreset(1946, 1959, this)" title="Post-war peak Technicolor boom">⭐ Golden Age (1946–1959)</button>
-          <button type="button" class="era-pill era-tv" onclick="setEraPreset(1960, 1969, this)" title="The Bugs Bunny Show TV era & late theatricals">📺 TV & Late Era (1960–1969)</button>
-          <button type="button" class="era-pill era-revival" onclick="setEraPreset(1979, 2014, this)" title="Modern revivals, theatrical shorts, and new theatricals">✨ Revival Era (1979–Present)</button>
-          <button type="button" class="era-pill" id="notesOnlyFilterBtn" onclick="toggleNotesOnlyFilter(this)" title="Filter to shorts where you added personal notes" style="margin-left: 4px; border-color: #93c5fd; color: #1d4ed8;">📝 Has Notes</button>
+          <span class="timeline-range-badge" id="timelineRangeText">All Eras (1929–Present)</span>
         </div>
       </div>
 
-      <div class="slider-wrapper">
-        <div class="timeline-bands-track">
-          <div class="band-segment band-bw" style="left: 0%; width: 17%;" onclick="setEraPreset(1929, 1943, document.querySelector('.era-bw'))" title="Black & White Era (1929–1943)">
-            <span class="band-label">🎞️ B&W (1929–43)</span>
-          </div>
-          <div class="band-segment band-war" style="left: 14%; width: 6%;" onclick="setEraPreset(1941, 1945, document.querySelector('.era-war'))" title="War Years (1941–1945)">
-            <span class="band-label">🎖️ War (41–45)</span>
-          </div>
-          <div class="band-segment band-gold" style="left: 20%; width: 16%;" onclick="setEraPreset(1946, 1959, document.querySelector('.era-gold'))" title="Golden Age Color (1946–1959)">
-            <span class="band-label">⭐ Golden Age (1946–59)</span>
-          </div>
-          <div class="band-segment band-tv" style="left: 36.5%; width: 11%;" onclick="setEraPreset(1960, 1969, document.querySelector('.era-tv'))" title="TV & Late Era (1960–1969)">
-            <span class="band-label">📺 TV Era (1960–69)</span>
-          </div>
-          <div class="band-segment band-revival" style="left: 58.8%; width: 41.2%;" onclick="setEraPreset(1979, 2014, document.querySelector('.era-revival'))" title="Revival Era (1979–Present)">
-            <span class="band-label">✨ Revival (1979–Present)</span>
-          </div>
-        </div>
-
-        <div class="slider-range-highlight" id="sliderHighlight" style="left: 0%; width: 100%;"></div>
-
-        <input type="range" id="sliderMin" min="1929" max="2014" value="1929" step="1" oninput="handleSliderChange()">
-        <input type="range" id="sliderMax" min="1929" max="2014" value="2014" step="1" oninput="handleSliderChange()">
-      </div>
-
-      <div class="timeline-ticks">
-        <span>1929</span>
-        <span>1940</span>
-        <span>1950</span>
-        <span>1960</span>
-        <span>1970</span>
-        <span>1985</span>
-        <span>2000</span>
-        <span>2014</span>
+      <div class="timeline-era-group" id="timelineEraGroup">
+        <button type="button" class="era-card-btn active" data-era="all" onclick="setEraPreset(1929, 2014, 'all')">
+          <span class="era-card-title">All Eras</span>
+          <span class="era-card-years">1929–Present</span>
+        </button>
+        <button type="button" class="era-card-btn" data-era="bw" onclick="setEraPreset(1929, 1943, 'bw')" title="Early Black & White theatricals, Bosko, Buddy, and early Porky/Daffy">
+          <span class="era-card-title">B&W Era</span>
+          <span class="era-card-years">1929–1943</span>
+        </button>
+        <button type="button" class="era-card-btn" data-era="war" onclick="setEraPreset(1941, 1945, 'war')" title="WWII military spoofs, bond drives, and patriotic theatricals">
+          <span class="era-card-title">War Years</span>
+          <span class="era-card-years">1941–1945</span>
+        </button>
+        <button type="button" class="era-card-btn" data-era="gold" onclick="setEraPreset(1946, 1959, 'gold')" title="Post-war peak Technicolor releases and iconic director units">
+          <span class="era-card-title">Golden Age</span>
+          <span class="era-card-years">1946–1959</span>
+        </button>
+        <button type="button" class="era-card-btn" data-era="late" onclick="setEraPreset(1960, 1969, 'late')" title="Late theatrical shorts, including DePatie–Freleng and WB-Seven Arts releases">
+          <span class="era-card-title">Late Theatrical</span>
+          <span class="era-card-years">1960–1969</span>
+        </button>
+        <button type="button" class="era-card-btn" data-era="revival" onclick="setEraPreset(1979, 2014, 'revival')" title="Modern revivals, theatrical shorts, and anniversary releases">
+          <span class="era-card-title">Modern Revival</span>
+          <span class="era-card-years">1979–Present</span>
+        </button>
       </div>
     </div>
   </div>
@@ -2915,10 +2820,13 @@
 
   window.toggleNotesOnlyFilter = function(btnEl) {
     activeNotesOnly = !activeNotesOnly;
-    if (activeNotesOnly) {
-      btnEl.classList.add('active');
-    } else {
-      btnEl.classList.remove('active');
+    const btn = btnEl || document.getElementById('notesOnlyFilterBtn');
+    if (btn) {
+      if (activeNotesOnly) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
     }
     render();
   };
@@ -3431,69 +3339,57 @@
     // Retained for backward compatibility
   };
 
-  // --- Timeline Dual Slider Functions ---
-  window.handleSliderChange = function() {
-    const sliderMin = document.getElementById('sliderMin');
-    const sliderMax = document.getElementById('sliderMax');
-    if (!sliderMin || !sliderMax) return;
-    let minVal = parseInt(sliderMin.value, 10);
-    let maxVal = parseInt(sliderMax.value, 10);
+  // --- Historical Era Timeline Functions ---
+  const ERA_DEFINITIONS = {
+    all: { name: "All Eras", rangeLabel: "1929–Present", minYear: 1929, maxYear: 2014 },
+    bw: { name: "B&W Era", rangeLabel: "1929–1943", minYear: 1929, maxYear: 1943 },
+    war: { name: "War Years", rangeLabel: "1941–1945", minYear: 1941, maxYear: 1945 },
+    gold: { name: "Golden Age", rangeLabel: "1946–1959", minYear: 1946, maxYear: 1959 },
+    late: { name: "Late Theatrical", rangeLabel: "1960–1969", minYear: 1960, maxYear: 1969 },
+    revival: { name: "Modern Revival", rangeLabel: "1979–Present", minYear: 1979, maxYear: 2014 }
+  };
 
-    if (minVal > maxVal) {
-      const temp = minVal;
-      minVal = maxVal;
-      maxVal = temp;
-      sliderMin.value = minVal;
-      sliderMax.value = maxVal;
-    }
+  let activeEraKey = 'all';
 
-    activeMinYear = minVal;
-    activeMaxYear = maxVal;
+  window.setEraPreset = function(minY, maxY, eraKey) {
+    activeMinYear = minY !== undefined ? minY : 1929;
+    activeMaxYear = maxY !== undefined ? maxY : 2014;
+    activeEraKey = eraKey || 'all';
 
-    const totalSpan = MAX_YEAR_CONST - MIN_YEAR_CONST;
-    const leftPct = ((activeMinYear - MIN_YEAR_CONST) / totalSpan) * 100;
-    const widthPct = ((activeMaxYear - activeMinYear) / totalSpan) * 100;
-    const highlight = document.getElementById('sliderHighlight');
-    if (highlight) {
-      highlight.style.left = `${leftPct}%`;
-      highlight.style.width = `${widthPct}%`;
-    }
-
-    const rangeText = document.getElementById('timelineRangeText');
-    if (rangeText) {
-      rangeText.textContent = `${activeMinYear} – ${activeMaxYear}`;
-    }
-
-    updateEraPillsState();
+    updateEraButtonsState();
     render();
   };
 
-  window.setEraPreset = function(minY, maxY, btnEl) {
-    const sliderMin = document.getElementById('sliderMin');
-    const sliderMax = document.getElementById('sliderMax');
-    if (sliderMin && sliderMax) {
-      sliderMin.value = minY;
-      sliderMax.value = maxY;
-      handleSliderChange();
+  function updateEraButtonsState() {
+    if (!activeEraKey || activeEraKey === 'custom') {
+      if (activeMinYear === 1929 && activeMaxYear === 2014) activeEraKey = 'all';
+      else if (activeMinYear === 1929 && activeMaxYear === 1943) activeEraKey = 'bw';
+      else if (activeMinYear === 1941 && activeMaxYear === 1945) activeEraKey = 'war';
+      else if (activeMinYear === 1946 && activeMaxYear === 1959) activeEraKey = 'gold';
+      else if (activeMinYear === 1960 && activeMaxYear === 1969) activeEraKey = 'late';
+      else if (activeMinYear === 1979 && activeMaxYear === 2014) activeEraKey = 'revival';
+      else activeEraKey = 'custom';
     }
-  };
 
-  function updateEraPillsState() {
-    const pills = document.querySelectorAll('.era-pill');
-    pills.forEach(p => p.classList.remove('active'));
+    const buttons = document.querySelectorAll('.era-card-btn');
+    buttons.forEach(btn => {
+      if (btn.getAttribute('data-era') === activeEraKey) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
 
-    if (activeMinYear === 1929 && activeMaxYear === 2014) {
-      document.querySelector('.era-all')?.classList.add('active');
-    } else if (activeMinYear === 1929 && activeMaxYear === 1943) {
-      document.querySelector('.era-bw')?.classList.add('active');
-    } else if (activeMinYear === 1941 && activeMaxYear === 1945) {
-      document.querySelector('.era-war')?.classList.add('active');
-    } else if (activeMinYear === 1946 && activeMaxYear === 1959) {
-      document.querySelector('.era-gold')?.classList.add('active');
-    } else if (activeMinYear === 1960 && activeMaxYear === 1969) {
-      document.querySelector('.era-tv')?.classList.add('active');
-    } else if (activeMinYear === 1979 && activeMaxYear === 2014) {
-      document.querySelector('.era-revival')?.classList.add('active');
+    const rangeText = document.getElementById('timelineRangeText');
+    if (rangeText) {
+      if (activeEraKey && ERA_DEFINITIONS[activeEraKey]) {
+        const def = ERA_DEFINITIONS[activeEraKey];
+        rangeText.textContent = `${def.name} (${def.rangeLabel})`;
+      } else if (activeMinYear > 1929 || activeMaxYear < 2014) {
+        rangeText.textContent = `${activeMinYear} – ${activeMaxYear}`;
+      } else {
+        rangeText.textContent = 'All Eras (1929–Present)';
+      }
     }
   }
 
@@ -3551,7 +3447,7 @@
       const btn = document.getElementById('notesOnlyFilterBtn');
       if (btn) btn.classList.remove('active');
     } else if (filterType === 'timeline') {
-      setEraPreset(1929, 2014);
+      setEraPreset(1929, 2014, 'all');
       return;
     }
     render();
@@ -3582,20 +3478,8 @@
     // Reset timeline without duplicate render
     activeMinYear = 1929;
     activeMaxYear = 2014;
-    const sMin = document.getElementById('sliderMin');
-    const sMax = document.getElementById('sliderMax');
-    if (sMin && sMax) {
-      sMin.value = 1929;
-      sMax.value = 2014;
-    }
-    const highlight = document.getElementById('sliderHighlight');
-    if (highlight) {
-      highlight.style.left = '0%';
-      highlight.style.width = '100%';
-    }
-    const rangeText = document.getElementById('timelineRangeText');
-    if (rangeText) rangeText.textContent = '1929 – 2014';
-    updateEraPillsState();
+    activeEraKey = 'all';
+    updateEraButtonsState();
 
     render();
   };
@@ -3665,9 +3549,12 @@
       chips.push({ id: 'notes', label: `Notes: Has Notes` });
     }
 
-    // 8. Timeline Range
+    // 8. Historical Era / Timeline Range
     let secondaryCount = 0;
-    if (activeMinYear > 1929 || activeMaxYear < 2014) {
+    if (activeEraKey && activeEraKey !== 'all' && ERA_DEFINITIONS[activeEraKey]) {
+      secondaryCount++;
+      chips.push({ id: 'timeline', label: `Era: ${ERA_DEFINITIONS[activeEraKey].name}` });
+    } else if (activeMinYear > 1929 || activeMaxYear < 2014) {
       secondaryCount++;
       chips.push({ id: 'timeline', label: `Timeline: ${activeMinYear}–${activeMaxYear}` });
     }
