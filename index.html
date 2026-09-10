@@ -228,6 +228,12 @@
       border: 1px solid #fde68a;
     }
 
+    .omnibox-token.text {
+      background: #f1f5f9;
+      color: #1e293b;
+      border: 1px solid #cbd5e1;
+    }
+
     .omnibox-token-icon {
       font-size: 0.95rem;
       line-height: 1;
@@ -782,7 +788,8 @@
       border-color: #94a3b8;
     }
 
-    .filter-chip-remove {
+    .filter-chip-remove,
+    .remove-chip-btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -800,7 +807,8 @@
       transition: all 0.15s;
     }
 
-    .filter-chip-remove:hover {
+    .filter-chip-remove:hover,
+    .remove-chip-btn:hover {
       background: #ef4444;
       color: #ffffff;
     }
@@ -4642,13 +4650,46 @@
         endYear: item.maxYear,
         negated: isNegated
       });
-    } else if (item.type === 'title' || item.type === 'generic') {
+    } else if (item.type === 'title') {
       const searchInput = getOmniboxInput();
       if (searchInput) searchInput.value = item.filterValue;
       hideSuggestions();
       render();
+    } else if (item.type === 'generic') {
+      submitFreeformQuery(item.filterValue);
     }
   }
+
+  function submitFreeformQuery(query) {
+    const rawVal = (query !== undefined && query !== null ? String(query) : (getOmniboxInput()?.value || '')).trim();
+    if (!rawVal) return;
+
+    let cleanVal = rawVal;
+    let isNegated = false;
+    if (cleanVal.startsWith('-')) {
+      isNegated = true;
+      cleanVal = cleanVal.slice(1).trim();
+    } else if (cleanVal.toLowerCase().startsWith('not ')) {
+      isNegated = true;
+      cleanVal = cleanVal.slice(4).trim();
+    }
+
+    if (!cleanVal) return;
+
+    const tokenObj = {
+      id: `text_${Date.now()}`,
+      type: 'text',
+      label: `Search: "${cleanVal}"`,
+      value: cleanVal,
+      icon: '🔍',
+      isExcluded: isNegated,
+      negated: isNegated
+    };
+
+    addToken(tokenObj);
+  }
+
+  window.submitFreeformQuery = submitFreeformQuery;
 
   // --- Autocomplete & Typeahead Engine (SPECIES_MAP) ---
   function getSuggestions(query) {
@@ -5101,8 +5142,13 @@
           updateSuggestions();
         } else if (e.key === 'Enter') {
           e.preventDefault();
-          hideSuggestions();
-          render();
+          const query = searchInput.value.trim();
+          if (query) {
+            submitFreeformQuery(query);
+          } else {
+            hideSuggestions();
+            render();
+          }
         }
         return;
       }
@@ -5120,8 +5166,13 @@
         if (selectedSuggestionIndex >= 0 && selectedSuggestionIndex < currentSuggestions.length) {
           selectSuggestion(currentSuggestions[selectedSuggestionIndex]);
         } else {
-          hideSuggestions();
-          render();
+          const query = searchInput.value.trim();
+          if (query) {
+            submitFreeformQuery(query);
+          } else {
+            hideSuggestions();
+            render();
+          }
         }
       } else if (e.key === 'Escape') {
         e.preventDefault();
@@ -5142,6 +5193,10 @@
   };
 
   window.removeFilter = function(filterType) {
+    if (activeTokens.some(t => t.id === filterType)) {
+      removeToken(filterType);
+      return;
+    }
     if (filterType === 'library') {
       const el = document.getElementById('myLibraryOnlyToggle');
       if (el) el.checked = false;
@@ -5193,16 +5248,31 @@
 
     const chips = [];
 
-    // Note: Omnibox tokens are visible directly inside the Omnibox.
-    // We surface auxiliary active filters here (Library, Ratings, Notes, Timeline)
+    // 1. Omnibox active tokens (including type === 'text', entities, formats, eras)
+    activeTokens.forEach(token => {
+      let icon = token.icon || '🏷️';
+      let label = token.label;
+      if (token.type === 'text') {
+        icon = '🔍';
+        label = `Search: "${token.value}"`;
+      }
+      if (token.negated || token.isExcluded) {
+        label = `NOT ${label}`;
+      }
+      chips.push({
+        id: token.id,
+        isToken: true,
+        label: `${icon} ${label}`
+      });
+    });
 
-    // 1. In My Library Only
+    // 2. In My Library Only
     const libToggle = document.getElementById('myLibraryOnlyToggle');
     if (libToggle && libToggle.checked) {
-      chips.push({ id: 'library', label: `Library: In My Library Only (${selectedMediaSets.size} Sets)` });
+      chips.push({ id: 'library', label: `📚 Library: In My Library Only (${selectedMediaSets.size} Sets)` });
     }
 
-    // 2. Rating Checkboxes
+    // 3. Rating Checkboxes
     const selectedRatings = getSelectedRatings();
     if (selectedRatings.length > 0) {
       const starVals = selectedRatings.filter(v => v !== 'unrated').sort((a, b) => Number(b) - Number(a));
@@ -5214,22 +5284,22 @@
         starVals.forEach(s => parts.push(`${s} Star${s === '1' ? '' : 's'}`));
       }
       if (hasUnrated) parts.push('Unrated');
-      chips.push({ id: 'rating', label: `My Ratings: ${parts.join(', ')}` });
+      chips.push({ id: 'rating', label: `⭐ My Ratings: ${parts.join(', ')}` });
     }
 
-    // 3. Personal Notes
+    // 4. Personal Notes
     if (activeNotesOnly) {
-      chips.push({ id: 'notes', label: `My Notes` });
+      chips.push({ id: 'notes', label: `📝 My Notes` });
     }
 
-    // 4. Historical Era / Timeline Range
+    // 5. Historical Era / Timeline Range
     let secondaryCount = 0;
     if (activeEraKey && activeEraKey !== 'all' && ERA_DEFINITIONS[activeEraKey]) {
       secondaryCount++;
-      chips.push({ id: 'timeline', label: `Era: ${ERA_DEFINITIONS[activeEraKey].name}` });
+      chips.push({ id: 'timeline', label: `⏳ Era: ${ERA_DEFINITIONS[activeEraKey].name}` });
     } else if (activeMinYear > 1929 || activeMaxYear < 2014) {
       secondaryCount++;
-      chips.push({ id: 'timeline', label: `Timeline: ${activeMinYear}–${activeMaxYear}` });
+      chips.push({ id: 'timeline', label: `⏳ Timeline: ${activeMinYear}–${activeMaxYear}` });
     }
 
     // Update panel active badge
@@ -5242,17 +5312,8 @@
       }
     }
 
-    // Render chips or hide container
-    const searchInput = document.getElementById('searchInput');
-    const hasRawQuery = Boolean(searchInput && searchInput.value.trim().length > 0);
-    const hasAnyFilter = chips.length > 0 || activeTokens.length > 0 || hasRawQuery;
-
+    // Show the ACTIVE FILTERS: row and the [✕ Clear All Filters] button whenever any token is active
     if (chips.length === 0) {
-      if (activeTokens.length > 0) {
-        container.style.display = 'flex';
-        listEl.innerHTML = '';
-        return;
-      }
       container.style.display = 'none';
       listEl.innerHTML = '';
       return;
@@ -5260,12 +5321,15 @@
 
     container.style.display = 'flex';
     listEl.innerHTML = chips.map(chip => `
-      <span class="filter-chip" title="${chip.label}">
-        <span>${chip.label}</span>
-        <button type="button" class="filter-chip-remove" onclick="removeFilter('${chip.id}')" title="Remove filter" aria-label="Remove filter">&times;</button>
+      <span class="filter-chip" title="${escapeHtml(chip.label)}">
+        <span>${escapeHtml(chip.label)}</span>
+        <button type="button" class="filter-chip-remove remove-chip-btn" onclick="removeFilter('${chip.id}')" title="Remove filter" aria-label="Remove filter">&times;</button>
       </span>
     `).join('');
   }
+
+  window.renderActiveFilters = updateActiveFilterChips;
+  window.updateActiveFilterChips = updateActiveFilterChips;
 
   // --- Search Evaluation Logic ---
   function matchesSearch(short, rawQuery) {
@@ -5469,6 +5533,10 @@
         return normalizeText(short.title).includes(normalizeText(token.value));
       }
 
+      case 'text': {
+        return matchesSearch(short, token.value);
+      }
+
       default:
         return true;
     }
@@ -5528,19 +5596,21 @@
       }
 
       // 6. Text query filtering (title, synopses, descriptions, keywords)
-      if (!matchesSearch(short, rawQuery)) return false;
+      if (rawQuery && !matchesSearch(short, rawQuery)) return false;
 
       return true;
     });
 
     let results = [];
-    const hasQuery = Boolean(rawQuery && rawQuery.trim().length > 0);
+    const activeTextTokens = activeTokens.filter(t => t.type === 'text' && !t.negated && !t.isExcluded);
+    const effectiveQuery = rawQuery || activeTextTokens.map(t => t.value).join(' ');
+    const hasQuery = Boolean(effectiveQuery && effectiveQuery.trim().length > 0);
 
     if (hasQuery) {
       // Calculate relevance score and filter out score === 0
       const scored = [];
       filtered.forEach(short => {
-        const score = calculateRelevanceScore(short, rawQuery);
+        const score = calculateRelevanceScore(short, effectiveQuery);
         if (score > 0) {
           scored.push({ short, score });
         }
