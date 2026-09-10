@@ -6,5 +6,11 @@
     ],
     "story": "Michael Maltese",
     "release_date": "August 8, 1953"
+  },
+  "falling-hare": {
+    "featured_characters": [
+      "Bugs Bunny",
+      "The Gremlin"
+    ]
   }
 }

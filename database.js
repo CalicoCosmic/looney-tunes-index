@@ -14,9 +14,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Rollin Hamilton"
@@ -55,9 +55,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Norm Blackburn"
@@ -77,9 +77,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Robert Edmunds"
@@ -99,9 +99,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Carman Maxwell"
@@ -126,9 +126,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Carman Maxwell",
       "Paul Smith"
@@ -160,9 +160,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Norm Blackburn"
@@ -182,9 +182,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng"
     ],
@@ -219,9 +219,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -267,9 +267,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Larry Martin"
@@ -293,9 +293,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Carman Maxwell"
@@ -341,9 +341,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Norm Blackburn"
@@ -385,9 +385,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -412,9 +412,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Rollin Hamilton"
@@ -456,9 +456,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Carman Maxwell"
@@ -508,9 +508,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -537,9 +537,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Norm Blackburn"
@@ -589,9 +589,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -649,9 +649,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Carman Maxwell"
@@ -697,9 +697,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Carman Maxwell"
@@ -758,9 +758,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Rollin Hamilton"
@@ -787,9 +787,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Paul Smith"
@@ -816,9 +816,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Norm Blackburn"
@@ -845,9 +845,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Norm Blackburn"
@@ -905,9 +905,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Thomas McKimson"
@@ -960,9 +960,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -987,9 +987,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Rollin Hamilton"
@@ -1014,9 +1014,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Paul Smith"
@@ -1054,9 +1054,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Rollin Hamilton"
@@ -1083,9 +1083,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Larry Martin"
@@ -1110,9 +1110,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Robert McKimson"
@@ -1137,9 +1137,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Carman Maxwell"
@@ -1164,9 +1164,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Robert McKimson"
@@ -1193,9 +1193,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Norm Blackburn"
@@ -1221,9 +1221,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Larry Martin"
@@ -1249,9 +1249,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Robert McKimson"
@@ -1278,9 +1278,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -1307,16 +1307,16 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Carman Maxwell"
     ],
     "voice_actors": [],
     "featured_characters": [],
-    "synopsis": "Many American Indians are unhappy about the way that Bing Crosby, Russ Columbo and Rudy Vall\u00e9e have influenced their squaws, so they sing the title song.",
+    "synopsis": "Many American Indians are unhappy about the way that Bing Crosby, Russ Columbo and Rudy Vallée have influenced their squaws, so they sing the title song.",
     "media_locations": [
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
@@ -1355,9 +1355,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -1403,9 +1403,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Rollin Hamilton"
@@ -1453,9 +1453,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Thomas McKimson"
@@ -1489,9 +1489,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Paul Smith"
@@ -1537,9 +1537,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Thomas McKimson"
@@ -1573,9 +1573,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Larry Martin"
@@ -1635,9 +1635,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Norm Blackburn"
@@ -1669,9 +1669,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Norm Blackburn"
@@ -1709,9 +1709,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -1771,9 +1771,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Norm Blackburn"
@@ -1807,9 +1807,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Larry Martin"
@@ -1843,9 +1843,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Larry Martin"
@@ -1881,9 +1881,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Norm Blackburn"
@@ -1912,9 +1912,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Thomas McKimson"
@@ -1946,9 +1946,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Robert McKimson"
@@ -1995,9 +1995,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Robert Stokes"
@@ -2023,9 +2023,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Carman Maxwell"
@@ -2051,9 +2051,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -2078,9 +2078,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Robert Stokes"
@@ -2106,9 +2106,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Thomas McKimson"
@@ -2138,9 +2138,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Carman Maxwell"
@@ -2188,9 +2188,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Earl Duvall"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Jack King",
       "Frank Tashlin"
@@ -2249,9 +2249,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Tom Palmer"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bill Mason"
     ],
@@ -2297,9 +2297,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Earl Duvall"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Jack King",
       "Jim Pabian"
@@ -2326,9 +2326,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Larry Martin"
@@ -2396,9 +2396,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Tom Palmer"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Jack King"
     ],
@@ -2443,9 +2443,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Carman Maxwell"
@@ -2506,9 +2506,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -2561,9 +2561,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Earl Duvall"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Jack King",
       "Don Williams"
@@ -2612,9 +2612,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Robert McKimson"
@@ -2669,9 +2669,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Thomas McKimson"
@@ -2717,9 +2717,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Larry Silverman"
@@ -2753,9 +2753,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Friz Freleng",
       "Larry Martin"
@@ -2810,9 +2810,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Larry Martin"
@@ -2883,9 +2883,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Jack King",
       "Rollin Hamilton"
@@ -2930,9 +2930,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Jack King",
       "Robert McKimson"
@@ -2958,9 +2958,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Sandy Walker"
@@ -2986,9 +2986,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Jack King"
@@ -3013,9 +3013,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Don Williams"
@@ -3043,9 +3043,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Jack King",
       "Ben Clopton"
@@ -3069,9 +3069,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Don Williams"
@@ -3098,9 +3098,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Don Williams"
@@ -3125,9 +3125,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Clopton"
     ],
@@ -3151,9 +3151,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Ben Clopton"
@@ -3199,9 +3199,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Earl Duvall"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Jack King",
       "Sandy Walker"
@@ -3229,9 +3229,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Clopton",
       "Frank Tipper"
@@ -3259,9 +3259,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Robert McKimson"
@@ -3283,9 +3283,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Earl Duvall"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Jack King",
       "Frank Tipper"
@@ -3354,9 +3354,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Frank Tipper",
       "Don Williams"
@@ -3378,9 +3378,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Bernard B. Brown"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Jack King",
       "Bob Clampett"
@@ -3418,9 +3418,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Frank Tipper",
       "Sandy Walker"
@@ -3466,9 +3466,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Ben Clopton"
@@ -3493,9 +3493,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Bob Clampett"
@@ -3555,9 +3555,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Frank Tipper",
       "Sandy Walker"
@@ -3582,9 +3582,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Chuck Jones"
@@ -3609,9 +3609,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Chuck Jones"
@@ -3643,9 +3643,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Bernard B. Brown"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Don Williams"
@@ -3667,9 +3667,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Frank Tipper",
       "Cal Dalton"
@@ -3697,9 +3697,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Robert McKimson"
@@ -3734,9 +3734,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Don Williams",
       "Paul Smith"
@@ -3773,9 +3773,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Paul Smith"
@@ -3810,9 +3810,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton",
       "Sandy Walker"
@@ -3856,9 +3856,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Don Williams",
       "Jack Carr"
@@ -3884,9 +3884,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Clampett",
       "Chuck Jones"
@@ -3910,9 +3910,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Clampett",
       "Chuck Jones"
@@ -3937,9 +3937,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sandy Walker",
       "Cal Dalton"
@@ -3963,9 +3963,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Paul Smith"
@@ -3989,9 +3989,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Sandy Walker"
@@ -4017,9 +4017,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Clopton",
       "Cal Dalton"
@@ -4046,9 +4046,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Don Williams",
       "Sandy Walker"
@@ -4076,9 +4076,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Paul Smith"
@@ -4125,9 +4125,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Don Williams"
@@ -4162,9 +4162,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Clampett",
       "Chuck Jones"
@@ -4210,9 +4210,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Chuck Jones"
@@ -4252,9 +4252,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Jack KIng"
@@ -4314,9 +4314,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Clopton",
       "Cal Dalton"
@@ -4363,9 +4363,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Clopton",
       "Cal Dalton"
@@ -4413,9 +4413,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Clampett",
       "Chuck Jones"
@@ -4462,9 +4462,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Don Williams",
       "Jack Carr"
@@ -4509,9 +4509,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Ben Clopton"
@@ -4558,9 +4558,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Bob Clampett"
@@ -4595,9 +4595,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton",
       "Riley Thomson"
@@ -4629,9 +4629,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Riley Thomson",
       "Jack Carr"
@@ -4680,9 +4680,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Don Williams",
       "Cal Dalton"
@@ -4720,9 +4720,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton",
       "Sandy Walker"
@@ -4754,9 +4754,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton",
       "Sandy Walker"
@@ -4795,9 +4795,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Cal Dalton"
@@ -4844,9 +4844,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Clampett",
       "Joe D'Igalo"
@@ -4888,9 +4888,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Don Williams"
@@ -4928,9 +4928,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones",
       "Virgil Ross"
@@ -4986,9 +4986,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton",
       "Sandy Walker"
@@ -5023,9 +5023,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Clampett",
       "Cecil Surry"
@@ -5070,9 +5070,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Riley Thomson",
       "Jack Carr"
@@ -5107,9 +5107,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Don Williams"
@@ -5168,9 +5168,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Bentley",
       "Nelson Demorest"
@@ -5217,9 +5217,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones",
       "Virgil Ross"
@@ -5279,9 +5279,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [],
@@ -5331,9 +5331,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sid Sutherland",
       "Virgil Ross"
@@ -5371,9 +5371,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Volney White",
       "Norman McCabe"
@@ -5420,9 +5420,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cecil Surry",
       "Sid Sutherland"
@@ -5458,9 +5458,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Joe D'Igalo"
@@ -5495,9 +5495,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton",
       "Sandy Walker"
@@ -5535,9 +5535,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Don Williams",
       "Volney White"
@@ -5581,9 +5581,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Joe D'Igalo"
@@ -5621,9 +5621,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Don Williams"
@@ -5648,9 +5648,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones",
       "Sid Sutherland"
@@ -5697,9 +5697,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Clopton",
       "Robert McKimson"
@@ -5746,9 +5746,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Sandy Walker"
@@ -5792,9 +5792,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Clopton",
       "Robert McKimson"
@@ -5819,9 +5819,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Don Williams"
@@ -5862,9 +5862,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cecil Surry",
       "Sid Sutherland"
@@ -5902,9 +5902,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Sandy Walker"
@@ -5948,9 +5948,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Ben Clopton"
@@ -5991,9 +5991,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Don Williams"
@@ -6028,9 +6028,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sid Sutherland",
       "Virgil Ross"
@@ -6077,9 +6077,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones",
       "Bob Clampett"
@@ -6114,9 +6114,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Phil Monroe"
@@ -6141,9 +6141,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "A.C. Gamer"
@@ -6190,9 +6190,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Irven Spence"
@@ -6238,9 +6238,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones"
     ],
@@ -6278,9 +6278,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Cal Dalton"
@@ -6315,9 +6315,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Clampett",
       "Volney White"
@@ -6362,9 +6362,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith",
       "Virgil Ross"
@@ -6410,8 +6410,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Irven Spence"
     ],
@@ -6456,9 +6456,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones",
       "Sid Sutherland"
@@ -6496,9 +6496,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Paul Smith"
@@ -6544,9 +6544,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton",
       "Phil Monroe"
@@ -6590,9 +6590,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Ub Iwerks"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones",
       "Bob Clampett"
@@ -6631,9 +6631,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones",
       "Elmer Wait"
@@ -6671,9 +6671,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones"
     ],
@@ -6723,9 +6723,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Volney White",
       "Norman McCabe"
@@ -6777,8 +6777,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "George Manuell",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Joe D'Igalo"
     ],
@@ -6825,9 +6825,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Robert Cannon"
@@ -6876,9 +6876,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sid Sutherland",
       "Elmer Wait"
@@ -6915,9 +6915,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones"
     ],
@@ -6963,9 +6963,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Bentley",
       "Joe D'Igalo"
@@ -6975,7 +6975,7 @@ window.LOONEY_TUNES_DATABASE = [
       "Porky Pig",
       "Dirty Digg"
     ],
-    "synopsis": "Porky Pig and his 2-2-2 typed locomotive (#13 1\u20442 Toots) travel the 15th Century Unlimited and endure a larger streamliner and stubborn bull who crosses the tracks.",
+    "synopsis": "Porky Pig and his 2-2-2 typed locomotive (#13 1⁄2 Toots) travel the 15th Century Unlimited and endure a larger streamliner and stubborn bull who crosses the tracks.",
     "media_locations": [
       {
         "set_name": "Porky Pig 101",
@@ -7013,9 +7013,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Bentley",
       "Joe D'Igalo"
@@ -7062,9 +7062,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Bentley",
       "Joe D'Igalo"
@@ -7109,9 +7109,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Ub Iwerks"
     ],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones",
       "Bob Clampett"
@@ -7148,9 +7148,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones"
     ],
@@ -7188,8 +7188,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton"
     ],
@@ -7235,9 +7235,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "A.C. Gamer"
@@ -7281,9 +7281,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Joe D'Igalo",
       "Volney White"
@@ -7327,9 +7327,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton",
       "Ken Harris"
@@ -7386,9 +7386,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "A.C. Gamer"
@@ -7424,8 +7424,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Volney White"
     ],
@@ -7481,9 +7481,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton",
       "Ken Harris"
@@ -7519,8 +7519,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -7567,8 +7567,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Bentley"
     ],
@@ -7615,9 +7615,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sid Sutherland",
       "Virgil Ross"
@@ -7643,8 +7643,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sid Sutherland"
     ],
@@ -7691,8 +7691,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -7749,8 +7749,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Volney White"
     ],
@@ -7787,8 +7787,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross"
     ],
@@ -7835,8 +7835,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen"
     ],
@@ -7885,8 +7885,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -7932,8 +7932,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Ben Hardaway",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Volney White"
     ],
@@ -7990,8 +7990,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross"
     ],
@@ -8061,8 +8061,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -8104,9 +8104,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones",
       "Izzy Ellis"
@@ -8147,8 +8147,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith"
     ],
@@ -8185,8 +8185,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "George Manuell",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe"
     ],
@@ -8209,8 +8209,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Joe D'Igalo"
     ],
@@ -8263,8 +8263,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -8308,8 +8308,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen"
     ],
@@ -8368,8 +8368,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -8404,8 +8404,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Fred Neiman",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -8447,9 +8447,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon",
       "John Carey"
@@ -8501,8 +8501,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Lew Landsman",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Volney White"
     ],
@@ -8548,8 +8548,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Ernest Gee",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Norman McCabe"
     ],
@@ -8603,9 +8603,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Norman McCabe",
       "Izzy Ellis"
@@ -8672,8 +8672,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Bentley"
     ],
@@ -8720,8 +8720,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gil Turner"
     ],
@@ -8769,9 +8769,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones",
       "John Carey"
@@ -8821,8 +8821,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Howard Baldwin",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Volney White"
     ],
@@ -8869,8 +8869,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon"
     ],
@@ -8907,9 +8907,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones",
       "Norman McCabe"
@@ -8955,8 +8955,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen"
     ],
@@ -8992,9 +8992,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones"
     ],
@@ -9042,8 +9042,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "George Manuell",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Joe D'Igalo"
     ],
@@ -9079,9 +9079,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey",
       "Vive Risto"
@@ -9154,8 +9154,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "George Manuell",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Irven Spence"
     ],
@@ -9182,8 +9182,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe"
     ],
@@ -9218,8 +9218,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sid Sutherland"
     ],
@@ -9266,8 +9266,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -9311,8 +9311,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Ben Hardaway",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith"
     ],
@@ -9369,8 +9369,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sid Sutherland"
     ],
@@ -9425,9 +9425,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Chuck Jones",
       "Robert Cannon"
@@ -9476,8 +9476,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "George Manuell",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Bentley"
     ],
@@ -9533,8 +9533,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -9578,8 +9578,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton"
     ],
@@ -9626,8 +9626,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner"
     ],
@@ -9672,8 +9672,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross"
     ],
@@ -9708,9 +9708,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon",
       "Vive Risto"
@@ -9749,8 +9749,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "A.C. Gamer"
     ],
@@ -9796,8 +9796,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith"
     ],
@@ -9842,8 +9842,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rollin Hamilton"
     ],
@@ -9878,8 +9878,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe"
     ],
@@ -9938,8 +9938,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner"
     ],
@@ -9974,8 +9974,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sid Sutherland"
     ],
@@ -10010,8 +10010,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gil Turner"
     ],
@@ -10046,8 +10046,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith"
     ],
@@ -10095,8 +10095,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gil Turner"
     ],
@@ -10143,8 +10143,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -10179,8 +10179,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen"
     ],
@@ -10230,8 +10230,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Ernest Gee",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Vive Risto"
     ],
@@ -10267,9 +10267,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Norman McCabe",
       "Izzy Ellis"
@@ -10308,8 +10308,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson"
     ],
@@ -10344,8 +10344,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -10382,8 +10382,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Bob Givens",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe"
     ],
@@ -10421,8 +10421,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe"
     ],
@@ -10458,8 +10458,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Izzy Ellis"
     ],
@@ -10497,9 +10497,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles M. Jones",
       "Charles Jones"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -10562,9 +10562,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey",
       "Dave Hoffman"
@@ -10611,8 +10611,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey"
     ],
@@ -10668,8 +10668,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen"
     ],
@@ -10717,8 +10717,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gil Turner"
     ],
@@ -10763,9 +10763,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey",
       "Norman McCabe"
@@ -10816,8 +10816,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Izzy Ellis"
     ],
@@ -10855,8 +10855,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Ernest Gee",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey"
     ],
@@ -10901,9 +10901,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon",
       "Vive Risto"
@@ -10943,8 +10943,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Norman McCabe"
     ],
@@ -10981,9 +10981,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles M. Jones",
       "Charles Jones"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rudy Larriva"
     ],
@@ -11030,8 +11030,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -11075,8 +11075,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Ernest Gee",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Norman McCabe"
     ],
@@ -11115,8 +11115,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross"
     ],
@@ -11151,8 +11151,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen"
     ],
@@ -11187,8 +11187,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -11226,8 +11226,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -11261,9 +11261,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles M. Jones",
       "Charles Jones"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe"
     ],
@@ -11298,9 +11298,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Norman McCabe",
       "Vive Risto"
@@ -11348,8 +11348,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -11403,9 +11403,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Izzy Ellis",
       "Robert Cannon"
@@ -11444,8 +11444,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sid Sutherland"
     ],
@@ -11488,8 +11488,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Izzy Ellis"
     ],
@@ -11537,8 +11537,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson"
     ],
@@ -11584,8 +11584,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross"
     ],
@@ -11672,9 +11672,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey",
       "Dave Hoffman"
@@ -11712,8 +11712,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Vive Risto"
     ],
@@ -11751,8 +11751,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon"
     ],
@@ -11789,8 +11789,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -11825,8 +11825,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen"
     ],
@@ -11864,8 +11864,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner"
     ],
@@ -11912,8 +11912,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sid Sutherland"
     ],
@@ -11960,8 +11960,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Ben Hardaway",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton"
     ],
@@ -11998,8 +11998,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Paul Smith"
     ],
@@ -12044,8 +12044,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -12111,8 +12111,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -12157,8 +12157,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe"
     ],
@@ -12205,8 +12205,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson"
     ],
@@ -12253,8 +12253,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Ben Hardaway",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -12302,8 +12302,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gil Turner"
     ],
@@ -12340,8 +12340,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -12376,8 +12376,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson"
     ],
@@ -12423,8 +12423,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Norman McCabe"
     ],
@@ -12470,8 +12470,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Norman McCabe"
     ],
@@ -12518,8 +12518,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Ben Hardaway",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton"
     ],
@@ -12557,8 +12557,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -12595,8 +12595,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Dave Hoffman"
     ],
@@ -12642,8 +12642,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey"
     ],
@@ -12690,8 +12690,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton"
     ],
@@ -12727,9 +12727,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey",
       "Izzy Ellis"
@@ -12769,8 +12769,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe"
     ],
@@ -12807,8 +12807,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -12857,8 +12857,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Ben Hardaway",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner"
     ],
@@ -12900,9 +12900,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Norman McCabe",
       "Vive Risto"
@@ -12941,8 +12941,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon"
     ],
@@ -12977,8 +12977,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Bob Givens",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rudy Larriva"
     ],
@@ -13016,8 +13016,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gil Turner"
     ],
@@ -13053,8 +13053,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Vive Risto",
       "Dave Hoffman"
@@ -13115,8 +13115,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Izzy Ellis"
     ],
@@ -13163,8 +13163,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon"
     ],
@@ -13208,8 +13208,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross"
     ],
@@ -13256,8 +13256,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen"
     ],
@@ -13322,8 +13322,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Norman McCabe"
     ],
@@ -13362,8 +13362,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross"
     ],
@@ -13388,9 +13388,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -13427,8 +13427,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sid Sutherland"
     ],
@@ -13463,8 +13463,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rudy Larriva"
     ],
@@ -13511,8 +13511,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey",
       "Izzy Ellis"
@@ -13556,8 +13556,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Vive Risto"
     ],
@@ -13603,8 +13603,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gil Turner"
     ],
@@ -13650,8 +13650,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner"
     ],
@@ -13716,8 +13716,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe"
     ],
@@ -13755,8 +13755,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe"
     ],
@@ -13803,8 +13803,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Vive Risto"
     ],
@@ -13812,7 +13812,7 @@ window.LOONEY_TUNES_DATABASE = [
     "featured_characters": [
       "Porky Pig"
     ],
-    "synopsis": "Porky Pig, announced as Draftee 158 3\u20444, presents a war-themed spot gag newsreel parody titled America's Defense Effort.",
+    "synopsis": "Porky Pig, announced as Draftee 158 3⁄4, presents a war-themed spot gag newsreel parody titled America's Defense Effort.",
     "media_locations": [
       {
         "set_name": "Porky Pig 101",
@@ -13851,8 +13851,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez"
     ],
@@ -13890,8 +13890,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rudy Larriva"
     ],
@@ -13930,8 +13930,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez"
     ],
@@ -13969,8 +13969,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan (uncredited)",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon"
     ],
@@ -14007,8 +14007,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Izzy Ellis"
     ],
@@ -14068,8 +14068,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross"
     ],
@@ -14116,8 +14116,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -14156,8 +14156,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey"
     ],
@@ -14195,8 +14195,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gil Turner"
     ],
@@ -14251,8 +14251,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Vive Risto"
     ],
@@ -14291,8 +14291,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -14336,8 +14336,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara"
     ],
@@ -14394,8 +14394,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -14432,8 +14432,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon"
     ],
@@ -14482,8 +14482,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -14518,8 +14518,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rudy Larriva"
     ],
@@ -14556,8 +14556,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner"
     ],
@@ -14594,8 +14594,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -14640,8 +14640,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen"
     ],
@@ -14678,8 +14678,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -14702,7 +14702,7 @@ window.LOONEY_TUNES_DATABASE = [
   },
   {
     "id": "the-fighting-69-th",
-    "title": "The Fighting 69\u00bdth",
+    "title": "The Fighting 69½th",
     "year": 1941,
     "release_date": "January 18, 1941",
     "series": "Merrie Melodies",
@@ -14716,8 +14716,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Jack Miller",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gil Turner"
     ],
@@ -14752,8 +14752,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sid Sutherland"
     ],
@@ -14778,8 +14778,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -14849,8 +14849,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey"
     ],
@@ -14889,8 +14889,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -14934,8 +14934,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton"
     ],
@@ -14982,8 +14982,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson"
     ],
@@ -15051,8 +15051,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon"
     ],
@@ -15092,8 +15092,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sid Sutherland"
     ],
@@ -15148,8 +15148,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Izzy Ellis"
     ],
@@ -15186,8 +15186,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner"
     ],
@@ -15257,8 +15257,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross"
     ],
@@ -15292,8 +15292,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner"
     ],
@@ -15372,8 +15372,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -15431,8 +15431,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam"
     ],
@@ -15491,8 +15491,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner"
     ],
@@ -15537,8 +15537,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Don R. Christensen",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Vive Risto"
     ],
@@ -15576,8 +15576,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -15624,8 +15624,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe"
     ],
@@ -15662,8 +15662,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -15707,8 +15707,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross"
     ],
@@ -15743,8 +15743,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -15800,8 +15800,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara"
     ],
@@ -15846,8 +15846,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez"
     ],
@@ -15884,8 +15884,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Don R. Christensen",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Izzy Ellis"
     ],
@@ -15909,8 +15909,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton"
     ],
@@ -15948,8 +15948,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -15998,8 +15998,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton"
     ],
@@ -16043,8 +16043,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Michael Maltese Adapted from the book by: Dr. Seuss",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -16098,8 +16098,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gil Turner"
     ],
@@ -16155,8 +16155,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rudy Larriva"
     ],
@@ -16224,8 +16224,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross"
     ],
@@ -16253,8 +16253,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rudy Larriva"
     ],
@@ -16263,7 +16263,7 @@ window.LOONEY_TUNES_DATABASE = [
       "Porky Pig",
       "Conrad the Cat"
     ],
-    "synopsis": "Porky Pig serves as the waiter of his caf\u00e9, using mechanical gadgets to fix up a meal for his customer. Meanwhile, chef Conrad the Cat has to deal with an African pygmy ant invading the restaurant.",
+    "synopsis": "Porky Pig serves as the waiter of his café, using mechanical gadgets to fix up a meal for his customer. Meanwhile, chef Conrad the Cat has to deal with an African pygmy ant invading the restaurant.",
     "media_locations": [
       {
         "set_name": "Porky Pig 101",
@@ -16293,8 +16293,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -16332,8 +16332,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez"
     ],
@@ -16358,8 +16358,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -16417,8 +16417,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton"
     ],
@@ -16456,8 +16456,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon"
     ],
@@ -16522,8 +16522,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon"
     ],
@@ -16566,8 +16566,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey"
     ],
@@ -16602,8 +16602,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe"
     ],
@@ -16649,8 +16649,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -16704,8 +16704,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Don R. Christensen",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Vive Risto"
     ],
@@ -16743,8 +16743,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gil Turner"
     ],
@@ -16791,8 +16791,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe"
     ],
@@ -16839,8 +16839,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -16899,8 +16899,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sid Sutherland"
     ],
@@ -16946,8 +16946,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Sid Sutherland"
     ],
@@ -16981,8 +16981,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey"
     ],
@@ -17019,8 +17019,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Frank Tashlin",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -17087,8 +17087,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -17145,8 +17145,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner"
     ],
@@ -17170,8 +17170,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Don R. Christensen",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Izzy Ellis"
     ],
@@ -17195,7 +17195,7 @@ window.LOONEY_TUNES_DATABASE = [
   },
   {
     "id": "daffy-the-commando",
-    "title": "Daffy \u2013 The Commando",
+    "title": "Daffy – The Commando",
     "year": 1943,
     "release_date": "November 20, 1943",
     "series": "Looney Tunes",
@@ -17209,8 +17209,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin"
     ],
@@ -17265,14 +17265,15 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner"
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Bugs Bunny"
+      "Bugs Bunny",
+      "The Gremlin"
     ],
     "synopsis": "Bugs Bunny is heckled by a gremlin who's trying to sabotage an American military aircraft.",
     "media_locations": [
@@ -17320,9 +17321,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -17357,8 +17358,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam"
     ],
@@ -17405,8 +17406,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rudy Larriva"
     ],
@@ -17443,8 +17444,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez"
     ],
@@ -17491,8 +17492,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -17536,8 +17537,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton"
     ],
@@ -17575,8 +17576,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon"
     ],
@@ -17614,8 +17615,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Jack Bradbury"
     ],
@@ -17661,8 +17662,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -17717,8 +17718,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe"
     ],
@@ -17785,8 +17786,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton"
     ],
@@ -17831,8 +17832,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Don R. Christensen",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis"
     ],
@@ -17889,9 +17890,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles M. Jones",
       "Charles Jones"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -17926,8 +17927,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -17984,8 +17985,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rudy Larriva"
     ],
@@ -18044,8 +18045,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin"
     ],
@@ -18080,8 +18081,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon"
     ],
@@ -18117,8 +18118,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe"
     ],
@@ -18172,8 +18173,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner"
     ],
@@ -18198,8 +18199,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon"
     ],
@@ -18245,8 +18246,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Don R. Christensen",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Izzy Ellis"
     ],
@@ -18270,8 +18271,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -18327,8 +18328,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -18374,8 +18375,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -18434,8 +18435,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Lou Lilly",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -18459,8 +18460,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Thomas McKimson"
     ],
@@ -18506,8 +18507,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Izzy Ellis"
     ],
@@ -18559,9 +18560,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -18596,8 +18597,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis"
     ],
@@ -18643,8 +18644,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Lou Lilly",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manny Gould"
     ],
@@ -18699,8 +18700,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon"
     ],
@@ -18758,8 +18759,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -18796,8 +18797,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -18854,8 +18855,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ray Patin"
     ],
@@ -18902,8 +18903,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin"
     ],
@@ -18930,8 +18931,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez"
     ],
@@ -18977,8 +18978,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Lou Lilly",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -19044,8 +19045,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Izzy Ellis"
     ],
@@ -19099,8 +19100,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez"
     ],
@@ -19155,8 +19156,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam"
     ],
@@ -19193,8 +19194,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Jack Bradbury"
     ],
@@ -19239,8 +19240,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton"
     ],
@@ -19248,7 +19249,7 @@ window.LOONEY_TUNES_DATABASE = [
     "featured_characters": [
       "Daffy Duck"
     ],
-    "synopsis": "Daffy Duck is a messenger who battles a female Nazi spy and is eventually confronted with Adolf Hitler, Joseph Goebbels and Hermann G\u00f6ring.",
+    "synopsis": "Daffy Duck is a messenger who battles a female Nazi spy and is eventually confronted with Adolf Hitler, Joseph Goebbels and Hermann Göring.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Golden Collection: Volume 4",
@@ -19294,8 +19295,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Lou Lilly",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner"
     ],
@@ -19348,8 +19349,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross"
     ],
@@ -19396,9 +19397,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -19433,8 +19434,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Jack Bradbury"
     ],
@@ -19491,8 +19492,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "George Cannata"
     ],
@@ -19546,8 +19547,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Michael Sasanoff",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -19624,8 +19625,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "George Cannata"
     ],
@@ -19681,8 +19682,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam"
     ],
@@ -19725,8 +19726,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Thomas McKimson"
     ],
@@ -19773,8 +19774,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -19831,8 +19832,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Michael Sasanoff",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -19889,8 +19890,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Manny Gould",
@@ -19949,8 +19950,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -19992,8 +19993,8 @@ window.LOONEY_TUNES_DATABASE = [
     "directors": [],
     "director_aliases": [],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Izzy Ellis"
     ],
@@ -20037,8 +20038,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Lou Lilly",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner"
     ],
@@ -20093,8 +20094,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Ken Harris",
@@ -20152,8 +20153,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -20212,8 +20213,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Lloyd Vaughan",
@@ -20272,8 +20273,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -20333,8 +20334,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -20342,7 +20343,7 @@ window.LOONEY_TUNES_DATABASE = [
     "featured_characters": [
       "Bugs Bunny"
     ],
-    "synopsis": "Bugs Bunny faces off against Hermann G\u00f6ring in Germany.",
+    "synopsis": "Bugs Bunny faces off against Hermann Göring in Germany.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Golden Collection: Volume 6",
@@ -20392,8 +20393,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross"
     ],
@@ -20439,8 +20440,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Izzy Ellis",
@@ -20498,17 +20499,17 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert Cannon"
     ],
     "voice_actors": [],
     "featured_characters": [
       "Claude Cat",
-      "Pep\u00e9 Le Pew"
+      "Pepé Le Pew"
     ],
-    "synopsis": "Claude Cat disguises himself as a skunk after suffering abuse from animals and humans alike, and becomes the object of unrequited love for Pep\u00e9 Le Pew (in his debut cartoon).",
+    "synopsis": "Claude Cat disguises himself as a skunk after suffering abuse from animals and humans alike, and becomes the object of unrequited love for Pepé Le Pew (in his debut cartoon).",
     "media_locations": [
       {
         "set_name": "Looney Tunes Golden Collection: Volume 3",
@@ -20539,7 +20540,7 @@ window.LOONEY_TUNES_DATABASE = [
         "set_id": "wac_cv1"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -20565,8 +20566,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -20617,8 +20618,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach",
       "Cal Dalton",
@@ -20667,8 +20668,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Michael Sasanoff",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -20721,9 +20722,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bob McKimson"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -20758,8 +20759,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Melvin Millar",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton"
     ],
@@ -20805,9 +20806,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -20842,8 +20843,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam"
     ],
@@ -20894,8 +20895,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Izzy Ellis",
@@ -20964,8 +20965,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Cal Dalton",
@@ -21021,8 +21022,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Manny Gould",
@@ -21084,8 +21085,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manny Gould",
       "Rod Scribner",
@@ -21132,8 +21133,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -21201,8 +21202,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Rod Scribner",
@@ -21259,8 +21260,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach",
       "Arthur Davis",
@@ -21311,8 +21312,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Basil Davidovich",
       "Ben Washam",
@@ -21322,9 +21323,9 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Claude Cat",
-      "Pep\u00e9 Le Pew"
+      "Pepé Le Pew"
     ],
-    "synopsis": "A worm prepares to eat an apple with a knife and fork, but is chased by a crow, who is chased by a cat, who is chased by a bulldog, who is chased by a dog catcher, who is chased by his wife, who is chased by a mouse, who is chased by Pep\u00e9 Le Pew.",
+    "synopsis": "A worm prepares to eat an apple with a knife and fork, but is chased by a crow, who is chased by a cat, who is chased by a bulldog, who is chased by a dog catcher, who is chased by his wife, who is chased by a mouse, who is chased by Pepé Le Pew.",
     "media_locations": [
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -21363,8 +21364,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Ken Harris",
@@ -21459,8 +21460,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach",
       "Arthur Davis",
@@ -21521,8 +21522,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Manuel Perez",
@@ -21578,8 +21579,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton",
       "Don Williams",
@@ -21624,8 +21625,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -21684,8 +21685,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -21724,8 +21725,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manny Gould",
       "Rod Scribner",
@@ -21782,8 +21783,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "George Hill",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manny Gould",
       "Don Williams",
@@ -21842,8 +21843,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -21891,8 +21892,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Ken Harris",
@@ -21940,8 +21941,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Manuel Perez",
@@ -22003,8 +22004,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce & Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -22085,8 +22086,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Basil Davidovich",
       "Ben Washam",
@@ -22126,8 +22127,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Izzy Ellis",
@@ -22210,8 +22211,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Basil Davidovich",
       "Ben Washam",
@@ -22258,8 +22259,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Manny Gould",
@@ -22317,8 +22318,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach",
       "Cal Dalton",
@@ -22367,8 +22368,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach",
       "Arthur Davis",
@@ -22438,8 +22439,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -22497,8 +22498,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Phil DeLara",
@@ -22548,8 +22549,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce & Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Ken Harris",
@@ -22608,8 +22609,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -22659,8 +22660,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Bickenbach",
       "Cal Dalton",
@@ -22730,8 +22731,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Basil Davidovich",
       "Bill Melendez",
@@ -22781,8 +22782,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manny Gould",
       "Charles McKimson",
@@ -22855,8 +22856,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner & Bill Scott",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Basil Davidovich",
       "Bill Melendez",
@@ -22906,8 +22907,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Richard Bickenbach",
@@ -22966,8 +22967,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manny Gould",
       "Don Williams",
@@ -23017,8 +23018,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Richard Bickenbach",
@@ -23068,8 +23069,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -23109,8 +23110,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Ken Harris",
@@ -23151,8 +23152,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -23202,8 +23203,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Don Williams",
       "Basil Davidovich",
@@ -23252,8 +23253,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Cal Dalton",
       "Richard Bickenbach",
@@ -23313,8 +23314,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -23386,8 +23387,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -23396,9 +23397,9 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pep\u00e9 Le Pew"
+      "Pepé Le Pew"
     ],
-    "synopsis": "A Mexican hairless dog, who wants to be friends with other dogs, borrows a skunk pelt, frightens all of the other dogs, and attracts the unwanted attention of the actual skunk Pep\u00e9 Le Pew.",
+    "synopsis": "A Mexican hairless dog, who wants to be friends with other dogs, borrows a skunk pelt, frightens all of the other dogs, and attracts the unwanted attention of the actual skunk Pepé Le Pew.",
     "media_locations": [
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -23420,7 +23421,7 @@ window.LOONEY_TUNES_DATABASE = [
         "set_id": "wac_cv2"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -23446,8 +23447,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce & Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -23505,8 +23506,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "George Hill",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manny Gould",
       "Don Williams",
@@ -23565,8 +23566,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -23628,8 +23629,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Tedd Pierce & Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Manuel Perez",
@@ -23697,8 +23698,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -23747,8 +23748,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner & Bill Scott",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bill Melendez",
       "Don Williams",
@@ -23795,8 +23796,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Manny Gould",
@@ -23847,8 +23848,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Manuel Perez",
@@ -23906,8 +23907,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner & Bill Scott",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Don Williams",
       "Emery Hawkins",
@@ -23955,8 +23956,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -24027,8 +24028,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce & Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -24089,8 +24090,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -24149,8 +24150,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manny Gould",
       "Charles McKimson",
@@ -24198,8 +24199,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Basil Davidovich",
       "Bill Melendez",
@@ -24254,8 +24255,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Manny Gould",
@@ -24313,8 +24314,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Manuel Perez",
@@ -24354,8 +24355,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -24426,8 +24427,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Manny Gould",
@@ -24476,8 +24477,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manny Gould",
       "Charles McKimson",
@@ -24516,8 +24517,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -24579,8 +24580,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -24630,8 +24631,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -24679,8 +24680,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bill Melendez",
       "Don Williams",
@@ -24729,8 +24730,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bill Melendez",
       "Don Williams",
@@ -24739,10 +24740,10 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pep\u00e9 Le Pew",
+      "Pepé Le Pew",
       "Wellington"
     ],
-    "synopsis": "Wellington the Dog, desperate to find shelter to warm himself up, enters Pep\u00e9 Le Pew's house, and tries to get rid of him.",
+    "synopsis": "Wellington the Dog, desperate to find shelter to warm himself up, enters Pepé Le Pew's house, and tries to get rid of him.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -24755,7 +24756,7 @@ window.LOONEY_TUNES_DATABASE = [
         "set_id": "wac_cv2"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -24781,8 +24782,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe",
       "Ken Harris",
@@ -24853,8 +24854,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Bill Scott & Lloyd Turner",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Don Williams",
       "Emery Hawkins",
@@ -24914,8 +24915,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -24973,8 +24974,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Manny Gould",
@@ -25025,8 +25026,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "George Hill",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey",
       "Basil Davidovich",
@@ -25084,8 +25085,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Dave Monahan",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Don Williams",
       "John Carey",
@@ -25132,8 +25133,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Manny Gould",
@@ -25181,8 +25182,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner & Bill Scott",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bill Melendez",
       "Don Williams",
@@ -25239,8 +25240,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Manny Gould",
@@ -25289,8 +25290,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Bill Scott & Lloyd Turner",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Basil Davidovich",
       "Don Williams",
@@ -25351,9 +25352,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -25387,8 +25388,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner & Bill Scott",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Basil Davidovich",
       "Bill Melendez",
@@ -25438,8 +25439,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -25489,8 +25490,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -25542,8 +25543,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Phil DeLara",
@@ -25592,8 +25593,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -25653,8 +25654,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Manuel Perez",
@@ -25713,8 +25714,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -25762,8 +25763,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner & Bill Scott",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Emery Hawkins",
       "Basil Davidovich",
@@ -25814,8 +25815,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Sid Marcus",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Basil Davidovich",
       "Bill Melendez",
@@ -25874,8 +25875,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -25947,8 +25948,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey",
       "Charles McKimson",
@@ -25999,8 +26000,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -26045,8 +26046,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -26087,8 +26088,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -26147,8 +26148,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -26157,10 +26158,10 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pep\u00e9 Le Pew",
+      "Pepé Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "A Parisian perfume shop owner finds Pep\u00e9 Le Pew the skunk sampling his fragrances and throws Penelope Pussycat (in her debut) into the store to chase him out. When Penelope gets a white stripe on her back and tail from a spilled bottle of hair dye, she is mistaken by Pep\u00e9 as a female skunk. Note: Won the Academy Award for Best Animated Short Film in 1950.",
+    "synopsis": "A Parisian perfume shop owner finds Pepé Le Pew the skunk sampling his fragrances and throws Penelope Pussycat (in her debut) into the store to chase him out. When Penelope gets a white stripe on her back and tail from a spilled bottle of hair dye, she is mistaken by Pepé as a female skunk. Note: Won the Academy Award for Best Animated Short Film in 1950.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Golden Collection: Volume 1",
@@ -26181,7 +26182,7 @@ window.LOONEY_TUNES_DATABASE = [
         "type": "dedicated"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -26219,8 +26220,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -26280,8 +26281,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -26330,8 +26331,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manny Gould",
       "John Carey",
@@ -26375,8 +26376,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Manuel Perez",
@@ -26435,8 +26436,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Pete Burness",
       "John Carey",
@@ -26477,8 +26478,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Emery Hawkins",
       "Basil Davidovich",
@@ -26520,8 +26521,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -26570,8 +26571,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -26641,8 +26642,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -26704,8 +26705,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Ken Champin",
@@ -26745,8 +26746,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -26795,9 +26796,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -26833,8 +26834,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -26893,8 +26894,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manny Gould",
       "John Carey",
@@ -26943,8 +26944,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Bill Scott & Lloyd Turner",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Don Williams",
       "Emery Hawkins",
@@ -26993,8 +26994,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -27051,8 +27052,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Phil DeLara",
@@ -27100,8 +27101,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Pete Burness",
@@ -27142,8 +27143,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -27184,8 +27185,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "John Carey",
       "Charles McKimson",
@@ -27224,8 +27225,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Phil DeLara",
@@ -27284,8 +27285,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -27316,8 +27317,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Pete Burness",
@@ -27369,8 +27370,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -27440,8 +27441,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -27483,8 +27484,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -27544,8 +27545,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Rod Scribner",
@@ -27587,8 +27588,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -27649,8 +27650,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Bill Melendez",
@@ -27720,8 +27721,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Ken Champin",
@@ -27782,8 +27783,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Bill Melendez",
@@ -27825,8 +27826,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -27887,8 +27888,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -27918,8 +27919,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Rod Scribner",
@@ -27981,8 +27982,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -28042,8 +28043,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -28094,8 +28095,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -28178,8 +28179,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -28220,8 +28221,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -28263,8 +28264,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -28303,8 +28304,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bill Melendez",
       "Emery Hawkins",
@@ -28345,8 +28346,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Bill Melendez",
@@ -28401,8 +28402,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Ken Champin",
@@ -28461,8 +28462,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Rod Scribner",
@@ -28514,8 +28515,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -28586,8 +28587,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Emery Hawkins",
@@ -28638,8 +28639,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Emery Hawkins",
       "Charles McKimson",
@@ -28689,8 +28690,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -28740,8 +28741,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -28802,8 +28803,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Phil DeLara",
@@ -28847,8 +28848,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -28890,8 +28891,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -28967,8 +28968,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -29010,8 +29011,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bill Melendez",
       "Charles McKimson",
@@ -29084,8 +29085,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -29143,8 +29144,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Ben Hardaway",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -29185,8 +29186,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -29228,8 +29229,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -29280,8 +29281,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -29340,8 +29341,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Rod Scribner",
@@ -29390,8 +29391,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -29462,8 +29463,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster & Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -29522,8 +29523,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -29564,8 +29565,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -29620,8 +29621,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Rod Scribner",
@@ -29660,8 +29661,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil Monroe",
       "Lloyd Vaughan",
@@ -29720,8 +29721,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Emery Hawkins",
@@ -29761,8 +29762,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -29822,8 +29823,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -29873,8 +29874,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Manuel Perez",
@@ -29914,8 +29915,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Rod Scribner",
@@ -29958,8 +29959,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -30001,8 +30002,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -30053,8 +30054,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Friz Freleng (uncredited)",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -30106,8 +30107,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -30178,8 +30179,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster & Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -30231,8 +30232,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -30241,10 +30242,10 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pep\u00e9 Le Pew",
+      "Pepé Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Penelope Pussycat disguises herself as a skunk at a zoo in Paris. Unfortunately, it attracts the attention of the actual skunk Pep\u00e9 Le Pew.",
+    "synopsis": "Penelope Pussycat disguises herself as a skunk at a zoo in Paris. Unfortunately, it attracts the attention of the actual skunk Pepé Le Pew.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -30256,7 +30257,7 @@ window.LOONEY_TUNES_DATABASE = [
         "type": "dedicated"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -30281,8 +30282,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Rod Scribner",
@@ -30322,8 +30323,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -30375,8 +30376,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -30426,8 +30427,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -30476,8 +30477,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -30528,8 +30529,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -30589,8 +30590,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -30640,8 +30641,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -30701,8 +30702,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -30764,8 +30765,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Ken Harris",
@@ -30823,8 +30824,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -30887,8 +30888,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -30957,8 +30958,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -30999,8 +31000,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -31051,8 +31052,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -31122,8 +31123,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ben Washam",
@@ -31180,8 +31181,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -31242,8 +31243,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Herman Cohen",
@@ -31283,8 +31284,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -31309,7 +31310,7 @@ window.LOONEY_TUNES_DATABASE = [
   },
   {
     "id": "little-beau-pep",
-    "title": "Little Beau Pep\u00e9",
+    "title": "Little Beau Pepé",
     "year": 1952,
     "release_date": "March 29, 1952",
     "series": "Merrie Melodies",
@@ -31323,8 +31324,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ben Washam",
@@ -31333,13 +31334,13 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pep\u00e9 Le Pew",
+      "Pepé Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Pep\u00e9 Le Pew tries to join the French Foreign Legion, but every human in the fortress is immediately repulsed by his smell and flees. Penelope Pussycat, who's left behind and accidentally gets a white stripe down her back (making her look like a skunk), must deal with Pep\u00e9 on her own.",
+    "synopsis": "Pepé Le Pew tries to join the French Foreign Legion, but every human in the fortress is immediately repulsed by his smell and flees. Penelope Pussycat, who's left behind and accidentally gets a white stripe down her back (making her look like a skunk), must deal with Pepé on her own.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -31374,8 +31375,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -31434,8 +31435,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -31474,8 +31475,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -31515,8 +31516,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ben Washam",
@@ -31575,8 +31576,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -31634,8 +31635,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Herman Cohen",
@@ -31706,8 +31707,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Rod Scribner",
@@ -31748,8 +31749,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -31790,8 +31791,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -31834,8 +31835,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Lloyd Vaughan",
@@ -31884,8 +31885,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen",
       "Rod Scribner",
@@ -31946,8 +31947,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -31984,8 +31985,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -32035,8 +32036,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -32086,8 +32087,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Ken Harris",
@@ -32137,8 +32138,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Emery Hawkins",
@@ -32180,8 +32181,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -32231,8 +32232,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen",
       "Rod Scribner",
@@ -32272,8 +32273,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -32317,8 +32318,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -32358,8 +32359,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -32428,8 +32429,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -32478,8 +32479,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -32521,8 +32522,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -32574,8 +32575,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -32623,8 +32624,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -32668,7 +32669,7 @@ window.LOONEY_TUNES_DATABASE = [
   },
   {
     "id": "duck-dodgers-in-the-24-th-century",
-    "title": "Duck Dodgers in the 24\u00bdth Century",
+    "title": "Duck Dodgers in the 24½th Century",
     "year": 1953,
     "release_date": "July 23, 1953",
     "series": "Merrie Melodies",
@@ -32682,8 +32683,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -32744,8 +32745,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -32817,8 +32818,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Herman Cohen",
@@ -32857,8 +32858,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -32897,8 +32898,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -32942,8 +32943,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -33016,8 +33017,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -33065,8 +33066,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -33127,8 +33128,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -33186,8 +33187,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -33236,8 +33237,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen",
       "Rod Scribner",
@@ -33279,8 +33280,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen",
       "Rod Scribner",
@@ -33334,8 +33335,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -33373,8 +33374,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -33424,8 +33425,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -33486,8 +33487,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -33499,7 +33500,7 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Bunny",
       "Yosemite Sam"
     ],
-    "synopsis": "Bugs Bunny leaves his desolate home to cross the Mason\u2013Dixon line when he reads that down in Alabama a farmer grew a lot of carrots. Unfortunately for him, Yosemite Sam, who still think it is the Civil War (despite it ending over 90 years ago as of the cartoon's 1952 production), refuses to let any Yankees cross.",
+    "synopsis": "Bugs Bunny leaves his desolate home to cross the Mason–Dixon line when he reads that down in Alabama a farmer grew a lot of carrots. Unfortunately for him, Yosemite Sam, who still think it is the Civil War (despite it ending over 90 years ago as of the cartoon's 1952 production), refuses to let any Yankees cross.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Golden Collection: Volume 4",
@@ -33527,8 +33528,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -33567,8 +33568,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -33599,8 +33600,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Herman Cohen",
@@ -33641,8 +33642,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -33652,12 +33653,12 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pep\u00e9 Le Pew"
+      "Pepé Le Pew"
     ],
-    "synopsis": "In the Paris Exposition of 1900, a wildcat escapes from a Parisian zoo and paints herself to look like a skunk. The actual skunk Pep\u00e9 Le Pew gets mauled when he tries to fall in love with her.",
+    "synopsis": "In the Paris Exposition of 1900, a wildcat escapes from a Parisian zoo and paints herself to look like a skunk. The actual skunk Pepé Le Pew gets mauled when he tries to fall in love with her.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -33683,8 +33684,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -33741,8 +33742,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Abe Levitow",
       "Lloyd Vaughan",
@@ -33825,8 +33826,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Herman Cohen",
@@ -33867,8 +33868,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -33926,8 +33927,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -33986,8 +33987,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -34027,8 +34028,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -34102,8 +34103,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -34163,8 +34164,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -34204,8 +34205,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen",
       "Rod Scribner",
@@ -34255,8 +34256,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -34268,7 +34269,7 @@ window.LOONEY_TUNES_DATABASE = [
       "Tweety",
       "Sylvester",
       "Hector the Bulldog",
-      "Pep\u00e9 Le Pew (cameo)"
+      "Pepé Le Pew (cameo)"
     ],
     "synopsis": "Similar to Ain't She Tweet, but with Sylvester trying to avoid dogs in a city dog pound instead.",
     "media_locations": [
@@ -34282,7 +34283,7 @@ window.LOONEY_TUNES_DATABASE = [
         "type": "dedicated"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -34317,8 +34318,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -34360,8 +34361,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Abe Levitow"
@@ -34409,8 +34410,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -34469,8 +34470,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus & Ben Washam",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Herman Cohen",
@@ -34519,8 +34520,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -34560,8 +34561,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -34601,8 +34602,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen",
       "Rod Scribner",
@@ -34654,8 +34655,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -34699,8 +34700,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -34761,8 +34762,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris"
     ],
@@ -34801,8 +34802,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Herman Cohen",
       "Rod Scribner",
@@ -34841,8 +34842,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Phil DeLara",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -34884,8 +34885,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -34957,8 +34958,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Abe Levitow"
@@ -34998,8 +34999,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Abe Levitow",
@@ -35059,21 +35060,21 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan"
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pep\u00e9 Le Pew",
+      "Pepé Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Pep\u00e9 Le Pew recounts a story of how he found the love of his life, Penelope Pussycat with a white stripe accidentally placed on her back.",
+    "synopsis": "Pepé Le Pew recounts a story of how he found the love of his life, Penelope Pussycat with a white stripe accidentally placed on her back.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -35107,8 +35108,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -35145,8 +35146,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Rod Scribner",
       "Charles McKimson",
@@ -35184,8 +35185,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -35225,8 +35226,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -35266,8 +35267,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Charles McKimson & Sid Marcus",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Richard Thompson",
@@ -35308,8 +35309,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -35360,8 +35361,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Keith Darling"
@@ -35400,8 +35401,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Abe Levitow",
@@ -35451,8 +35452,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Charles McKimson",
       "Herman Cohen",
@@ -35495,8 +35496,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -35554,8 +35555,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Arthur Davis",
@@ -35607,8 +35608,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -35649,8 +35650,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -35709,8 +35710,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Keith Darling",
@@ -35771,8 +35772,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -35811,8 +35812,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -35853,8 +35854,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -35894,8 +35895,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -35953,8 +35954,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -35982,8 +35983,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -35991,10 +35992,10 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pep\u00e9 Le Pew",
+      "Pepé Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "In 1913 Paris, Pep\u00e9 Le Pew chases Penelope Pussycat in a movie studio across various sets when she has a stripe placed on her back by a film director, who runs away from Pep\u00e9's stench.",
+    "synopsis": "In 1913 Paris, Pepé Le Pew chases Penelope Pussycat in a movie studio across various sets when she has a stripe placed on her back by a film director, who runs away from Pepé's stench.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -36007,7 +36008,7 @@ window.LOONEY_TUNES_DATABASE = [
         "set_id": "wac_cv1"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -36033,8 +36034,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -36085,8 +36086,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Manuel Perez"
@@ -36132,8 +36133,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam"
     ],
@@ -36172,8 +36173,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Abe Levitow",
@@ -36233,8 +36234,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -36294,8 +36295,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -36344,8 +36345,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Ted Bonnicksen",
@@ -36407,8 +36408,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Arthur Davis & Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -36449,8 +36450,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Ted Bonnicksen",
@@ -36499,8 +36500,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -36558,8 +36559,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson"
     ],
@@ -36594,8 +36595,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Arthur Davis"
@@ -36646,8 +36647,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -36697,8 +36698,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Keith Darling",
       "Richard Thompson",
@@ -36707,13 +36708,13 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pep\u00e9 Le Pew",
+      "Pepé Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "In the French Alps, a robber lures away Penelope Pussycat (named Fifi in this cartoon) from her home and paints her like a skunk to rob banks. But when a real skunk, Pep\u00e9 Le Pew, drives him away with his scent, Pep\u00e9 sets his eyes not on the money, but on Penelope herself.",
+    "synopsis": "In the French Alps, a robber lures away Penelope Pussycat (named Fifi in this cartoon) from her home and paints her like a skunk to rob banks. But when a real skunk, Pepé Le Pew, drives him away with his scent, Pepé sets his eyes not on the money, but on Penelope herself.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -36739,8 +36740,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -36792,8 +36793,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -36842,8 +36843,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -36902,8 +36903,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Abe Levitow",
@@ -36944,8 +36945,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -37004,8 +37005,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Abe Levitow",
@@ -37063,10 +37064,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Russ Dyson",
       "Keith Darling",
       "Ted Bonnicksen"
@@ -37104,8 +37105,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -37114,10 +37115,10 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pep\u00e9 Le Pew",
+      "Pepé Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Tired of being bullied by dogs, Penelope Pussycat paints a stripe down her back to make them think she's a skunk to ward them off. While she succeeds in that, she also attracts Pep\u00e9 Le Pew, an actual skunk.",
+    "synopsis": "Tired of being bullied by dogs, Penelope Pussycat paints a stripe down her back to make them think she's a skunk to ward them off. While she succeeds in that, she also attracts Pepé Le Pew, an actual skunk.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Golden Collection: Volume 6",
@@ -37129,7 +37130,7 @@ window.LOONEY_TUNES_DATABASE = [
         "type": "dedicated"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -37154,13 +37155,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Russ Dyson",
       "Keith Darling",
       "Ted Bonnicksen",
-      "George Grandpr\u00e9"
+      "George Grandpré"
     ],
     "voice_actors": [],
     "featured_characters": [],
@@ -37183,8 +37184,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -37257,8 +37258,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -37306,12 +37307,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Russ Dyson",
       "Ted Bonnicksen",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Keith Darling"
     ],
     "voice_actors": [],
@@ -37347,8 +37348,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -37398,8 +37399,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Abe Levitow",
@@ -37445,11 +37446,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Russ Dyson",
       "Keith Darling"
     ],
@@ -37485,8 +37486,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Russ Dyson",
@@ -37526,11 +37527,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Keith Darling",
       "Russ Dyson"
     ],
@@ -37569,11 +37570,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Keith Darling",
       "Russ Dyson"
     ],
@@ -37611,12 +37612,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Keith Darling",
       "Ted Bonnicksen",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Russ Dyson"
     ],
     "voice_actors": [],
@@ -37652,8 +37653,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -37703,8 +37704,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Abe Levitow",
@@ -37753,8 +37754,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Robert McKimson",
       "Keith Darling"
@@ -37794,8 +37795,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -37836,8 +37837,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -37879,8 +37880,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -37923,8 +37924,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis"
@@ -37971,8 +37972,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Keith Darling",
       "Ted Bonnicksen",
@@ -38010,10 +38011,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Keith Darling",
       "Russ Dyson"
@@ -38052,8 +38053,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -38102,8 +38103,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -38162,10 +38163,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Keith Darling"
     ],
@@ -38221,8 +38222,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -38288,10 +38289,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Keith Darling",
       "Russ Dyson"
@@ -38301,7 +38302,7 @@ window.LOONEY_TUNES_DATABASE = [
       "Daffy Duck",
       "Porky Pig"
     ],
-    "synopsis": "Secret agent Boston Quackie (Daffy Duck) has to recover a stolen attach\u00e9 case to deliver to the Slobovian consulate in West Slobovia.",
+    "synopsis": "Secret agent Boston Quackie (Daffy Duck) has to recover a stolen attaché case to deliver to the Slobovian consulate in West Slobovia.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -38340,8 +38341,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -38390,8 +38391,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -38439,12 +38440,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Keith Darling",
-      "George Grandpr\u00e9"
+      "George Grandpré"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -38481,10 +38482,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -38529,11 +38530,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Keith Darling",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -38580,8 +38581,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Abe Levitow",
@@ -38618,8 +38619,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -38669,8 +38670,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -38721,10 +38722,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -38762,8 +38763,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -38802,11 +38803,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
-      "George Grandpr\u00e9"
+      "George Grandpré"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -38842,8 +38843,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -38892,8 +38893,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -38974,8 +38975,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -39022,11 +39023,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
-      "George Grandpr\u00e9"
+      "George Grandpré"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -39070,8 +39071,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Bob Matz"
@@ -39111,7 +39112,7 @@ window.LOONEY_TUNES_DATABASE = [
   },
   {
     "id": "touch-and-go",
-    "title": "Touch\u00e9 and Go",
+    "title": "Touché and Go",
     "year": 1957,
     "release_date": "October 12, 1957",
     "series": "Merrie Melodies",
@@ -39125,8 +39126,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -39134,13 +39135,13 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pep\u00e9 Le Pew",
+      "Pepé Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Penelope Pussycat runs under a paint tank and attracts Pep\u00e9 Le Pew on a beach.",
+    "synopsis": "Penelope Pussycat runs under a paint tank and attracts Pepé Le Pew on a beach.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -39166,8 +39167,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -39197,8 +39198,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -39256,8 +39257,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Abe Levitow",
@@ -39329,8 +39330,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -39388,8 +39389,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -39420,8 +39421,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -39472,8 +39473,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -39511,8 +39512,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -39552,10 +39553,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray"
@@ -39583,11 +39584,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Tom Ray"
     ],
     "voice_actors": [],
@@ -39634,12 +39635,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Tom Ray",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Warren Batchelder"
     ],
     "voice_actors": [],
@@ -39676,12 +39677,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -39718,8 +39719,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -39758,8 +39759,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -39809,8 +39810,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -39853,8 +39854,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -39893,8 +39894,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -39962,11 +39963,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Tom Ray",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -40002,13 +40003,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpr\u00e9"
+      "George Grandpré"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -40045,8 +40046,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -40104,8 +40105,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -40143,17 +40144,17 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
     "featured_characters": [
       "Speedy Gonzales"
     ],
-    "synopsis": "While Speedy Gonzales is playing ping-pong, a hungry hawk named Se\u00f1or Vulturo swoops down and tries to eat all of the mice, including Speedy himself.",
+    "synopsis": "While Speedy Gonzales is playing ping-pong, a hungry hawk named Señor Vulturo swoops down and tries to eat all of the mice, including Speedy himself.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Golden Collection: Volume 4",
@@ -40181,12 +40182,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -40223,8 +40224,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Abe Levitow",
@@ -40282,13 +40283,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpr\u00e9"
+      "George Grandpré"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -40332,10 +40333,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray"
@@ -40370,8 +40371,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -40424,8 +40425,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -40465,12 +40466,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -40508,8 +40509,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -40556,11 +40557,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Tom Ray",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -40609,10 +40610,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray"
@@ -40650,11 +40651,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Tom Ray",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -40690,8 +40691,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Ken Harris"
@@ -40742,8 +40743,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -40783,8 +40784,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Ben Washam",
@@ -40824,8 +40825,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -40874,13 +40875,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpr\u00e9"
+      "George Grandpré"
     ],
     "voice_actors": [],
     "featured_characters": [],
@@ -40912,13 +40913,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpr\u00e9"
+      "George Grandpré"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -40960,8 +40961,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -40969,10 +40970,10 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pep\u00e9 Le Pew",
+      "Pepé Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Being born with white stripes on her back, Fabrette the cat falls in love with Pep\u00e9 Le Pew the skunk in New Orleans, but has to overcome his stink.",
+    "synopsis": "Being born with white stripes on her back, Fabrette the cat falls in love with Pepé Le Pew the skunk in New Orleans, but has to overcome his stink.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -40985,7 +40986,7 @@ window.LOONEY_TUNES_DATABASE = [
         "set_id": "wac_cv3"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -41010,13 +41011,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpr\u00e9"
+      "George Grandpré"
     ],
     "voice_actors": [],
     "featured_characters": [],
@@ -41049,8 +41050,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -41092,8 +41093,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -41135,8 +41136,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Friz Freleng & Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -41164,8 +41165,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Richard Thompson",
@@ -41192,8 +41193,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Abe Levitow",
@@ -41236,8 +41237,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -41276,12 +41277,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -41317,11 +41318,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Tom Ray"
     ],
@@ -41358,8 +41359,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -41400,8 +41401,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Friz Freleng",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -41452,8 +41453,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -41521,8 +41522,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Ken Harris"
@@ -41567,8 +41568,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Tom Ray",
       "Ken Harris",
@@ -41630,8 +41631,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -41672,8 +41673,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -41723,8 +41724,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Friz Freleng",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -41773,10 +41774,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray"
@@ -41818,8 +41819,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -41868,8 +41869,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -41919,8 +41920,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Richard Thompson"
@@ -41961,8 +41962,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -42001,13 +42002,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpr\u00e9"
+      "George Grandpré"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -42044,8 +42045,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -42085,11 +42086,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Tom Ray",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -42139,8 +42140,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -42149,13 +42150,13 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pep\u00e9 Le Pew",
+      "Pepé Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Penelope Pussycat tries to sneak aboard a French ocean liner, getting a white stripe on her back as she goes under the fence. Pep\u00e9 Le Pew, seeing her from the coast, races aboard to pursue her.",
+    "synopsis": "Penelope Pussycat tries to sneak aboard a French ocean liner, getting a white stripe on her back as she goes under the fence. Pepé Le Pew, seeing her from the coast, races aboard to pursue her.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -42180,10 +42181,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray"
@@ -42209,8 +42210,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Tom Ray",
       "Ken Harris",
@@ -42220,13 +42221,13 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pep\u00e9 Le Pew",
+      "Pepé Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Pep\u00e9 Le Pew chases Penelope (who has a stripe placed on her back from a road painter rolling off course) through the Matterhorn. Note: Screen credits appear as French corruptions of actual names.",
+    "synopsis": "Pepé Le Pew chases Penelope (who has a stripe placed on her back from a road painter rolling off course) through the Matterhorn. Note: Screen credits appear as French corruptions of actual names.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -42262,8 +42263,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn & Chuck Jones",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Bransford",
       "Tom Ray",
@@ -42302,11 +42303,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -42342,10 +42343,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
@@ -42387,8 +42388,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -42429,8 +42430,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -42470,12 +42471,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
-      "George Grandpr\u00e9"
+      "George Grandpré"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -42510,13 +42511,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Harry Love (effects)"
     ],
     "voice_actors": [],
@@ -42554,8 +42555,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Bob Bransford",
@@ -42598,8 +42599,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "David Detiege & Chuck Jones",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Ben Washam",
@@ -42647,8 +42648,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -42688,10 +42689,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray"
@@ -42732,8 +42733,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -42785,8 +42786,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn & David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -42848,8 +42849,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -42888,8 +42889,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -42938,8 +42939,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Friz Freleng",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -42979,11 +42980,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Keith Darling",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -43010,8 +43011,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Bob Bransford",
@@ -43053,8 +43054,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Tom Ray",
       "Ken Harris",
@@ -43103,13 +43104,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Keith Darling",
       "Ted Bonnicksen",
       "Warren Batchelder",
-      "George Grandpr\u00e9"
+      "George Grandpré"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -43146,8 +43147,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -43188,11 +43189,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -43228,11 +43229,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Keith Darling",
       "Ted Bonnicksen",
       "Harry Love (effects)"
@@ -43260,8 +43261,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -43303,8 +43304,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Bob Bransford",
@@ -43313,13 +43314,13 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pep\u00e9 Le Pew",
+      "Pepé Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Pep\u00e9 Le Pew chases Felice (whose stink from Pep\u00e9 results in her flying through the air and getting a white stripe down her back from a freshly painted pole) through the Louvre. While Felice tries to get away, her boyfriend Pierre tries to stop Pep\u00e9 from romantically pursuing his girlfriend.",
+    "synopsis": "Pepé Le Pew chases Felice (whose stink from Pepé results in her flying through the air and getting a white stripe down her back from a freshly painted pole) through the Louvre. While Felice tries to get away, her boyfriend Pierre tries to stop Pepé from romantically pursuing his girlfriend.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -43359,8 +43360,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Carl Kolher & Chuck Jones",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Tom Ray",
       "Ken Harris",
@@ -43399,8 +43400,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -43454,10 +43455,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Keith Darling",
       "Ted Bonnicksen",
       "Warren Batchelder"
@@ -43496,8 +43497,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "John Dunn & Carl Kolher",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -43539,8 +43540,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -43582,8 +43583,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Friz Freleng",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -43615,12 +43616,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Keith Darling"
     ],
     "voice_actors": [],
@@ -43645,13 +43646,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
       "Ted Bonnicksen",
       "Keith Darling",
-      "George Grandpr\u00e9"
+      "George Grandpré"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -43689,8 +43690,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -43730,13 +43731,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Keith Darling",
       "Ted Bonnicksen",
       "Warren Batchelder",
-      "George Grandpr\u00e9"
+      "George Grandpré"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -43760,10 +43761,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Robert McKimson & Nick Bennion",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Keith Darling",
       "Ted Bonnicksen",
       "Warren Batchelder"
@@ -43812,8 +43813,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -43854,11 +43855,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -43895,8 +43896,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Friz Freleng & Warren Foster",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -43939,13 +43940,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
       "Ted Bonnicksen",
       "Keith Darling",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Harry Love (effects)"
     ],
     "voice_actors": [],
@@ -43973,8 +43974,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Tom Ray",
       "Ken Harris",
@@ -44018,8 +44019,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn & Chuck Jones",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Bransford",
       "Tom Ray",
@@ -44059,8 +44060,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -44111,8 +44112,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -44145,8 +44146,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn & Chuck Jones",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ben Washam",
       "Bob Bransford"
@@ -44181,12 +44182,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Keith Darling"
     ],
     "voice_actors": [],
@@ -44232,8 +44233,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -44276,8 +44277,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn & Chuck Jones",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Bob Bransford",
@@ -44328,8 +44329,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Bransford",
       "Tom Ray",
@@ -44376,8 +44377,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Chuck Jones",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Richard Thompson",
       "Bob Bransford",
@@ -44417,10 +44418,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Harry Love (effects)"
@@ -44459,10 +44460,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -44486,10 +44487,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -44535,11 +44536,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -44586,12 +44587,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
-      "George Grandpr\u00e9"
+      "George Grandpré"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -44625,8 +44626,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Tedd Pierce & Bill Danch",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Bob Matz",
@@ -44658,8 +44659,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -44702,8 +44703,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Matz",
       "Norman McCabe",
@@ -44743,8 +44744,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Norman McCabe",
       "Don Williams",
@@ -44771,7 +44772,7 @@ window.LOONEY_TUNES_DATABASE = [
   },
   {
     "id": "se-orella-and-the-glass-huarache",
-    "title": "Se\u00f1orella and the Glass Huarache",
+    "title": "Señorella and the Glass Huarache",
     "year": 1964,
     "release_date": "August 1, 1964",
     "series": "Looney Tunes",
@@ -44782,8 +44783,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Gerry Chiniquy",
       "Bob Matz",
@@ -44819,8 +44820,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Bransford",
       "Tom Ray",
@@ -44865,8 +44866,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -44906,8 +44907,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Warren Batchelder",
@@ -44937,8 +44938,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Len Janson",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Bob Bransford",
@@ -44978,8 +44979,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Matz",
       "Norman McCabe",
@@ -45010,8 +45011,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Tom Dagenais",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Hank Smith",
       "Virgil Ross",
@@ -45049,8 +45050,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Warren Batchelder",
@@ -45077,8 +45078,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Friz Freleng",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Warren Batchelder",
@@ -45118,8 +45119,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
       "Bob Matz",
@@ -45146,8 +45147,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Nick Bennion",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Hank Smith",
       "Virgil Ross",
@@ -45183,8 +45184,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Al Bertino",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Bob Bransford",
@@ -45224,8 +45225,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Don Williams",
       "Bob Matz",
@@ -45254,8 +45255,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Don Jurwich",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Bransford",
       "Hank Smith",
@@ -45283,8 +45284,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Don Williams",
       "Manuel Perez",
@@ -45311,8 +45312,8 @@ window.LOONEY_TUNES_DATABASE = [
     "directors": [],
     "director_aliases": [],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -45340,8 +45341,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Rudy Larriva",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Hank Smith",
       "Tom McDonald"
@@ -45368,8 +45369,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Matz",
       "Manuel Perez",
@@ -45399,8 +45400,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Matz",
       "Manuel Perez",
@@ -45438,8 +45439,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
       "Bob Matz",
@@ -45470,8 +45471,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Norman McCabe",
       "Don Williams",
@@ -45511,8 +45512,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Rudy Larriva",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Hank Smith",
       "Virgil Ross",
@@ -45540,8 +45541,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
       "Bob Matz",
@@ -45587,8 +45588,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles M. Jones"
     ],
     "story": "John Dunn",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -45619,13 +45620,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Matz",
       "Manuel Perez",
       "Norman McCabe",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -45652,14 +45653,14 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Michael O'Connor",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Bob Matz",
       "Manuel Perez",
       "Norman McCabe",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Warren Batchelder"
     ],
     "voice_actors": [],
@@ -45686,11 +45687,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Warren Batchelder",
       "Bob Matz"
     ],
@@ -45735,8 +45736,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Tom Dagenais",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Bransford",
       "Hank Smith",
@@ -45774,12 +45775,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Michael O'Connor",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Matz",
       "Manuel Perez",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Norman McCabe"
     ],
     "voice_actors": [],
@@ -45805,12 +45806,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Michael O'Connor",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Norman McCabe",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Bob Matz",
       "Don Williams"
@@ -45838,10 +45839,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Bob Matz",
       "Manuel Perez"
     ],
@@ -45868,11 +45869,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Bob Matz"
     ],
     "voice_actors": [],
@@ -45897,8 +45898,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Dale Hale",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Bob Bransford",
@@ -45934,8 +45935,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Nick Bennion",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Bransford",
       "Hank Smith",
@@ -45973,10 +45974,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Bob Matz",
       "Manuel Perez",
       "Don Williams",
@@ -46005,8 +46006,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tom Dagenais",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Matz",
       "Manuel Perez",
@@ -46046,10 +46047,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Ted Bonnicksen",
       "Bob Matz",
       "Manuel Perez"
@@ -46077,11 +46078,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "N/A",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Warren Batchelder",
-      "George Grandpr\u00e9",
+      "George Grandpré",
       "Bob Matz",
       "Norman McCabe",
       "Manuel Perez",
@@ -46108,8 +46109,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Don Jurwich",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Hank Smith",
       "Virgil Ross",
@@ -46145,8 +46146,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Bob Kurtz",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Ed Solomon",
@@ -46176,8 +46177,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Michael O'Connor",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Manuel Perez",
       "Warren Batchelder",
@@ -46208,8 +46209,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46237,8 +46238,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Volus Jones",
       "Laverne Harding",
@@ -46266,8 +46267,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46296,8 +46297,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Tom Dagenais & Don Jurwich",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Virgil Ross",
       "Bob Bransford",
@@ -46324,8 +46325,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Volus Jones",
       "Laverne Harding",
@@ -46353,8 +46354,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Volus Jones",
       "Ed Solomon",
@@ -46382,8 +46383,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Tom Dagenais & Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Bob Bransford",
       "Ed Friedman",
@@ -46410,8 +46411,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Tom Dagenais & Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ed Friedman",
       "Virgil Ross",
@@ -46439,8 +46440,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46468,8 +46469,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46499,8 +46500,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46537,8 +46538,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Don Jurwich",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46565,8 +46566,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46594,8 +46595,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46620,8 +46621,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Tony Benedict",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46649,8 +46650,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46675,9 +46676,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -46709,8 +46710,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46738,8 +46739,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46764,9 +46765,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46790,9 +46791,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46818,9 +46819,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46843,9 +46844,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46871,9 +46872,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "\u2014",
-    "layout": "\u2014",
-    "backgrounds": "\u2014",
+    "story": "—",
+    "layout": "—",
+    "backgrounds": "—",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -46899,7 +46900,7 @@ window.LOONEY_TUNES_DATABASE = [
   },
   {
     "id": "duck-dodgers-and-the-return-of-the-24-1-2th-century",
-    "title": "Duck Dodgers and the Return of the 24\u00bdth Century",
+    "title": "Duck Dodgers and the Return of the 24½th Century",
     "year": 1980,
     "release_date": "November 20, 1980",
     "series": "Merrie Melodies",
@@ -47121,7 +47122,7 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [
       "Mel Blanc",
-      "Mel Torm\u00e9"
+      "Mel Tormé"
     ],
     "featured_characters": [
       "Daffy Duck"
@@ -47386,7 +47387,7 @@ window.LOONEY_TUNES_DATABASE = [
       "Sylvester the Cat",
       "Tweety",
       "Yosemite Sam",
-      "Pep\u00e9 Le Pew",
+      "Pepé Le Pew",
       "Foghorn Leghorn",
       "Porky Pig",
       "Penelope Pussycat"
