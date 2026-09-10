@@ -260,6 +260,79 @@
       transform: scale(1.15);
     }
 
+    .omnibox-token.is-negated {
+      background: #fef2f2 !important;
+      color: #991b1b !important;
+      border: 1.5px dashed #ef4444 !important;
+    }
+
+    .omnibox-token.is-negated .omnibox-token-label {
+      text-decoration: line-through;
+      opacity: 0.9;
+    }
+
+    .omnibox-token-invert-btn {
+      background: rgba(0, 0, 0, 0.06);
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      border-radius: 4px;
+      padding: 1px 4px;
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: inherit;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      line-height: 1.1;
+      transition: all 0.15s ease;
+      user-select: none;
+    }
+
+    .omnibox-token-invert-btn:hover {
+      background: rgba(0, 0, 0, 0.12);
+      transform: scale(1.08);
+    }
+
+    .omnibox-token.is-negated .omnibox-token-invert-btn {
+      background: #dc2626;
+      color: #ffffff;
+      border-color: #b91c1c;
+    }
+
+    .boolean-toggle-group {
+      display: inline-flex;
+      align-items: center;
+      background: #f1f5f9;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 20px;
+      padding: 2px;
+      gap: 2px;
+      user-select: none;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
+
+    .boolean-toggle-btn {
+      border: none;
+      background: transparent;
+      padding: 4px 10px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #64748b;
+      border-radius: 16px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      line-height: 1.25;
+    }
+
+    .boolean-toggle-btn:hover {
+      color: #1e293b;
+    }
+
+    .boolean-toggle-btn.active {
+      background: #1e293b;
+      color: #ffffff;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    }
+
     #omniboxInput,
     .omnibox-input {
       flex: 1 1 200px;
@@ -1969,12 +2042,34 @@
         gap: 8px;
       }
 
-      .subbar-left,
-      .subbar-right {
+      .subbar-left {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 8px;
         width: 100%;
+      }
+
+      .subbar-right {
+        display: grid;
+        grid-template-columns: auto 1fr 1fr;
+        gap: 8px;
+        width: 100%;
+        align-items: center;
+      }
+
+      .boolean-toggle-group {
+        min-height: 44px;
+        box-sizing: border-box;
+        padding: 3px;
+      }
+
+      .boolean-toggle-btn {
+        min-height: 36px;
+        padding: 0 12px;
+        font-size: 13px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
       }
 
       .library-toggle-pill,
@@ -2124,6 +2219,11 @@
       </div>
 
       <div class="subbar-right">
+        <!-- AND / OR Segmented Match Mode Toggle -->
+        <div class="boolean-toggle-group" id="booleanMatchToggle" title="Multi-token match logic: AND (all tokens must match) or OR (any token can match)">
+          <button type="button" class="boolean-toggle-btn active" id="boolModeAndBtn" onclick="setBooleanMatchMode('AND')" title="All active tokens must match">AND</button>
+          <button type="button" class="boolean-toggle-btn" id="boolModeOrBtn" onclick="setBooleanMatchMode('OR')" title="Any active token can match">OR</button>
+        </div>
         <button type="button" id="panelToggleBtn" class="subbar-btn panel-toggle-btn" onclick="toggleSecondaryPanels()" title="Show or hide Theatrical Era Timeline">
           <span id="panelToggleIcon">⏳</span>
           <span id="panelToggleText">Timeline</span>
@@ -4199,12 +4299,34 @@
 
   // --- Omnibox Filter Tokens & Autocomplete Engine ---
   let activeTokens = [];
+  let booleanMatchMode = 'AND'; // 'AND' or 'OR'
   let selectedSuggestionIndex = -1;
   let currentSuggestions = [];
   let suggestionDebounceTimer = null;
 
+  window.setBooleanMatchMode = function(mode) {
+    if (mode !== 'AND' && mode !== 'OR') return;
+    booleanMatchMode = mode;
+    const andBtn = document.getElementById('boolModeAndBtn');
+    const orBtn = document.getElementById('boolModeOrBtn');
+    if (andBtn && orBtn) {
+      if (mode === 'AND') {
+        andBtn.classList.add('active');
+        orBtn.classList.remove('active');
+      } else {
+        orBtn.classList.add('active');
+        andBtn.classList.remove('active');
+      }
+    }
+    render();
+  };
+
+  window.getBooleanMatchMode = function() {
+    return booleanMatchMode;
+  };
+
   // --- Centralized Search Synonym & Species Map ---
-  const SPECIES_MAP = {
+  const SPECIES_SYNONYM_MAP = {
     rabbit: {
       terms: ['rabbit', 'rabbits', 'bunny', 'bunnies', 'hare', 'hares'],
       characters: ['Bugs Bunny', 'Honey Bunny', 'Happy Rabbit', 'Peter Rabbit']
@@ -4235,7 +4357,9 @@
     }
   };
 
+  const SPECIES_MAP = SPECIES_SYNONYM_MAP;
   window.SPECIES_MAP = SPECIES_MAP;
+  window.SPECIES_SYNONYM_MAP = SPECIES_SYNONYM_MAP;
   const SEARCH_SYNONYM_GROUPS = SPECIES_MAP;
   window.SEARCH_SYNONYM_GROUPS = SPECIES_MAP;
 
@@ -4391,13 +4515,25 @@
     }
   }
 
+  window.toggleTokenNegation = function(tokenId) {
+    const token = activeTokens.find(t => t.id === tokenId);
+    if (token) {
+      token.negated = !token.negated;
+      renderTokens();
+      render();
+    }
+  };
+
   function renderTokens() {
     const container = getOmniboxTokensContainer();
     if (!container) return;
     container.innerHTML = activeTokens.map(token => `
-      <span class="omnibox-token ${token.type}" data-id="${token.id}">
+      <span class="omnibox-token ${token.type} ${token.negated ? 'is-negated' : ''}" data-id="${token.id}">
+        <button type="button" class="omnibox-token-invert-btn" onclick="toggleTokenNegation('${token.id}')" title="Click to invert NOT/exclude filter">
+          ${token.negated ? 'NOT' : '±'}
+        </button>
         <span class="omnibox-token-icon">${token.icon}</span>
-        <span class="omnibox-token-label">${escapeHtml(token.label)}</span>
+        <span class="omnibox-token-label" onclick="toggleTokenNegation('${token.id}')" title="Click to invert">${escapeHtml(token.label)}</span>
         <button type="button" class="omnibox-token-remove" onclick="removeToken('${token.id}')" aria-label="Remove ${escapeHtml(token.label)} filter">&times;</button>
       </span>
     `).join('');
@@ -4452,51 +4588,59 @@
   function selectSuggestion(item) {
     if (!item) return;
 
+    const rawInput = (getOmniboxInput()?.value || '').trim();
+    const isNegated = rawInput.startsWith('-') || rawInput.toLowerCase().startsWith('not ');
+
     if (item.type === 'character') {
       addToken({
         id: 'char_' + item.filterValue,
         type: 'character',
         value: item.filterValue,
-        label: item.displayName,
-        icon: item.icon
+        label: (isNegated ? 'NOT ' : '') + item.displayName,
+        icon: item.icon,
+        negated: isNegated
       });
     } else if (item.type === 'director') {
       addToken({
         id: 'dir_' + item.filterValue,
         type: 'director',
         value: item.filterValue,
-        label: item.displayName,
-        icon: item.icon
+        label: (isNegated ? 'NOT ' : '') + item.displayName,
+        icon: item.icon,
+        negated: isNegated
       });
     } else if (item.type === 'species' || item.type === 'species_group') {
       addToken({
         id: 'species_' + item.filterValue,
         type: 'species',
         value: item.filterValue,
-        label: item.displayName,
+        label: (isNegated ? 'NOT ' : '') + item.displayName,
         icon: item.icon,
         chars: item.chars,
-        characterList: item.chars
+        characterList: item.chars,
+        negated: isNegated
       });
     } else if (item.type === 'format') {
       addToken({
         id: 'fmt_' + item.filterValue,
         type: 'format',
         value: item.filterValue,
-        label: item.displayName,
-        icon: item.icon
+        label: (isNegated ? 'NOT ' : '') + item.displayName,
+        icon: item.icon,
+        negated: isNegated
       });
     } else if (item.type === 'era') {
       addToken({
         id: 'era_' + item.filterValue,
         type: 'era',
         value: item.filterValue,
-        label: item.displayName,
+        label: (isNegated ? 'NOT ' : '') + item.displayName,
         icon: item.icon,
         minYear: item.minYear,
         maxYear: item.maxYear,
         startYear: item.minYear,
-        endYear: item.maxYear
+        endYear: item.maxYear,
+        negated: isNegated
       });
     } else if (item.type === 'title' || item.type === 'generic') {
       const searchInput = getOmniboxInput();
@@ -4508,7 +4652,9 @@
 
   // --- Autocomplete & Typeahead Engine (SPECIES_MAP) ---
   function getSuggestions(query) {
-    const rawVal = (query !== undefined && query !== null ? String(query) : (getOmniboxInput()?.value || '')).trim();
+    let rawVal = (query !== undefined && query !== null ? String(query) : (getOmniboxInput()?.value || '')).trim();
+    if (rawVal.startsWith('-')) rawVal = rawVal.slice(1).trim();
+    else if (rawVal.toLowerCase().startsWith('not ')) rawVal = rawVal.slice(4).trim();
     const q = normalizeText(rawVal);
     if (q.length < 2) return [];
 
@@ -4856,7 +5002,7 @@
     // Append fallback keyword option
     const fallbackItem = {
       type: 'generic',
-      displayName: `Search for "${rawVal}" in titles & descriptions`,
+      displayName: `Search for "${rawVal}" across titles & descriptions`,
       filterValue: rawVal,
       icon: '🔎'
     };
@@ -4878,12 +5024,12 @@
       }
 
       let badgeLabel = 'Filter';
-      if (item.type === 'character') badgeLabel = 'Character';
-      else if (item.type === 'director') badgeLabel = 'Director';
-      else if (item.type === 'species') badgeLabel = 'Group';
-      else if (item.type === 'format') badgeLabel = 'Format';
-      else if (item.type === 'era') badgeLabel = 'Era';
-      else if (item.type === 'title') badgeLabel = 'Cartoon';
+      if (item.type === 'character') badgeLabel = '🐰 Character';
+      else if (item.type === 'director') badgeLabel = '🎬 Director / Crew';
+      else if (item.type === 'species') badgeLabel = '🐾 Species Group';
+      else if (item.type === 'format') badgeLabel = '🟦 Physical Format';
+      else if (item.type === 'era') badgeLabel = '⏳ Historical Era';
+      else if (item.type === 'title') badgeLabel = '🎬 Cartoon Title';
 
       const countText = item.type === 'title' ? (item.year ? `(${item.year})` : '') : `(${item.count})`;
 
@@ -5263,84 +5409,96 @@
     return score;
   }
 
+  function matchesToken(short, token) {
+    switch (token.type) {
+      case 'character': {
+        const shortChars = short.featured_characters || short.characters || [];
+        const target = normalizeText(token.value);
+        return shortChars.some(char => {
+          const nc = normalizeText(char.replace(/\s*\([^)]*\)/g, '').trim());
+          const fullNc = normalizeText(char);
+          return nc === target || fullNc === target || fullNc.includes(target) || (target.includes(nc) && nc.length > 5);
+        });
+      }
+
+      case 'species':
+      case 'species_group': {
+        const charList = (token.characterList || token.chars || (typeof SPECIES_MAP !== 'undefined' && SPECIES_MAP[token.value] ? SPECIES_MAP[token.value].characters : [])).map(c => normalizeText(c));
+        const shortChars = (short.featured_characters || short.characters || []).map(c => normalizeText(c));
+        return shortChars.some(char => {
+          if (char === 'honey' && charList.some(sc => sc.includes('bunny'))) return false;
+          return charList.some(sc => char === sc || char.includes(sc) || (sc.includes(char) && char.length > 5));
+        });
+      }
+
+      case 'director': {
+        const targetDir = normalizeText(token.value);
+        const allDirs = (short.directors || [short.director]).concat(short.director_aliases || []).filter(Boolean).map(d => normalizeText(d));
+        const dirCredit = normalizeText(short.director_credit || short.director || '');
+        return allDirs.some(d => d.includes(targetDir) || targetDir.includes(d)) || dirCredit.includes(targetDir);
+      }
+
+      case 'format': {
+        let fmtVal = (token.value || '').toLowerCase();
+        if (fmtVal === 'bd' || fmtVal === 'bluray') fmtVal = 'blu-ray';
+        if (fmtVal === 'ld') fmtVal = 'laserdisc';
+        const locs = short.media_locations || [];
+        if (fmtVal === 'unreleased') {
+          return locs.length === 0;
+        }
+        return locs.some(loc => {
+          const lf = (loc.format || '').toLowerCase();
+          return lf.includes(fmtVal) || fmtVal.includes(lf);
+        }) || ((short.formats || []).some(f => {
+          const lf = (typeof f === 'string' ? f : '').toLowerCase();
+          return lf.includes(fmtVal) || fmtVal.includes(lf);
+        }));
+      }
+
+      case 'era': {
+        const start = token.startYear ?? token.minYear;
+        const end = token.endYear ?? token.maxYear;
+        const yr = short.year;
+        if (start !== undefined && end !== undefined && yr !== undefined) {
+          return yr >= start && yr <= end;
+        }
+        return true;
+      }
+
+      case 'title': {
+        return normalizeText(short.title).includes(normalizeText(token.value));
+      }
+
+      default:
+        return true;
+    }
+  }
+
   function render() {
     const rawQuery = getOmniboxInput()?.value.trim() || '';
     const selectedRatings = getSelectedRatings();
     const inMyLibOnly = Boolean(document.getElementById('myLibraryOnlyToggle')?.checked);
 
     const filtered = database.filter(short => {
-      // 1. Omnibox active tokens strict AND (intersection) evaluation
+      // 1. Omnibox active tokens Boolean evaluation (AND / OR / NOT)
       if (activeTokens.length > 0) {
-        const passesTokens = activeTokens.every(token => {
-          switch (token.type) {
-            case 'character': {
-              // Cartoon MUST contain this character in its characters list
-              const shortChars = short.featured_characters || short.characters || [];
-              const target = normalizeText(token.value);
-              return shortChars.some(char => {
-                const nc = normalizeText(char);
-                return nc === target || nc.includes(target) || (target.includes(nc) && nc.length > 5);
-              });
-            }
+        const positiveTokens = activeTokens.filter(t => !t.negated);
+        const negativeTokens = activeTokens.filter(t => t.negated);
 
-            case 'species':
-            case 'species_group': {
-              // If a species group token is used (e.g. "Cats"), the cartoon MUST contain at least one character from that species
-              const charList = (token.characterList || token.chars || (typeof SPECIES_MAP !== 'undefined' && SPECIES_MAP[token.value] ? SPECIES_MAP[token.value].characters : [])).map(c => normalizeText(c));
-              const shortChars = (short.featured_characters || short.characters || []).map(c => normalizeText(c));
-              return shortChars.some(char => {
-                if (char === 'honey' && charList.some(sc => sc.includes('bunny'))) return false;
-                return charList.some(sc => char === sc || char.includes(sc) || (sc.includes(char) && char.length > 5));
-              });
-            }
-
-            case 'director': {
-              // Cartoon MUST be directed by this director
-              const targetDir = normalizeText(token.value);
-              const allDirs = (short.directors || [short.director]).concat(short.director_aliases || []).filter(Boolean).map(d => normalizeText(d));
-              const dirCredit = normalizeText(short.director_credit || short.director || '');
-              return allDirs.some(d => d.includes(targetDir) || targetDir.includes(d)) || dirCredit.includes(targetDir);
-            }
-
-            case 'format': {
-              // Cartoon MUST be available on this format (BD, DVD, LD, etc.)
-              let fmtVal = (token.value || '').toLowerCase();
-              if (fmtVal === 'bd' || fmtVal === 'bluray') fmtVal = 'blu-ray';
-              if (fmtVal === 'ld') fmtVal = 'laserdisc';
-              const locs = short.media_locations || [];
-              if (fmtVal === 'unreleased') {
-                return locs.length === 0;
-              }
-              return locs.some(loc => {
-                const lf = (loc.format || '').toLowerCase();
-                return lf.includes(fmtVal) || fmtVal.includes(lf);
-              }) || ((short.formats || []).some(f => {
-                const lf = (typeof f === 'string' ? f : '').toLowerCase();
-                return lf.includes(fmtVal) || fmtVal.includes(lf);
-              }));
-            }
-
-            case 'era': {
-              // Cartoon release year MUST fall within the era bounds
-              const start = token.startYear ?? token.minYear;
-              const end = token.endYear ?? token.maxYear;
-              const yr = short.year;
-              if (start !== undefined && end !== undefined && yr !== undefined) {
-                return yr >= start && yr <= end;
-              }
-              return true;
-            }
-
-            case 'title': {
-              return normalizeText(short.title).includes(normalizeText(token.value));
-            }
-
-            default:
-              return true;
+        // Positive tokens evaluation: AND vs OR
+        let passesPositive = true;
+        if (positiveTokens.length > 0) {
+          if (booleanMatchMode === 'OR') {
+            passesPositive = positiveTokens.some(token => matchesToken(short, token));
+          } else {
+            passesPositive = positiveTokens.every(token => matchesToken(short, token));
           }
-        });
+        }
 
-        if (!passesTokens) return false;
+        // Negative (NOT) tokens evaluation: short MUST NOT match any negated token
+        const passesNegative = negativeTokens.every(token => !matchesToken(short, token));
+
+        if (!passesPositive || !passesNegative) return false;
       }
 
       // 2. Timeline Era filter presets
