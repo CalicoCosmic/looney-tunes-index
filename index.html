@@ -320,6 +320,12 @@
       height: 15px;
     }
 
+    .secondary-search-buttons {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
     .library-customize-btn {
       display: inline-flex;
       align-items: center;
@@ -1300,13 +1306,27 @@
       margin-bottom: 14px;
     }
 
-    .card-header-left {
+    .card-header-top {
       display: flex;
       align-items: center;
       flex-wrap: wrap;
       gap: 8px;
       flex: 1 1 auto;
       min-width: 0;
+    }
+
+    .card-header-bottom {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+      margin-left: auto;
+    }
+
+    .card-header-bottom-right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
 
     .card-expand-icon {
@@ -1371,8 +1391,6 @@
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      margin-left: auto;
-      margin-right: 12px;
       flex-shrink: 0;
     }
 
@@ -1619,7 +1637,6 @@
       display: inline-flex;
       align-items: center;
       gap: 4px;
-      margin-left: 8px;
       vertical-align: middle;
     }
     .stars-row {
@@ -1900,6 +1917,216 @@
     .modal-btn-save:hover {
       background: #9a3412;
     }
+
+    /* ==========================================================================
+       Responsive Mobile Styles (< 640px)
+       ========================================================================== */
+    @media (max-width: 640px) {
+      /* 1. Page Wrapper & Padding */
+      body {
+        padding: 12px 12px 32px 12px;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      .container {
+        max-width: 100%;
+      }
+
+      header h1 {
+        font-size: 1.6rem;
+      }
+
+      header p {
+        font-size: 0.9rem;
+      }
+
+      .sticky-controls-bar {
+        padding: 10px 12px;
+        top: 4px;
+        border-radius: 10px;
+      }
+
+      /* 2. Search Bar & Controls Stacking */
+      .search-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+      }
+
+      .search-box-wrap,
+      .search-input-wrapper {
+        width: 100%;
+        min-width: 0;
+        margin-bottom: 0;
+      }
+
+      .search-input,
+      #searchInput {
+        width: 100%;
+        height: 44px;
+        font-size: 16px; /* Prevents iOS auto-zoom on focus */
+      }
+
+      .library-toggle-switch {
+        width: 100%;
+        min-height: 44px;
+        justify-content: center;
+        box-sizing: border-box;
+      }
+
+      .secondary-search-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        width: 100%;
+      }
+
+      .library-customize-btn,
+      .panel-toggle-btn {
+        width: 100%;
+        min-height: 44px;
+        justify-content: center;
+        box-sizing: border-box;
+      }
+
+      /* Select dropdowns and user action buttons (44px height & 16px font to prevent iOS zoom) */
+      .filter-select {
+        width: 100%;
+        height: 44px;
+        min-height: 44px;
+        font-size: 16px;
+      }
+
+      .user-filters-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        width: 100%;
+      }
+
+      .ratings-dropdown-wrap {
+        width: 100%;
+      }
+
+      .user-filter-btn,
+      .notes-toggle-btn {
+        width: 100%;
+        height: 44px;
+        min-height: 44px;
+        font-size: 15px;
+        justify-content: center;
+      }
+
+      /* Format chips 2x2 grid */
+      .format-toggles-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        padding: 6px;
+      }
+
+      .format-toggle-chip {
+        flex: 1 1 calc(50% - 6px);
+        min-height: 42px;
+        justify-content: center;
+        padding: 6px 8px;
+        font-size: 0.8rem;
+        box-sizing: border-box;
+      }
+
+      /* 3. Collapsed Cartoon Card Header (Two-Row Layout) */
+      .card {
+        padding: 10px 12px;
+        border-radius: 8px;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      .card.is-expanded {
+        padding: 14px 14px;
+      }
+
+      .card-header {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 6px;
+      }
+
+      .card-header-top {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 6px;
+        font-size: 0.95rem;
+      }
+
+      .card-title {
+        font-size: 1rem;
+      }
+
+      .card.is-expanded .card-title {
+        font-size: 1.12rem;
+      }
+
+      .card-header-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 4px;
+        margin-left: 0;
+      }
+
+      .card-header-bottom .rating-container {
+        font-size: 0.85rem;
+      }
+
+      .card-header-bottom .star-btn {
+        font-size: 1.05rem;
+      }
+
+      .card-header-bottom-right {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      /* Hide series italic label in collapsed mobile header to preserve compact space */
+      .card-header-bottom-right .card-series {
+        display: none;
+      }
+
+      .btn-note-toggle {
+        min-height: 32px;
+        padding: 4px 8px;
+        font-size: 0.74rem;
+      }
+
+      /* 4. Modal / Slide-out Adjustments */
+      .modal-overlay {
+        padding: 12px;
+      }
+
+      .modal-box {
+        width: 92vw !important;
+        max-width: 92vw !important;
+        max-height: 85vh !important;
+        overflow-y: auto !important;
+        padding: 16px !important;
+      }
+
+      .modal-footer {
+        position: sticky;
+        bottom: -16px;
+        background: #ffffff;
+        z-index: 10;
+        padding: 12px 0 6px 0;
+        border-top: 1px solid #e2e8f0;
+        margin-top: 12px !important;
+      }
+    }
   </style>
 </head>
 <body>
@@ -1926,14 +2153,16 @@
         <input type="checkbox" id="myLibraryOnlyToggle" onchange="render()">
         <span class="library-toggle-label">📚 In My Library Only</span>
       </label>
-      <button type="button" id="customizeLibraryBtn" class="library-customize-btn" onclick="openLibraryModal()" title="Customize your owned home media sets & profiles">
-        <span>⚙️ Customize Library (<span id="ownedCount">0</span>/<span id="totalSetsCount">43</span>)</span>
-      </button>
-      <button type="button" id="panelToggleBtn" class="panel-toggle-btn" onclick="toggleSecondaryPanels()" title="Show or hide Theatrical Era Timeline">
-        <span id="panelToggleIcon">▾</span>
-        <span id="panelToggleText">Timeline</span>
-        <span id="panelActiveBadge" class="panel-active-badge" style="display: none;"></span>
-      </button>
+      <div class="secondary-search-buttons">
+        <button type="button" id="customizeLibraryBtn" class="library-customize-btn" onclick="openLibraryModal()" title="Customize your owned home media sets & profiles">
+          <span>⚙️ Customize Library (<span id="ownedCount">0</span>/<span id="totalSetsCount">43</span>)</span>
+        </button>
+        <button type="button" id="panelToggleBtn" class="panel-toggle-btn" onclick="toggleSecondaryPanels()" title="Show or hide Theatrical Era Timeline">
+          <span id="panelToggleIcon">▾</span>
+          <span id="panelToggleText">Timeline</span>
+          <span id="panelActiveBadge" class="panel-active-badge" style="display: none;"></span>
+        </button>
+      </div>
     </div>
 
     <div class="quick-filters-row">
@@ -2245,7 +2474,7 @@
       </div>
     </div>
 
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 12px; border-top: 1px solid #e2e8f0; flex-wrap: wrap; gap: 8px;">
+    <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 12px; border-top: 1px solid #e2e8f0; flex-wrap: wrap; gap: 8px;">
       <span style="font-size: 0.82rem; color: #64748b;" id="popoverCountLabel">0 of 43 sets marked owned</span>
       <button type="button" class="modal-btn-save" onclick="closeLibraryModal()">✓ Done & Apply</button>
     </div>
@@ -4749,13 +4978,17 @@
       return `
         <article class="card ${isExpanded ? 'is-expanded' : ''}" id="card_${short.id}">
           <div class="card-header" onclick="toggleCardAccordion('${short.id}')" title="Click to expand or collapse details">
-            <div class="card-header-left">
+            <!-- Top Row: Chevron, Title, Year, Date -->
+            <div class="card-header-top">
               <span class="card-expand-icon">▶</span>
               <span class="card-title">${short.title}</span> 
               <span class="card-year">(${short.year || '?'})</span>
               ${short.release_date ? `<span class="card-date-badge">📅 ${short.release_date}</span>` : ''}
-              
-              <!-- Star Rating Widget -->
+            </div>
+
+            <!-- Bottom Row / Sub-bar -->
+            <div class="card-header-bottom">
+              <!-- Left side: Star Rating Widget -->
               <div class="rating-container" onclick="event.stopPropagation()" title="Your private rating (saved to your browser)">
                 <div class="stars-row">
                   ${[1, 2, 3, 4, 5].map(star => {
@@ -4765,17 +4998,18 @@
                 </div>
                 ${userRating > 0 ? `<button type="button" class="btn-clear-rating" onclick="event.stopPropagation(); clearCartoonRating('${short.id}')" title="Clear rating">&times;</button>` : ''}
               </div>
-            </div>
 
-            <!-- Media Format Badges (Right-Justified) -->
-            ${formatCodesHtml ? `<div class="media-format-codes">${formatCodesHtml}</div>` : ''}
-
-            <div class="card-actions-row">
-              <span class="card-series">${short.series || ''}</span>
-              <button type="button" class="btn-note-toggle ${hasNote ? 'has-note' : ''}" onclick="event.stopPropagation(); handleCardNoteClick('${short.id}')" title="Add or view personal notes">
-                📝 ${hasNote ? 'Note (Saved)' : 'Note'}
-              </button>
-              ${isAdminMode ? `<button type="button" class="btn-edit" onclick="event.stopPropagation(); openEditModal('${short.id}')" title="Edit cartoon entry (Admin Only)">✏️ Edit</button>` : ''}
+              <!-- Right side: Badges & Note button -->
+              <div class="card-header-bottom-right">
+                ${formatCodesHtml ? `<div class="media-format-codes">${formatCodesHtml}</div>` : ''}
+                <div class="card-actions-row">
+                  <span class="card-series">${short.series || ''}</span>
+                  <button type="button" class="btn-note-toggle ${hasNote ? 'has-note' : ''}" onclick="event.stopPropagation(); handleCardNoteClick('${short.id}')" title="Add or view personal notes">
+                    📝 ${hasNote ? 'Note (Saved)' : 'Note'}
+                  </button>
+                  ${isAdminMode ? `<button type="button" class="btn-edit" onclick="event.stopPropagation(); openEditModal('${short.id}')" title="Edit cartoon entry (Admin Only)">✏️ Edit</button>` : ''}
+                </div>
+              </div>
             </div>
           </div>
 
