@@ -1173,7 +1173,6 @@
 
     .stats-bar {
       display: flex;
-      justify-content: space-between;
       align-items: center;
       margin-top: 12px;
       padding-top: 10px;
@@ -1206,11 +1205,26 @@
       border-color: #93c5fd;
     }
 
-    .load-file-btn {
-      font-size: 0.8rem;
-      color: #2563eb;
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: #334155;
       cursor: pointer;
-      text-decoration: underline;
+      transition: all 0.15s ease;
+      user-select: none;
+    }
+
+    .btn-secondary:hover {
+      background: #e2e8f0;
+      border-color: #94a3b8;
+      color: #0f172a;
     }
 
     /* Results */
@@ -2290,10 +2304,6 @@
 
   <div class="stats-bar">
     <span id="resultsCount">Loading database...</span>
-    <label class="load-file-btn">
-      Load Local database.json
-      <input type="file" id="filePicker" accept=".json" style="display: none;">
-    </label>
   </div>
 
   <main id="resultsList" class="results-list"></main>
@@ -2459,6 +2469,21 @@
         </div>
         <div class="popover-list modal-media-list" id="bonusMediaSetCheckboxList" style="max-height: 240px;"></div>
       </div>
+    </div>
+
+    <!-- Data & Storage (Advanced / Local Catalog Loading) -->
+    <div class="modal-data-storage-section" style="margin-top: 14px; padding-top: 12px; border-top: 1px dashed #cbd5e1;">
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+        <div>
+          <div style="font-size: 0.84rem; font-weight: 600; color: #334155;">Data &amp; Storage</div>
+          <div style="font-size: 0.74rem; color: #64748b;">Load custom or local catalog data directly from disk.</div>
+        </div>
+        <label class="btn-secondary" title="Load custom or local database.json file from your computer">
+          📁 Load Custom / Local database.json
+          <input type="file" id="localDbFileInput" accept=".json" hidden>
+        </label>
+      </div>
+      <div id="localDbFeedback" style="font-size: 0.75rem; color: #16a34a; margin-top: 6px; display: none; font-weight: 600;"></div>
     </div>
 
     <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 12px; border-top: 1px solid #e2e8f0; flex-wrap: wrap; gap: 8px;">
@@ -3343,22 +3368,36 @@
     render();
   }
 
-  // Handle manual file picking
-  document.getElementById('filePicker').addEventListener('change', function (e) {
-    const file = e.target.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = function (event) {
-      try {
-        database = JSON.parse(event.target.result);
-        populateFilters();
-        render();
-      } catch (err) {
-        alert('Invalid JSON file.');
-      }
-    };
-    reader.readAsText(file);
-  });
+  // Handle manual database.json file picking (inside Customize Library modal)
+  const localDbInput = document.getElementById('localDbFileInput');
+  if (localDbInput) {
+    localDbInput.addEventListener('change', function (e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function (event) {
+        try {
+          const parsed = JSON.parse(event.target.result);
+          if (!Array.isArray(parsed)) {
+            throw new Error('Expected a JSON array of cartoon entries.');
+          }
+          database = parsed;
+          populateFilters();
+          if (typeof initAutocomplete === 'function') initAutocomplete();
+          render();
+          const feedback = document.getElementById('localDbFeedback');
+          if (feedback) {
+            feedback.textContent = `✓ Successfully loaded ${database.length} cartoons from ${file.name}`;
+            feedback.style.display = 'block';
+            setTimeout(() => { feedback.style.display = 'none'; }, 4000);
+          }
+        } catch (err) {
+          alert('Invalid JSON file: ' + (err.message || 'Unable to parse JSON.'));
+        }
+      };
+      reader.readAsText(file);
+    });
+  }
 
   // --- Admin Mode State & Security ---
   const ADMIN_PASSCODE_KEY = 'lt_admin_passcode';
