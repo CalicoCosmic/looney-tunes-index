@@ -917,6 +917,36 @@ def parse_super_stars():
     return all_ss
 
 
+def parse_spotlight_collection():
+    """
+    Parses the 7 Looney Tunes Spotlight Collection DVD sets (Volumes 1, 2, 4, 5, 6, 7, 8).
+    """
+    print("[+] Loading Looney Tunes Spotlight Collection (7 DVD Releases)...")
+    base_dir = os.path.dirname(__file__)
+    parsed_path = os.path.join(base_dir, "spotlight_parsed.json")
+    if os.path.exists(parsed_path):
+        with open(parsed_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        shorts = []
+        for vol_num, items in data.items():
+            set_name = f"Looney Tunes Spotlight Collection: Volume {vol_num}"
+            for item in items:
+                shorts.append({
+                    "title": item["cartoon_title"],
+                    "media_entry": {
+                        "set_name": set_name,
+                        "format": "DVD",
+                        "disc_number": item["disc_number"],
+                        "disc_title": item["disc_title"],
+                        "track_number": item["track_number"],
+                        "audio_commentary": [],
+                        "type": "dedicated"
+                    }
+                })
+        return shorts
+    return []
+
+
 def merge_into_master(master_db: dict, items: list):
     for item in items:
         title = item.get("title", "").strip()
@@ -1064,7 +1094,12 @@ def main():
     print(f"   ✓ Extracted {len(superstars_shorts)} shorts from Looney Tunes Super Stars (8 DVD Sets)")
     merge_into_master(master_db, superstars_shorts)
 
-    # 9. Apply manual user overrides (preserves custom edits like added characters)
+    # 9. Looney Tunes Spotlight Collection (7 DVD Releases)
+    spotlight_shorts = parse_spotlight_collection()
+    print(f"   ✓ Extracted {len(spotlight_shorts)} shorts from Looney Tunes Spotlight Collection (7 DVD Sets)")
+    merge_into_master(master_db, spotlight_shorts)
+
+    # 10. Apply manual user overrides (preserves custom edits like added characters)
     base_dir = os.path.dirname(__file__)
     overrides_path = os.path.join(base_dir, "custom_overrides.json")
     if os.path.exists(overrides_path):

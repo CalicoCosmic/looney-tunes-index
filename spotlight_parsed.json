@@ -1,0 +1,1696 @@
+{
+  "1": [
+    {
+      "cartoon_id": "elmer-s-candid-camera",
+      "cartoon_title": "Elmer's Candid Camera",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 1,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "bugs-bunny-and-the-three-bears",
+      "cartoon_title": "Bugs Bunny and the Three Bears",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 2,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "fast-and-furry-ous",
+      "cartoon_title": "Fast and Furry-ous",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 3,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "hair-raising-hare",
+      "cartoon_title": "Hair-Raising Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 4,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "awful-orphan",
+      "cartoon_title": "Awful Orphan",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 5,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "haredevil-hare",
+      "cartoon_title": "Haredevil Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 6,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "for-scent-imental-reasons",
+      "cartoon_title": "For Scent-imental Reasons",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 7,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "frigid-hare",
+      "cartoon_title": "Frigid Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 8,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-hypo-chondri-cat",
+      "cartoon_title": "The Hypo-Chondri-Cat",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 9,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "baton-bunny",
+      "cartoon_title": "Baton Bunny",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 10,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "feed-the-kitty",
+      "cartoon_title": "Feed the Kitty",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 11,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "don-t-give-up-the-sheep",
+      "cartoon_title": "Don't Give Up the Sheep",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 12,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "bugs-bunny-gets-the-boid",
+      "cartoon_title": "Bugs Bunny Gets the Boid",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 13,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "tortoise-wins-by-a-hare",
+      "cartoon_title": "Tortoise Wins by a Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 14,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "canary-row",
+      "cartoon_title": "Canary Row",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 1,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "bunker-hill-bunny",
+      "cartoon_title": "Bunker Hill Bunny",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 2,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "kit-for-cat",
+      "cartoon_title": "Kit for Cat",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 3,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "putty-tat-trouble",
+      "cartoon_title": "Putty Tat Trouble",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 4,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "bugs-and-thugs",
+      "cartoon_title": "Bugs and Thugs",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 5,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "canned-feud",
+      "cartoon_title": "Canned Feud",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 6,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "lumber-jerks",
+      "cartoon_title": "Lumber Jerks",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 7,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "speedy-gonzales",
+      "cartoon_title": "Speedy Gonzales",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 8,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "tweety-s-s-o-s",
+      "cartoon_title": "Tweety's S.O.S.",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 9,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-foghorn-leghorn",
+      "cartoon_title": "The Foghorn Leghorn",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 10,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "daffy-duck-hunt",
+      "cartoon_title": "Daffy Duck Hunt",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 11,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "early-to-bet",
+      "cartoon_title": "Early to Bet",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 12,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "a-broken-leghorn",
+      "cartoon_title": "A Broken Leghorn",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 13,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "devil-may-hare",
+      "cartoon_title": "Devil May Hare",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 14,
+      "is_bonus": false
+    }
+  ],
+  "2": [
+    {
+      "cartoon_id": "bad-ol-putty-tat",
+      "cartoon_title": "Bad Ol' Putty Tat",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 1,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "all-a-bir-r-r-d",
+      "cartoon_title": "All a Bir-r-r-d",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 2,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "room-and-bird",
+      "cartoon_title": "Room and Bird",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 3,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "tweet-tweet-tweety",
+      "cartoon_title": "Tweet Tweet Tweety",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 4,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "gift-wrapped",
+      "cartoon_title": "Gift Wrapped",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 5,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "ain-t-she-tweet",
+      "cartoon_title": "Ain't She Tweet",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 6,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "a-bird-in-a-guilty-cage",
+      "cartoon_title": "A Bird in a Guilty Cage",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 7,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "snow-business",
+      "cartoon_title": "Snow Business",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 8,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "tweetie-pie",
+      "cartoon_title": "Tweetie Pie",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 9,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "kitty-kornered",
+      "cartoon_title": "Kitty Kornered",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 10,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "baby-bottleneck",
+      "cartoon_title": "Baby Bottleneck",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 11,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "old-glory",
+      "cartoon_title": "Old Glory",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 12,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-great-piggy-bank-robbery",
+      "cartoon_title": "The Great Piggy Bank Robbery",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 13,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "duck-soup-to-nuts",
+      "cartoon_title": "Duck Soup to Nuts",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 14,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "porky-in-wackyland",
+      "cartoon_title": "Porky in Wackyland",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 15,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "back-alley-oproar",
+      "cartoon_title": "Back Alley Oproar",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 1,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "book-revue",
+      "cartoon_title": "Book Revue",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 2,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "a-corny-concerto",
+      "cartoon_title": "A Corny Concerto",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 3,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "have-you-got-any-castles",
+      "cartoon_title": "Have You Got Any Castles?",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 4,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "hollywood-steps-out",
+      "cartoon_title": "Hollywood Steps Out",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 5,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "i-love-to-singa",
+      "cartoon_title": "I Love to Singa",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 6,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "katnip-kollege",
+      "cartoon_title": "Katnip Kollege",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 7,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-hep-cat",
+      "cartoon_title": "The Hep Cat",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 8,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "three-little-bops",
+      "cartoon_title": "Three Little Bops",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 9,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "one-froggy-evening",
+      "cartoon_title": "One Froggy Evening",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 10,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "rhapsody-rabbit",
+      "cartoon_title": "Rhapsody Rabbit",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 11,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "show-biz-bugs",
+      "cartoon_title": "Show Biz Bugs",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 12,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "stage-door-cartoon",
+      "cartoon_title": "Stage Door Cartoon",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 13,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "what-s-opera-doc",
+      "cartoon_title": "What's Opera, Doc?",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 14,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "you-ought-to-be-in-pictures",
+      "cartoon_title": "You Ought to Be in Pictures",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 15,
+      "is_bonus": false
+    }
+  ],
+  "4": [
+    {
+      "cartoon_id": "roman-legion-hare",
+      "cartoon_title": "Roman Legion-Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 1,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-grey-hounded-hare",
+      "cartoon_title": "The Grey Hounded Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 2,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "rabbit-hood",
+      "cartoon_title": "Rabbit Hood",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 3,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "operation-rabbit",
+      "cartoon_title": "Operation: Rabbit",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 4,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "knight-mare-hare",
+      "cartoon_title": "Knight-mare Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 5,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "mississippi-hare",
+      "cartoon_title": "Mississippi Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 6,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "hurdy-gurdy-hare",
+      "cartoon_title": "Hurdy-Gurdy Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 7,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "forward-march-hare",
+      "cartoon_title": "Forward March Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 8,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "sahara-hare",
+      "cartoon_title": "Sahara Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 9,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "barbary-coast-bunny",
+      "cartoon_title": "Barbary Coast Bunny",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 10,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "to-hare-is-human",
+      "cartoon_title": "To Hare Is Human",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 11,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "8-ball-bunny",
+      "cartoon_title": "8 Ball Bunny",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 12,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "knighty-knight-bugs",
+      "cartoon_title": "Knighty Knight Bugs",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 13,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "rabbit-romeo",
+      "cartoon_title": "Rabbit Romeo",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 14,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-night-watchman",
+      "cartoon_title": "The Night Watchman",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 1,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "conrad-the-sailor",
+      "cartoon_title": "Conrad the Sailor",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 2,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-aristo-cat",
+      "cartoon_title": "The Aristo-Cat",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 3,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "dough-ray-me-ow",
+      "cartoon_title": "Dough Ray Me-ow",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 4,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "pizzicato-pussycat",
+      "cartoon_title": "Pizzicato Pussycat",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 5,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "kiss-me-cat",
+      "cartoon_title": "Kiss Me Cat",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 6,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "cat-feud",
+      "cartoon_title": "Cat Feud",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 7,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-unexpected-pest",
+      "cartoon_title": "The Unexpected Pest",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 8,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "go-fly-a-kit",
+      "cartoon_title": "Go Fly a Kit",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 9,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "kiddin-the-kitten",
+      "cartoon_title": "Kiddin' The Kitten",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 10,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "a-peck-o-trouble",
+      "cartoon_title": "A Peck o' Trouble",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 11,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "mouse-and-garden",
+      "cartoon_title": "Mouse and Garden",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 12,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "porky-s-poor-fish",
+      "cartoon_title": "Porky's Poor Fish",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 13,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "swallow-the-leader",
+      "cartoon_title": "Swallow the Leader",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 14,
+      "is_bonus": false
+    }
+  ],
+  "5": [
+    {
+      "cartoon_id": "14-carrot-rabbit",
+      "cartoon_title": "14 Carrot Rabbit",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 1,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "ali-baba-bunny",
+      "cartoon_title": "Ali Baba Bunny",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 2,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "buccaneer-bunny",
+      "cartoon_title": "Buccaneer Bunny",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 3,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "bugs-bonnets",
+      "cartoon_title": "Bugs' Bonnets",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 4,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "a-star-is-bored",
+      "cartoon_title": "A Star Is Bored",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 5,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "a-pest-in-the-house",
+      "cartoon_title": "A Pest in the House",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 6,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "transylvania-6-5000",
+      "cartoon_title": "Transylvania 6-5000",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 7,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "oily-hare",
+      "cartoon_title": "Oily Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 8,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "stupor-duck",
+      "cartoon_title": "Stupor Duck",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 9,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-stupor-salesman",
+      "cartoon_title": "The Stupor Salesman",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 10,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-abominable-snow-rabbit",
+      "cartoon_title": "The Abominable Snow Rabbit",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 11,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-super-snooper",
+      "cartoon_title": "The Super Snooper",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 12,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-up-standing-sitter",
+      "cartoon_title": "The Up-Standing Sitter",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 13,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "hollywood-daffy",
+      "cartoon_title": "Hollywood Daffy",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 14,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "you-were-never-duckier",
+      "cartoon_title": "You Were Never Duckier",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 15,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "bewitched-bunny",
+      "cartoon_title": "Bewitched Bunny",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 1,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "paying-the-piper",
+      "cartoon_title": "Paying the Piper",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 2,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-bear-s-tale",
+      "cartoon_title": "The Bear's Tale",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 3,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "foney-fables",
+      "cartoon_title": "Foney Fables",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 4,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "goldimouse-and-the-three-cats",
+      "cartoon_title": "Goldimouse and the Three Cats",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 5,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "holiday-for-shoestrings",
+      "cartoon_title": "Holiday for Shoestrings",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 6,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "little-red-rodent-hood",
+      "cartoon_title": "Little Red Rodent Hood",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 7,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "little-red-walking-hood",
+      "cartoon_title": "Little Red Walking Hood",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 8,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "red-riding-hoodwinked",
+      "cartoon_title": "Red Riding Hoodwinked",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 9,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-trial-of-mr-wolf",
+      "cartoon_title": "The Trial of Mr. Wolf",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 10,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-turn-tale-wolf",
+      "cartoon_title": "The Turn-Tale Wolf",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 11,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "tom-thumb-in-trouble",
+      "cartoon_title": "Tom Thumb in Trouble",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 12,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "tweety-and-the-beanstalk",
+      "cartoon_title": "Tweety and the Beanstalk",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 13,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "a-tale-of-two-kitties",
+      "cartoon_title": "A Tale of Two Kitties",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 14,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "porky-s-pooch",
+      "cartoon_title": "Porky's Pooch",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 15,
+      "is_bonus": false
+    }
+  ],
+  "6": [
+    {
+      "cartoon_id": "baby-buggy-bunny",
+      "cartoon_title": "Baby Buggy Bunny",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 1,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "broom-stick-bunny",
+      "cartoon_title": "Broom-Stick Bunny",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 2,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "to-duck-or-not-to-duck",
+      "cartoon_title": "To Duck or Not to Duck",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 3,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "birth-of-a-notion",
+      "cartoon_title": "Birth of a Notion",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 4,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "crowing-pains",
+      "cartoon_title": "Crowing Pains",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 5,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "raw-raw-rooster",
+      "cartoon_title": "Raw! Raw! Rooster!",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 6,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "my-favorite-duck",
+      "cartoon_title": "My Favorite Duck",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 7,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "jumpin-jupiter",
+      "cartoon_title": "Jumpin' Jupiter",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 8,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "satan-s-waitin",
+      "cartoon_title": "Satan's Waitin",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 9,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "hook-line-and-stinker",
+      "cartoon_title": "Hook, Line and Stinker",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 10,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "a-ham-in-a-role",
+      "cartoon_title": "A Ham in a Role",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 11,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "heaven-scent",
+      "cartoon_title": "Heaven Scent",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 12,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "often-an-orphan",
+      "cartoon_title": "Often an Orphan",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 13,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "dog-gone-south",
+      "cartoon_title": "Dog Gone South",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 14,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "by-word-of-mouse",
+      "cartoon_title": "By Word of Mouse",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 15,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "heir-conditioned",
+      "cartoon_title": "Heir-Conditioned",
+      "disc_number": 1,
+      "disc_title": "Disc 1 (Special Feature)",
+      "track_number": 1,
+      "is_bonus": true
+    },
+    {
+      "cartoon_id": "rabbit-rampage",
+      "cartoon_title": "Rabbit Rampage",
+      "disc_number": 1,
+      "disc_title": "Disc 1 (Special Feature)",
+      "track_number": 2,
+      "is_bonus": true
+    },
+    {
+      "cartoon_id": "sniffles-takes-a-trip",
+      "cartoon_title": "Sniffles Takes a Trip",
+      "disc_number": 1,
+      "disc_title": "Disc 1 (Special Feature)",
+      "track_number": 3,
+      "is_bonus": true
+    },
+    {
+      "cartoon_id": "yankee-dood-it",
+      "cartoon_title": "Yankee Dood It",
+      "disc_number": 1,
+      "disc_title": "Disc 1 (Special Feature)",
+      "track_number": 4,
+      "is_bonus": true
+    },
+    {
+      "cartoon_id": "rocket-bye-baby",
+      "cartoon_title": "Rocket-Bye Baby",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 1,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "fresh-airedale",
+      "cartoon_title": "Fresh Airedale",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 2,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "it-s-hummer-time",
+      "cartoon_title": "It's Hummer Time",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 3,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "much-ado-about-nutting",
+      "cartoon_title": "Much Ado About Nutting",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 4,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "goo-goo-goliath",
+      "cartoon_title": "Goo Goo Goliath",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 5,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-draft-horse",
+      "cartoon_title": "The Draft Horse",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 6,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "lights-fantastic",
+      "cartoon_title": "Lights Fantastic",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 7,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "rookie-revue",
+      "cartoon_title": "Rookie Revue",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 8,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-weakly-reporter",
+      "cartoon_title": "The Weakly Reporter",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 9,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "wild-wife",
+      "cartoon_title": "Wild Wife",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 10,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-hole-idea",
+      "cartoon_title": "The Hole Idea",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 11,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "miss-glory",
+      "cartoon_title": "Miss Glory",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 12,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "now-hear-this",
+      "cartoon_title": "Now Hear This",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 13,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "norman-normal",
+      "cartoon_title": "Norman Normal",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 14,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "a-cartoonist-s-nightmare",
+      "cartoon_title": "A Cartoonist's Nightmare",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 15,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "bartholomew-versus-the-wheel",
+      "cartoon_title": "Bartholomew Versus the Wheel",
+      "disc_number": 2,
+      "disc_title": "Disc 2 (Special Feature)",
+      "track_number": 1,
+      "is_bonus": true
+    },
+    {
+      "cartoon_id": "punch-trunk",
+      "cartoon_title": "Punch Trunk",
+      "disc_number": 2,
+      "disc_title": "Disc 2 (Special Feature)",
+      "track_number": 2,
+      "is_bonus": true
+    },
+    {
+      "cartoon_id": "sleepy-time-possum",
+      "cartoon_title": "Sleepy Time Possum",
+      "disc_number": 2,
+      "disc_title": "Disc 2 (Special Feature)",
+      "track_number": 3,
+      "is_bonus": true
+    },
+    {
+      "cartoon_id": "wild-wild-world",
+      "cartoon_title": "Wild Wild World",
+      "disc_number": 2,
+      "disc_title": "Disc 2 (Special Feature)",
+      "track_number": 4,
+      "is_bonus": true
+    }
+  ],
+  "7": [
+    {
+      "cartoon_id": "baseball-bugs",
+      "cartoon_title": "Baseball Bugs",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 1,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "rabbit-seasoning",
+      "cartoon_title": "Rabbit Seasoning",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 2,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "long-haired-hare",
+      "cartoon_title": "Long-Haired Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 3,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "high-diving-hare",
+      "cartoon_title": "High Diving Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 4,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "bully-for-bugs",
+      "cartoon_title": "Bully for Bugs",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 5,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "beep-beep",
+      "cartoon_title": "Beep, Beep",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 6,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "going-going-gosh",
+      "cartoon_title": "Going! Going! Gosh!",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 7,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "zipping-along",
+      "cartoon_title": "Zipping Along",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 8,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "stop-look-and-hasten",
+      "cartoon_title": "Stop! Look! And Hasten!",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 9,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "ready-set-zoom",
+      "cartoon_title": "Ready, Set, Zoom!",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 10,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "guided-muscle",
+      "cartoon_title": "Guided Muscle",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 11,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "gee-whiz-z-z-z-z-z-z",
+      "cartoon_title": "Gee Whiz-z-z-z-z-z-z",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 12,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "there-they-go-go-go",
+      "cartoon_title": "There They Go-Go-Go!",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 13,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "scrambled-aches",
+      "cartoon_title": "Scrambled Aches",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 14,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "zoom-and-bored",
+      "cartoon_title": "Zoom and Bored",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 15,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "daffy-duck-and-the-dinosaur",
+      "cartoon_title": "Daffy Duck and the Dinosaur",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 1,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "super-rabbit",
+      "cartoon_title": "Super-Rabbit",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 2,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "draftee-daffy",
+      "cartoon_title": "Draftee Daffy",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 3,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "falling-hare",
+      "cartoon_title": "Falling Hare",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 4,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "steal-wool",
+      "cartoon_title": "Steal Wool",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 5,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "birds-anonymous",
+      "cartoon_title": "Birds Anonymous",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 6,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "no-barking",
+      "cartoon_title": "No Barking",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 7,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "rabbit-punch",
+      "cartoon_title": "Rabbit Punch",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 8,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "odor-able-kitty",
+      "cartoon_title": "Odor-able Kitty",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 9,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "walky-talky-hawky",
+      "cartoon_title": "Walky Talky Hawky",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 10,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "to-beep-or-not-to-beep",
+      "cartoon_title": "To Beep or Not to Beep",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 11,
+      "is_bonus": false
+    }
+  ],
+  "8": [
+    {
+      "cartoon_id": "the-big-snooze",
+      "cartoon_title": "The Big Snooze",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 1,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "bugs-bunny-rides-again",
+      "cartoon_title": "Bugs Bunny Rides Again",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 2,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "bunny-hugged",
+      "cartoon_title": "Bunny Hugged",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 3,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "french-rarebit",
+      "cartoon_title": "French Rarebit",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 4,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "gorilla-my-dreams",
+      "cartoon_title": "Gorilla My Dreams",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 5,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-hare-brained-hypnotist",
+      "cartoon_title": "The Hare-Brained Hypnotist",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 6,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "hare-conditioned",
+      "cartoon_title": "Hare Conditioned",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 7,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-heckling-hare",
+      "cartoon_title": "The Heckling Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 8,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "little-red-riding-rabbit",
+      "cartoon_title": "Little Red Riding Rabbit",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 9,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "tortoise-beats-hare",
+      "cartoon_title": "Tortoise Beats Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 10,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "rabbit-transit",
+      "cartoon_title": "Rabbit Transit",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 11,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "slick-hare",
+      "cartoon_title": "Slick Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 12,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "homeless-hare",
+      "cartoon_title": "Homeless Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 13,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "hyde-and-hare",
+      "cartoon_title": "Hyde and Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 14,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-windblown-hare",
+      "cartoon_title": "The Windblown Hare",
+      "disc_number": 1,
+      "disc_title": "Disc 1",
+      "track_number": 15,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-wise-quacking-duck",
+      "cartoon_title": "The Wise Quacking Duck",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 1,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "claws-for-alarm",
+      "cartoon_title": "Claws for Alarm",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 2,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "whoa-be-gone",
+      "cartoon_title": "Whoa, Be-Gone!",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 3,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "cheese-chasers",
+      "cartoon_title": "Cheese Chasers",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 4,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-dover-boys-at-pimento-university",
+      "cartoon_title": "The Dover Boys at Pimento University",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 5,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "a-bear-for-punishment",
+      "cartoon_title": "A Bear for Punishment",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 6,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-pied-piper-of-guadalupe",
+      "cartoon_title": "The Pied Piper of Guadalupe",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 7,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-last-hungry-cat",
+      "cartoon_title": "The Last Hungry Cat",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 8,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "the-honey-mousers",
+      "cartoon_title": "The Honey-Mousers",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 9,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "an-egg-scramble",
+      "cartoon_title": "An Egg Scramble",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 10,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "cat-tails-for-two",
+      "cartoon_title": "Cat-Tails for Two",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 11,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "bye-bye-bluebeard",
+      "cartoon_title": "Bye, Bye Bluebeard",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 12,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "booby-hatched",
+      "cartoon_title": "Booby Hatched",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 13,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "now-that-summer-is-gone",
+      "cartoon_title": "Now That Summer Is Gone",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 14,
+      "is_bonus": false
+    },
+    {
+      "cartoon_id": "pigs-in-a-polka",
+      "cartoon_title": "Pigs in a Polka",
+      "disc_number": 2,
+      "disc_title": "Disc 2",
+      "track_number": 15,
+      "is_bonus": false
+    }
+  ]
+}

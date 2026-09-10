@@ -3755,6 +3755,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 15,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 15,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -4969,6 +4978,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 4,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -5312,6 +5330,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: 1930s Musicals",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 12,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -6440,6 +6467,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Fables & Fairy Tales",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 8,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -8091,6 +8127,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 5,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -8245,6 +8290,15 @@ window.LOONEY_TUNES_DATABASE = [
         "format": "LaserDisc",
         "disc_number": 1,
         "disc_title": "Side 1: 1930s Musicals",
+        "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
         "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
@@ -8432,6 +8486,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Musical Madness",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 14,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -8655,6 +8718,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 15,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -9296,6 +9368,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 1,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9778,6 +9859,15 @@ window.LOONEY_TUNES_DATABASE = [
         "format": "LaserDisc",
         "disc_number": 5,
         "disc_title": "Side 9: Porky and Daffy",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
         "track_number": 1,
         "audio_commentary": [],
         "type": "dedicated"
@@ -10547,6 +10637,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Chuck Jones",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 12,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -12096,6 +12195,15 @@ window.LOONEY_TUNES_DATABASE = [
           "Jerry Beck"
         ],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12628,6 +12736,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 14,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 13,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12792,6 +12909,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 3,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1 (Special Feature)",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12885,6 +13011,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Tex Avery",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 3,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -13193,6 +13328,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 5,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 12,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -13306,6 +13450,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 15,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -13701,6 +13854,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Out of the Fog Bonus Features",
         "track_number": 2,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -14053,6 +14215,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "The Bride Came C.O.D. Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 15,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -14319,6 +14490,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Freleng Follies",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 8,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -14835,6 +15015,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Out of the Fog Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 8,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -14917,6 +15106,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Friz Freleng",
         "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 10,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -15036,6 +15234,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "The Strawberry Blonde Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 10,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -15241,6 +15448,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "They Died with Their Boots On Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 14,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -15358,6 +15574,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 13,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -15475,6 +15700,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -15786,6 +16020,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Gentleman Jim Bonus Features",
         "track_number": 2,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16141,6 +16384,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "All Through the Night Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16211,6 +16463,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Bugs Bunny: Superstar",
         "track_number": 7,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16508,6 +16769,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Gentleman Jim Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16551,6 +16821,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Chuck Jones",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 6,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -16636,6 +16915,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 2,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16689,6 +16977,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Bob Clampett",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 8,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -17075,6 +17372,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Bugs Bunny: Superstar",
         "track_number": 3,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -17307,6 +17613,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Tashlin/Clampett",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 4,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -17703,6 +18018,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 2,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 15,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -17970,6 +18294,15 @@ window.LOONEY_TUNES_DATABASE = [
           "Paul Dini"
         ],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18031,6 +18364,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "The Hard Way Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18160,6 +18502,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 2,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18231,6 +18582,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: The Art of Daffy",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 3,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -18312,6 +18672,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: The Art of Bugs",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 14,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -18548,6 +18917,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 13,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18745,6 +19123,15 @@ window.LOONEY_TUNES_DATABASE = [
           "Stan Freberg"
         ],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18841,6 +19228,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 14,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -19140,6 +19536,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Friz Freleng",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 9,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -19478,6 +19883,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 13,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -19711,6 +20125,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Chuck Jones",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 9,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -20080,6 +20503,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 6,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -20139,6 +20571,15 @@ window.LOONEY_TUNES_DATABASE = [
         ],
         "type": "dedicated",
         "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -20199,6 +20640,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv1"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -20550,6 +21000,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 9,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -21072,6 +21531,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 6,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 11,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21191,6 +21659,15 @@ window.LOONEY_TUNES_DATABASE = [
           "Eric Goldberg"
         ],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21247,6 +21724,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: 1940s Zanies",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 2,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -21446,6 +21932,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "The Verdict Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21568,6 +22063,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21674,6 +22178,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 14,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21771,6 +22284,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Bob Clampett",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 10,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -22075,6 +22597,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Humoresque Bonus Features",
         "track_number": 2,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 11,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22201,6 +22732,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Night and Day Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22307,6 +22847,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Bob Clampett",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 13,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -22430,6 +22979,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Bugs Bunny: Superstar",
         "track_number": 6,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 10,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22600,6 +23158,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 4,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22723,6 +23290,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "The Verdict Bonus Features",
         "track_number": 2,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22848,6 +23424,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "The Man I Love Bonus Features",
         "track_number": 2,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -23379,6 +23964,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "The Man I Love Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 11,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -23497,6 +24091,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Hooray for Hollywood",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 12,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -23688,6 +24291,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 9,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -23900,6 +24512,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 6,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24020,6 +24641,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "The Spanish Main Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24081,6 +24711,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [
           "Greg Ford"
         ],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 2,
+        "audio_commentary": [],
         "type": "dedicated"
       }
     ]
@@ -24248,6 +24887,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 5,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24304,6 +24952,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Bugs Bunny by Each Director",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 5,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -24419,6 +25076,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [
           "Michael Barrier"
         ],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 6,
+        "audio_commentary": [],
         "type": "dedicated"
       }
     ]
@@ -24620,6 +25286,15 @@ window.LOONEY_TUNES_DATABASE = [
         "format": "LaserDisc",
         "disc_number": 1,
         "disc_title": "Side 2",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
         "track_number": 3,
         "audio_commentary": [],
         "type": "dedicated"
@@ -24847,6 +25522,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Silver River Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 8,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25017,6 +25701,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 22,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 10,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -25233,6 +25926,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 1,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 10,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25281,6 +25983,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Porky and Daffy",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 13,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -25536,6 +26247,15 @@ window.LOONEY_TUNES_DATABASE = [
         ],
         "type": "dedicated",
         "set_id": "wac_cv2"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 15,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25583,6 +26303,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 22,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 11,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -25646,6 +26375,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 6,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25704,6 +26442,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 1,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -25867,6 +26614,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 2,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 12,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25990,6 +26746,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 11,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -26141,6 +26906,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 1,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26213,6 +26987,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Gay Purr-ee Bonus Features",
         "track_number": 3,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26272,6 +27055,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 8,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -26428,6 +27220,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 4,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -26635,6 +27436,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "For the First Time Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26696,6 +27506,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 6,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -26889,6 +27708,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 1,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 13,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26937,6 +27765,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 2,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -27047,6 +27884,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 5,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27137,6 +27983,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 15,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 14,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27220,6 +28075,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 2,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27277,6 +28141,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 15,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -27436,6 +28309,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 12,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27540,6 +28422,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 3,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27580,6 +28471,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 11,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 10,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -27778,6 +28678,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Bright Leaf Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27880,6 +28789,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 1,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -28036,6 +28954,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 14,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -28300,6 +29227,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 8,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 13,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -28340,6 +29276,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 8,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -28397,6 +29342,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Montana Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -28800,6 +29754,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Brainstorm Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 9,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29140,6 +30103,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 1,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29459,6 +30431,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Storm Warning Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29519,6 +30500,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 2,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29560,6 +30550,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 12,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 4,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -29760,6 +30759,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 12,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 12,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29821,6 +30829,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Gay Purr-ee Bonus Features",
         "track_number": 2,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30051,6 +31068,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 5,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30229,6 +31255,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 6,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30320,6 +31355,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2 (Special Feature)",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30526,6 +31570,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 8,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30587,6 +31640,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 4,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 9,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30636,6 +31698,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 1,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -30697,6 +31768,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -30762,6 +31842,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 10,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30820,6 +31909,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 6,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -30958,6 +32056,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Springfield Rifle Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 11,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31122,6 +32229,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31179,6 +32295,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -31324,6 +32449,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 11,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 10,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31435,6 +32569,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 2,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31516,6 +32659,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 8,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 8,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31573,6 +32725,15 @@ window.LOONEY_TUNES_DATABASE = [
         "format": "LaserDisc",
         "disc_number": 1,
         "disc_title": "Side 1",
+        "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
         "track_number": 4,
         "audio_commentary": [],
         "type": "dedicated"
@@ -31634,6 +32795,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 2,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -31948,6 +33118,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "The Narrow Margin Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 12,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31983,6 +33162,15 @@ window.LOONEY_TUNES_DATABASE = [
         "format": "DVD",
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
+        "track_number": 11,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
         "track_number": 11,
         "audio_commentary": [],
         "type": "dedicated"
@@ -32274,6 +33462,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 12,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 11,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32431,6 +33628,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "The Master of Ballantrae Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32481,6 +33687,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv1"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 11,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32624,6 +33839,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 12,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -32900,6 +34124,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 9,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 8,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33069,6 +34302,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 22,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33191,6 +34433,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "The Beggar's Opera Bonus Features",
         "track_number": 2,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33377,6 +34628,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cc3"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2 (Special Feature)",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33488,6 +34748,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 11,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 8,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -33746,6 +35015,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 5,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 8,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33831,6 +35109,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Crime Wave Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33931,6 +35218,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 3,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33992,6 +35288,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34031,6 +35336,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 13,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 15,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -34170,6 +35484,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 2,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34259,6 +35582,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 12,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 14,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -34568,6 +35900,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 8,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34810,6 +36151,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 9,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34965,6 +36315,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "King Richard and the Crusaders Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 9,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35067,6 +36426,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 9,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -35192,6 +36560,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 9,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 10,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -35566,6 +36943,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 1,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 11,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35661,6 +37047,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 14,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1 (Special Feature)",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35719,6 +37114,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 14,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -35783,6 +37187,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 1,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 8,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35821,6 +37234,15 @@ window.LOONEY_TUNES_DATABASE = [
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
+        "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
         "track_number": 5,
         "audio_commentary": [],
         "type": "dedicated"
@@ -35906,6 +37328,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35963,6 +37394,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 10,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -36144,6 +37584,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36184,6 +37633,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cc2"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1 (Special Feature)",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36244,6 +37702,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 10,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -36307,6 +37774,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 6,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 9,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36355,6 +37831,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 1,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -36420,6 +37905,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "I Died a Thousand Times Bonus Features",
         "track_number": 2,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 9,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36510,6 +38004,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 25,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 8,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -36604,6 +38107,15 @@ window.LOONEY_TUNES_DATABASE = [
         "format": "DVD",
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
+        "track_number": 11,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
         "track_number": 11,
         "audio_commentary": [],
         "type": "dedicated"
@@ -36805,6 +38317,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36853,6 +38374,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 10,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -36915,6 +38445,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 2,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36954,6 +38493,15 @@ window.LOONEY_TUNES_DATABASE = [
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
+        "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
         "track_number": 4,
         "audio_commentary": [],
         "type": "dedicated"
@@ -37078,6 +38626,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 2,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 12,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37163,6 +38720,15 @@ window.LOONEY_TUNES_DATABASE = [
       },
       {
         "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 12,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
@@ -37361,6 +38927,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 6,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37460,6 +39035,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 23,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37497,6 +39081,15 @@ window.LOONEY_TUNES_DATABASE = [
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
+        "track_number": 9,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
         "track_number": 9,
         "audio_commentary": [],
         "type": "dedicated"
@@ -37584,6 +39177,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 13,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 9,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37666,6 +39268,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 9,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 8,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37718,6 +39329,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 3,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 13,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37767,6 +39387,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 11,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -38118,6 +39747,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 4,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1 (Special Feature)",
+        "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38177,6 +39815,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 2,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -38303,6 +39950,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 6,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -38635,6 +40291,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 10,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 9,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38859,6 +40524,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 15,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 14,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38908,6 +40582,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 14,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -38992,6 +40675,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Cats Don't Dance Bonus Features",
         "track_number": 3,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 12,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -39040,6 +40732,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 25,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 5,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -39142,6 +40843,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 9,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -39275,6 +40985,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 3,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 13,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -39348,6 +41067,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 2",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 14,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -39406,6 +41134,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 15,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -39572,6 +41309,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 8,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -39916,6 +41662,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 11,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 10,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -39984,6 +41739,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 13,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -40307,6 +42071,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 6,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -40355,6 +42128,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 13,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -40580,6 +42362,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 1",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 10,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -41550,6 +43341,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -41898,6 +43698,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 17,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 4",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 12,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -42242,7 +44051,17 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [],
     "synopsis": "Cave Darroway presents a recently discovered film documentary of the Geo-Goshical Year 75,000,000 B.C..",
-    "media_locations": []
+    "media_locations": [
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2 (Special Feature)",
+        "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      }
+    ]
   },
   {
     "id": "a-scent-of-the-matterhorn",
@@ -42819,6 +44638,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 5,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 11,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -42881,6 +44709,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 8,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -42971,6 +44808,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 18,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 8",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -44221,6 +46067,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 12,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 13,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -44368,6 +46223,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv2"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 7",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 11,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -44417,6 +46281,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 5",
+        "format": "DVD",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -44530,7 +46403,17 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [],
     "synopsis": "A story of a dog who really, really hated wheels, before learning to love them.",
-    "media_locations": []
+    "media_locations": [
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2 (Special Feature)",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      }
+    ]
   },
   {
     "id": "dr-devil-and-mr-hare",
@@ -46770,6 +48653,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 15,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Spotlight Collection: Volume 6",
+        "format": "DVD",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 14,
         "audio_commentary": [],
         "type": "dedicated"
       }

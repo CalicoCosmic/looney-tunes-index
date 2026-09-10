@@ -2104,7 +2104,7 @@
           <span class="pill-label">📚 In My Library Only</span>
         </label>
         <button type="button" class="subbar-btn" id="openLibraryModalBtn" onclick="openLibraryModal()" title="Customize your owned home media sets &amp; profiles">
-          ⚙️ Customize Library (<span id="librarySubBarCount">0</span>/<span id="librarySubBarTotal">44</span>)
+          ⚙️ Customize Library (<span id="librarySubBarCount">0</span>/<span id="librarySubBarTotal">51</span>)
         </button>
         <button type="button" id="panelToggleBtn" class="subbar-btn panel-toggle-btn" onclick="toggleSecondaryPanels()" title="Show or hide Theatrical Era Timeline">
           <span id="panelToggleIcon">⏳</span>
@@ -2184,7 +2184,7 @@
     <div class="modal-header">
       <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
         <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">⚙️ Customize My Owned Media Sets</h2>
-        <span class="media-set-summary-badge" id="modalOwnedSummary">0 of 43 Owned</span>
+        <span class="media-set-summary-badge" id="modalOwnedSummary">0 of 51 Owned</span>
       </div>
       <button type="button" class="modal-close" onclick="closeLibraryModal()">&times;</button>
     </div>
@@ -2207,7 +2207,7 @@
 
     <div class="popover-actions" style="margin-bottom: 12px;">
       <button type="button" class="popover-btn popover-btn-primary" onclick="loadCurrentUserLibrary()" title="Select sets in your saved library">📚 My Saved Library</button>
-      <button type="button" class="popover-btn" id="selectAllSetsBtn" onclick="selectAllSets(true)" title="Check all sets">Select All (43 Sets)</button>
+      <button type="button" class="popover-btn" id="selectAllSetsBtn" onclick="selectAllSets(true)" title="Check all sets">Select All (51 Sets)</button>
       <button type="button" class="popover-btn" onclick="selectAllSets(false)" title="Uncheck all sets">Clear All (0 Sets)</button>
       <button type="button" class="popover-btn" onclick="selectOnlyFormat('Blu-ray')">Only Blu-ray</button>
       <button type="button" class="popover-btn" onclick="selectOnlyFormat('DVD')">Only DVD</button>
@@ -2253,7 +2253,7 @@
     </div>
 
     <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 12px; border-top: 1px solid #e2e8f0; flex-wrap: wrap; gap: 8px;">
-      <span style="font-size: 0.82rem; color: #64748b;" id="popoverCountLabel">0 of 43 sets marked owned</span>
+      <span style="font-size: 0.82rem; color: #64748b;" id="popoverCountLabel">0 of 51 sets marked owned</span>
       <button type="button" class="modal-btn-save" onclick="closeLibraryModal()">✓ Done & Apply</button>
     </div>
   </div>
@@ -3636,7 +3636,7 @@
 
   function updateOwnedCount() {
     const count = selectedMediaSets.size;
-    const total = allMediaSets.length || 138;
+    const total = allMediaSets.length || 146;
     const primarySets = allMediaSets.filter(s => s.type !== 'feature_bonus');
     const bonusSets = allMediaSets.filter(s => s.type === 'feature_bonus');
     const primaryOwned = primarySets.filter(s => selectedMediaSets.has(s.set_name)).length;
@@ -3645,15 +3645,15 @@
     const countEl = document.getElementById('ownedCount');
     if (countEl) countEl.textContent = count;
     const totalEl = document.getElementById('totalSetsCount');
-    if (totalEl) totalEl.textContent = primarySets.length || 44;
+    if (totalEl) totalEl.textContent = primarySets.length || 51;
     const subBarCount = document.getElementById('librarySubBarCount');
     if (subBarCount) subBarCount.textContent = primaryOwned;
     const subBarTotal = document.getElementById('librarySubBarTotal');
-    if (subBarTotal) subBarTotal.textContent = primarySets.length || 44;
+    if (subBarTotal) subBarTotal.textContent = primarySets.length || 51;
     const libHeaderCount = document.getElementById('libraryHeaderCount');
     if (libHeaderCount) libHeaderCount.textContent = primaryOwned;
     const libHeaderTotal = document.getElementById('libraryHeaderTotal');
-    if (libHeaderTotal) libHeaderTotal.textContent = primarySets.length || 44;
+    if (libHeaderTotal) libHeaderTotal.textContent = primarySets.length || 51;
     const summaryEl = document.getElementById('modalOwnedSummary');
     if (summaryEl) {
       summaryEl.textContent = `${count} of ${total} Owned (${primaryOwned}/${primarySets.length} Primary${bonusOwned > 0 ? `, ${bonusOwned} Extras` : ''})`;
@@ -3755,6 +3755,9 @@
     if (name.includes("Golden Collection")) {
       return "📀 Golden Collection (DVD)";
     }
+    if (name.includes("Spotlight Collection")) {
+      return "📀 Spotlight Collection (DVD)";
+    }
     if (name.includes("Super Stars")) {
       return "📀 Looney Tunes Super Stars (DVD)";
     }
@@ -3769,6 +3772,7 @@
     "🏛️ Warner Archive Dedicated Releases",
     "💿 Blu-ray Special Collections",
     "📀 Golden Collection (DVD)",
+    "📀 Spotlight Collection (DVD)",
     "📀 Looney Tunes Super Stars (DVD)",
     "💽 LaserDisc Collections"
   ];
