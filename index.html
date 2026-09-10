@@ -1581,79 +1581,199 @@
       transform: translateY(-1px);
     }
 
-    /* Star Rating Widget */
-    .rating-container {
+    /* Compact Star Rating Button & Popover */
+    .rating-popover-wrapper {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .rating-btn {
+      height: 32px;
+      min-height: 32px;
+      max-height: 32px;
+      box-sizing: border-box;
+      padding: 3px 8px;
+      border-radius: 6px;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      color: #334155;
+      font-weight: 600;
+      font-size: 0.85rem;
+      line-height: 1;
+      cursor: pointer;
       display: inline-flex;
       align-items: center;
       gap: 4px;
-      vertical-align: middle;
-    }
-    .stars-row {
-      display: inline-flex;
-      gap: 2px;
-      cursor: pointer;
-    }
-    .star-btn {
-      font-size: 1.15rem;
-      line-height: 1;
-      color: #cbd5e1;
-      transition: color 0.12s, transform 0.12s;
+      transition: all 0.15s ease;
       user-select: none;
     }
-    .star-btn:hover,
-    .star-btn.hovered {
-      color: #f59e0b;
-      transform: scale(1.18);
-    }
-    .star-btn.filled {
-      color: #f59e0b;
-    }
-    .btn-clear-rating {
-      background: none;
-      border: none;
-      color: #94a3b8;
-      font-size: 0.82rem;
-      cursor: pointer;
-      padding: 0 2px;
-      line-height: 1;
-      opacity: 0.7;
-    }
-    .btn-clear-rating:hover {
-      color: #ef4444;
-      opacity: 1;
+
+    .rating-btn:hover {
+      background: #f8fafc;
+      border-color: #94a3b8;
     }
 
-    /* User Personal Notes */
+    .rating-btn.unrated {
+      color: #94a3b8;
+      min-width: 32px;
+      justify-content: center;
+      padding: 0 6px;
+    }
+
+    .rating-btn.unrated .star-icon,
+    .rating-btn.unrated .star-unrated {
+      color: #94a3b8;
+      font-size: 1.05rem;
+      line-height: 1;
+    }
+
+    .rating-btn.unrated:hover {
+      color: #f59e0b;
+      border-color: #fcd34d;
+      background: #fffdf5;
+    }
+
+    .rating-btn.unrated:hover .star-icon,
+    .rating-btn.unrated:hover .star-unrated {
+      color: #f59e0b;
+    }
+
+    .rating-btn.rated {
+      background: #fffdf5;
+      border-color: #fde68a;
+      color: #78350f;
+    }
+
+    .rating-btn.rated:hover {
+      background: #fefce8;
+      border-color: #f59e0b;
+    }
+
+    .rating-btn.rated .star-icon {
+      color: #f59e0b;
+      font-size: 0.95rem;
+      line-height: 1;
+    }
+
+    .rating-popover-menu {
+      position: absolute;
+      top: calc(100% + 4px);
+      left: 0;
+      z-index: 1100;
+      min-width: 155px;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.16), 0 8px 10px -6px rgba(15, 23, 42, 0.1);
+      padding: 4px;
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+
+    .rating-popover-menu[hidden] {
+      display: none !important;
+    }
+
+    .rating-option {
+      width: 100%;
+      border: none;
+      background: transparent;
+      padding: 6px 8px;
+      border-radius: 5px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #334155;
+      text-align: left;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.12s, color 0.12s;
+      box-sizing: border-box;
+      line-height: 1.25;
+      white-space: nowrap;
+    }
+
+    .rating-option:hover {
+      background: #f1f5f9;
+      color: #0f172a;
+    }
+
+    .rating-option .opt-star {
+      font-size: 0.95rem;
+      line-height: 1;
+      color: #f59e0b;
+    }
+
+    .rating-option.clear-option {
+      color: #64748b;
+      border-bottom: 1px solid #f1f5f9;
+      margin-bottom: 2px;
+      padding-bottom: 7px;
+    }
+
+    .rating-option.clear-option .opt-star {
+      color: #94a3b8;
+    }
+
+    .rating-option.clear-option:hover {
+      background: #fef2f2;
+      color: #dc2626;
+    }
+
+    .rating-option.clear-option:hover .opt-star {
+      color: #dc2626;
+    }
+
+    .rating-option.active {
+      background: #fefce8;
+      font-weight: 700;
+      color: #92400e;
+    }
+
+    /* User Personal Notes Button (Square 32x32) */
     .card-actions-row {
       display: flex;
       align-items: center;
       gap: 8px;
       flex-shrink: 0;
     }
-    .btn-note-toggle {
+    .btn-note-toggle,
+    .note-btn {
+      width: 32px;
+      height: 32px;
+      min-width: 32px;
+      min-height: 32px;
+      max-width: 32px;
+      max-height: 32px;
+      box-sizing: border-box;
       background: #f8fafc;
       border: 1px solid #cbd5e1;
       color: #475569;
-      padding: 4px 10px;
+      padding: 0;
       border-radius: 6px;
-      font-size: 0.78rem;
-      font-weight: 600;
+      font-size: 1rem;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
-      gap: 4px;
+      justify-content: center;
+      line-height: 1;
       transition: all 0.15s ease;
+      user-select: none;
     }
-    .btn-note-toggle:hover {
+    .btn-note-toggle:hover,
+    .note-btn:hover {
       background: #eff6ff;
       border-color: #93c5fd;
       color: #1e40af;
     }
-    .btn-note-toggle.has-note {
-      background: #eff6ff;
-      border-color: #3b82f6;
+    .btn-note-toggle.has-note,
+    .note-btn.has-note {
+      background: #e7f5ff;
+      border-color: #74c0fc;
       color: #1d4ed8;
-      font-weight: 700;
     }
 
     .card-note-drawer {
@@ -2020,12 +2140,9 @@
         margin-left: 0;
       }
 
-      .card-header-bottom .rating-container {
-        font-size: 0.85rem;
-      }
-
-      .card-header-bottom .star-btn {
-        font-size: 1.05rem;
+      .rating-btn {
+        height: 32px;
+        min-height: 32px;
       }
 
       .card-header-bottom-right {
@@ -2039,10 +2156,13 @@
         display: none;
       }
 
-      .btn-note-toggle {
+      .btn-note-toggle,
+      .note-btn {
+        width: 32px;
+        height: 32px;
         min-height: 32px;
-        padding: 4px 8px;
-        font-size: 0.74rem;
+        min-width: 32px;
+        padding: 0;
       }
 
       /* 4. Modal / Slide-out Adjustments */
@@ -3316,22 +3436,83 @@
     return Number(ratings[shortId]) || 0;
   }
 
-  window.setCartoonRating = function(shortId, stars) {
-    const ratings = getVisitorRatings();
-    if (ratings[shortId] === stars) {
-      delete ratings[shortId]; // clicking same star clears rating
+  let openRatingPopoverId = null;
+
+  window.toggleRatingPopover = function(shortId, event) {
+    if (event) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+    const popover = document.getElementById(`rating_popover_${shortId}`);
+    if (!popover) return;
+    const isCurrentlyOpen = !popover.hidden;
+    closeAllRatingPopovers();
+    if (!isCurrentlyOpen) {
+      popover.hidden = false;
+      openRatingPopoverId = shortId;
+    }
+  };
+
+  window.closeAllRatingPopovers = function() {
+    if (openRatingPopoverId) {
+      const pop = document.getElementById(`rating_popover_${openRatingPopoverId}`);
+      if (pop) pop.hidden = true;
+      openRatingPopoverId = null;
+    }
+    document.querySelectorAll('.rating-popover-menu').forEach(menu => {
+      menu.hidden = true;
+    });
+  };
+
+  function updateRatingButtonDom(shortId, stars) {
+    const btn = document.getElementById(`rating_btn_${shortId}`);
+    if (!btn) return;
+    if (stars > 0) {
+      btn.className = 'rating-btn rated';
+      btn.title = `Rating: ${stars}/5`;
+      btn.setAttribute('aria-label', `Rating: ${stars} of 5 stars`);
+      btn.innerHTML = `<span class="star-icon">★</span> ${stars}`;
     } else {
+      btn.className = 'rating-btn unrated';
+      btn.title = 'Rate this short';
+      btn.setAttribute('aria-label', 'Rate this short');
+      btn.innerHTML = `<span class="star-icon star-unrated">☆</span>`;
+    }
+    const popover = document.getElementById(`rating_popover_${shortId}`);
+    if (popover) {
+      popover.querySelectorAll('.rating-option').forEach(opt => {
+        const r = parseInt(opt.getAttribute('data-rating'), 10);
+        opt.classList.toggle('active', r === stars);
+      });
+    }
+  }
+
+  window.selectCartoonRating = function(shortId, stars, event) {
+    if (event) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+    closeAllRatingPopovers();
+    const ratings = getVisitorRatings();
+    if (stars > 0) {
       ratings[shortId] = stars;
+    } else {
+      delete ratings[shortId];
     }
     saveVisitorRatings(ratings);
-    render();
+    if (getSelectedRatings().length > 0) {
+      render();
+    } else {
+      updateRatingButtonDom(shortId, stars);
+    }
+  };
+
+  window.setCartoonRating = function(shortId, stars) {
+    selectCartoonRating(shortId, stars);
   };
 
   window.clearCartoonRating = function(shortId) {
-    const ratings = getVisitorRatings();
-    delete ratings[shortId];
-    saveVisitorRatings(ratings);
-    render();
+    selectCartoonRating(shortId, 0);
   };
 
   function getSelectedRatings() {
@@ -3514,8 +3695,9 @@
       const btn = document.querySelector(`#card_${shortId} .btn-note-toggle`);
       if (btn) {
         const has = Boolean(text && text.trim());
-        btn.className = `btn-note-toggle ${has ? 'has-note' : ''}`;
-        btn.textContent = `📝 ${has ? 'Note (Saved)' : 'Note'}`;
+        btn.className = `btn-note-toggle note-btn ${has ? 'has-note' : ''}`;
+        btn.title = has ? 'Edit Note' : 'Add Note';
+        btn.textContent = '📝';
       }
     }, 350);
   };
@@ -5548,15 +5730,36 @@
 
             <!-- Bottom Row / Sub-bar -->
             <div class="card-header-bottom">
-              <!-- Left side: Star Rating Widget -->
-              <div class="rating-container" onclick="event.stopPropagation()" title="Your private rating (saved to your browser)">
-                <div class="stars-row">
-                  ${[1, 2, 3, 4, 5].map(star => {
-                    const isFilled = userRating >= star;
-                    return `<span class="star-btn ${isFilled ? 'filled' : ''}" onclick="event.stopPropagation(); setCartoonRating('${short.id}', ${star})" title="${star} Star${star > 1 ? 's' : ''}">★</span>`;
-                  }).join('')}
+              <!-- Left side: Compact Interactive Rating Button & Popover -->
+              <div class="rating-popover-wrapper" onclick="event.stopPropagation()">
+                <button type="button" 
+                        class="rating-btn ${userRating > 0 ? 'rated' : 'unrated'}" 
+                        id="rating_btn_${short.id}"
+                        onclick="toggleRatingPopover('${short.id}', event)"
+                        title="${userRating > 0 ? `Rating: ${userRating}/5` : 'Rate this short'}"
+                        aria-label="${userRating > 0 ? `Rating: ${userRating} of 5 stars` : 'Rate this short'}">
+                  ${userRating > 0 ? `<span class="star-icon">★</span> ${userRating}` : `<span class="star-icon star-unrated">☆</span>`}
+                </button>
+                <div class="rating-popover-menu" id="rating_popover_${short.id}" hidden>
+                  <button type="button" class="rating-option clear-option ${userRating === 0 ? 'active' : ''}" data-rating="0" onclick="selectCartoonRating('${short.id}', 0, event)">
+                    <span class="opt-star">☆</span> Clear Rating (None)
+                  </button>
+                  <button type="button" class="rating-option ${userRating === 5 ? 'active' : ''}" data-rating="5" onclick="selectCartoonRating('${short.id}', 5, event)">
+                    <span class="opt-star">★</span> 5 - Classic
+                  </button>
+                  <button type="button" class="rating-option ${userRating === 4 ? 'active' : ''}" data-rating="4" onclick="selectCartoonRating('${short.id}', 4, event)">
+                    <span class="opt-star">★</span> 4 - Great
+                  </button>
+                  <button type="button" class="rating-option ${userRating === 3 ? 'active' : ''}" data-rating="3" onclick="selectCartoonRating('${short.id}', 3, event)">
+                    <span class="opt-star">★</span> 3 - Good
+                  </button>
+                  <button type="button" class="rating-option ${userRating === 2 ? 'active' : ''}" data-rating="2" onclick="selectCartoonRating('${short.id}', 2, event)">
+                    <span class="opt-star">★</span> 2 - Fair
+                  </button>
+                  <button type="button" class="rating-option ${userRating === 1 ? 'active' : ''}" data-rating="1" onclick="selectCartoonRating('${short.id}', 1, event)">
+                    <span class="opt-star">★</span> 1 - Poor
+                  </button>
                 </div>
-                ${userRating > 0 ? `<button type="button" class="btn-clear-rating" onclick="event.stopPropagation(); clearCartoonRating('${short.id}')" title="Clear rating">&times;</button>` : ''}
               </div>
 
               <!-- Right side: Badges & Note button -->
@@ -5564,8 +5767,8 @@
                 ${formatCodesHtml ? `<div class="media-format-codes">${formatCodesHtml}</div>` : ''}
                 <div class="card-actions-row">
                   <span class="card-series">${short.series || ''}</span>
-                  <button type="button" class="btn-note-toggle ${hasNote ? 'has-note' : ''}" onclick="event.stopPropagation(); handleCardNoteClick('${short.id}')" title="Add or view personal notes">
-                    📝 ${hasNote ? 'Note (Saved)' : 'Note'}
+                  <button type="button" class="btn-note-toggle note-btn ${hasNote ? 'has-note' : ''}" onclick="event.stopPropagation(); handleCardNoteClick('${short.id}')" title="${hasNote ? 'Edit Note' : 'Add Note'}" aria-label="Notes">
+                    📝
                   </button>
                   ${isAdminMode ? `<button type="button" class="btn-edit" onclick="event.stopPropagation(); openEditModal('${short.id}')" title="Edit cartoon entry (Admin Only)">✏️ Edit</button>` : ''}
                 </div>
@@ -5716,6 +5919,7 @@
     if (e.key === 'Escape') {
       closeEditModal();
       closeLibraryModal();
+      closeAllRatingPopovers();
     }
   });
   document.getElementById('editModalOverlay')?.addEventListener('click', e => {
@@ -5725,7 +5929,7 @@
     if (e.target === document.getElementById('libraryModalOverlay')) closeLibraryModal();
   });
 
-  // Close ratings dropdown when clicking outside
+  // Close ratings dropdown and popovers when clicking outside
   document.addEventListener('click', e => {
     const wrap = document.getElementById('ratingsDropdownWrap');
     const menu = document.getElementById('ratingsDropdownMenu');
@@ -5733,6 +5937,9 @@
     if (wrap && menu && !wrap.contains(e.target)) {
       menu.style.display = 'none';
       if (btn) btn.classList.remove('menu-open');
+    }
+    if (!e.target.closest('.rating-popover-wrapper')) {
+      closeAllRatingPopovers();
     }
   });
 
