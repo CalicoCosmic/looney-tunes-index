@@ -663,8 +663,9 @@
       border-color: #93c5fd;
     }
 
-    /* Centered Physical Media Format Toggle Group */
-    .format-toggle-group {
+    /* Centered Physical Media Format Toggle Group & Modal Capsule Toggle */
+    .format-toggle-group,
+    .media-capsule-toggle {
       display: inline-flex;
       align-items: center;
       background: #f1f5f9;
@@ -676,7 +677,8 @@
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
     }
 
-    .format-toggle-btn {
+    .format-toggle-btn,
+    .capsule-btn {
       border: 1px solid transparent;
       background: transparent;
       padding: 4px 10px;
@@ -690,34 +692,40 @@
       user-select: none;
     }
 
-    .format-toggle-btn:hover {
+    .format-toggle-btn:hover,
+    .capsule-btn:hover {
       color: #1e293b;
       background: rgba(255, 255, 255, 0.7);
     }
 
-    .format-toggle-btn.active {
+    .format-toggle-btn.active,
+    .capsule-btn.active {
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
     }
 
-    .format-toggle-btn.active[data-format="BD"] {
+    .format-toggle-btn.active[data-format="BD"],
+    .capsule-btn.active[data-format="BD"] {
       background: #e7f5ff;
       color: #1971c2;
       border-color: #a5d8ff;
     }
 
-    .format-toggle-btn.active[data-format="DVD"] {
+    .format-toggle-btn.active[data-format="DVD"],
+    .capsule-btn.active[data-format="DVD"] {
       background: #fff9db;
       color: #b45309;
       border-color: #ffe066;
     }
 
-    .format-toggle-btn.active[data-format="LD"] {
+    .format-toggle-btn.active[data-format="LD"],
+    .capsule-btn.active[data-format="LD"] {
       background: #f3f0ff;
       color: #6741d9;
       border-color: #d0bfff;
     }
 
-    .format-toggle-btn.active[data-format="WAC"] {
+    .format-toggle-btn.active[data-format="WAC"],
+    .capsule-btn.active[data-format="WAC"] {
       background: #e6fcf5;
       color: #087f5b;
       border-color: #96f2d7;
@@ -1052,18 +1060,23 @@
     }
 
     .badge-dvd {
-      background: #e2e8f0;
-      color: #334155;
+      background: #fff9db;
+      color: #b45309;
     }
 
     .badge-bluray {
-      background: #dbeafe;
-      color: #1e40af;
+      background: #e7f5ff;
+      color: #1971c2;
     }
 
     .badge-laserdisc {
-      background: #fef3c7;
-      color: #92400e;
+      background: #f3f0ff;
+      color: #6741d9;
+    }
+
+    .badge-wac {
+      background: #e6fcf5;
+      color: #087f5b;
     }
 
     /* Era Timeline Container */
@@ -1934,16 +1947,16 @@
     }
     .modal-btn-save {
       padding: 8px 20px;
-      background: var(--primary);
+      background: var(--primary-color, #c92a2a);
       border: none;
       border-radius: 6px;
       font-weight: 600;
       cursor: pointer;
       color: #ffffff;
-      box-shadow: 0 2px 4px rgba(194, 65, 12, 0.2);
+      box-shadow: 0 2px 4px rgba(201, 42, 42, 0.2);
     }
     .modal-btn-save:hover {
-      background: #9a3412;
+      background: var(--primary-dark, #a61e1e);
     }
 
     /* ==========================================================================
@@ -2014,7 +2027,8 @@
         flex: 1 1 calc(50% - 4px);
       }
 
-      .format-toggle-group {
+      .format-toggle-group,
+      .media-capsule-toggle {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -2023,7 +2037,8 @@
         padding: 3px;
       }
 
-      .format-toggle-btn {
+      .format-toggle-btn,
+      .capsule-btn {
         flex: 1;
         min-height: 34px;
         font-size: 13px;
@@ -2304,37 +2319,21 @@
       </div>
     </div>
 
-    <div class="popover-actions" style="margin-bottom: 12px;">
-      <button type="button" class="popover-btn popover-btn-primary" onclick="loadCurrentUserLibrary()" title="Select sets in your saved library">📚 My Saved Library</button>
-      <button type="button" class="popover-btn" id="selectAllSetsBtn" onclick="selectAllSets(true)" title="Check all sets">Select All (51 Sets)</button>
-      <button type="button" class="popover-btn" onclick="selectAllSets(false)" title="Uncheck all sets">Clear All (0 Sets)</button>
-      <button type="button" class="popover-btn" onclick="selectOnlyFormat('Blu-ray')">Only Blu-ray</button>
-      <button type="button" class="popover-btn" onclick="selectOnlyFormat('DVD')">Only DVD</button>
-      <button type="button" class="popover-btn" onclick="selectOnlyFormat('LaserDisc')">Only LaserDisc</button>
-    </div>
-
-    <div class="popover-list modal-media-list" id="mediaSetCheckboxList"></div>
-
-    <!-- Feature Film Bonus Cartoons (Collapsible Accordion) -->
-    <div class="bonus-features-section" style="margin-top: 14px; border: 1px solid #e2e8f0; border-radius: 8px; background: #f8fafc; overflow: hidden;">
-      <button type="button" class="bonus-section-toggle" onclick="toggleBonusSection()" style="width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; background: #f1f5f9; border: none; font-size: 0.88rem; font-weight: 700; color: #334155; cursor: pointer; text-align: left;">
-        <span style="display: flex; align-items: center; gap: 8px;">
-          <span>🎁 Feature Film Bonus Cartoons (WAC)</span>
-          <span class="popover-count-tag" id="bonusSectionCountTag">0 of 95 Owned</span>
-        </span>
-        <span id="bonusSectionArrow" style="font-size: 0.8rem; color: #64748b; font-weight: 600;">▾ Expand</span>
-      </button>
-      <div id="bonusSectionBody" style="display: none; padding: 10px 14px; border-top: 1px solid #e2e8f0;">
-        <div style="display: flex; align-items: center; justify-content: space-between; padding: 6px 0 10px 0; border-bottom: 1px solid #e2e8f0; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
-          <label style="display: flex; align-items: center; gap: 8px; font-size: 0.84rem; font-weight: 600; color: #1e293b; cursor: pointer;">
-            <input type="checkbox" id="masterWacBonusToggle" onchange="toggleAllWacBonus(this.checked)" class="popover-checkbox">
-            <span>Own all WAC Film Extras (Select All / Deselect All)</span>
-          </label>
-          <input type="text" id="bonusFilterInput" placeholder="Filter film titles..." oninput="filterBonusFilmList(this.value)" style="padding: 4px 8px; font-size: 0.8rem; border: 1px solid #cbd5e1; border-radius: 4px; width: 180px;">
-        </div>
-        <div class="popover-list modal-media-list" id="bonusMediaSetCheckboxList" style="max-height: 240px;"></div>
+    <div class="popover-actions" style="margin-bottom: 12px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+      <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap;">
+        <button type="button" class="popover-btn popover-btn-primary" onclick="loadCurrentUserLibrary()" title="Select sets in your saved library">📚 My Saved Library</button>
+        <button type="button" class="popover-btn" id="selectAllSetsBtn" onclick="selectAllSets(true)" title="Check all sets">Select All (146 Sets)</button>
+        <button type="button" class="popover-btn" onclick="selectAllSets(false)" title="Uncheck all sets">Clear All</button>
+      </div>
+      <div class="media-capsule-toggle" id="modalCapsuleToggleGroup" title="Filter releases by media format">
+        <button type="button" class="capsule-btn" data-format="BD" onclick="toggleModalFormatFilter('BD')" title="Filter to Blu-ray releases">BD</button>
+        <button type="button" class="capsule-btn" data-format="DVD" onclick="toggleModalFormatFilter('DVD')" title="Filter to DVD releases">DVD</button>
+        <button type="button" class="capsule-btn" data-format="LD" onclick="toggleModalFormatFilter('LD')" title="Filter to LaserDisc releases">LD</button>
+        <button type="button" class="capsule-btn" data-format="WAC" onclick="toggleModalFormatFilter('WAC')" title="Filter to Warner Archive Collection bonus releases">WAC</button>
       </div>
     </div>
+
+    <div class="popover-list modal-media-list" id="mediaSetCheckboxList" style="max-height: 420px;"></div>
 
     <!-- Data & Storage (Advanced / Local Catalog Loading) -->
     <div class="modal-data-storage-section" style="margin-top: 14px; padding-top: 12px; border-top: 1px dashed #cbd5e1;">
@@ -3784,33 +3783,74 @@
     const popLabel = document.getElementById('popoverCountLabel');
     if (popLabel) popLabel.textContent = `${count} of ${total} sets marked owned (${primaryOwned} Primary Sets, ${bonusOwned} Feature Extras)`;
     const selectAllBtn = document.getElementById('selectAllSetsBtn');
-    if (selectAllBtn) selectAllBtn.textContent = `Select All (${total} Sets)`;
-    
-    const bonusTag = document.getElementById('bonusSectionCountTag');
-    if (bonusTag) bonusTag.textContent = `${bonusOwned} of ${bonusSets.length} Owned`;
-    const masterBonusToggle = document.getElementById('masterWacBonusToggle');
-    if (masterBonusToggle) {
-      masterBonusToggle.checked = (bonusSets.length > 0 && bonusOwned === bonusSets.length);
-      masterBonusToggle.indeterminate = (bonusOwned > 0 && bonusOwned < bonusSets.length);
+    if (selectAllBtn) {
+      let targetCount = total;
+      if (typeof activeModalFormatFilters !== 'undefined' && activeModalFormatFilters.size > 0) {
+        targetCount = allMediaSets.filter(s => activeModalFormatFilters.has(getSetFormatCategory(s))).length;
+      }
+      selectAllBtn.textContent = `Select All (${targetCount} Sets)`;
+    }
+
+    if (typeof MODAL_FORMAT_SECTIONS !== 'undefined') {
+      MODAL_FORMAT_SECTIONS.forEach(sec => {
+        const tag = document.getElementById(`${sec.key.toLowerCase()}OwnedTag`);
+        if (tag) {
+          const secSets = allMediaSets.filter(s => getSetFormatCategory(s) === sec.key);
+          const owned = secSets.filter(s => selectedMediaSets.has(s.set_name)).length;
+          tag.textContent = `${owned} of ${secSets.length} Owned`;
+        }
+      });
     }
   }
 
-  window.toggleBonusSection = function() {
-    const body = document.getElementById('bonusSectionBody');
-    const arrow = document.getElementById('bonusSectionArrow');
-    if (!body) return;
-    const isHidden = (body.style.display === 'none');
-    body.style.display = isHidden ? 'block' : 'none';
-    if (arrow) arrow.textContent = isHidden ? '▴ Collapse' : '▾ Expand';
+  // --- Modal Media Format Capsule Toggles State ---
+  let activeModalFormatFilters = new Set();
+  let modalWacSearchQuery = '';
+
+  function getSetFormatCategory(s) {
+    if (s.type === 'feature_bonus') return 'WAC';
+    const f = (s.format || '').toLowerCase();
+    if (f.includes('blu')) return 'BD';
+    if (f.includes('laser')) return 'LD';
+    return 'DVD';
+  }
+
+  const MODAL_FORMAT_SECTIONS = [
+    { key: 'BD', name: 'Blu-ray (BD)', icon: '💿', badgeClass: 'badge-bluray', badgeText: 'BD' },
+    { key: 'DVD', name: 'DVD', icon: '📀', badgeClass: 'badge-dvd', badgeText: 'DVD' },
+    { key: 'LD', name: 'LaserDisc (LD)', icon: '💽', badgeClass: 'badge-laserdisc', badgeText: 'LD' },
+    { key: 'WAC', name: 'Warner Archive Collection (WAC)', icon: '🎁', badgeClass: 'badge-wac', badgeText: 'WAC' }
+  ];
+
+  window.toggleModalFormatFilter = function(fmt) {
+    if (!fmt) return;
+    if (activeModalFormatFilters.has(fmt)) {
+      activeModalFormatFilters.delete(fmt);
+    } else {
+      activeModalFormatFilters.add(fmt);
+    }
+    updateModalFormatToggleButtons();
+    renderMediaSetCheckboxes();
   };
 
-  window.toggleAllWacBonus = function(isChecked) {
-    const bonusSets = allMediaSets.filter(s => s.type === 'feature_bonus');
-    bonusSets.forEach(s => {
-      if (isChecked) {
-        selectedMediaSets.add(s.set_name);
-      } else {
-        selectedMediaSets.delete(s.set_name);
+  function updateModalFormatToggleButtons() {
+    const buttons = document.querySelectorAll('.capsule-btn');
+    buttons.forEach(btn => {
+      const f = btn.dataset.format;
+      const isActive = activeModalFormatFilters.has(f);
+      btn.classList.toggle('active', isActive);
+      btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+    });
+  }
+
+  window.selectFormatSets = function(fmtKey, select) {
+    allMediaSets.forEach(s => {
+      if (getSetFormatCategory(s) === fmtKey) {
+        if (select) {
+          selectedMediaSets.add(s.set_name);
+        } else {
+          selectedMediaSets.delete(s.set_name);
+        }
       }
     });
     renderMediaSetCheckboxes();
@@ -3818,22 +3858,33 @@
     render();
   };
 
-  window.filterBonusFilmList = function(q) {
-    const filter = (q || '').trim().toLowerCase();
-    const items = document.querySelectorAll('#bonusMediaSetCheckboxList .bonus-film-item');
+  window.filterModalWacList = function(q) {
+    modalWacSearchQuery = (q || '').trim().toLowerCase();
+    const items = document.querySelectorAll('#mediaSetCheckboxList .wac-release-item');
     items.forEach(el => {
       const title = decodeURIComponent(el.getAttribute('data-title') || '');
-      if (!filter || title.includes(filter)) {
-        el.classList.remove('hidden-bonus');
+      if (!modalWacSearchQuery || title.includes(modalWacSearchQuery)) {
+        el.style.display = 'flex';
       } else {
-        el.classList.add('hidden-bonus');
+        el.style.display = 'none';
       }
     });
+  };
+
+  window.toggleAllWacBonus = function(isChecked) {
+    selectFormatSets('WAC', isChecked);
+  };
+
+  window.filterBonusFilmList = function(q) {
+    filterModalWacList(q);
   };
 
   window.openLibraryModal = function() {
     const modal = document.getElementById('libraryModalOverlay');
     if (modal) {
+      activeModalFormatFilters.clear();
+      modalWacSearchQuery = '';
+      updateModalFormatToggleButtons();
       populateUserProfileSelect();
       renderMediaSetCheckboxes();
       updateOwnedCount();
@@ -4000,82 +4051,75 @@
 
   function renderMediaSetCheckboxes() {
     const listEl = document.getElementById('mediaSetCheckboxList');
-    const bonusListEl = document.getElementById('bonusMediaSetCheckboxList');
     if (!listEl) return;
 
-    const primarySets = allMediaSets.filter(s => s.type !== 'feature_bonus');
-    const bonusSets = allMediaSets.filter(s => s.type === 'feature_bonus');
-
-    // Group primary sets
-    const groupedPrimary = {};
-    primarySets.forEach(s => {
-      const grp = getPrimaryGroup(s.set_name, s.format);
-      if (!groupedPrimary[grp]) groupedPrimary[grp] = [];
-      groupedPrimary[grp].push(s);
+    // Group allMediaSets into the 4 formats: BD, DVD, LD, WAC
+    const grouped = { BD: [], DVD: [], LD: [], WAC: [] };
+    allMediaSets.forEach(s => {
+      const cat = getSetFormatCategory(s);
+      if (grouped[cat]) grouped[cat].push(s);
     });
 
-    // Sort within each group
-    Object.keys(groupedPrimary).forEach(k => {
-      groupedPrimary[k].sort((a, b) => a.set_name.localeCompare(b.set_name));
+    // Sort items within each format group
+    grouped.BD.sort((a, b) => a.set_name.localeCompare(b.set_name));
+    grouped.DVD.sort((a, b) => a.set_name.localeCompare(b.set_name));
+    grouped.LD.sort((a, b) => a.set_name.localeCompare(b.set_name));
+    grouped.WAC.sort((a, b) => (a.film_title || a.set_name).localeCompare(b.film_title || b.set_name));
+
+    // Determine which format sections to display
+    const visibleSections = MODAL_FORMAT_SECTIONS.filter(sec => {
+      if (activeModalFormatFilters.size === 0) return true;
+      return activeModalFormatFilters.has(sec.key);
     });
 
-    // Sort groups according to PRIMARY_GROUP_ORDER
-    const orderedGroups = Object.keys(groupedPrimary).sort((a, b) => {
-      let idxA = PRIMARY_GROUP_ORDER.indexOf(a);
-      let idxB = PRIMARY_GROUP_ORDER.indexOf(b);
-      if (idxA === -1) idxA = 99;
-      if (idxB === -1) idxB = 99;
-      return idxA - idxB;
-    });
+    let html = '';
+    visibleSections.forEach(sec => {
+      const items = grouped[sec.key] || [];
+      const ownedCount = items.filter(s => selectedMediaSets.has(s.set_name)).length;
 
-    let primaryHtml = '';
-    orderedGroups.forEach(grp => {
-      const items = groupedPrimary[grp];
-      primaryHtml += `<div class="popover-group-header">${grp} (${items.length})</div>`;
+      html += `
+        <div class="popover-group-header" style="display: flex; align-items: center; justify-content: space-between; padding: 7px 10px; background: #f1f5f9; border-radius: 6px; margin: 10px 0 4px 0; font-weight: 700; font-size: 0.85rem; color: #1e293b; flex-wrap: wrap; gap: 6px;">
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span>${sec.icon} ${sec.name}</span>
+            <span class="popover-count-tag" id="${sec.key.toLowerCase()}OwnedTag">${ownedCount} of ${items.length} Owned</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 6px;">
+            ${sec.key === 'WAC' ? `
+              <input type="text" id="modalWacFilterInput" placeholder="Filter films..." value="${escapeHtml(modalWacSearchQuery)}" oninput="filterModalWacList(this.value)" style="padding: 2px 8px; font-size: 0.76rem; border: 1px solid #cbd5e1; border-radius: 4px; width: 120px;" title="Filter film titles">
+            ` : ''}
+            <button type="button" class="popover-mini-btn" onclick="selectFormatSets('${sec.key}', true)">Select All</button>
+            <button type="button" class="popover-mini-btn" onclick="selectFormatSets('${sec.key}', false)">Clear</button>
+          </div>
+        </div>
+      `;
+
       items.forEach(s => {
         const isChecked = selectedMediaSets.has(s.set_name) ? 'checked' : '';
-        let badgeClass = 'badge-dvd';
-        if (s.format.toLowerCase().includes('blu')) badgeClass = 'badge-bluray';
-        else if (s.format.toLowerCase().includes('laser')) badgeClass = 'badge-laserdisc';
-
         const safeId = 'chk_' + Math.random().toString(36).substr(2, 9);
-        primaryHtml += `
-          <label class="popover-item" for="${safeId}">
-            <div class="popover-item-left">
-              <input type="checkbox" id="${safeId}" class="popover-checkbox" ${isChecked} onchange="handleMediaSetToggle('${encodeURIComponent(s.set_name)}', this.checked)">
-              <span class="popover-badge ${badgeClass}">${s.format === 'Blu-ray' ? 'BD' : s.format}</span>
-              <span class="popover-item-title" title="${s.set_name}">${s.set_name}</span>
-            </div>
-            <span class="popover-count-tag">${s.count}</span>
-          </label>
-        `;
-      });
-    });
-    listEl.innerHTML = primaryHtml;
+        const isWac = (sec.key === 'WAC');
+        const searchKey = isWac ? `${s.film_title || ''} ${s.set_name} ${s.film_year || ''}`.toLowerCase() : '';
+        const isHidden = (isWac && modalWacSearchQuery && !searchKey.includes(modalWacSearchQuery));
+        const displayStyle = isHidden ? 'style="display: none;"' : '';
+        const itemClass = isWac ? 'popover-item wac-release-item' : 'popover-item';
+        const titleText = isWac ? (s.film_title || s.set_name) : s.set_name;
+        const yearTag = (isWac && s.film_year) ? `<span style="color: #64748b; font-weight: normal; font-size: 0.8rem;">(${s.film_year})</span>` : '';
+        const badgeClass = isWac ? (s.format.toLowerCase().includes('blu') ? 'badge-bluray' : 'badge-dvd') : sec.badgeClass;
+        const badgeLabel = isWac ? (s.format.toLowerCase().includes('blu') ? 'BD' : 'DVD') : sec.badgeText;
 
-    // Render bonus sets
-    if (bonusListEl) {
-      const sortedBonus = bonusSets.slice().sort((a, b) => (a.film_title || a.set_name).localeCompare(b.film_title || b.set_name));
-      let bonusHtml = '';
-      sortedBonus.forEach(s => {
-        const isChecked = selectedMediaSets.has(s.set_name) ? 'checked' : '';
-        let badgeClass = s.format.toLowerCase().includes('blu') ? 'badge-bluray' : 'badge-dvd';
-        const safeId = 'chk_bonus_' + Math.random().toString(36).substr(2, 9);
-        const searchKey = `${s.film_title || ''} ${s.set_name} ${s.film_year || ''}`.toLowerCase();
-        bonusHtml += `
-          <label class="popover-item bonus-film-item" for="${safeId}" data-title="${encodeURIComponent(searchKey)}">
+        html += `
+          <label class="${itemClass}" for="${safeId}" ${displayStyle} data-title="${encodeURIComponent(searchKey)}">
             <div class="popover-item-left">
               <input type="checkbox" id="${safeId}" class="popover-checkbox" ${isChecked} onchange="handleMediaSetToggle('${encodeURIComponent(s.set_name)}', this.checked)">
-              <span class="popover-badge ${badgeClass}">${s.format === 'Blu-ray' ? 'BD' : 'DVD'}</span>
-              <span class="popover-item-title" title="${s.set_name}">${s.film_title || s.set_name} ${s.film_year ? `<span style="color: #64748b; font-weight: normal; font-size: 0.8rem;">(${s.film_year})</span>` : ''}</span>
+              <span class="popover-badge ${badgeClass}">${badgeLabel}</span>
+              <span class="popover-item-title" title="${escapeHtml(s.set_name)}">${escapeHtml(titleText)} ${yearTag}</span>
             </div>
             <span class="popover-count-tag">${s.count} short${s.count > 1 ? 's' : ''}</span>
           </label>
         `;
       });
-      bonusListEl.innerHTML = bonusHtml;
-    }
+    });
 
+    listEl.innerHTML = html;
     updateOwnedCount();
   }
 
@@ -4091,11 +4135,17 @@
   };
 
   window.selectAllSets = function(select) {
-    if (select) {
-      selectedMediaSets = new Set(allMediaSets.map(s => s.set_name));
-    } else {
-      selectedMediaSets.clear();
+    let targetSets = allMediaSets;
+    if (activeModalFormatFilters.size > 0) {
+      targetSets = allMediaSets.filter(s => activeModalFormatFilters.has(getSetFormatCategory(s)));
     }
+    targetSets.forEach(s => {
+      if (select) {
+        selectedMediaSets.add(s.set_name);
+      } else {
+        selectedMediaSets.delete(s.set_name);
+      }
+    });
     renderMediaSetCheckboxes();
     updateOwnedCount();
     render();
