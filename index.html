@@ -426,6 +426,12 @@
       border: 1px solid #fde68a;
     }
 
+    .suggestion-type-badge.title {
+      background: #f8fafc;
+      color: #334155;
+      border: 1px solid #cbd5e1;
+    }
+
     .suggestion-item.fallback-item {
       border-top: 1px solid #f1f5f9;
       color: #2563eb;
@@ -4479,7 +4485,7 @@
         minYear: item.minYear,
         maxYear: item.maxYear
       });
-    } else if (item.type === 'generic') {
+    } else if (item.type === 'title' || item.type === 'generic') {
       const searchInput = getOmniboxInput();
       if (searchInput) searchInput.value = item.filterValue;
       hideSuggestions();
@@ -4503,151 +4509,12 @@
     const suggestions = [];
     const seenTokenIds = new Set(activeTokens.map(t => t.id));
 
-    // 1. Resolve bidirectional species & synonym matches
-    const matchedSpeciesKeys = getSynonymGroupsForTerm(q);
-    const matchedSpecies = new Set(matchedSpeciesKeys);
+    // ==========================================
+    // TIER 1: DIRECT MATCHES
+    // Entities whose names literally start with or contain the query string
+    // ==========================================
 
-    // Also check species config label
-    for (const [speciesKey, conf] of Object.entries(SPECIES_CONFIG)) {
-      if (normalizeText(conf.label).includes(q)) {
-        matchedSpecies.add(speciesKey);
-      }
-    }
-
-    matchedSpecies.forEach(species => {
-      const conf = SPECIES_CONFIG[species];
-      const group = SEARCH_SYNONYM_GROUPS[species];
-      if (!conf || !group) return;
-
-      // Group characters: configured canonical characters + any matching characters from the active database
-      const charListSet = new Set(group.characters);
-      database.forEach(s => {
-        (s.featured_characters || []).forEach(c => {
-          const nc = normalizeText(c);
-          if (nc === 'honey') return; // Bosko's sweetheart
-          if (group.aliases.some(a => {
-            const words = nc.split(/[^a-z0-9]+/);
-            return words.includes(a) || (a.length >= 4 && nc.includes(a));
-          })) {
-            charListSet.add(c);
-          }
-        });
-      });
-      const charList = Array.from(charListSet);
-
-      // Group token suggestion
-      const groupTokenId = 'species_' + species;
-      if (!seenTokenIds.has(groupTokenId)) {
-        const groupShortsCount = database.filter(s => {
-          const sChars = (s.featured_characters || []).map(c => normalizeText(c));
-          return charList.some(sc => {
-            const nsc = normalizeText(sc);
-            return sChars.some(c => {
-              if (c === 'honey' && nsc.includes('bunny')) return false;
-              return c === nsc || c.includes(nsc) || (nsc.includes(c) && c.length > 5);
-            });
-          });
-        }).length;
-
-        suggestions.push({
-          type: 'species',
-          displayName: conf.label,
-          filterValue: species,
-          icon: conf.icon,
-          chars: charList,
-          count: groupShortsCount,
-          score: 1
-        });
-        seenTokenIds.add(groupTokenId);
-      }
-
-      // Relevant character suggestions for this species group
-      charList.forEach(charName => {
-        let canonicalName = charName;
-        let count = 0;
-        const nsc = normalizeText(charName);
-
-        database.forEach(s => {
-          (s.featured_characters || []).forEach(c => {
-            const nc = normalizeText(c);
-            if (nc === 'honey' && nsc.includes('bunny')) return;
-            if (nc === nsc || nc.includes(nsc) || (nsc.includes(nc) && nc.length > 5)) {
-              if (c === charName || canonicalName === charName) {
-                canonicalName = c;
-              }
-              count++;
-            }
-          });
-        });
-
-        const charTokenId = 'char_' + canonicalName;
-        if (!seenTokenIds.has(charTokenId) && count > 0) {
-          suggestions.push({
-            type: 'character',
-            displayName: canonicalName,
-            filterValue: canonicalName,
-            icon: getCharacterIcon(canonicalName),
-            count,
-            score: 2
-          });
-          seenTokenIds.add(charTokenId);
-        }
-      });
-    });
-
-    // 2. Check Physical Formats
-    FORMAT_SUGGESTIONS.forEach(fmt => {
-      const tokenId = 'fmt_' + fmt.key;
-      if (seenTokenIds.has(tokenId)) return;
-
-      const matchesKeyword = fmt.keywords.some(kw => kw.includes(q) || q.includes(kw));
-      const matchesLabel = normalizeText(fmt.label).includes(q);
-
-      if (matchesKeyword || matchesLabel) {
-        let count = 0;
-        if (fmt.key === 'unreleased') {
-          count = database.filter(s => (s.media_locations || []).length === 0).length;
-        } else {
-          const lk = fmt.key.toLowerCase();
-          count = database.filter(s => (s.media_locations || []).some(m => (m.format || '').toLowerCase().includes(lk))).length;
-        }
-        suggestions.push({
-          type: 'format',
-          displayName: fmt.label,
-          filterValue: fmt.key,
-          icon: fmt.icon,
-          count,
-          score: 1
-        });
-        seenTokenIds.add(tokenId);
-      }
-    });
-
-    // 3. Check Theatrical Eras
-    ERA_SUGGESTIONS.forEach(era => {
-      const tokenId = 'era_' + era.key;
-      if (seenTokenIds.has(tokenId)) return;
-
-      const matchesKeyword = era.keywords.some(kw => kw.includes(q) || q.includes(kw));
-      const matchesLabel = normalizeText(era.label).includes(q);
-
-      if (matchesKeyword || matchesLabel) {
-        const count = database.filter(s => s.year >= era.minYear && s.year <= era.maxYear).length;
-        suggestions.push({
-          type: 'era',
-          displayName: era.label,
-          filterValue: era.key,
-          icon: era.icon,
-          minYear: era.minYear,
-          maxYear: era.maxYear,
-          count,
-          score: 1
-        });
-        seenTokenIds.add(tokenId);
-      }
-    });
-
-    // 4. Scan Character Roster by direct name match
+    // 1. Direct Character Matches
     const charCounts = new Map();
     database.forEach(short => {
       (short.featured_characters || []).forEach(c => {
@@ -4661,22 +4528,24 @@
 
       const normName = normalizeText(charName);
       if (normName.includes(q)) {
-        let score = 3;
-        if (normName.startsWith(q)) score = 1;
-        else if (normName.split(/\s+/).some(w => w.startsWith(q))) score = 2;
+        let subScore = 3;
+        if (normName === q || normName.startsWith(q + ' ')) subScore = 1;
+        else if (normName.split(/\s+/).some(w => w.startsWith(q))) subScore = 2;
+
         suggestions.push({
           type: 'character',
           displayName: charName,
           filterValue: charName,
           icon: getCharacterIcon(charName),
           count,
-          score
+          tier: 1,
+          subScore
         });
         seenTokenIds.add(tokenId);
       }
     }
 
-    // 5. Scan Director Roster & Known Aliases
+    // 2. Direct Director Matches & Known Aliases
     const dirMap = new Map();
     database.forEach(short => {
       const dirs = (short.directors && short.directors.length ? short.directors : [short.director]).filter(Boolean);
@@ -4719,9 +4588,9 @@
           displayName = `${dirName} (${aliases[0]})`;
         }
 
-        let score = 3;
-        if (normDir.startsWith(q) || normAliases.some(a => a.startsWith(q))) score = 1;
-        else if (normDir.split(/\s+/).some(w => w.startsWith(q)) || normAliases.some(a => a.split(/\s+/).some(w => w.startsWith(q)))) score = 2;
+        let subScore = 3;
+        if (normDir.startsWith(q) || normAliases.some(a => a.startsWith(q))) subScore = 1;
+        else if (normDir.split(/\s+/).some(w => w.startsWith(q)) || normAliases.some(a => a.split(/\s+/).some(w => w.startsWith(q)))) subScore = 2;
 
         suggestions.push({
           type: 'director',
@@ -4729,14 +4598,193 @@
           filterValue: dirName,
           icon: '🎬',
           count: info.count,
-          score
+          tier: 1,
+          subScore
         });
         seenTokenIds.add(tokenId);
       }
     }
 
-    // Sort suggestions by score ascending, then by count descending
-    suggestions.sort((a, b) => a.score - b.score || b.count - a.count);
+    // 3. Direct Title Matches (top matching cartoon titles)
+    const titleMatches = [];
+    database.forEach(short => {
+      const normTitle = normalizeText(short.title);
+      if (normTitle.includes(q)) {
+        let subScore = 3;
+        if (normTitle === q || normTitle.startsWith(q + ' ') || normTitle.startsWith(q)) subScore = 1;
+        else if (normTitle.split(/\s+/).some(w => w.startsWith(q))) subScore = 2;
+        titleMatches.push({
+          title: short.title,
+          year: short.year,
+          subScore
+        });
+      }
+    });
+    titleMatches.sort((a, b) => a.subScore - b.subScore || (a.year || 0) - (b.year || 0));
+    titleMatches.slice(0, 2).forEach(t => {
+      const tokenId = 'title_' + t.title;
+      if (!seenTokenIds.has(tokenId)) {
+        suggestions.push({
+          type: 'title',
+          displayName: t.title,
+          filterValue: t.title,
+          icon: '🎬',
+          year: t.year,
+          count: 1,
+          tier: 1,
+          subScore: t.subScore
+        });
+        seenTokenIds.add(tokenId);
+      }
+    });
+
+    // 4. Direct Physical Formats
+    FORMAT_SUGGESTIONS.forEach(fmt => {
+      const tokenId = 'fmt_' + fmt.key;
+      if (seenTokenIds.has(tokenId)) return;
+
+      const matchesKeyword = fmt.keywords.some(kw => kw.includes(q) || q.includes(kw));
+      const matchesLabel = normalizeText(fmt.label).includes(q);
+
+      if (matchesKeyword || matchesLabel) {
+        let count = 0;
+        if (fmt.key === 'unreleased') {
+          count = database.filter(s => (s.media_locations || []).length === 0).length;
+        } else {
+          const lk = fmt.key.toLowerCase();
+          count = database.filter(s => (s.media_locations || []).some(m => (m.format || '').toLowerCase().includes(lk))).length;
+        }
+        suggestions.push({
+          type: 'format',
+          displayName: fmt.label,
+          filterValue: fmt.key,
+          icon: fmt.icon,
+          count,
+          tier: 1,
+          subScore: 1
+        });
+        seenTokenIds.add(tokenId);
+      }
+    });
+
+    // 5. Direct Theatrical Eras
+    ERA_SUGGESTIONS.forEach(era => {
+      const tokenId = 'era_' + era.key;
+      if (seenTokenIds.has(tokenId)) return;
+
+      const matchesKeyword = era.keywords.some(kw => kw.includes(q) || q.includes(kw));
+      const matchesLabel = normalizeText(era.label).includes(q);
+
+      if (matchesKeyword || matchesLabel) {
+        const count = database.filter(s => s.year >= era.minYear && s.year <= era.maxYear).length;
+        suggestions.push({
+          type: 'era',
+          displayName: era.label,
+          filterValue: era.key,
+          icon: era.icon,
+          minYear: era.minYear,
+          maxYear: era.maxYear,
+          count,
+          tier: 1,
+          subScore: 1
+        });
+        seenTokenIds.add(tokenId);
+      }
+    });
+
+    // ==========================================
+    // TIER 2: SYNONYM & RELATED CHARACTER MATCHES
+    // Characters associated via alias/synonym expansion whose names do not contain q
+    // ==========================================
+    const matchedSpeciesKeys = getSynonymGroupsForTerm(q);
+    const matchedSpecies = new Set(matchedSpeciesKeys);
+
+    for (const [speciesKey, conf] of Object.entries(SPECIES_CONFIG)) {
+      if (normalizeText(conf.label).includes(q)) {
+        matchedSpecies.add(speciesKey);
+      }
+    }
+
+    matchedSpecies.forEach(species => {
+      const conf = SPECIES_CONFIG[species];
+      const group = SEARCH_SYNONYM_GROUPS[species];
+      if (!conf || !group) return;
+
+      // Collect characters for this species group
+      const charListSet = new Set(group.characters);
+      database.forEach(s => {
+        (s.featured_characters || []).forEach(c => {
+          const nc = normalizeText(c);
+          if (nc === 'honey') return; // Bosko's sweetheart
+          if (group.aliases.some(a => {
+            const words = nc.split(/[^a-z0-9]+/);
+            return words.includes(a) || (a.length >= 4 && nc.includes(a));
+          })) {
+            charListSet.add(c);
+          }
+        });
+      });
+      const charList = Array.from(charListSet);
+
+      // Tier 2: Synonym characters
+      charList.forEach(charName => {
+        const charTokenId = 'char_' + charName;
+        if (seenTokenIds.has(charTokenId)) return; // Already included as Tier 1 direct match!
+
+        let count = 0;
+        database.forEach(s => {
+          (s.featured_characters || []).forEach(c => {
+            if (c === charName) count++;
+          });
+        });
+
+        if (count > 0) {
+          suggestions.push({
+            type: 'character',
+            displayName: charName,
+            filterValue: charName,
+            icon: getCharacterIcon(charName),
+            count,
+            tier: 2, // Tier 2 Synonym match
+            subScore: 1
+          });
+          seenTokenIds.add(charTokenId);
+        }
+      });
+
+      // ==========================================
+      // TIER 3: SPECIES GROUP TOKEN
+      // Aggregate group chip (e.g., 🐰 Rabbits / Bunnies)
+      // ==========================================
+      const groupTokenId = 'species_' + species;
+      if (!seenTokenIds.has(groupTokenId)) {
+        const groupShortsCount = database.filter(s => {
+          const sChars = (s.featured_characters || []).map(c => normalizeText(c));
+          return charList.some(sc => {
+            const nsc = normalizeText(sc);
+            return sChars.some(c => {
+              if (c === 'honey' && nsc.includes('bunny')) return false;
+              return c === nsc || c.includes(nsc) || (nsc.includes(c) && c.length > 5);
+            });
+          });
+        }).length;
+
+        suggestions.push({
+          type: 'species',
+          displayName: conf.label,
+          filterValue: species,
+          icon: conf.icon,
+          chars: charList,
+          count: groupShortsCount,
+          tier: 3, // Tier 3 Group token
+          subScore: 1
+        });
+        seenTokenIds.add(groupTokenId);
+      }
+    });
+
+    // Sort suggestions strictly by Tier ascending, then subScore ascending, then count descending
+    suggestions.sort((a, b) => a.tier - b.tier || a.subScore - b.subScore || b.count - a.count);
 
     // Limit top matches to 8 items
     const topSuggestions = suggestions.slice(0, 8);
@@ -4771,13 +4819,16 @@
       else if (item.type === 'species') badgeLabel = 'Group';
       else if (item.type === 'format') badgeLabel = 'Format';
       else if (item.type === 'era') badgeLabel = 'Era';
+      else if (item.type === 'title') badgeLabel = 'Cartoon';
+
+      const countText = item.type === 'title' ? (item.year ? `(${item.year})` : '') : `(${item.count})`;
 
       return `
         <div class="suggestion-item" role="option" data-index="${idx}">
           <div class="suggestion-item-left">
             <span class="suggestion-icon">${item.icon}</span>
             <span class="suggestion-name">${escapeHtml(item.displayName)}</span>
-            <span class="suggestion-count">(${item.count})</span>
+            <span class="suggestion-count">${countText}</span>
           </div>
           <span class="suggestion-type-badge ${item.type}">${badgeLabel}</span>
         </div>
@@ -5055,6 +5106,87 @@
     });
   }
 
+  // --- Search Results Scoring & Prioritization ---
+  function calculateRelevanceScore(short, rawQuery) {
+    if (!rawQuery) return 0;
+    const q = normalizeText(rawQuery);
+    if (!q) return 0;
+    if (!matchesSearch(short, rawQuery)) return 0;
+
+    let score = 0;
+    const normTitle = normalizeText(short.title);
+    const titleWords = normTitle.split(/\s+/);
+    const shortChars = (short.featured_characters || []).map(c => normalizeText(c));
+    const synopsisText = normalizeText([
+      short.synopsis,
+      short.description,
+      short.plot,
+      short.notes
+    ].join(" "));
+
+    const queryTerms = q.split(/\s+/).filter(Boolean);
+    const matchedGroups = new Set();
+    queryTerms.forEach(t => {
+      getSynonymGroupsForTerm(t).forEach(gk => matchedGroups.add(gk));
+    });
+
+    const groupAliases = [];
+    const groupChars = [];
+    matchedGroups.forEach(gk => {
+      const g = SEARCH_SYNONYM_GROUPS[gk];
+      if (g) {
+        groupAliases.push(...g.aliases.map(a => normalizeText(a)));
+        groupChars.push(...g.characters.map(c => normalizeText(c)));
+      }
+    });
+
+    // 1. Score: 200 (Exact Title Match): The cartoon title matches the query or starts with it
+    const isExactOrStartsTitle = normTitle === q || normTitle.startsWith(q + " ") || (queryTerms.length === 1 && normTitle.startsWith(q));
+
+    // 2. Score: 100 (Direct Title / Character Hit): The cartoon title contains the query as a whole word, or a featured character has the query in their literal name
+    const isWordInTitle = titleWords.includes(q) || (q.includes(" ") && normTitle.includes(q)) || queryTerms.some(t => t.length > 2 && titleWords.includes(t));
+    const isDirectCharHit = shortChars.some(c => {
+      if (q === "honey" && c.includes("bunny")) return false;
+      const cWords = c.split(/\s+/);
+      return c === q || cWords.includes(q) || c.includes(q) || queryTerms.some(t => t.length > 2 && (c === t || cWords.includes(t)));
+    });
+
+    if (isExactOrStartsTitle) {
+      score += 200;
+    } else if (isWordInTitle || isDirectCharHit) {
+      score += 100;
+    } else {
+      // 3. Score: 60 (Synonym / Inferred Character Match): The cartoon features a character associated via synonym expansion
+      const hasSynonymChar = groupChars.some(gc => {
+        return shortChars.some(c => {
+          if (c === "honey" && gc.includes("bunny")) return false;
+          return c === gc || c.includes(gc) || (gc.includes(c) && c.length > 5);
+        });
+      });
+      if (hasSynonymChar) {
+        score += 60;
+      }
+    }
+
+    // 4. Score: 30 (Direct Synopsis / Plot Hit): The raw query string appears inside the cartoon's synopsis or description text
+    if (synopsisText.includes(q) || queryTerms.some(t => t.length > 2 && synopsisText.includes(t))) {
+      score += 30;
+    } else {
+      // 5. Score: 10 (Synonym Synopsis Hit): An alias/synonym appears inside the synopsis
+      const hasSynonymInSynopsis = groupAliases.some(alias => !queryTerms.includes(alias) && synopsisText.includes(alias));
+      if (hasSynonymInSynopsis) {
+        score += 10;
+      }
+    }
+
+    // Fallback if matched on other metadata (director, animation, voice actors, etc.)
+    if (score === 0) {
+      score = 5;
+    }
+
+    return score;
+  }
+
   function render() {
     const rawQuery = getOmniboxInput()?.value.trim() || '';
     const selectedRatings = getSelectedRatings();
@@ -5153,18 +5285,62 @@
       return true;
     });
 
+    let results = [];
+    const hasQuery = Boolean(rawQuery && rawQuery.trim().length > 0);
+
+    if (hasQuery) {
+      // Calculate relevance score and filter out score === 0
+      const scored = [];
+      filtered.forEach(short => {
+        const score = calculateRelevanceScore(short, rawQuery);
+        if (score > 0) {
+          scored.push({ short, score });
+        }
+      });
+
+      // Sort by relevanceScore descending, with chronological tie-breaker
+      scored.sort((a, b) => {
+        if (b.score !== a.score) {
+          return b.score - a.score;
+        }
+        // Chronological tie-breaker: release year / date
+        const yearDiff = (a.short.year || 0) - (b.short.year || 0);
+        if (yearDiff !== 0) return yearDiff;
+        const dateA = a.short.release_date ? new Date(a.short.release_date).getTime() : 0;
+        const dateB = b.short.release_date ? new Date(b.short.release_date).getTime() : 0;
+        if (!isNaN(dateA) && !isNaN(dateB) && dateA !== dateB) {
+          return dateA - dateB;
+        }
+        return (a.short.id || 0) - (b.short.id || 0);
+      });
+
+      results = scored.map(item => item.short);
+    } else {
+      // When no search query is active, revert entirely to default chronological catalog sort
+      results = filtered.slice().sort((a, b) => {
+        const yearDiff = (a.year || 0) - (b.year || 0);
+        if (yearDiff !== 0) return yearDiff;
+        const dateA = a.release_date ? new Date(a.release_date).getTime() : 0;
+        const dateB = b.release_date ? new Date(b.release_date).getTime() : 0;
+        if (!isNaN(dateA) && !isNaN(dateB) && dateA !== dateB) {
+          return dateA - dateB;
+        }
+        return (a.id || 0) - (b.id || 0);
+      });
+    }
+
     const countEl = document.getElementById('resultsCount');
-    countEl.textContent = `Showing ${filtered.length} of ${database.length} cartoons`;
+    countEl.textContent = `Showing ${results.length} of ${database.length} cartoons`;
 
     const listEl = document.getElementById('resultsList');
-    if (filtered.length === 0) {
+    if (results.length === 0) {
       listEl.innerHTML = `<div class="no-results">No cartoons found matching your criteria.</div>`;
       updateActiveFilterChips();
       updateExpandAllBtnState();
       return;
     }
 
-    listEl.innerHTML = filtered.map(short => {
+    listEl.innerHTML = results.map(short => {
       const charBadges = (short.featured_characters || []).map(c => `<span class="char-badge">${c}</span>`).join("");
       const animators = Array.isArray(short.animation) ? short.animation.join(", ") : (short.animation || "—");
       const voices = Array.isArray(short.voice_actors) ? short.voice_actors.join(", ") : (short.voice_actors || "—");
