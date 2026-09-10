@@ -4206,27 +4206,27 @@
   // --- Centralized Search Synonym & Species Map ---
   const SPECIES_MAP = {
     rabbit: {
-      terms: ['rabbit', 'bunny', 'hare'],
+      terms: ['rabbit', 'rabbits', 'bunny', 'bunnies', 'hare', 'hares'],
       characters: ['Bugs Bunny', 'Honey Bunny', 'Happy Rabbit', 'Peter Rabbit']
     },
     cat: {
-      terms: ['cat', 'kitten', 'kitty', 'pussy', 'pussycat', 'feline'],
+      terms: ['cat', 'cats', 'kitten', 'kittens', 'kitty', 'pussy', 'pussycat', 'feline'],
       characters: ['Sylvester', 'Claude Cat', 'Pussyfoot', 'Dodsworth', 'Penelope Pussycat', 'Sylvester Jr.']
     },
     dog: {
-      terms: ['dog', 'puppy', 'pup', 'hound', 'canine', 'mutt'],
+      terms: ['dog', 'dogs', 'puppy', 'puppies', 'pup', 'hound', 'canine', 'mutt'],
       characters: ['Hector the Bulldog', 'Barnyard Dawg', 'Charlie Dog', 'Frisky Puppy', 'Marc Antony', 'Sam Sheepdog', 'Spike the Bulldog']
     },
     bird: {
-      terms: ['bird', 'canary', 'hawk', 'buzzard'],
+      terms: ['bird', 'birds', 'canary', 'hawk', 'buzzard'],
       characters: ['Tweety', 'Road Runner', 'Henery Hawk', 'Beaky Buzzard']
     },
     duck: {
-      terms: ['duck', 'drake'],
+      terms: ['duck', 'ducks', 'drake'],
       characters: ['Daffy Duck', 'Melissa Duck']
     },
     pig: {
-      terms: ['pig', 'porker'],
+      terms: ['pig', 'pigs', 'porker'],
       characters: ['Porky Pig', 'Petunia Pig']
     },
     mouse: {
@@ -4235,7 +4235,9 @@
     }
   };
 
+  window.SPECIES_MAP = SPECIES_MAP;
   const SEARCH_SYNONYM_GROUPS = SPECIES_MAP;
+  window.SEARCH_SYNONYM_GROUPS = SPECIES_MAP;
 
   // Backwards compatibility mappings derived from SPECIES_MAP
   const ANIMAL_SYNONYMS = {};
@@ -4497,18 +4499,11 @@
     }
   }
 
-  function updateSuggestions() {
-    const searchInput = getOmniboxInput();
-    const menu = getOmniboxSuggestionsMenu();
-    if (!searchInput || !menu) return;
-
-    const rawVal = searchInput.value.trim();
+  // --- Autocomplete & Typeahead Engine (SPECIES_MAP) ---
+  function getSuggestions(query) {
+    const rawVal = (query !== undefined && query !== null ? String(query) : (getOmniboxInput()?.value || '')).trim();
     const q = normalizeText(rawVal);
-
-    if (q.length < 2) {
-      hideSuggestions();
-      return;
-    }
+    if (q.length < 2) return [];
 
     const suggestions = [];
     const seenTokenIds = new Set(activeTokens.map(t => t.id));
@@ -4538,8 +4533,10 @@
 
         suggestions.push({
           type: 'character',
+          name: charName,
           displayName: charName,
           filterValue: charName,
+          value: charName,
           icon: getCharacterIcon(charName),
           count,
           tier: 1,
@@ -4598,8 +4595,10 @@
 
         suggestions.push({
           type: 'director',
+          name: dirName,
           displayName,
           filterValue: dirName,
+          value: dirName,
           icon: '🎬',
           count: info.count,
           tier: 1,
@@ -4630,8 +4629,10 @@
       if (!seenTokenIds.has(tokenId)) {
         suggestions.push({
           type: 'title',
+          name: t.title,
           displayName: t.title,
           filterValue: t.title,
+          value: t.title,
           icon: '🎬',
           year: t.year,
           count: 1,
@@ -4660,8 +4661,10 @@
         }
         suggestions.push({
           type: 'format',
+          name: fmt.label,
           displayName: fmt.label,
           filterValue: fmt.key,
+          value: fmt.key,
           icon: fmt.icon,
           count,
           tier: 1,
@@ -4683,8 +4686,10 @@
         const count = database.filter(s => s.year >= era.minYear && s.year <= era.maxYear).length;
         suggestions.push({
           type: 'era',
+          name: era.label,
           displayName: era.label,
           filterValue: era.key,
+          value: era.key,
           icon: era.icon,
           minYear: era.minYear,
           maxYear: era.maxYear,
@@ -4699,6 +4704,7 @@
     // ==========================================
     // TIER 2: SYNONYM & RELATED CHARACTER MATCHES
     // Characters associated via alias/synonym expansion whose names do not contain q
+    // Explicitly references SPECIES_MAP (e.g. Bugs Bunny and Honey Bunny when searching "rabbit")
     // ==========================================
     const matchedSpeciesKeys = getSynonymGroupsForTerm(q);
     const matchedSpecies = new Set(matchedSpeciesKeys);
@@ -4746,8 +4752,10 @@
 
         suggestions.push({
           type: 'character',
+          name: charName,
           displayName: charName,
           filterValue: charName,
+          value: charName,
           icon: getCharacterIcon(charName),
           count,
           tier: 2, // Tier 2 Synonym match
@@ -4771,8 +4779,10 @@
         if (count > 0) {
           suggestions.push({
             type: 'character',
+            name: charName,
             displayName: charName,
             filterValue: charName,
+            value: charName,
             icon: getCharacterIcon(charName),
             count,
             tier: 2,
@@ -4801,8 +4811,10 @@
 
         suggestions.push({
           type: 'species',
+          name: conf.label,
           displayName: conf.label,
           filterValue: species,
+          value: species,
           icon: conf.icon,
           chars: charList,
           count: groupShortsCount,
@@ -4816,8 +4828,23 @@
     // Sort suggestions strictly by Tier ascending, then subScore ascending, then count descending
     suggestions.sort((a, b) => a.tier - b.tier || a.subScore - b.subScore || b.count - a.count);
 
-    // Limit top matches to 8 items
-    const topSuggestions = suggestions.slice(0, 8);
+    return suggestions.slice(0, 8);
+  }
+
+  window.getSuggestions = getSuggestions;
+
+  function renderSuggestions(query) {
+    const searchInput = getOmniboxInput();
+    const menu = getOmniboxSuggestionsMenu();
+    if (!searchInput || !menu) return;
+
+    const rawVal = (query !== undefined && query !== null ? String(query) : searchInput.value).trim();
+    if (rawVal.length < 2) {
+      hideSuggestions();
+      return;
+    }
+
+    const topSuggestions = getSuggestions(rawVal);
 
     // Append fallback keyword option
     const fallbackItem = {
@@ -4876,6 +4903,14 @@
     menu.hidden = false;
   }
 
+  window.renderSuggestions = renderSuggestions;
+
+  function updateSuggestions() {
+    renderSuggestions();
+  }
+
+  window.updateSuggestions = updateSuggestions;
+
   function initAutocomplete() {
     const searchInput = getOmniboxInput();
     const searchWrapper = document.querySelector('.omnibox-wrapper') || document.querySelector('.search-input-wrapper');
@@ -4911,6 +4946,10 @@
       if (!isMenuVisible) {
         if (e.key === 'ArrowDown' && searchInput.value.trim().length >= 2) {
           updateSuggestions();
+        } else if (e.key === 'Enter') {
+          e.preventDefault();
+          hideSuggestions();
+          render();
         }
         return;
       }
@@ -4924,8 +4963,8 @@
         selectedSuggestionIndex = (selectedSuggestionIndex - 1 + currentSuggestions.length) % currentSuggestions.length;
         updateFocusedSuggestion();
       } else if (e.key === 'Enter') {
+        e.preventDefault();
         if (selectedSuggestionIndex >= 0 && selectedSuggestionIndex < currentSuggestions.length) {
-          e.preventDefault();
           selectSuggestion(currentSuggestions[selectedSuggestionIndex]);
         } else {
           hideSuggestions();
@@ -5647,8 +5686,8 @@
     }
   });
 
-  // Event Listeners for instant filtering
-  getOmniboxInput()?.addEventListener('input', render);
+  // Expose applyFilters alias
+  window.applyFilters = render;
 
   // Initialize
   initDatabase();
