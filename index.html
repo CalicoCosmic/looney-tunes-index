@@ -120,27 +120,39 @@
       align-items: center;
     }
 
-    .search-input {
+    .search-input,
+    #searchInput {
       width: 100%;
-      padding: 10px 36px 10px 14px;
-      font-size: 0.96rem;
-      border: 1.5px solid var(--border-color);
+      height: 44px;
+      min-height: 44px;
+      padding: 0 36px 0 42px;
+      font-size: 1rem;
+      border: 1.5px solid #cbd5e1;
       border-radius: 8px;
       outline: none;
-      background: #ffffff;
+      background-color: #ffffff;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2364748b' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: 14px center;
+      background-size: 18px 18px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
       transition: border-color 0.2s, box-shadow 0.2s;
     }
 
-    .search-input:focus {
-      border-color: var(--primary-color);
-      box-shadow: 0 0 0 3px rgba(224, 36, 36, 0.12);
+    .search-input:focus,
+    #searchInput:focus {
+      outline: none;
+      border-color: #2563eb;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
     }
 
     .search-clear-btn {
       position: absolute;
-      right: 10px;
-      width: 20px;
-      height: 20px;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 22px;
+      height: 22px;
       border-radius: 50%;
       border: none;
       background: #e2e8f0;
@@ -1796,7 +1808,7 @@
   <div class="sticky-controls-bar">
     <div class="search-row">
       <div class="search-box-wrap">
-        <input type="text" id="searchInput" class="search-input" placeholder="Search by title, director, character, format, set, or track..." autofocus>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by title, director, character, or keywords..." autofocus>
         <button type="button" id="clearSearchBtn" class="search-clear-btn" onclick="clearSearchInput()" title="Clear search text" style="display: none;">✕</button>
       </div>
       <label class="library-toggle-switch" title="Filter to cartoons appearing on at least one set in your owned library">
@@ -4081,9 +4093,43 @@
     `).join('');
   }
 
+  // --- Search Evaluation Logic ---
+  function matchesSearch(short, rawQuery) {
+    if (!rawQuery) return true;
+    const q = rawQuery.trim();
+    if (!q) return true;
+    const query = normalizeText(q);
+    const queryTerms = query.split(/\s+/).filter(Boolean);
+
+    // Normalize and evaluate title, director, characters, synopsis, description, plot, notes, and media releases
+    const searchable = normalizeText([
+      short.title,
+      short.series,
+      short.year,
+      short.release_date,
+      short.director,
+      short.director_credit,
+      (short.directors || []).join(" "),
+      (short.director_aliases || []).join(" "),
+      short.story,
+      short.synopsis,
+      short.description,
+      short.plot,
+      short.notes,
+      short.backgrounds,
+      short.layout,
+      (short.animation || []).join(" "),
+      (short.voice_actors || []).join(" "),
+      (short.featured_characters || []).join(" "),
+      getCartoonNote(short.id),
+      (short.media_locations || []).map(m => `${m.format} ${m.set_name} ${m.film_title || ''} disc ${m.disc_number} ${m.disc_title || ''} track ${m.track_number} ${(m.audio_commentary || []).join ? m.audio_commentary.join(" ") : (m.audio_commentary || '')}`).join(" ")
+    ].join(" "));
+
+    return queryTerms.every(term => searchable.includes(term));
+  }
+
   function render() {
     const rawQuery = document.getElementById('searchInput').value.trim();
-    const query = normalizeText(rawQuery);
     const selectedChar = document.getElementById('charFilter').value;
     const selectedDir = document.getElementById('directorFilter').value;
     const selectedRatings = getSelectedRatings();
@@ -4092,8 +4138,6 @@
     const checkedFmts = Array.from(document.querySelectorAll('.format-chk:checked')).map(cb => cb.value);
     const hasUnreleased = checkedFmts.includes('unreleased');
     const discFormats = checkedFmts.filter(f => f !== 'unreleased');
-
-    const queryTerms = query ? query.split(/\s+/).filter(Boolean) : [];
 
     const filtered = database.filter(short => {
       // 1. Year range filtering
@@ -4152,30 +4196,10 @@
         if (!n || !n.trim()) return false;
       }
 
-      // 8. Text query filtering
-      if (queryTerms.length === 0) return true;
+      // 8. Text query filtering (title, director, character, synopses, descriptions, keywords)
+      if (!matchesSearch(short, rawQuery)) return false;
 
-      // Search across all text fields and visitor personal notes with accent-insensitive normalization
-      const searchable = normalizeText([
-        short.title,
-        short.series,
-        short.year,
-        short.release_date,
-        short.director,
-        short.director_credit,
-        (short.directors || []).join(" "),
-        (short.director_aliases || []).join(" "),
-        short.story,
-        short.backgrounds,
-        short.layout,
-        (short.animation || []).join(" "),
-        (short.voice_actors || []).join(" "),
-        (short.featured_characters || []).join(" "),
-        getCartoonNote(short.id),
-        (short.media_locations || []).map(m => `${m.format} ${m.set_name} ${m.film_title || ''} disc ${m.disc_number} ${m.disc_title || ''} track ${m.track_number} ${(m.audio_commentary || []).join ? m.audio_commentary.join(" ") : (m.audio_commentary || '')}`).join(" ")
-      ].join(" "));
-
-      return queryTerms.every(term => searchable.includes(term));
+      return true;
     });
 
     const countEl = document.getElementById('resultsCount');
