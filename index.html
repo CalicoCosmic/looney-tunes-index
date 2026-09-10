@@ -1322,8 +1322,8 @@
     }
 
     .card-date-badge {
-      font-size: 0.8rem;
-      font-weight: 500;
+      font-size: 0.85rem;
+      font-weight: 400;
       color: #64748b;
       white-space: nowrap;
     }
@@ -5722,12 +5722,11 @@
       return `
         <article class="card ${isExpanded ? 'is-expanded' : ''}" id="card_${short.id}">
           <div class="card-header" onclick="toggleCardAccordion('${short.id}')" title="Click to expand or collapse details">
-            <!-- Top Row: Chevron, Title, Year, Date -->
+            <!-- Top Row: Chevron, Title, Date -->
             <div class="card-header-top">
               <span class="card-expand-icon">▶</span>
               <span class="card-title">${short.title}</span> 
-              <span class="card-year">(${short.year || '?'})</span>
-              ${short.release_date ? `<span class="card-date-badge">📅 ${short.release_date}</span>` : ''}
+              ${(short.release_date || short.year) ? `<span class="card-date-badge">${short.release_date || short.year}</span>` : ''}
             </div>
 
             <!-- Bottom Row / Sub-bar -->
