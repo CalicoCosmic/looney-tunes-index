@@ -4370,50 +4370,43 @@
   let currentSuggestions = [];
   let suggestionDebounceTimer = null;
 
-  const SPECIES_GROUPS = [
-    {
-      key: 'rabbit',
-      label: 'Rabbits / Bunnies',
-      icon: '🐰',
-      keywords: ['rabbit', 'bunny', 'hare', 'rabbits', 'bunnies', 'hares'],
-      chars: ['Bugs Bunny', 'Bunny', 'Clyde Bunny', 'Happy Rabbit', 'Jack Bunny', 'Peter Rabbit']
-    },
-    {
-      key: 'cat',
-      label: 'Cats / Felines',
-      icon: '🐱',
-      keywords: ['cat', 'feline', 'kitten', 'cats', 'felines', 'kittens', 'kitty', 'pussycat'],
-      chars: ['Sylvester', 'Claude Cat', 'Claude', 'Pussyfoot', 'Sylvester Jr.', 'Penelope Pussycat', 'Cool Cat', 'Sam Cat', 'Catstello', 'Conrad the Cat']
-    },
-    {
-      key: 'dog',
-      label: 'Dogs / Canines',
-      icon: '🐕',
-      keywords: ['dog', 'canine', 'hound', 'pup', 'puppy', 'dogs', 'canines', 'hounds', 'puppies', 'bulldog'],
-      chars: ['Hector the Bulldog', 'Barnyard Dawg', 'Charlie Dog', 'Frisky Puppy', 'Spike', 'Chester', 'Sam Sheepdog', 'The Talking Bulldog', 'The Two Curious Puppies']
-    },
-    {
-      key: 'bird',
-      label: 'Birds',
-      icon: '🐥',
-      keywords: ['bird', 'birds', 'canary', 'hawk', 'buzzard', 'rooster', 'chicken', 'fowl'],
-      chars: ['Tweety', 'Road Runner', 'Henery Hawk', 'Beaky Buzzard', 'Foghorn Leghorn', 'Minah Bird', 'Emily the Chicken', 'Ben Birdie']
-    },
-    {
-      key: 'duck',
-      label: 'Ducks',
-      icon: '🦆',
-      keywords: ['duck', 'ducks', 'mallard'],
-      chars: ['Daffy Duck', 'Melissa Duck', 'Dizzy Duck', 'Shapely Lady Duck']
-    },
-    {
-      key: 'pig',
-      label: 'Pigs',
-      icon: '🐷',
-      keywords: ['pig', 'pigs', 'porker', 'swine', 'piggy', 'ham'],
-      chars: ['Porky Pig', 'Petunia Pig', 'Ham', 'Ex', 'Ham and Ex', 'Piggy', 'Pinky Pig', 'Phineas Pig', 'Piggy Hamhock']
-    }
-  ];
+  // --- Animal Synonyms & Species Dictionaries ---
+  const ANIMAL_SYNONYMS = {
+    // Rabbits
+    'bunny': 'rabbit', 'bunnies': 'rabbit', 'rabbit': 'rabbit', 'rabbits': 'rabbit', 'hare': 'rabbit', 'hares': 'rabbit',
+    // Cats
+    'cat': 'cat', 'cats': 'cat', 'kitten': 'cat', 'kittens': 'cat', 'kitty': 'cat', 'kitties': 'cat', 'pussy': 'cat', 'pussycat': 'cat', 'pussycats': 'cat', 'feline': 'cat', 'felines': 'cat',
+    // Dogs
+    'dog': 'dog', 'dogs': 'dog', 'puppy': 'dog', 'puppies': 'dog', 'pup': 'dog', 'pups': 'dog', 'hound': 'dog', 'hounds': 'dog', 'canine': 'dog', 'canines': 'dog',
+    // Birds
+    'bird': 'bird', 'birds': 'bird', 'canary': 'bird', 'canaries': 'bird', 'hawk': 'bird', 'hawks': 'bird', 'buzzard': 'bird', 'buzzards': 'bird',
+    // Ducks
+    'duck': 'duck', 'ducks': 'duck',
+    // Pigs
+    'pig': 'pig', 'pigs': 'pig', 'porker': 'pig', 'porkers': 'pig', 'swine': 'pig',
+    // Mice
+    'mouse': 'mouse', 'mice': 'mouse', 'rodent': 'mouse', 'rodents': 'mouse'
+  };
+
+  const SPECIES_CHARACTERS = {
+    rabbit: ['Bugs Bunny', 'Honey Bunny'],
+    cat: ['Sylvester', 'Claude Cat', 'Pussyfoot', 'Dodsworth', 'Penelope Pussycat', 'Sylvester Jr.'],
+    dog: ['Hector the Bulldog', 'Barnyard Dawg', 'Charlie Dog', 'Frisky Puppy', 'Marc Antony', 'Sam Sheepdog', 'Spike the Bulldog'],
+    bird: ['Tweety', 'Road Runner', 'Henery Hawk', 'Beaky Buzzard'],
+    duck: ['Daffy Duck', 'Melissa Duck'],
+    pig: ['Porky Pig', 'Petunia Pig'],
+    mouse: ['Speedy Gonzales', 'Hubie', 'Bertie', 'Sniffles', 'Slowpoke Rodriguez']
+  };
+
+  const SPECIES_CONFIG = {
+    rabbit: { label: 'Rabbits / Bunnies', icon: '🐰' },
+    cat: { label: 'Cats / Felines', icon: '🐱' },
+    dog: { label: 'Dogs / Canines', icon: '🐕' },
+    bird: { label: 'Birds', icon: '🐥' },
+    duck: { label: 'Ducks', icon: '🦆' },
+    pig: { label: 'Pigs', icon: '🐷' },
+    mouse: { label: 'Mice / Rodents', icon: '🐭' }
+  };
 
   const FORMAT_SUGGESTIONS = [
     { key: 'Blu-ray', label: 'Blu-ray', icon: '💿', keywords: ['blu-ray', 'bluray', 'blu', 'bd', 'disc', 'hd'] },
@@ -4432,18 +4425,18 @@
 
   function getCharacterIcon(charName) {
     const lower = (charName || '').toLowerCase();
-    if (lower.includes('bugs')) return '🐰';
-    if (lower.includes('daffy')) return '🦆';
-    if (lower.includes('porky') || lower.includes('ham') || lower.includes('ex') || lower.includes('petunia')) return '🐷';
+    if (lower.includes('bugs') || lower.includes('honey')) return '🐰';
+    if (lower.includes('daffy') || lower.includes('melissa')) return '🦆';
+    if (lower.includes('porky') || lower.includes('petunia') || lower.includes('ham') || lower.includes('ex')) return '🐷';
     if (lower.includes('tweety')) return '🐥';
-    if (lower.includes('sylvester') || lower.includes('pussyfoot') || lower.includes('claude cat')) return '🐱';
+    if (lower.includes('sylvester') || lower.includes('pussyfoot') || lower.includes('claude cat') || lower.includes('dodsworth')) return '🐱';
     if (lower.includes('coyote') || lower.includes('wile e.') || lower.includes('ralph wolf')) return '🐺';
     if (lower.includes('road runner')) return '⚡';
     if (lower.includes('foghorn') || lower.includes('leghorn') || lower.includes('rooster')) return '🐔';
-    if (lower.includes('speedy') || lower.includes('gonzales') || lower.includes('hubie') || lower.includes('bertie') || lower.includes('sniffles') || lower.includes('babbit') || lower.includes('catstello')) return '🐭';
+    if (lower.includes('speedy') || lower.includes('gonzales') || lower.includes('hubie') || lower.includes('bertie') || lower.includes('sniffles') || lower.includes('slowpoke') || lower.includes('babbit') || lower.includes('catstello')) return '🐭';
     if (lower.includes('pepe') || lower.includes('le pew') || lower.includes('skunk')) return '🦨';
     if (lower.includes('fudd') || lower.includes('elmer')) return '🎯';
-    if (lower.includes('sam sheepdog') || lower.includes('hector') || lower.includes('charlie dog') || lower.includes('spike') || lower.includes('chester')) return '🐕';
+    if (lower.includes('sam sheepdog') || lower.includes('hector') || lower.includes('charlie dog') || lower.includes('spike') || lower.includes('chester') || lower.includes('marc antony') || lower.includes('frisky')) return '🐕';
     if (lower.includes('sam') || lower.includes('yosemite')) return '🤠';
     if (lower.includes('marvin') || lower.includes('martian')) return '🚀';
     if (lower.includes('taz') || lower.includes('tasmanian')) return '🌪️';
@@ -4622,34 +4615,89 @@
     }
 
     const suggestions = [];
+    const seenTokenIds = new Set(activeTokens.map(t => t.id));
 
-    // 1. Check Species / Animal Group Keywords
-    SPECIES_GROUPS.forEach(group => {
-      const tokenId = 'species_' + group.key;
-      if (activeTokens.some(t => t.id === tokenId)) return;
+    // 1. Resolve animal synonym matches & relevant species characters
+    const matchedSpecies = new Set();
 
-      const matchesKeyword = group.keywords.some(kw => kw.includes(q) || q.includes(kw));
-      const matchesLabel = normalizeText(group.label).includes(q);
+    // Check exact synonym match or partial match
+    for (const [synonym, species] of Object.entries(ANIMAL_SYNONYMS)) {
+      if (synonym === q || synonym.startsWith(q) || (q.length >= 3 && synonym.includes(q))) {
+        matchedSpecies.add(species);
+      }
+    }
+    // Also check species group name / key
+    for (const [speciesKey, conf] of Object.entries(SPECIES_CONFIG)) {
+      if (speciesKey.includes(q) || normalizeText(conf.label).includes(q)) {
+        matchedSpecies.add(speciesKey);
+      }
+    }
 
-      if (matchesKeyword || matchesLabel) {
-        const normChars = new Set(group.chars.map(c => normalizeText(c)));
-        const count = database.filter(s => (s.featured_characters || []).some(c => normChars.has(normalizeText(c)))).length;
+    matchedSpecies.forEach(species => {
+      const conf = SPECIES_CONFIG[species];
+      const charList = SPECIES_CHARACTERS[species] || [];
+      if (!conf) return;
+
+      // Group token suggestion
+      const groupTokenId = 'species_' + species;
+      if (!seenTokenIds.has(groupTokenId)) {
+        const groupShortsCount = database.filter(s => {
+          const sChars = (s.featured_characters || []).map(c => normalizeText(c));
+          return charList.some(sc => {
+            const nsc = normalizeText(sc);
+            return sChars.some(c => c === nsc || c.includes(nsc) || nsc.includes(c));
+          });
+        }).length;
+
         suggestions.push({
           type: 'species',
-          displayName: group.label,
-          filterValue: group.key,
-          icon: group.icon,
-          chars: group.chars,
-          count,
+          displayName: conf.label,
+          filterValue: species,
+          icon: conf.icon,
+          chars: charList,
+          count: groupShortsCount,
           score: 1
         });
+        seenTokenIds.add(groupTokenId);
       }
+
+      // Relevant character suggestions for this species group
+      charList.forEach(charName => {
+        let canonicalName = charName;
+        let count = 0;
+        const nsc = normalizeText(charName);
+
+        database.forEach(s => {
+          (s.featured_characters || []).forEach(c => {
+            const nc = normalizeText(c);
+            if (nc === nsc || nc.includes(nsc) || nsc.includes(nc)) {
+              if (c === charName || canonicalName === charName) {
+                canonicalName = c;
+              }
+              count++;
+            }
+          });
+        });
+
+        const charTokenId = 'char_' + canonicalName;
+        if (!seenTokenIds.has(charTokenId) && count > 0) {
+          suggestions.push({
+            type: 'character',
+            displayName: canonicalName,
+            filterValue: canonicalName,
+            icon: getCharacterIcon(canonicalName),
+            count,
+            score: 2
+          });
+          seenTokenIds.add(charTokenId);
+        }
+      });
     });
 
     // 2. Check Physical Formats
     FORMAT_SUGGESTIONS.forEach(fmt => {
       const tokenId = 'fmt_' + fmt.key;
-      if (activeTokens.some(t => t.id === tokenId)) return;
+      if (seenTokenIds.has(tokenId)) return;
 
       const matchesKeyword = fmt.keywords.some(kw => kw.includes(q) || q.includes(kw));
       const matchesLabel = normalizeText(fmt.label).includes(q);
@@ -4670,13 +4718,14 @@
           count,
           score: 1
         });
+        seenTokenIds.add(tokenId);
       }
     });
 
     // 3. Check Theatrical Eras
     ERA_SUGGESTIONS.forEach(era => {
       const tokenId = 'era_' + era.key;
-      if (activeTokens.some(t => t.id === tokenId)) return;
+      if (seenTokenIds.has(tokenId)) return;
 
       const matchesKeyword = era.keywords.some(kw => kw.includes(q) || q.includes(kw));
       const matchesLabel = normalizeText(era.label).includes(q);
@@ -4693,10 +4742,11 @@
           count,
           score: 1
         });
+        seenTokenIds.add(tokenId);
       }
     });
 
-    // 4. Scan Character Roster
+    // 4. Scan Character Roster by direct name match
     const charCounts = new Map();
     database.forEach(short => {
       (short.featured_characters || []).forEach(c => {
@@ -4706,7 +4756,7 @@
 
     for (const [charName, count] of charCounts.entries()) {
       const tokenId = 'char_' + charName;
-      if (activeTokens.some(t => t.id === tokenId)) continue;
+      if (seenTokenIds.has(tokenId)) continue;
 
       const normName = normalizeText(charName);
       if (normName.includes(q)) {
@@ -4721,6 +4771,7 @@
           count,
           score
         });
+        seenTokenIds.add(tokenId);
       }
     }
 
@@ -4750,7 +4801,7 @@
 
     for (const [dirName, info] of dirMap.entries()) {
       const tokenId = 'dir_' + dirName;
-      if (activeTokens.some(t => t.id === tokenId)) continue;
+      if (seenTokenIds.has(tokenId)) continue;
 
       const normDir = normalizeText(dirName);
       const aliases = DIRECTOR_KNOWN_ALIASES[dirName] || [];
@@ -4779,14 +4830,15 @@
           count: info.count,
           score
         });
+        seenTokenIds.add(tokenId);
       }
     }
 
     // Sort suggestions by score ascending, then by count descending
     suggestions.sort((a, b) => a.score - b.score || b.count - a.count);
 
-    // Limit top matches to 7 items
-    const topSuggestions = suggestions.slice(0, 7);
+    // Limit top matches to 8 items
+    const topSuggestions = suggestions.slice(0, 8);
 
     // Append fallback keyword option
     const fallbackItem = {
@@ -5072,7 +5124,21 @@
       (short.media_locations || []).map(m => `${m.format} ${m.set_name} ${m.film_title || ''} disc ${m.disc_number} ${m.disc_title || ''} track ${m.track_number} ${(m.audio_commentary || []).join ? m.audio_commentary.join(" ") : (m.audio_commentary || '')}`).join(" ")
     ].join(" "));
 
-    return queryTerms.every(term => searchable.includes(term));
+    const shortChars = (short.featured_characters || []).map(c => normalizeText(c));
+
+    return queryTerms.every(term => {
+      if (searchable.includes(term)) return true;
+
+      const species = ANIMAL_SYNONYMS[term];
+      if (species && SPECIES_CHARACTERS[species]) {
+        const charList = SPECIES_CHARACTERS[species];
+        return charList.some(sc => {
+          const nsc = normalizeText(sc);
+          return shortChars.some(c => c === nsc || c.includes(nsc) || nsc.includes(c));
+        });
+      }
+      return false;
+    });
   }
 
   function render() {
@@ -5088,10 +5154,10 @@
     const eraTokens = activeTokens.filter(t => t.type === 'era');
 
     // Aggregate character filter criteria (OR logic across selected character chips and species groups)
-    const targetCharNames = new Set(charTokens.map(t => normalizeText(t.value)));
-    const targetSpeciesChars = new Set();
-    speciesTokens.forEach(t => (t.chars || []).forEach(c => targetSpeciesChars.add(normalizeText(c))));
-    const hasCharCriteria = targetCharNames.size > 0 || targetSpeciesChars.size > 0;
+    const targetCharNames = charTokens.map(t => normalizeText(t.value));
+    const targetSpeciesChars = [];
+    speciesTokens.forEach(t => (t.chars || []).forEach(c => targetSpeciesChars.push(normalizeText(c))));
+    const hasCharCriteria = targetCharNames.length > 0 || targetSpeciesChars.length > 0;
 
     // Aggregate director filter criteria (OR logic across selected directors)
     const targetDirs = dirTokens.map(t => normalizeText(t.value));
@@ -5119,7 +5185,15 @@
       // 3. Character & Species filtering (OR logic across selected characters and groups)
       if (hasCharCriteria) {
         const shortChars = (short.featured_characters || []).map(c => normalizeText(c));
-        const matchesChar = shortChars.some(c => targetCharNames.has(c) || targetSpeciesChars.has(c));
+        const matchesChar = shortChars.some(c => {
+          for (const tc of targetCharNames) {
+            if (c === tc || c.includes(tc) || tc.includes(c)) return true;
+          }
+          for (const sc of targetSpeciesChars) {
+            if (c === sc || c.includes(sc) || sc.includes(c)) return true;
+          }
+          return false;
+        });
         if (!matchesChar) return false;
       }
 
