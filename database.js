@@ -15341,6 +15341,18 @@ window.LOONEY_TUNES_DATABASE = [
           "Michael Barrier"
         ],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Yankee Doodle Dandy (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_yankee_doodle_dandy_bd",
+        "film_title": "Yankee Doodle Dandy",
+        "film_year": 1942,
+        "disc_number": 1,
+        "disc_title": "Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
       }
     ]
   },
@@ -18391,6 +18403,18 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 1,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Yankee Doodle Dandy (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_yankee_doodle_dandy_bd",
+        "film_title": "Yankee Doodle Dandy",
+        "film_year": 1942,
+        "disc_number": 1,
+        "disc_title": "Bonus Features",
+        "track_number": 2,
+        "audio_commentary": []
       }
     ]
   },
