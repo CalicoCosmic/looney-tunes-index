@@ -1183,6 +1183,35 @@
       border: 1px solid #d8b4fe;
     }
 
+    .format-bonus {
+      background: #fef3c7;
+      color: #92400e;
+      border: 1px solid #fde68a;
+    }
+
+    .badge-bonus-fmt {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 1px 5px;
+      border-radius: 3px;
+      background: #e0f2fe;
+      color: #0369a1;
+      margin-left: 4px;
+      vertical-align: middle;
+    }
+
+    .media-item-bonus {
+      background: #fffbeb;
+      padding: 4px 8px;
+      border-radius: 6px;
+      border: 1px solid #fef3c7;
+    }
+
+    .bonus-film-item.hidden-bonus {
+      display: none !important;
+    }
+
     .location-details strong {
       color: #0f172a;
     }
@@ -1806,6 +1835,27 @@
     </div>
 
     <div class="popover-list modal-media-list" id="mediaSetCheckboxList"></div>
+
+    <!-- Feature Film Bonus Cartoons (Collapsible Accordion) -->
+    <div class="bonus-features-section" style="margin-top: 14px; border: 1px solid #e2e8f0; border-radius: 8px; background: #f8fafc; overflow: hidden;">
+      <button type="button" class="bonus-section-toggle" onclick="toggleBonusSection()" style="width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; background: #f1f5f9; border: none; font-size: 0.88rem; font-weight: 700; color: #334155; cursor: pointer; text-align: left;">
+        <span style="display: flex; align-items: center; gap: 8px;">
+          <span>🎁 Feature Film Bonus Cartoons (WAC)</span>
+          <span class="popover-count-tag" id="bonusSectionCountTag">0 of 94 Owned</span>
+        </span>
+        <span id="bonusSectionArrow" style="font-size: 0.8rem; color: #64748b; font-weight: 600;">▾ Expand</span>
+      </button>
+      <div id="bonusSectionBody" style="display: none; padding: 10px 14px; border-top: 1px solid #e2e8f0;">
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 6px 0 10px 0; border-bottom: 1px solid #e2e8f0; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
+          <label style="display: flex; align-items: center; gap: 8px; font-size: 0.84rem; font-weight: 600; color: #1e293b; cursor: pointer;">
+            <input type="checkbox" id="masterWacBonusToggle" onchange="toggleAllWacBonus(this.checked)" class="popover-checkbox">
+            <span>Own all WAC Film Extras (Select All / Deselect All)</span>
+          </label>
+          <input type="text" id="bonusFilterInput" placeholder="Filter film titles..." oninput="filterBonusFilmList(this.value)" style="padding: 4px 8px; font-size: 0.8rem; border: 1px solid #cbd5e1; border-radius: 4px; width: 180px;">
+        </div>
+        <div class="popover-list modal-media-list" id="bonusMediaSetCheckboxList" style="max-height: 240px;"></div>
+      </div>
+    </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 12px; border-top: 1px solid #e2e8f0; flex-wrap: wrap; gap: 8px;">
       <span style="font-size: 0.82rem; color: #64748b;" id="popoverCountLabel">0 of 43 sets marked owned</span>
@@ -3031,18 +3081,69 @@
 
   function updateOwnedCount() {
     const count = selectedMediaSets.size;
-    const total = allMediaSets.length || 43;
+    const total = allMediaSets.length || 138;
+    const primarySets = allMediaSets.filter(s => s.type !== 'feature_bonus');
+    const bonusSets = allMediaSets.filter(s => s.type === 'feature_bonus');
+    const primaryOwned = primarySets.filter(s => selectedMediaSets.has(s.set_name)).length;
+    const bonusOwned = bonusSets.filter(s => selectedMediaSets.has(s.set_name)).length;
+
     const countEl = document.getElementById('ownedCount');
     if (countEl) countEl.textContent = count;
     const totalEl = document.getElementById('totalSetsCount');
-    if (totalEl) totalEl.textContent = total;
+    if (totalEl) totalEl.textContent = primarySets.length || 44;
     const summaryEl = document.getElementById('modalOwnedSummary');
-    if (summaryEl) summaryEl.textContent = `${count} of ${total} Owned`;
+    if (summaryEl) {
+      summaryEl.textContent = `${count} of ${total} Owned (${primaryOwned}/${primarySets.length} Primary${bonusOwned > 0 ? `, ${bonusOwned} Extras` : ''})`;
+    }
     const popLabel = document.getElementById('popoverCountLabel');
-    if (popLabel) popLabel.textContent = `${count} of ${total} sets marked owned`;
+    if (popLabel) popLabel.textContent = `${count} of ${total} sets marked owned (${primaryOwned} Primary Sets, ${bonusOwned} Feature Extras)`;
     const selectAllBtn = document.getElementById('selectAllSetsBtn');
     if (selectAllBtn) selectAllBtn.textContent = `Select All (${total} Sets)`;
+    
+    const bonusTag = document.getElementById('bonusSectionCountTag');
+    if (bonusTag) bonusTag.textContent = `${bonusOwned} of ${bonusSets.length} Owned`;
+    const masterBonusToggle = document.getElementById('masterWacBonusToggle');
+    if (masterBonusToggle) {
+      masterBonusToggle.checked = (bonusSets.length > 0 && bonusOwned === bonusSets.length);
+      masterBonusToggle.indeterminate = (bonusOwned > 0 && bonusOwned < bonusSets.length);
+    }
   }
+
+  window.toggleBonusSection = function() {
+    const body = document.getElementById('bonusSectionBody');
+    const arrow = document.getElementById('bonusSectionArrow');
+    if (!body) return;
+    const isHidden = (body.style.display === 'none');
+    body.style.display = isHidden ? 'block' : 'none';
+    if (arrow) arrow.textContent = isHidden ? '▴ Collapse' : '▾ Expand';
+  };
+
+  window.toggleAllWacBonus = function(isChecked) {
+    const bonusSets = allMediaSets.filter(s => s.type === 'feature_bonus');
+    bonusSets.forEach(s => {
+      if (isChecked) {
+        selectedMediaSets.add(s.set_name);
+      } else {
+        selectedMediaSets.delete(s.set_name);
+      }
+    });
+    renderMediaSetCheckboxes();
+    updateOwnedCount();
+    render();
+  };
+
+  window.filterBonusFilmList = function(q) {
+    const filter = (q || '').trim().toLowerCase();
+    const items = document.querySelectorAll('#bonusMediaSetCheckboxList .bonus-film-item');
+    items.forEach(el => {
+      const title = decodeURIComponent(el.getAttribute('data-title') || '');
+      if (!filter || title.includes(filter)) {
+        el.classList.remove('hidden-bonus');
+      } else {
+        el.classList.add('hidden-bonus');
+      }
+    });
+  };
 
   window.openLibraryModal = function() {
     const modal = document.getElementById('libraryModalOverlay');
@@ -3081,6 +3182,34 @@
     return 4;
   }
 
+  function getPrimaryGroup(name, fmt) {
+    if (name.includes("Collector's") || name.includes("Porky Pig 101") || name.includes("Superstar")) {
+      return "🏛️ Warner Archive Dedicated Releases";
+    }
+    if (name.includes("Platinum Collection")) {
+      return "💿 Platinum Collection (Blu-ray)";
+    }
+    if (name.includes("Golden Collection")) {
+      return "📀 Golden Collection (DVD)";
+    }
+    if (name.includes("Super Stars")) {
+      return "📀 Looney Tunes Super Stars (DVD)";
+    }
+    if (fmt === 'LaserDisc') {
+      return "💽 LaserDisc Collections";
+    }
+    return `💿 ${fmt} Special Collections`;
+  }
+
+  const PRIMARY_GROUP_ORDER = [
+    "💿 Platinum Collection (Blu-ray)",
+    "🏛️ Warner Archive Dedicated Releases",
+    "💿 Blu-ray Special Collections",
+    "📀 Golden Collection (DVD)",
+    "📀 Looney Tunes Super Stars (DVD)",
+    "💽 LaserDisc Collections"
+  ];
+
   function populateFilters() {
     const charSelect = document.getElementById('charFilter');
     const dirSelect = document.getElementById('directorFilter');
@@ -3105,7 +3234,13 @@
         item.media_locations.forEach(loc => {
           if (loc.set_name && (!loc.format || loc.format.toLowerCase() !== 'vhs') && !seenInShort.has(loc.set_name)) {
             seenInShort.add(loc.set_name);
-            const current = setsMap.get(loc.set_name) || { format: loc.format || 'DVD', count: 0 };
+            const current = setsMap.get(loc.set_name) || {
+              format: loc.format || 'DVD',
+              type: loc.type || 'dedicated',
+              film_title: loc.film_title || loc.set_name,
+              film_year: loc.film_year,
+              count: 0
+            };
             current.count++;
             setsMap.set(loc.set_name, current);
           }
@@ -3116,17 +3251,14 @@
     fillSelect(charSelect, Array.from(chars).sort(), "All Featured Characters");
     fillSelect(dirSelect, Array.from(directors).sort(), "All Directors");
 
-    // Populate Media Sets sorted by format (Blu-ray -> DVD -> LaserDisc) then alphabetically
     allMediaSets = Array.from(setsMap.entries()).map(([name, data]) => ({
       set_name: name,
       format: data.format,
+      type: data.type || 'dedicated',
+      film_title: data.film_title || name,
+      film_year: data.film_year,
       count: data.count
-    })).sort((a, b) => {
-      const ordA = getFormatOrder(a.format);
-      const ordB = getFormatOrder(b.format);
-      if (ordA !== ordB) return ordA - ordB;
-      return a.set_name.localeCompare(b.set_name);
-    });
+    }));
 
     // Populate user profile dropdown
     populateUserProfileSelect();
@@ -3143,41 +3275,82 @@
 
   function renderMediaSetCheckboxes() {
     const listEl = document.getElementById('mediaSetCheckboxList');
+    const bonusListEl = document.getElementById('bonusMediaSetCheckboxList');
     if (!listEl) return;
 
-    let html = '';
-    let currentGroup = null;
+    const primarySets = allMediaSets.filter(s => s.type !== 'feature_bonus');
+    const bonusSets = allMediaSets.filter(s => s.type === 'feature_bonus');
 
-    allMediaSets.forEach(s => {
-      const fmt = s.format || 'Other';
-      if (fmt !== currentGroup) {
-        currentGroup = fmt;
-        let icon = '📀';
-        if (fmt.toLowerCase().includes('blu')) icon = '💿';
-        else if (fmt.toLowerCase().includes('laser')) icon = '💽';
-
-        const groupSetsCount = allMediaSets.filter(x => x.format === fmt).length;
-        html += `<div class="popover-group-header">${icon} ${fmt} (${groupSetsCount})</div>`;
-      }
-
-      const isChecked = selectedMediaSets.has(s.set_name) ? 'checked' : '';
-      let badgeClass = 'badge-dvd';
-      if (s.format.toLowerCase().includes('blu')) badgeClass = 'badge-bluray';
-      else if (s.format.toLowerCase().includes('laser')) badgeClass = 'badge-laserdisc';
-
-      const safeId = 'chk_' + Math.random().toString(36).substr(2, 9);
-      html += `
-        <label class="popover-item" for="${safeId}">
-          <div class="popover-item-left">
-            <input type="checkbox" id="${safeId}" class="popover-checkbox" ${isChecked} onchange="handleMediaSetToggle('${encodeURIComponent(s.set_name)}', this.checked)">
-            <span class="popover-badge ${badgeClass}">${s.format}</span>
-            <span class="popover-item-title" title="${s.set_name}">${s.set_name}</span>
-          </div>
-          <span class="popover-count-tag">${s.count}</span>
-        </label>
-      `;
+    // Group primary sets
+    const groupedPrimary = {};
+    primarySets.forEach(s => {
+      const grp = getPrimaryGroup(s.set_name, s.format);
+      if (!groupedPrimary[grp]) groupedPrimary[grp] = [];
+      groupedPrimary[grp].push(s);
     });
-    listEl.innerHTML = html;
+
+    // Sort within each group
+    Object.keys(groupedPrimary).forEach(k => {
+      groupedPrimary[k].sort((a, b) => a.set_name.localeCompare(b.set_name));
+    });
+
+    // Sort groups according to PRIMARY_GROUP_ORDER
+    const orderedGroups = Object.keys(groupedPrimary).sort((a, b) => {
+      let idxA = PRIMARY_GROUP_ORDER.indexOf(a);
+      let idxB = PRIMARY_GROUP_ORDER.indexOf(b);
+      if (idxA === -1) idxA = 99;
+      if (idxB === -1) idxB = 99;
+      return idxA - idxB;
+    });
+
+    let primaryHtml = '';
+    orderedGroups.forEach(grp => {
+      const items = groupedPrimary[grp];
+      primaryHtml += `<div class="popover-group-header">${grp} (${items.length})</div>`;
+      items.forEach(s => {
+        const isChecked = selectedMediaSets.has(s.set_name) ? 'checked' : '';
+        let badgeClass = 'badge-dvd';
+        if (s.format.toLowerCase().includes('blu')) badgeClass = 'badge-bluray';
+        else if (s.format.toLowerCase().includes('laser')) badgeClass = 'badge-laserdisc';
+
+        const safeId = 'chk_' + Math.random().toString(36).substr(2, 9);
+        primaryHtml += `
+          <label class="popover-item" for="${safeId}">
+            <div class="popover-item-left">
+              <input type="checkbox" id="${safeId}" class="popover-checkbox" ${isChecked} onchange="handleMediaSetToggle('${encodeURIComponent(s.set_name)}', this.checked)">
+              <span class="popover-badge ${badgeClass}">${s.format === 'Blu-ray' ? 'BD' : s.format}</span>
+              <span class="popover-item-title" title="${s.set_name}">${s.set_name}</span>
+            </div>
+            <span class="popover-count-tag">${s.count}</span>
+          </label>
+        `;
+      });
+    });
+    listEl.innerHTML = primaryHtml;
+
+    // Render bonus sets
+    if (bonusListEl) {
+      const sortedBonus = bonusSets.slice().sort((a, b) => (a.film_title || a.set_name).localeCompare(b.film_title || b.set_name));
+      let bonusHtml = '';
+      sortedBonus.forEach(s => {
+        const isChecked = selectedMediaSets.has(s.set_name) ? 'checked' : '';
+        let badgeClass = s.format.toLowerCase().includes('blu') ? 'badge-bluray' : 'badge-dvd';
+        const safeId = 'chk_bonus_' + Math.random().toString(36).substr(2, 9);
+        const searchKey = `${s.film_title || ''} ${s.set_name} ${s.film_year || ''}`.toLowerCase();
+        bonusHtml += `
+          <label class="popover-item bonus-film-item" for="${safeId}" data-title="${encodeURIComponent(searchKey)}">
+            <div class="popover-item-left">
+              <input type="checkbox" id="${safeId}" class="popover-checkbox" ${isChecked} onchange="handleMediaSetToggle('${encodeURIComponent(s.set_name)}', this.checked)">
+              <span class="popover-badge ${badgeClass}">${s.format === 'Blu-ray' ? 'BD' : 'DVD'}</span>
+              <span class="popover-item-title" title="${s.set_name}">${s.film_title || s.set_name} ${s.film_year ? `<span style="color: #64748b; font-weight: normal; font-size: 0.8rem;">(${s.film_year})</span>` : ''}</span>
+            </div>
+            <span class="popover-count-tag">${s.count} short${s.count > 1 ? 's' : ''}</span>
+          </label>
+        `;
+      });
+      bonusListEl.innerHTML = bonusHtml;
+    }
+
     updateOwnedCount();
   }
 
@@ -3617,7 +3790,7 @@
         (short.voice_actors || []).join(" "),
         (short.featured_characters || []).join(" "),
         getCartoonNote(short.id),
-        (short.media_locations || []).map(m => `${m.format} ${m.set_name} disc ${m.disc_number} ${m.disc_title || ''} track ${m.track_number} ${(m.audio_commentary || []).join ? m.audio_commentary.join(" ") : (m.audio_commentary || '')}`).join(" ")
+        (short.media_locations || []).map(m => `${m.format} ${m.set_name} ${m.film_title || ''} disc ${m.disc_number} ${m.disc_title || ''} track ${m.track_number} ${(m.audio_commentary || []).join ? m.audio_commentary.join(" ") : (m.audio_commentary || '')}`).join(" ")
       ].join(" "));
 
       return queryTerms.every(term => searchable.includes(term));
@@ -3644,6 +3817,7 @@
       const isNoteOpen = openNoteDrawers.has(short.id);
 
       const mediaHtml = (short.media_locations || []).map(loc => {
+        const isBonus = (loc.type === 'feature_bonus');
         const rawFmt = (loc.format || 'DVD').trim();
         let fmtClass = 'format-dvd';
         let mediaIcon = '📀';
@@ -3659,6 +3833,21 @@
         const commentary = loc.audio_commentary && loc.audio_commentary.length > 0
           ? `<span class="commentary-note">💬 Commentary: ${loc.audio_commentary.join("; ")}</span>`
           : '';
+
+        if (isBonus) {
+          const bonusFmtTag = rawFmt.toLowerCase().includes('blu') ? 'BD' : rawFmt;
+          return `
+            <li class="media-item media-item-bonus">
+              <span class="format-badge format-bonus">🎁 Bonus Extra</span>
+              <div class="location-details">
+                <strong>${loc.film_title || loc.set_name}</strong>
+                <span class="badge-bonus-fmt">WAC ${bonusFmtTag}</span>
+                ${loc.film_year ? `<span style="color: #64748b; font-size: 0.85rem; margin-left: 2px;">(${loc.film_year})</span>` : ''}
+                ${commentary}
+              </div>
+            </li>
+          `;
+        }
 
         const discOrTape = 'Disc';
 

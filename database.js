@@ -14,9 +14,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Rollin Hamilton"
@@ -31,7 +31,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "ToonHeads: The Lost Cartoons (Special Feature)",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -39,7 +40,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "The Harman-Ising Story (Special Feature)",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -53,9 +55,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Norm Blackburn"
@@ -75,9 +77,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Robert Edmunds"
@@ -97,9 +99,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Carman Maxwell"
@@ -124,9 +126,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Carman Maxwell",
       "Paul Smith"
@@ -143,7 +145,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bosko, Buddy and Merrie Melodies",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -157,9 +160,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Norm Blackburn"
@@ -179,9 +182,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng"
     ],
@@ -195,7 +198,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -214,9 +219,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -233,6 +238,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bosko, Buddy and Merrie Melodies",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Anna Christie (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_anna_christie_blu_ray",
+        "film_title": "Anna Christie",
+        "film_year": 1930,
+        "disc_number": 1,
+        "disc_title": "Anna Christie Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -249,9 +267,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Larry Martin"
@@ -275,9 +293,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Carman Maxwell"
@@ -294,6 +312,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Possessed (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_possessed_blu_ray",
+        "film_title": "Possessed",
+        "film_year": 1931,
+        "disc_number": 1,
+        "disc_title": "Possessed Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -310,9 +341,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Norm Blackburn"
@@ -324,7 +355,20 @@ window.LOONEY_TUNES_DATABASE = [
       "Foxy"
     ],
     "synopsis": "Bosko goes on a fox hunt with his dog Bruno (in his debut), but Foxy evades them from catching or shooting him.",
-    "media_locations": []
+    "media_locations": [
+      {
+        "set_name": "It's a Wise Child (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_it_s_a_wise_child_blu_ray",
+        "film_title": "It's a Wise Child",
+        "film_year": 1931,
+        "disc_number": 1,
+        "disc_title": "It's a Wise Child Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
+      }
+    ]
   },
   {
     "id": "bosko-s-holiday",
@@ -341,9 +385,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -368,9 +412,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Rollin Hamilton"
@@ -382,7 +426,20 @@ window.LOONEY_TUNES_DATABASE = [
       "Wilber"
     ],
     "synopsis": "Bosko runs an ice cream parlor that sells ice cream sodas and cones. Meanwhile, Honey teaches a piano lesson to Wilber (in his debut), who demands an ice cream cone.",
-    "media_locations": []
+    "media_locations": [
+      {
+        "set_name": "It's a Wise Child (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_it_s_a_wise_child_blu_ray",
+        "film_title": "It's a Wise Child",
+        "film_year": 1931,
+        "disc_number": 1,
+        "disc_title": "It's a Wise Child Bonus Features",
+        "track_number": 2,
+        "audio_commentary": []
+      }
+    ]
   },
   {
     "id": "dumb-patrol",
@@ -399,9 +456,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Carman Maxwell"
@@ -419,6 +476,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
+      },
+      {
+        "set_name": "Safe In Hell (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_safe_in_hell_blu_ray",
+        "film_title": "Safe In Hell",
+        "film_year": 1931,
+        "disc_number": 1,
+        "disc_title": "Safe In Hell Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -437,9 +508,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -466,9 +537,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Norm Blackburn"
@@ -486,6 +557,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 11,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Cimarron (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_cimarron_blu_ray",
+        "film_title": "Cimarron",
+        "film_year": 1931,
+        "disc_number": 1,
+        "disc_title": "Cimarron Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -504,9 +589,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -524,7 +609,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bosko, Buddy and Merrie Melodies",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -532,6 +618,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Harman-Ising",
         "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Dance, Fools, Dance (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_dance_fools_dance_blu_ray",
+        "film_title": "Dance, Fools, Dance",
+        "film_year": 1931,
+        "disc_number": 1,
+        "disc_title": "Dance, Fools, Dance Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -550,9 +649,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Carman Maxwell"
@@ -566,6 +665,19 @@ window.LOONEY_TUNES_DATABASE = [
         "format": "LaserDisc",
         "disc_number": 1,
         "disc_title": "Side 1: Harman-Ising",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Cimarron (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_cimarron_blu_ray",
+        "film_title": "Cimarron",
+        "film_year": 1931,
+        "disc_number": 1,
+        "disc_title": "Cimarron Bonus Features",
         "track_number": 2,
         "audio_commentary": []
       }
@@ -585,9 +697,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Carman Maxwell"
@@ -605,13 +717,27 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bosko, Buddy and Merrie Melodies",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
         "format": "LaserDisc",
         "disc_number": 1,
         "disc_title": "Side 1: 1930s Musicals",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Dance, Fools, Dance (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_dance_fools_dance_blu_ray",
+        "film_title": "Dance, Fools, Dance",
+        "film_year": 1931,
+        "disc_number": 1,
+        "disc_title": "Dance, Fools, Dance Bonus Features",
         "track_number": 1,
         "audio_commentary": []
       }
@@ -632,9 +758,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Rollin Hamilton"
@@ -661,9 +787,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Paul Smith"
@@ -690,9 +816,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Norm Blackburn"
@@ -719,9 +845,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Norm Blackburn"
@@ -739,13 +865,27 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bosko, Buddy and Merrie Melodies",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
         "format": "LaserDisc",
         "disc_number": 1,
         "disc_title": "Side 1: Musical Madness",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Forbidden Hollywood Collection: Volume 3 (WAC DVD Extra)",
+        "format": "DVD",
+        "type": "feature_bonus",
+        "set_id": "wac_film_forbidden_hollywood_collection_volume_3_dvd",
+        "film_title": "Forbidden Hollywood Collection: Volume 3",
+        "film_year": null,
+        "disc_number": 1,
+        "disc_title": "Forbidden Hollywood Collection: Volume 3 Bonus Features",
         "track_number": 1,
         "audio_commentary": []
       }
@@ -765,9 +905,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Thomas McKimson"
@@ -782,7 +922,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Harman-Ising",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 5",
@@ -790,6 +931,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Black and White Classics",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "One Way Passage (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_one_way_passage_blu_ray",
+        "film_title": "One Way Passage",
+        "film_year": 1932,
+        "disc_number": 1,
+        "disc_title": "One Way Passage Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -806,9 +960,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -833,9 +987,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Rollin Hamilton"
@@ -860,9 +1014,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Paul Smith"
@@ -873,7 +1027,20 @@ window.LOONEY_TUNES_DATABASE = [
       "Bruno"
     ],
     "synopsis": "Bosko and his dog Bruno investigate the railroad tracks.",
-    "media_locations": []
+    "media_locations": [
+      {
+        "set_name": "The Beast of the City (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_beast_of_the_city_blu_ray",
+        "film_title": "The Beast of the City",
+        "film_year": 1932,
+        "disc_number": 1,
+        "disc_title": "The Beast of the City Bonus Features",
+        "track_number": 2,
+        "audio_commentary": []
+      }
+    ]
   },
   {
     "id": "bosko-at-the-beach",
@@ -887,9 +1054,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Rollin Hamilton"
@@ -916,9 +1083,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Larry Martin"
@@ -943,9 +1110,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Robert McKimson"
@@ -970,9 +1137,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Carman Maxwell"
@@ -997,9 +1164,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Robert McKimson"
@@ -1026,9 +1193,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Norm Blackburn"
@@ -1054,9 +1221,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Larry Martin"
@@ -1082,9 +1249,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Robert McKimson"
@@ -1111,9 +1278,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -1140,22 +1307,35 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Carman Maxwell"
     ],
     "voice_actors": [],
     "featured_characters": [],
-    "synopsis": "Many American Indians are unhappy about the way that Bing Crosby, Russ Columbo and Rudy Vallée have influenced their squaws, so they sing the title song.",
+    "synopsis": "Many American Indians are unhappy about the way that Bing Crosby, Russ Columbo and Rudy Vall\u00e9e have influenced their squaws, so they sing the title song.",
     "media_locations": [
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
         "format": "LaserDisc",
         "disc_number": 3,
         "disc_title": "Side 5: Radio Daze",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "20,000 Years in Sing Sing (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_20_000_years_in_sing_sing_blu_ray",
+        "film_title": "20,000 Years in Sing Sing",
+        "film_year": 1932,
+        "disc_number": 1,
+        "disc_title": "20,000 Years in Sing Sing Bonus Features",
         "track_number": 1,
         "audio_commentary": []
       }
@@ -1175,9 +1355,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -1191,6 +1371,19 @@ window.LOONEY_TUNES_DATABASE = [
         "format": "LaserDisc",
         "disc_number": 4,
         "disc_title": "Side 7: Sports",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Mask of Fu Manchu (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_mask_of_fu_manchu_blu_ray",
+        "film_title": "The Mask of Fu Manchu",
+        "film_year": 1932,
+        "disc_number": 1,
+        "disc_title": "The Mask of Fu Manchu Bonus Features",
         "track_number": 1,
         "audio_commentary": []
       }
@@ -1210,9 +1403,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Rollin Hamilton"
@@ -1229,6 +1422,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Musical Madness",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Beast of the City (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_beast_of_the_city_blu_ray",
+        "film_title": "The Beast of the City",
+        "film_year": 1932,
+        "disc_number": 1,
+        "disc_title": "The Beast of the City Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -1247,9 +1453,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Thomas McKimson"
@@ -1264,7 +1470,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Merrie Melodies",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -1282,9 +1489,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Paul Smith"
@@ -1299,6 +1506,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Black and White Classics",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Tarzan the Ape Man (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_tarzan_the_ape_man_blu_ray",
+        "film_title": "Tarzan the Ape Man",
+        "film_year": 1932,
+        "disc_number": 1,
+        "disc_title": "Tarzan the Ape Man Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -1317,9 +1537,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Thomas McKimson"
@@ -1334,7 +1554,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Black and White Classics",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -1352,9 +1573,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Larry Martin"
@@ -1371,6 +1592,31 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Black and White Classics",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Forbidden Hollywood Collection: Volume 3 (WAC DVD Extra)",
+        "format": "DVD",
+        "type": "feature_bonus",
+        "set_id": "wac_film_forbidden_hollywood_collection_volume_3_dvd",
+        "film_title": "Forbidden Hollywood Collection: Volume 3",
+        "film_year": null,
+        "disc_number": 1,
+        "disc_title": "Forbidden Hollywood Collection: Volume 3 Bonus Features",
+        "track_number": 2,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Tarzan the Ape Man (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_tarzan_the_ape_man_blu_ray",
+        "film_title": "Tarzan the Ape Man",
+        "film_year": 1932,
+        "disc_number": 1,
+        "disc_title": "Tarzan the Ape Man Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -1389,9 +1635,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Norm Blackburn"
@@ -1406,7 +1652,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Harman-Ising",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -1422,9 +1669,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Norm Blackburn"
@@ -1443,7 +1690,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bosko, Buddy and Merrie Melodies",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -1461,9 +1709,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -1480,6 +1728,31 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Merrie Melodies",
         "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Mask of Fu Manchu (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_mask_of_fu_manchu_blu_ray",
+        "film_title": "The Mask of Fu Manchu",
+        "film_year": 1932,
+        "disc_number": 1,
+        "disc_title": "The Mask of Fu Manchu Bonus Features",
+        "track_number": 2,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "20,000 Years in Sing Sing (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_20_000_years_in_sing_sing_blu_ray",
+        "film_title": "20,000 Years in Sing Sing",
+        "film_year": 1932,
+        "disc_number": 1,
+        "disc_title": "20,000 Years in Sing Sing Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -1498,9 +1771,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Norm Blackburn"
@@ -1515,7 +1788,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Harman-Ising",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -1533,9 +1807,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Larry Martin"
@@ -1550,7 +1824,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Musical Madness",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -1568,9 +1843,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Larry Martin"
@@ -1585,7 +1860,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Black and White Classics",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -1605,9 +1881,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Norm Blackburn"
@@ -1636,9 +1912,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Thomas McKimson"
@@ -1670,9 +1946,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Robert McKimson"
@@ -1690,6 +1966,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bosko, Buddy and Merrie Melodies",
         "track_number": 10,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Gabriel Over the White House (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_gabriel_over_the_white_house_blu_ray",
+        "film_title": "Gabriel Over the White House",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Gabriel Over the White House Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -1706,9 +1995,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Robert Stokes"
@@ -1734,9 +2023,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Carman Maxwell"
@@ -1762,9 +2051,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -1789,9 +2078,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Robert Stokes"
@@ -1817,9 +2106,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Hugh Harman"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Thomas McKimson"
@@ -1849,9 +2138,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Carman Maxwell"
@@ -1870,6 +2159,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bosko, Buddy and Merrie Melodies",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Lilly Turner (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_lilly_turner_blu_ray",
+        "film_title": "Lilly Turner",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Lilly Turner Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -1886,9 +2188,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Earl Duvall"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Jack King",
       "Frank Tashlin"
@@ -1906,6 +2208,31 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bosko, Buddy and Merrie Melodies",
         "track_number": 13,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Christopher Strong (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_christopher_strong_blu_ray",
+        "film_title": "Christopher Strong",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Christopher Strong Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Gabriel Over the White House (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_gabriel_over_the_white_house_blu_ray",
+        "film_title": "Gabriel Over the White House",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Gabriel Over the White House Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -1922,9 +2249,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Tom Palmer"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bill Mason"
     ],
@@ -1941,6 +2268,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bosko, Buddy and Merrie Melodies",
         "track_number": 12,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Keyhole (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_keyhole_blu_ray",
+        "film_title": "The Keyhole",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "The Keyhole Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -1957,9 +2297,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Earl Duvall"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Jack King",
       "Jim Pabian"
@@ -1986,9 +2326,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Larry Martin"
@@ -2003,6 +2343,43 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Black and White Classics",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Ladies They Talk About (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_ladies_they_talk_about_blu_ray",
+        "film_title": "Ladies They Talk About",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Ladies They Talk About Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Little Women (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_little_women_blu_ray",
+        "film_title": "Little Women",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Little Women Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "The Gay Divorcee (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_gay_divorcee_blu_ray",
+        "film_title": "The Gay Divorcee",
+        "film_year": 1934,
+        "disc_number": 1,
+        "disc_title": "The Gay Divorcee Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -2019,9 +2396,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Tom Palmer"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Jack King"
     ],
@@ -2035,6 +2412,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Early Daze",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Gold Diggers of 1933 (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_gold_diggers_of_1933_blu_ray",
+        "film_title": "Gold Diggers of 1933",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Gold Diggers of 1933 Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -2053,9 +2443,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Carman Maxwell"
@@ -2070,6 +2460,31 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Harman-Ising",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Forbidden Hollywood Collection: Volume 3 (WAC DVD Extra)",
+        "format": "DVD",
+        "type": "feature_bonus",
+        "set_id": "wac_film_forbidden_hollywood_collection_volume_3_dvd",
+        "film_title": "Forbidden Hollywood Collection: Volume 3",
+        "film_year": null,
+        "disc_number": 1,
+        "disc_title": "Forbidden Hollywood Collection: Volume 3 Bonus Features",
+        "track_number": 4,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Footlight Parade (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_footlight_parade_blu_ray",
+        "film_title": "Footlight Parade",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Footlight Parade Bonus Features",
+        "track_number": 3,
         "audio_commentary": []
       }
     ]
@@ -2091,9 +2506,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Paul Smith"
@@ -2108,7 +2523,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bosko, Buddy and Merrie Melodies",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -2116,6 +2532,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: 1930s Musicals",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "42nd Street (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_42nd_street_blu_ray",
+        "film_title": "42nd Street",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "42nd Street Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -2132,9 +2561,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Earl Duvall"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Jack King",
       "Don Williams"
@@ -2142,7 +2571,32 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [],
     "synopsis": "Two cats sing to each other in the middle of the night. Chaos ensues after a rolling pin is thrown at them. Musical Score by Norman Spencer",
-    "media_locations": []
+    "media_locations": [
+      {
+        "set_name": "Forbidden Hollywood Collection: Volume 3 (WAC DVD Extra)",
+        "format": "DVD",
+        "type": "feature_bonus",
+        "set_id": "wac_film_forbidden_hollywood_collection_volume_3_dvd",
+        "film_title": "Forbidden Hollywood Collection: Volume 3",
+        "film_year": null,
+        "disc_number": 1,
+        "disc_title": "Forbidden Hollywood Collection: Volume 3 Bonus Features",
+        "track_number": 3,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Footlight Parade (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_footlight_parade_blu_ray",
+        "film_title": "Footlight Parade",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Footlight Parade Bonus Features",
+        "track_number": 4,
+        "audio_commentary": []
+      }
+    ]
   },
   {
     "id": "the-dish-ran-away-with-the-spoon",
@@ -2158,9 +2612,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Robert McKimson"
@@ -2175,7 +2629,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bosko, Buddy and Merrie Melodies",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -2183,6 +2638,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Harman-Ising",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Gabriel Over the White House (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_gabriel_over_the_white_house_blu_ray",
+        "film_title": "Gabriel Over the White House",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Gabriel Over the White House Bonus Features",
+        "track_number": 3,
         "audio_commentary": []
       }
     ]
@@ -2201,9 +2669,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Thomas McKimson"
@@ -2218,6 +2686,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Merrie Melodies",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Little Women (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_little_women_blu_ray",
+        "film_title": "Little Women",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Little Women Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -2236,9 +2717,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Larry Silverman"
@@ -2253,7 +2734,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Politically Incorrect",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -2271,9 +2753,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Friz Freleng",
       "Larry Martin"
@@ -2288,7 +2770,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bosko, Buddy and Merrie Melodies",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -2296,6 +2779,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Musical Madness",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Gold Diggers of 1933 (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_gold_diggers_of_1933_blu_ray",
+        "film_title": "Gold Diggers of 1933",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Gold Diggers of 1933 Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -2314,9 +2810,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Rudy Ising"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Larry Martin"
@@ -2331,6 +2827,43 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Black and White Classics",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Footlight Parade (WAC DVD Extra)",
+        "format": "DVD",
+        "type": "feature_bonus",
+        "set_id": "wac_film_footlight_parade_dvd",
+        "film_title": "Footlight Parade",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Footlight Parade Bonus Features",
+        "track_number": 2,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "42nd Street (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_42nd_street_blu_ray",
+        "film_title": "42nd Street",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "42nd Street Bonus Features",
+        "track_number": 2,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Footlight Parade (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_footlight_parade_blu_ray",
+        "film_title": "Footlight Parade",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Footlight Parade Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -2350,9 +2883,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Jack King",
       "Rollin Hamilton"
@@ -2367,7 +2900,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Fables & Fairy Tales",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -2375,7 +2909,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -2394,9 +2930,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Jack King",
       "Robert McKimson"
@@ -2422,9 +2958,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Sandy Walker"
@@ -2450,9 +2986,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Jack King"
@@ -2477,9 +3013,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Don Williams"
@@ -2507,9 +3043,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Jack King",
       "Ben Clopton"
@@ -2533,9 +3069,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Don Williams"
@@ -2562,9 +3098,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Don Williams"
@@ -2589,9 +3125,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Clopton"
     ],
@@ -2615,9 +3151,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Ben Clopton"
@@ -2634,6 +3170,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bosko, Buddy and Merrie Melodies",
         "track_number": 14,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Kentucky Kernels (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_kentucky_kernels_blu_ray",
+        "film_title": "Kentucky Kernels",
+        "film_year": 1934,
+        "disc_number": 1,
+        "disc_title": "Kentucky Kernels Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -2650,9 +3199,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Earl Duvall"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Jack King",
       "Sandy Walker"
@@ -2680,9 +3229,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Clopton",
       "Frank Tipper"
@@ -2710,9 +3259,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Robert McKimson"
@@ -2734,9 +3283,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Earl Duvall"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Jack King",
       "{{interlanguage link|Frank Tipper|fr"
@@ -2751,7 +3300,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Musical Madness",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 3",
@@ -2759,6 +3309,32 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 8,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
+      },
+      {
+        "set_name": "Footlight Parade (WAC DVD Extra)",
+        "format": "DVD",
+        "type": "feature_bonus",
+        "set_id": "wac_film_footlight_parade_dvd",
+        "film_title": "Footlight Parade",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Footlight Parade Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Footlight Parade (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_footlight_parade_blu_ray",
+        "film_title": "Footlight Parade",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Footlight Parade Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -2778,9 +3354,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Frank Tipper",
       "Don Williams"
@@ -2802,9 +3378,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Bernard B. Brown"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Jack King",
       "Bob Clampett"
@@ -2812,7 +3388,20 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [],
     "synopsis": "Various bird couples pet in the park while singing the title song, and then participate in a diving and swimming contest. Musical Score by Norman Spencer",
-    "media_locations": []
+    "media_locations": [
+      {
+        "set_name": "Gold Diggers of 1933 (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_gold_diggers_of_1933_blu_ray",
+        "film_title": "Gold Diggers of 1933",
+        "film_year": 1933,
+        "disc_number": 1,
+        "disc_title": "Gold Diggers of 1933 Bonus Features",
+        "track_number": 3,
+        "audio_commentary": []
+      }
+    ]
   },
   {
     "id": "pop-goes-your-heart",
@@ -2829,9 +3418,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Frank Tipper",
       "Sandy Walker"
@@ -2846,6 +3435,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Animal Antics",
         "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Sadie McKee (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_sadie_mckee_blu_ray",
+        "film_title": "Sadie McKee",
+        "film_year": 1934,
+        "disc_number": 1,
+        "disc_title": "Sadie McKee Bonus Features",
+        "track_number": 3,
         "audio_commentary": []
       }
     ]
@@ -2864,9 +3466,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Ben Clopton"
@@ -2891,9 +3493,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Bob Clampett"
@@ -2908,6 +3510,32 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 18,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Sadie McKee (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_sadie_mckee_blu_ray",
+        "film_title": "Sadie McKee",
+        "film_year": 1934,
+        "disc_number": 1,
+        "disc_title": "Sadie McKee Bonus Features",
+        "track_number": 2,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "The Gay Divorcee (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_gay_divorcee_blu_ray",
+        "film_title": "The Gay Divorcee",
+        "film_year": 1934,
+        "disc_number": 1,
+        "disc_title": "The Gay Divorcee Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -2927,9 +3555,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Frank Tipper",
       "Sandy Walker"
@@ -2954,9 +3582,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Chuck Jones"
@@ -2981,9 +3609,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Chuck Jones"
@@ -2998,7 +3626,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Objects D'art",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -3014,9 +3643,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Bernard B. Brown"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Don Williams"
@@ -3038,9 +3667,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Frank Tipper",
       "Cal Dalton"
@@ -3068,9 +3697,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Robert McKimson"
@@ -3078,7 +3707,20 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [],
     "synopsis": "A fantasy version of the short story Rip Van Winkle involving beer-guzzling leprechauns and other strange creatures. Musical Score by Norman Spencer",
-    "media_locations": []
+    "media_locations": [
+      {
+        "set_name": "Sadie McKee (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_sadie_mckee_blu_ray",
+        "film_title": "Sadie McKee",
+        "film_year": 1934,
+        "disc_number": 1,
+        "disc_title": "Sadie McKee Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
+      }
+    ]
   },
   {
     "id": "a-cartoonist-s-nightmare",
@@ -3092,9 +3734,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Don Williams",
       "Paul Smith"
@@ -3111,7 +3753,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bosko, Buddy and Merrie Melodies",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -3130,9 +3773,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Paul Smith"
@@ -3147,7 +3790,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Sports",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -3166,9 +3810,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton",
       "Sandy Walker"
@@ -3183,7 +3827,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Merrie Melodies",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -3191,7 +3836,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -3209,9 +3856,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Don Williams",
       "Jack Carr"
@@ -3237,9 +3884,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Clampett",
       "Chuck Jones"
@@ -3263,9 +3910,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Clampett",
       "Chuck Jones"
@@ -3290,9 +3937,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sandy Walker",
       "Cal Dalton"
@@ -3316,9 +3963,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Paul Smith"
@@ -3342,9 +3989,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Sandy Walker"
@@ -3370,9 +4017,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Clopton",
       "Cal Dalton"
@@ -3399,9 +4046,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bugs Hardaway"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Don Williams",
       "Sandy Walker"
@@ -3429,9 +4076,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Paul Smith"
@@ -3448,7 +4095,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Pesky Pets",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -3456,7 +4104,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -3475,9 +4125,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Don Williams"
@@ -3492,7 +4142,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Merrie Melodies",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -3511,9 +4162,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Clampett",
       "Chuck Jones"
@@ -3532,7 +4183,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -3540,7 +4193,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Early Daze",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -3556,9 +4210,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Chuck Jones"
@@ -3578,7 +4232,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Hollywood Caricatures and Parodies",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -3597,9 +4252,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Jack KIng"
@@ -3620,7 +4275,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 3",
@@ -3628,7 +4285,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -3636,7 +4294,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Firsts",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -3655,9 +4314,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Clopton",
       "Cal Dalton"
@@ -3672,6 +4331,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Musical Madness",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Annie Oakley (WAC DVD Extra)",
+        "format": "DVD",
+        "type": "feature_bonus",
+        "set_id": "wac_film_annie_oakley_dvd",
+        "film_title": "Annie Oakley",
+        "film_year": 1935,
+        "disc_number": 1,
+        "disc_title": "Annie Oakley Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -3691,9 +4363,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Clopton",
       "Cal Dalton"
@@ -3711,7 +4383,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Musical Madness",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 3",
@@ -3719,7 +4392,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -3738,9 +4413,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Clampett",
       "Chuck Jones"
@@ -3757,7 +4432,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Objects D'art",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -3765,7 +4441,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -3784,9 +4462,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Don Williams",
       "Jack Carr"
@@ -3801,7 +4479,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Musical Madness",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -3809,7 +4488,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -3828,9 +4509,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Ben Clopton"
@@ -3845,6 +4526,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Musical Madness",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Joe's Apartment (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_joe_s_apartment_blu_ray",
+        "film_title": "Joe's Apartment",
+        "film_year": 1996,
+        "disc_number": 1,
+        "disc_title": "Joe's Apartment Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -3864,9 +4558,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Bob Clampett"
@@ -3881,7 +4575,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Objects D'art",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -3900,9 +4595,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton",
       "Riley Thomson"
@@ -3917,7 +4612,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Musical Madness",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -3933,9 +4629,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Riley Thomson",
       "Jack Carr"
@@ -3954,7 +4650,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -3962,7 +4660,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Early Daze",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -3981,9 +4680,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Don Williams",
       "Cal Dalton"
@@ -4001,7 +4700,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Animal Antics",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -4020,9 +4720,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton",
       "Sandy Walker"
@@ -4037,7 +4737,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Musical Madness",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -4053,9 +4754,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton",
       "Sandy Walker"
@@ -4073,7 +4774,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -4092,9 +4795,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Cal Dalton"
@@ -4111,7 +4814,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Sports",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -4119,7 +4823,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -4138,9 +4844,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Clampett",
       "Joe D'Igalo"
@@ -4155,7 +4861,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Avery",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -4163,7 +4870,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -4179,9 +4888,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Don Williams"
@@ -4198,7 +4907,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -4217,9 +4928,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones",
       "Virgil Ross"
@@ -4237,7 +4948,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -4245,7 +4957,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -4253,7 +4966,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: 1930s Musicals",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -4272,9 +4986,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton",
       "Sandy Walker"
@@ -4289,7 +5003,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Animal Antics",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -4308,9 +5023,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Clampett",
       "Cecil Surry"
@@ -4325,7 +5040,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Objects D'art",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -4333,7 +5049,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -4352,9 +5070,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Riley Thomson",
       "Jack Carr"
@@ -4369,7 +5087,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Animal Antics",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -4388,9 +5107,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Don Williams"
@@ -4407,7 +5126,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Radio Daze",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -4415,6 +5135,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 14,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
+      },
+      {
+        "set_name": "The Walking Dead (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_walking_dead_blu_ray",
+        "film_title": "The Walking Dead",
+        "film_year": 1936,
+        "disc_number": 1,
+        "disc_title": "The Walking Dead Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -4434,9 +5168,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Bentley",
       "Nelson Demorest"
@@ -4453,7 +5187,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 4",
@@ -4461,7 +5197,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "A Dash of Tashlin",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -4480,9 +5217,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones",
       "Virgil Ross"
@@ -4500,7 +5237,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -4508,6 +5247,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Early Daze",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Devil Doll (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_devil_doll_blu_ray",
+        "film_title": "The Devil Doll",
+        "film_year": 1936,
+        "disc_number": 1,
+        "disc_title": "The Devil Doll Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -4527,9 +5279,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [],
@@ -4541,7 +5293,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -4549,7 +5302,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 22,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -4557,7 +5311,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: 1930s Musicals",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -4576,9 +5331,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sid Sutherland",
       "Virgil Ross"
@@ -4595,7 +5350,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -4614,9 +5371,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Volney White",
       "Norman McCabe"
@@ -4633,7 +5390,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 4",
@@ -4641,7 +5400,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "A Dash of Tashlin",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -4660,9 +5420,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cecil Surry",
       "Sid Sutherland"
@@ -4680,7 +5440,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -4696,9 +5458,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Joe D'Igalo"
@@ -4715,7 +5477,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -4731,9 +5495,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton",
       "Sandy Walker"
@@ -4750,7 +5514,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -4769,9 +5535,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Don Williams",
       "Volney White"
@@ -4788,7 +5554,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 4",
@@ -4796,7 +5564,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "A Dash of Tashlin",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -4812,9 +5581,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Joe D'Igalo"
@@ -4831,7 +5600,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -4850,9 +5621,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Don Williams"
@@ -4877,9 +5648,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones",
       "Sid Sutherland"
@@ -4896,7 +5667,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Guffaw and Order: Looney Tunes Fight Crime",
@@ -4904,7 +5677,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -4923,9 +5697,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Clopton",
       "Robert McKimson"
@@ -4939,6 +5713,19 @@ window.LOONEY_TUNES_DATABASE = [
         "format": "LaserDisc",
         "disc_number": 3,
         "disc_title": "Side 5: Pesky Pets",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Walking Dead (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_walking_dead_blu_ray",
+        "film_title": "The Walking Dead",
+        "film_year": 1936,
+        "disc_number": 1,
+        "disc_title": "The Walking Dead Bonus Features",
         "track_number": 1,
         "audio_commentary": []
       }
@@ -4959,9 +5746,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Sandy Walker"
@@ -4979,7 +5766,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Hollywood Caricatures and Parodies",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -4987,7 +5775,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Hooray for Hollywood",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -5003,9 +5792,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Clopton",
       "Robert McKimson"
@@ -5030,9 +5819,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Don Williams"
@@ -5043,7 +5832,20 @@ window.LOONEY_TUNES_DATABASE = [
       "Ham and Ex"
     ],
     "synopsis": "Beans the Cat flies to the Arctic with Ham and Ex on an aircraft. While exploring a frozen ship, Beans finds and defrosts a couple of frozen buccaneers who chase him and Ham and Ex who land back in the plane and take off. Beans then dodges an explosive powder keg and is launched into the air and caught by Ham and Ex before they fly home. Musical Score by Bernard Brown",
-    "media_locations": []
+    "media_locations": [
+      {
+        "set_name": "The Devil Doll (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_devil_doll_blu_ray",
+        "film_title": "The Devil Doll",
+        "film_year": 1936,
+        "disc_number": 1,
+        "disc_title": "The Devil Doll Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
+      }
+    ]
   },
   {
     "id": "the-village-smithy",
@@ -5060,9 +5862,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cecil Surry",
       "Sid Sutherland"
@@ -5079,7 +5881,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -5098,9 +5902,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Sandy Walker"
@@ -5115,6 +5919,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Objects D'art",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Great Ziegfeld (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_great_ziegfeld_blu_ray",
+        "film_title": "The Great Ziegfeld",
+        "film_year": 1936,
+        "disc_number": 1,
+        "disc_title": "The Great Ziegfeld Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -5131,9 +5948,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Jack King"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Ben Clopton"
@@ -5153,7 +5970,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -5172,9 +5991,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Don Williams"
@@ -5189,7 +6008,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Animal Antics",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -5208,9 +6028,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sid Sutherland",
       "Virgil Ross"
@@ -5225,6 +6045,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Avery",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Prince and the Pauper (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_prince_and_the_pauper_blu_ray",
+        "film_title": "The Prince and the Pauper",
+        "film_year": 1937,
+        "disc_number": 1,
+        "disc_title": "The Prince and the Pauper Bonus Features",
+        "track_number": 3,
         "audio_commentary": []
       }
     ]
@@ -5244,9 +6077,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones",
       "Bob Clampett"
@@ -5261,7 +6094,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Avery",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -5280,9 +6114,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Phil Monroe"
@@ -5307,9 +6141,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "A.C. Gamer"
@@ -5324,6 +6158,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Pesky Pets",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Rover Dangerfield (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_rover_dangerfield_blu_ray",
+        "film_title": "Rover Dangerfield",
+        "film_year": 1991,
+        "disc_number": 1,
+        "disc_title": "Rover Dangerfield Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -5343,9 +6190,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Irven Spence"
@@ -5362,7 +6209,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: The Evolution of Egghead",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 3",
@@ -5370,7 +6218,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -5388,9 +6238,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones"
     ],
@@ -5407,7 +6257,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -5426,9 +6278,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Cal Dalton"
@@ -5443,7 +6295,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Politically Incorrect",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -5462,9 +6315,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Clampett",
       "Volney White"
@@ -5479,7 +6332,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Avery",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 3",
@@ -5487,7 +6341,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -5506,9 +6362,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith",
       "Virgil Ross"
@@ -5523,7 +6379,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Early Avery",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -5531,7 +6388,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -5551,8 +6410,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Irven Spence"
     ],
@@ -5568,7 +6427,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -5576,7 +6436,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Fables & Fairy Tales",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -5595,9 +6456,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones",
       "Sid Sutherland"
@@ -5614,7 +6475,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -5633,9 +6496,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Paul Smith"
@@ -5652,7 +6515,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -5660,7 +6524,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Friz Freleng",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -5679,9 +6544,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton",
       "Phil Monroe"
@@ -5696,6 +6561,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Animal Antics",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Prince and the Pauper (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_prince_and_the_pauper_blu_ray",
+        "film_title": "The Prince and the Pauper",
+        "film_year": 1937,
+        "disc_number": 1,
+        "disc_title": "The Prince and the Pauper Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -5712,9 +6590,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Ub Iwerks"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones",
       "Bob Clampett"
@@ -5732,7 +6610,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -5751,9 +6631,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones",
       "Elmer Wait"
@@ -5770,7 +6650,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -5781,7 +6663,7 @@ window.LOONEY_TUNES_DATABASE = [
     "release_date": "July 24, 1937",
     "series": "Looney Tunes",
     "director": "Bob Clampett",
-    "director_credit": "Bob Clampett{{efn|Planned by Ub Iwerks, but was uncredited. {{Cite book |last=Barrier |first=Michael |url=https://www.google.com/books/edition/Hollywood_Cartoons/xt5k08yuAXIC?hl=en&gbpv=1&dq=michael+barrier+hollywood+cartoons&printsec=frontcover |title=Hollywood Cartoons: American Animation in Its Golden Age |date=November 6, 2003 |publisher=Oxford University Press |isbn=978-0-19-983922-3 |pages=342–346 |language=en}}",
+    "director_credit": "Bob Clampett{{efn|Planned by Ub Iwerks, but was uncredited. {{Cite book |last=Barrier |first=Michael |url=https://www.google.com/books/edition/Hollywood_Cartoons/xt5k08yuAXIC?hl=en&gbpv=1&dq=michael+barrier+hollywood+cartoons&printsec=frontcover |title=Hollywood Cartoons: American Animation in Its Golden Age |date=November 6, 2003 |publisher=Oxford University Press |isbn=978-0-19-983922-3 |pages=342\u2013346 |language=en}}",
     "directors": [
       "Bob Clampett",
       "Ub Iwerks"
@@ -5789,9 +6671,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones"
     ],
@@ -5808,6 +6690,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
+      },
+      {
+        "set_name": "It's Love I'm After (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_it_s_love_i_m_after_blu_ray",
+        "film_title": "It's Love I'm After",
+        "film_year": 1937,
+        "disc_number": 1,
+        "disc_title": "It's Love I'm After Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -5827,9 +6723,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Volney White",
       "Norman McCabe"
@@ -5847,6 +6743,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
+      },
+      {
+        "set_name": "It's Love I'm After (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_it_s_love_i_m_after_blu_ray",
+        "film_title": "It's Love I'm After",
+        "film_year": 1937,
+        "disc_number": 1,
+        "disc_title": "It's Love I'm After Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -5867,8 +6777,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "George Manuell",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Joe D'Igalo"
     ],
@@ -5885,7 +6795,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -5893,7 +6805,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Early Daze",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -5912,9 +6825,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Robert Cannon"
@@ -5932,7 +6845,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -5940,7 +6855,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -5959,9 +6876,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sid Sutherland",
       "Elmer Wait"
@@ -5978,7 +6895,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -5996,9 +6915,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones"
     ],
@@ -6014,7 +6933,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Wince Upon a Time: Foolhardy Fairy Tales and Looney Legends",
@@ -6022,7 +6943,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -6041,9 +6963,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Bentley",
       "Joe D'Igalo"
@@ -6053,7 +6975,7 @@ window.LOONEY_TUNES_DATABASE = [
       "Porky Pig",
       "Dirty Digg"
     ],
-    "synopsis": "Porky Pig and his 2-2-2 typed locomotive (#13 1⁄2 Toots) travel the 15th Century Unlimited and endure a larger streamliner and stubborn bull who crosses the tracks.",
+    "synopsis": "Porky Pig and his 2-2-2 typed locomotive (#13 1\u20442 Toots) travel the 15th Century Unlimited and endure a larger streamliner and stubborn bull who crosses the tracks.",
     "media_locations": [
       {
         "set_name": "Porky Pig 101",
@@ -6061,7 +6983,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 4",
@@ -6069,7 +6993,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "A Dash of Tashlin",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -6088,9 +7013,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Bentley",
       "Joe D'Igalo"
@@ -6107,7 +7032,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 3",
@@ -6115,7 +7042,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Hollywood Caricatures and Parodies",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -6134,9 +7062,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Bentley",
       "Joe D'Igalo"
@@ -6154,7 +7082,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 3",
@@ -6162,7 +7092,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -6178,9 +7109,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Ub Iwerks"
     ],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones",
       "Bob Clampett"
@@ -6197,7 +7128,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -6215,9 +7148,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones"
     ],
@@ -6233,7 +7166,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -6253,8 +7188,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton"
     ],
@@ -6268,6 +7203,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Merrie Melodies",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Carefree (WAC DVD Extra)",
+        "format": "DVD",
+        "type": "feature_bonus",
+        "set_id": "wac_film_carefree_dvd",
+        "film_title": "Carefree",
+        "film_year": 1938,
+        "disc_number": 1,
+        "disc_title": "Carefree Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -6287,9 +7235,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "A.C. Gamer"
@@ -6304,7 +7252,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Hollywood Caricatures and Parodies",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 5",
@@ -6312,7 +7261,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Freleng Follies",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -6331,9 +7281,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Frank Tash",
       "Tish Tash"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Joe D'Igalo",
       "Volney White"
@@ -6348,7 +7298,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Hollywood Caricatures and Parodies",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -6356,7 +7307,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: 1930s Musicals",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -6375,9 +7327,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton",
       "Ken Harris"
@@ -6392,7 +7344,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Objects D'art",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 4",
@@ -6400,6 +7353,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 25,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
+      },
+      {
+        "set_name": "The Prince and the Pauper (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_prince_and_the_pauper_blu_ray",
+        "film_title": "The Prince and the Pauper",
+        "film_year": 1937,
+        "disc_number": 1,
+        "disc_title": "The Prince and the Pauper Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -6419,9 +7386,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "A.C. Gamer"
@@ -6436,7 +7403,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Freleng Follies",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -6456,8 +7424,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Volney White"
     ],
@@ -6474,7 +7442,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 4",
@@ -6482,7 +7452,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "A Dash of Tashlin",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Ham on Wry: The Porky Pig Laser Collection",
@@ -6490,7 +7461,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -6509,9 +7481,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton",
       "Ken Harris"
@@ -6526,7 +7498,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Musical Madness",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -6546,8 +7519,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -6563,7 +7536,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Freleng Follies",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -6571,7 +7545,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -6591,8 +7567,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Bentley"
     ],
@@ -6610,7 +7586,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Hollywood Caricatures and Parodies",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
@@ -6618,7 +7595,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Radio Daze",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -6637,9 +7615,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Fred Avery",
       "J. Fred Avery"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sid Sutherland",
       "Virgil Ross"
@@ -6665,8 +7643,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sid Sutherland"
     ],
@@ -6682,7 +7660,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: The Evolution of Egghead",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 3",
@@ -6690,7 +7669,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -6710,8 +7691,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -6727,7 +7708,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Animal Antics",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -6735,6 +7717,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 22,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "A Star Is Born (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_a_star_is_born_blu_ray",
+        "film_title": "A Star Is Born",
+        "film_year": 1937,
+        "disc_number": 1,
+        "disc_title": "A Star Is Born Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -6753,8 +7749,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Volney White"
     ],
@@ -6770,7 +7766,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Fables & Fairy Tales",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -6790,8 +7787,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross"
     ],
@@ -6807,7 +7804,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Tex Avery",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 3",
@@ -6815,7 +7813,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -6835,8 +7835,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen"
     ],
@@ -6852,6 +7852,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: The Evolution of Egghead",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Sweethearts (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_sweethearts_blu_ray",
+        "film_title": "Sweethearts",
+        "film_year": 1938,
+        "disc_number": 1,
+        "disc_title": "Sweethearts Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -6872,8 +7885,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -6889,7 +7902,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "A Dash of Tashlin",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -6897,7 +7911,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Frank Tashlin",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -6917,8 +7932,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Ben Hardaway",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Volney White"
     ],
@@ -6935,7 +7950,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "All-Stars Cartoon Party",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -6943,7 +7959,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Firsts",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -6951,7 +7968,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -6971,8 +7990,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross"
     ],
@@ -6988,13 +8007,39 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Hollywood Caricatures and Parodies",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
         "format": "LaserDisc",
         "disc_number": 5,
         "disc_title": "Side 9: Hooray for Hollywood",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Jezebel (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_jezebel_blu_ray",
+        "film_title": "Jezebel",
+        "film_year": 1938,
+        "disc_number": 1,
+        "disc_title": "Jezebel Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Cats Don't Dance (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_cats_don_t_dance_blu_ray",
+        "film_title": "Cats Don't Dance",
+        "film_year": 1997,
+        "disc_number": 1,
+        "disc_title": "Cats Don't Dance Bonus Features",
         "track_number": 2,
         "audio_commentary": []
       }
@@ -7016,8 +8061,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -7031,7 +8076,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -7039,7 +8085,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: 1930s Musicals",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -7057,9 +8104,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones",
       "Izzy Ellis"
@@ -7078,7 +8125,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -7098,8 +8147,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith"
     ],
@@ -7115,7 +8164,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: The Evolution of Egghead",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -7135,8 +8185,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "George Manuell",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe"
     ],
@@ -7159,8 +8209,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Joe D'Igalo"
     ],
@@ -7174,7 +8224,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -7182,7 +8233,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -7190,7 +8242,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: 1930s Musicals",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -7210,8 +8263,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -7225,7 +8278,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "A Dash of Tashlin",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -7233,7 +8287,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Tashlin/Clampett",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -7253,8 +8308,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen"
     ],
@@ -7268,6 +8323,31 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: Ben Hardaway & Cal Dalton (and Private Snafu)",
         "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Shining Hour (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_shining_hour_blu_ray",
+        "film_title": "The Shining Hour",
+        "film_year": 1938,
+        "disc_number": 1,
+        "disc_title": "The Shining Hour Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Sweethearts (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_sweethearts_blu_ray",
+        "film_title": "Sweethearts",
+        "film_year": 1938,
+        "disc_number": 1,
+        "disc_title": "Sweethearts Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -7288,8 +8368,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -7303,7 +8383,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Freleng Follies",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -7323,8 +8404,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Fred Neiman",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -7338,7 +8419,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "A Dash of Tashlin",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 5",
@@ -7346,7 +8428,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Musical Madness",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -7364,9 +8447,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon",
       "John Carey"
@@ -7384,6 +8467,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
+      },
+      {
+        "set_name": "Angels with Dirty Faces (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_angels_with_dirty_faces_blu_ray",
+        "film_title": "Angels with Dirty Faces",
+        "film_year": 1938,
+        "disc_number": 1,
+        "disc_title": "Angels with Dirty Faces Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -7404,8 +8501,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Lew Landsman",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Volney White"
     ],
@@ -7421,7 +8518,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -7429,7 +8528,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Early Daze",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -7448,8 +8548,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Ernest Gee",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Norman McCabe"
     ],
@@ -7465,7 +8565,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 3",
@@ -7473,7 +8575,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -7481,7 +8584,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -7499,9 +8603,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Norman McCabe",
       "Izzy Ellis"
@@ -7519,7 +8623,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 2",
@@ -7527,7 +8633,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Tweety and Sylvester and Friends",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -7535,7 +8642,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Ham on Wry: The Porky Pig Laser Collection",
@@ -7543,7 +8651,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -7563,8 +8672,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Bentley"
     ],
@@ -7580,7 +8689,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 4",
@@ -7588,7 +8699,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "A Dash of Tashlin",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -7608,8 +8720,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gil Turner"
     ],
@@ -7625,6 +8737,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 10,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
+      },
+      {
+        "set_name": "The Mad Miss Manton (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_mad_miss_manton_blu_ray",
+        "film_title": "The Mad Miss Manton",
+        "film_year": 1938,
+        "disc_number": 1,
+        "disc_title": "The Mad Miss Manton Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -7643,9 +8769,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones",
       "John Carey"
@@ -7662,6 +8788,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 18,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
+      },
+      {
+        "set_name": "The Shining Hour (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_shining_hour_blu_ray",
+        "film_title": "The Shining Hour",
+        "film_year": 1938,
+        "disc_number": 1,
+        "disc_title": "The Shining Hour Bonus Features",
+        "track_number": 3,
         "audio_commentary": []
       }
     ]
@@ -7681,8 +8821,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Howard Baldwin",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Volney White"
     ],
@@ -7699,7 +8839,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -7707,7 +8849,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -7726,8 +8869,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon"
     ],
@@ -7744,7 +8887,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -7762,9 +8907,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones",
       "Norman McCabe"
@@ -7781,7 +8926,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 3",
@@ -7789,7 +8936,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -7807,8 +8955,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen"
     ],
@@ -7824,7 +8972,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -7842,9 +8992,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones"
     ],
@@ -7861,7 +9011,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -7869,7 +9021,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Early Daze",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -7889,8 +9042,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "George Manuell",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Joe D'Igalo"
     ],
@@ -7906,7 +9059,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -7924,9 +9079,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey",
       "Vive Risto"
@@ -7944,7 +9099,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -7952,6 +9109,31 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Putting a Bob Clampett on It",
         "track_number": 13,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Room Service (WAC DVD Extra)",
+        "format": "DVD",
+        "type": "feature_bonus",
+        "set_id": "wac_film_room_service_dvd",
+        "film_title": "Room Service",
+        "film_year": 1938,
+        "disc_number": 1,
+        "disc_title": "Room Service Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "The Citadel (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_citadel_blu_ray",
+        "film_title": "The Citadel",
+        "film_year": 1938,
+        "disc_number": 1,
+        "disc_title": "The Citadel Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -7972,8 +9154,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "George Manuell",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Irven Spence"
     ],
@@ -8000,8 +9182,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe"
     ],
@@ -8015,7 +9197,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Frank Tashlin",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -8035,8 +9218,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sid Sutherland"
     ],
@@ -8050,6 +9233,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Avery",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Jezebel (WAC DVD Extra)",
+        "format": "DVD",
+        "type": "feature_bonus",
+        "set_id": "wac_film_jezebel_dvd",
+        "film_title": "Jezebel",
+        "film_year": 1938,
+        "disc_number": 1,
+        "disc_title": "Jezebel Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -8070,8 +9266,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -8085,7 +9281,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -8093,7 +9290,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Chuck Jones",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -8113,8 +9311,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Ben Hardaway",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith"
     ],
@@ -8128,7 +9326,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Musical Madness",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -8136,6 +9335,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 22,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
+      },
+      {
+        "set_name": "The Mad Miss Manton (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_mad_miss_manton_blu_ray",
+        "film_title": "The Mad Miss Manton",
+        "film_year": 1938,
+        "disc_number": 1,
+        "disc_title": "The Mad Miss Manton Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -8156,8 +9369,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sid Sutherland"
     ],
@@ -8171,7 +9384,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Avery",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 4",
@@ -8179,6 +9393,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 24,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
+      },
+      {
+        "set_name": "The Shining Hour (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_shining_hour_blu_ray",
+        "film_title": "The Shining Hour",
+        "film_year": 1938,
+        "disc_number": 1,
+        "disc_title": "The Shining Hour Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -8197,9 +9425,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Chuck Jones",
       "Robert Cannon"
@@ -8217,7 +9445,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -8225,7 +9455,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Early Daze",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -8245,8 +9476,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "George Manuell",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Bentley"
     ],
@@ -8262,7 +9493,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -8270,7 +9503,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Early Daze",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -8278,7 +9512,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -8298,8 +9533,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -8313,7 +9548,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "A Dash of Tashlin",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
@@ -8321,7 +9557,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Merrie Melodies",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -8341,8 +9578,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton"
     ],
@@ -8358,7 +9595,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: The Evolution of Egghead",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -8366,7 +9604,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -8386,8 +9626,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner"
     ],
@@ -8401,7 +9641,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: Ben Hardaway & Cal Dalton (and Private Snafu)",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -8409,7 +9650,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -8429,8 +9672,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross"
     ],
@@ -8446,7 +9689,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: The Evolution of Egghead",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -8464,9 +9708,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon",
       "Vive Risto"
@@ -8483,7 +9727,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -8503,8 +9749,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "A.C. Gamer"
     ],
@@ -8520,7 +9766,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "All-Stars Cartoon Party",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -8528,7 +9775,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Porky and Daffy",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -8548,8 +9796,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith"
     ],
@@ -8563,7 +9811,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Tex Avery",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 4",
@@ -8571,7 +9820,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -8591,8 +9842,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rollin Hamilton"
     ],
@@ -8606,7 +9857,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Avery",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -8626,8 +9878,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe"
     ],
@@ -8643,7 +9895,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Pesky Pets",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -8651,6 +9904,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "The Return of Doctor X (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_return_of_doctor_x_blu_ray",
+        "film_title": "The Return of Doctor X",
+        "film_year": 1939,
+        "disc_number": 1,
+        "disc_title": "The Return of Doctor X Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -8671,8 +9938,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner"
     ],
@@ -8686,7 +9953,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: Ben Hardaway & Cal Dalton (and Private Snafu)",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -8706,8 +9974,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sid Sutherland"
     ],
@@ -8721,7 +9989,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Wacky Blackouts",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -8741,8 +10010,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gil Turner"
     ],
@@ -8756,7 +10025,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: Ben Hardaway & Cal Dalton (and Private Snafu)",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -8776,8 +10046,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith"
     ],
@@ -8794,7 +10064,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Tex Avery",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -8802,7 +10073,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -8822,8 +10095,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gil Turner"
     ],
@@ -8840,7 +10113,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -8848,7 +10122,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Wabbits",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -8868,8 +10143,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -8883,7 +10158,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: Ben Hardaway & Cal Dalton (and Private Snafu)",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -8903,8 +10179,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen"
     ],
@@ -8921,6 +10197,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 12,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
+      },
+      {
+        "set_name": "Idiot's Delight (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_idiot_s_delight_blu_ray",
+        "film_title": "Idiot's Delight",
+        "film_year": 1939,
+        "disc_number": 1,
+        "disc_title": "Idiot's Delight Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -8940,8 +10230,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Ernest Gee",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Vive Risto"
     ],
@@ -8957,7 +10247,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -8975,9 +10267,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Norman McCabe",
       "Izzy Ellis"
@@ -8994,7 +10286,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -9014,8 +10308,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson"
     ],
@@ -9029,7 +10323,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Wacky Blackouts",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9049,8 +10344,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -9066,7 +10361,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Sniffles",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9086,8 +10382,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Bob Givens",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe"
     ],
@@ -9104,7 +10400,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Chuck Jones",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9124,8 +10421,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe"
     ],
@@ -9141,7 +10438,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Sniffles",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9160,8 +10458,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Izzy Ellis"
     ],
@@ -9178,7 +10476,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -9197,9 +10497,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles M. Jones",
       "Charles Jones"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -9215,7 +10515,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 2",
@@ -9223,7 +10525,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Tweety and Sylvester and Friends",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -9231,7 +10534,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -9239,7 +10543,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Chuck Jones",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9257,9 +10562,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey",
       "Dave Hoffman"
@@ -9276,7 +10581,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Wince Upon a Time: Foolhardy Fairy Tales and Looney Legends",
@@ -9284,7 +10591,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9303,8 +10611,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey"
     ],
@@ -9320,7 +10628,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -9328,7 +10638,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Early Daze",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Longitude & Looneytude: 14 Globetrotting Looney Tunes Favorites",
@@ -9336,7 +10647,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9356,8 +10668,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen"
     ],
@@ -9374,7 +10686,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 3",
@@ -9382,7 +10696,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9402,8 +10717,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gil Turner"
     ],
@@ -9419,7 +10734,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Wince Upon a Time: Foolhardy Fairy Tales and Looney Legends",
@@ -9427,7 +10744,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9445,9 +10763,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey",
       "Norman McCabe"
@@ -9465,6 +10783,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
+      },
+      {
+        "set_name": "The Return of Doctor X (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_return_of_doctor_x_blu_ray",
+        "film_title": "The Return of Doctor X",
+        "film_year": 1939,
+        "disc_number": 1,
+        "disc_title": "The Return of Doctor X Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -9484,8 +10816,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Izzy Ellis"
     ],
@@ -9502,7 +10834,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -9521,8 +10855,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Ernest Gee",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey"
     ],
@@ -9538,7 +10872,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Guffaw and Order: Looney Tunes Fight Crime",
@@ -9546,7 +10882,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9564,9 +10901,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon",
       "Vive Risto"
@@ -9585,7 +10922,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -9604,8 +10943,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Norman McCabe"
     ],
@@ -9621,7 +10960,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -9640,9 +10981,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles M. Jones",
       "Charles Jones"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rudy Larriva"
     ],
@@ -9659,7 +11000,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -9667,7 +11009,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Wabbits",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9687,8 +11030,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -9702,7 +11045,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Fables & Fairy Tales",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -9710,7 +11054,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -9729,8 +11075,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Ernest Gee",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Norman McCabe"
     ],
@@ -9747,7 +11093,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -9767,8 +11115,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross"
     ],
@@ -9782,7 +11130,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Sports",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9802,8 +11151,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen"
     ],
@@ -9817,7 +11166,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Politically Incorrect",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9837,8 +11187,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -9855,7 +11205,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Sniffles",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9875,8 +11226,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -9890,7 +11241,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Pesky Pets",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9909,9 +11261,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles M. Jones",
       "Charles Jones"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe"
     ],
@@ -9927,7 +11279,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Pesky Pets",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9945,9 +11298,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Norman McCabe",
       "Vive Risto"
@@ -9964,7 +11317,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 3",
@@ -9972,7 +11327,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Hollywood Caricatures and Parodies",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9992,8 +11348,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -10007,7 +11363,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Chuck Jones",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 5",
@@ -10015,6 +11372,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: Supplement Material",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Idiot's Delight (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_idiot_s_delight_blu_ray",
+        "film_title": "Idiot's Delight",
+        "film_year": 1939,
+        "disc_number": 1,
+        "disc_title": "Idiot's Delight Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -10033,9 +11403,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Izzy Ellis",
       "Robert Cannon"
@@ -10052,7 +11422,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -10072,8 +11444,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sid Sutherland"
     ],
@@ -10087,7 +11459,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Hollywood Caricatures and Parodies",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -10095,7 +11468,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Tex Avery",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -10114,8 +11488,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Izzy Ellis"
     ],
@@ -10132,7 +11506,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -10140,7 +11516,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Early Daze",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -10160,8 +11537,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson"
     ],
@@ -10177,7 +11554,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -10185,7 +11563,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Fables & Fairy Tales",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -10205,8 +11584,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross"
     ],
@@ -10223,7 +11602,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -10231,7 +11611,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Firsts",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
@@ -10239,7 +11620,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Bugs Bunny",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -10249,7 +11631,30 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 2,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Bugs Bunny: Superstar",
+        "format": "DVD",
+        "type": "dedicated",
+        "set_id": "wac_superstar",
+        "disc_number": 1,
+        "disc_title": "Bugs Bunny: Superstar",
+        "track_number": 2,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Torrid Zone (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_torrid_zone_blu_ray",
+        "film_title": "Torrid Zone",
+        "film_year": 1940,
+        "disc_number": 1,
+        "disc_title": "Torrid Zone Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
       }
     ]
   },
@@ -10267,9 +11672,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey",
       "Dave Hoffman"
@@ -10286,7 +11691,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -10305,8 +11712,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Vive Risto"
     ],
@@ -10322,7 +11729,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -10342,8 +11751,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon"
     ],
@@ -10359,7 +11768,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Variations on a Theme",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -10379,8 +11789,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Hardaway"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -10394,7 +11804,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: Ben Hardaway & Cal Dalton (and Private Snafu)",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -10414,8 +11825,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen"
     ],
@@ -10431,7 +11842,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -10451,8 +11864,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner"
     ],
@@ -10466,6 +11879,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Wacky Blackouts",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Stranger on the Third Floor (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_stranger_on_the_third_floor_blu_ray",
+        "film_title": "Stranger on the Third Floor",
+        "film_year": 1940,
+        "disc_number": 1,
+        "disc_title": "Stranger on the Third Floor Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -10486,8 +11912,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sid Sutherland"
     ],
@@ -10501,6 +11927,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Early Avery",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "It All Came True (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_it_all_came_true_blu_ray",
+        "film_title": "It All Came True",
+        "film_year": 1940,
+        "disc_number": 1,
+        "disc_title": "It All Came True Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -10521,8 +11960,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Ben Hardaway",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton"
     ],
@@ -10538,7 +11977,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: The Evolution of Egghead",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -10558,8 +11998,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Paul Smith"
     ],
@@ -10573,7 +12013,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Tex Avery",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -10581,7 +12022,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -10601,8 +12044,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -10618,7 +12061,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Looney Tunes All-Stars: Part 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -10626,7 +12070,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -10634,7 +12079,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Wabbits",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -10644,7 +12090,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 1,
         "audio_commentary": [
           "Jerry Beck"
-        ]
+        ],
+        "type": "dedicated"
       }
     ]
   },
@@ -10664,8 +12111,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -10679,7 +12126,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Chuck Jones",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -10687,7 +12135,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -10707,8 +12157,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe"
     ],
@@ -10724,7 +12174,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Variations on a Theme",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -10732,7 +12183,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -10752,8 +12205,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson"
     ],
@@ -10767,6 +12220,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Early Avery",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Mr. and Mrs. Smith (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_mr_and_mrs_smith_blu_ray",
+        "film_title": "Mr. and Mrs. Smith",
+        "film_year": 1941,
+        "disc_number": 1,
+        "disc_title": "Mr. and Mrs. Smith Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -10787,8 +12253,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Ben Hardaway",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -10805,7 +12271,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Radio Daze",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -10813,7 +12280,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -10833,8 +12302,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gil Turner"
     ],
@@ -10850,7 +12319,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Radio Daze",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -10870,8 +12340,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -10885,7 +12355,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Politically Incorrect",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -10905,8 +12376,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson"
     ],
@@ -10922,7 +12393,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Best Supporting Players",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -10930,7 +12402,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -10949,8 +12423,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Norman McCabe"
     ],
@@ -10966,7 +12440,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -10974,7 +12450,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Putting a Bob Clampett on It",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -10993,8 +12470,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Norman McCabe"
     ],
@@ -11010,7 +12487,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -11018,7 +12497,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Early Daze",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11038,8 +12518,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Ben Hardaway",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton"
     ],
@@ -11055,7 +12535,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -11075,8 +12557,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -11092,7 +12574,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -11111,8 +12595,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Dave Hoffman"
     ],
@@ -11128,7 +12612,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 4",
@@ -11136,7 +12622,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11155,8 +12642,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey"
     ],
@@ -11172,7 +12659,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -11180,7 +12669,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Putting a Bob Clampett on It",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11200,8 +12690,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton"
     ],
@@ -11218,7 +12708,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Objects D'art",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11236,9 +12727,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey",
       "Izzy Ellis"
@@ -11256,7 +12747,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -11276,8 +12769,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe"
     ],
@@ -11293,7 +12786,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Chuck Jones",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11313,8 +12807,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -11330,6 +12824,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Pesky Pets",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Mr. and Mrs. Smith (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_mr_and_mrs_smith_blu_ray",
+        "film_title": "Mr. and Mrs. Smith",
+        "film_year": 1941,
+        "disc_number": 1,
+        "disc_title": "Mr. and Mrs. Smith Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -11350,8 +12857,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Ben Hardaway",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner"
     ],
@@ -11365,7 +12872,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -11373,7 +12881,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Tex Avery",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11391,9 +12900,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Norman McCabe",
       "Vive Risto"
@@ -11410,7 +12919,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -11430,8 +12941,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon"
     ],
@@ -11445,7 +12956,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Politically Incorrect",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11465,8 +12977,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Bob Givens",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rudy Larriva"
     ],
@@ -11483,7 +12995,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Sniffles",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11503,8 +13016,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gil Turner"
     ],
@@ -11520,7 +13033,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Best Supporting Players",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11539,8 +13053,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Vive Risto",
       "Dave Hoffman"
@@ -11557,7 +13071,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 4",
@@ -11565,6 +13081,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "It All Came True (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_it_all_came_true_blu_ray",
+        "film_title": "It All Came True",
+        "film_year": 1940,
+        "disc_number": 1,
+        "disc_title": "It All Came True Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -11586,8 +13115,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Izzy Ellis"
     ],
@@ -11603,7 +13132,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Longitude & Looneytude: 14 Globetrotting Looney Tunes Favorites",
@@ -11611,7 +13142,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11631,8 +13163,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon"
     ],
@@ -11646,7 +13178,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -11654,7 +13187,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Fables & Fairy Tales",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11674,8 +13208,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross"
     ],
@@ -11688,6 +13222,19 @@ window.LOONEY_TUNES_DATABASE = [
         "format": "LaserDisc",
         "disc_number": 4,
         "disc_title": "Side 7: Wacky Blackouts",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Stranger on the Third Floor (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_stranger_on_the_third_floor_blu_ray",
+        "film_title": "Stranger on the Third Floor",
+        "film_year": 1940,
+        "disc_number": 1,
+        "disc_title": "Stranger on the Third Floor Bonus Features",
         "track_number": 2,
         "audio_commentary": []
       }
@@ -11709,8 +13256,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Jack Miller|LineColor = #F46D25}}",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen"
     ],
@@ -11727,7 +13274,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Disc 4",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 2",
@@ -11735,7 +13284,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -11743,7 +13293,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Ham on Wry: The Porky Pig Laser Collection",
@@ -11751,7 +13302,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11770,8 +13322,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Norman McCabe"
     ],
@@ -11788,7 +13340,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -11808,8 +13362,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross"
     ],
@@ -11834,9 +13388,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -11852,7 +13406,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Bugs Bunny",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11872,8 +13427,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sid Sutherland"
     ],
@@ -11887,7 +13442,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Early Avery",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11907,8 +13463,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rudy Larriva"
     ],
@@ -11925,7 +13481,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Wabbits",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 3",
@@ -11933,7 +13490,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -11952,8 +13511,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey",
       "Izzy Ellis"
@@ -11968,7 +13527,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Putting a Bob Clampett on It",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -11976,7 +13536,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Tashlin/Clampett",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11995,8 +13556,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Vive Risto"
     ],
@@ -12012,7 +13573,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Hollywood Caricatures and Parodies",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -12020,7 +13582,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Bob Clampett",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12040,8 +13603,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gil Turner"
     ],
@@ -12057,7 +13620,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -12065,7 +13629,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Wabbits",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12085,8 +13650,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner"
     ],
@@ -12100,7 +13665,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -12108,7 +13674,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 21,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -12116,6 +13683,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Hooray for Hollywood",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Out of the Fog (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_out_of_the_fog_blu_ray",
+        "film_title": "Out of the Fog",
+        "film_year": 1941,
+        "disc_number": 1,
+        "disc_title": "Out of the Fog Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -12136,8 +13716,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe"
     ],
@@ -12154,7 +13734,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Politically Incorrect",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12174,8 +13755,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe"
     ],
@@ -12189,6 +13770,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 10,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Manpower (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_manpower_blu_ray",
+        "film_title": "Manpower",
+        "film_year": 1941,
+        "disc_number": 1,
+        "disc_title": "Manpower Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -12208,8 +13803,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Vive Risto"
     ],
@@ -12217,7 +13812,7 @@ window.LOONEY_TUNES_DATABASE = [
     "featured_characters": [
       "Porky Pig"
     ],
-    "synopsis": "Porky Pig, announced as Draftee 158 3⁄4, presents a war-themed spot gag newsreel parody titled America's Defense Effort.",
+    "synopsis": "Porky Pig, announced as Draftee 158 3\u20444, presents a war-themed spot gag newsreel parody titled America's Defense Effort.",
     "media_locations": [
       {
         "set_name": "Porky Pig 101",
@@ -12225,7 +13820,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 6",
@@ -12233,7 +13830,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12253,8 +13851,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez"
     ],
@@ -12270,7 +13868,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -12290,8 +13890,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rudy Larriva"
     ],
@@ -12308,7 +13908,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -12328,8 +13930,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez"
     ],
@@ -12345,7 +13947,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -12365,8 +13969,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan (uncredited)",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon"
     ],
@@ -12382,7 +13986,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -12401,8 +14007,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Izzy Ellis"
     ],
@@ -12419,7 +14025,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -12427,6 +14035,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Putting a Bob Clampett on It",
         "track_number": 15,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Bride Came C.O.D. (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_bride_came_c_o_d_blu_ray",
+        "film_title": "The Bride Came C.O.D.",
+        "film_year": 1941,
+        "disc_number": 1,
+        "disc_title": "The Bride Came C.O.D. Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -12447,8 +14068,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross"
     ],
@@ -12464,7 +14085,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 5",
@@ -12472,7 +14095,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Early Daze",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12492,8 +14116,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -12509,7 +14133,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -12530,8 +14156,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey"
     ],
@@ -12547,7 +14173,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -12567,8 +14195,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gil Turner"
     ],
@@ -12582,7 +14210,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 23,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -12590,6 +14219,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Friz Freleng",
         "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Bride Came C.O.D. (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_bride_came_c_o_d_blu_ray",
+        "film_title": "The Bride Came C.O.D.",
+        "film_year": 1941,
+        "disc_number": 1,
+        "disc_title": "The Bride Came C.O.D. Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -12609,8 +14251,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Vive Risto"
     ],
@@ -12627,7 +14269,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -12647,8 +14291,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -12662,7 +14306,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 5",
@@ -12670,7 +14315,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Freleng Follies",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12690,8 +14336,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara"
     ],
@@ -12705,7 +14351,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Wacky Blackouts",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 3",
@@ -12713,6 +14360,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 19,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
+      },
+      {
+        "set_name": "The Bride Came C.O.D. (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_bride_came_c_o_d_blu_ray",
+        "film_title": "The Bride Came C.O.D.",
+        "film_year": 1941,
+        "disc_number": 1,
+        "disc_title": "The Bride Came C.O.D. Bonus Features",
+        "track_number": 3,
         "audio_commentary": []
       }
     ]
@@ -12733,8 +14394,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -12750,7 +14411,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Sniffles",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12770,8 +14432,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon"
     ],
@@ -12787,6 +14449,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Chuck Jones",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Manpower (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_manpower_blu_ray",
+        "film_title": "Manpower",
+        "film_year": 1941,
+        "disc_number": 1,
+        "disc_title": "Manpower Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -12807,8 +14482,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -12822,7 +14497,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Sports",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12842,8 +14518,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rudy Larriva"
     ],
@@ -12859,7 +14535,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Sniffles",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12879,8 +14556,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner"
     ],
@@ -12894,7 +14571,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Wacky Blackouts",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12916,8 +14594,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -12931,7 +14609,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Early Avery",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 4",
@@ -12939,7 +14618,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -12959,8 +14640,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen"
     ],
@@ -12976,7 +14657,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Friz Freleng",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12996,8 +14678,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -13013,13 +14695,14 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Tex Avery",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
   {
     "id": "the-fighting-69-th",
-    "title": "The Fighting 69½th",
+    "title": "The Fighting 69\u00bdth",
     "year": 1941,
     "release_date": "January 18, 1941",
     "series": "Merrie Melodies",
@@ -13033,8 +14716,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Jack Miller",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gil Turner"
     ],
@@ -13048,7 +14731,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Freleng Follies",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -13068,8 +14752,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sid Sutherland"
     ],
@@ -13094,8 +14778,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -13112,7 +14796,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Masterpieces",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -13120,7 +14805,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Bugs Bunny by Each Director",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -13130,7 +14816,21 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 8,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
+      },
+      {
+        "set_name": "Out of the Fog (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_out_of_the_fog_blu_ray",
+        "film_title": "Out of the Fog",
+        "film_year": 1941,
+        "disc_number": 1,
+        "disc_title": "Out of the Fog Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
       }
     ]
   },
@@ -13149,8 +14849,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey"
     ],
@@ -13167,7 +14867,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -13187,8 +14889,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -13202,7 +14904,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
@@ -13210,7 +14913,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Friz Freleng",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -13230,8 +14934,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton"
     ],
@@ -13247,7 +14951,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Friz Freleng",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -13255,7 +14960,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 25,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -13275,8 +14982,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson"
     ],
@@ -13293,7 +15000,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Masterpieces",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -13301,13 +15009,27 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
         "format": "LaserDisc",
         "disc_number": 5,
         "disc_title": "Side 10: The Art of Bugs",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Strawberry Blonde (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_strawberry_blonde_blu_ray",
+        "film_title": "The Strawberry Blonde",
+        "film_year": 1941,
+        "disc_number": 1,
+        "disc_title": "The Strawberry Blonde Bonus Features",
         "track_number": 1,
         "audio_commentary": []
       }
@@ -13329,8 +15051,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Rich Hogan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon"
     ],
@@ -13347,7 +15069,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Sniffles",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -13369,8 +15092,8 @@ window.LOONEY_TUNES_DATABASE = [
       "J. Fred Avery"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sid Sutherland"
     ],
@@ -13387,7 +15110,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Best of Bugs Bunny",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -13395,7 +15119,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -13403,7 +15128,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Bob Clampett",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -13422,8 +15148,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Izzy Ellis"
     ],
@@ -13439,7 +15165,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -13458,8 +15186,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner"
     ],
@@ -13476,7 +15204,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Putting a Bob Clampett on It",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -13484,7 +15213,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -13492,6 +15222,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Firsts",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "They Died with Their Boots On (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_they_died_with_their_boots_on_blu_ray",
+        "film_title": "They Died with Their Boots On",
+        "film_year": 1941,
+        "disc_number": 1,
+        "disc_title": "They Died with Their Boots On Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -13514,8 +15257,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross"
     ],
@@ -13529,7 +15272,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Early Avery",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -13548,8 +15292,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner"
     ],
@@ -13566,7 +15310,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Looney Tunes All-Stars: Part 1",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -13574,7 +15319,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -13582,7 +15328,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: The Art of Bugs",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -13592,7 +15339,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 4,
         "audio_commentary": [
           "Michael Barrier"
-        ]
+        ],
+        "type": "dedicated"
       }
     ]
   },
@@ -13612,8 +15360,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -13629,7 +15377,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Classics",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
@@ -13637,7 +15386,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Bugs Bunny",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -13647,7 +15397,9 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 4,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -13667,8 +15419,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam"
     ],
@@ -13685,7 +15437,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
@@ -13693,7 +15446,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Cartoon All-Stars",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -13701,7 +15455,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -13723,8 +15479,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner"
     ],
@@ -13740,7 +15496,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Putting a Bob Clampett on It",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -13748,7 +15505,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Early Avery",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -13767,8 +15525,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Don R. Christensen",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Vive Risto"
     ],
@@ -13784,7 +15542,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -13804,8 +15564,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -13821,7 +15581,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Friz Freleng",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -13829,7 +15590,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -13849,8 +15612,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe"
     ],
@@ -13866,7 +15629,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Chuck Jones",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -13886,8 +15650,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -13901,7 +15665,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Friz Freleng",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 4",
@@ -13909,7 +15674,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -13928,8 +15695,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross"
     ],
@@ -13943,7 +15710,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Early Daze",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -13963,8 +15731,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -13978,7 +15746,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
@@ -13986,6 +15755,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Wacky Blackouts",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Gentleman Jim (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_gentleman_jim_blu_ray",
+        "film_title": "Gentleman Jim",
+        "film_year": 1942,
+        "disc_number": 1,
+        "disc_title": "Gentleman Jim Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -14006,8 +15788,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara"
     ],
@@ -14021,7 +15803,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Chuck Jones",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 4",
@@ -14029,7 +15812,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -14049,8 +15834,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez"
     ],
@@ -14067,7 +15852,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Wabbits",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -14086,8 +15872,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Don R. Christensen",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Izzy Ellis"
     ],
@@ -14111,15 +15897,28 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton"
     ],
     "voice_actors": [],
     "featured_characters": [],
     "synopsis": "A parody of the radio program Hobby Lobby featuring blackout gags showcasing people's various hobbies and/or inventions.",
-    "media_locations": []
+    "media_locations": [
+      {
+        "set_name": "Gentleman Jim (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_gentleman_jim_blu_ray",
+        "film_title": "Gentleman Jim",
+        "film_year": 1942,
+        "disc_number": 1,
+        "disc_title": "Gentleman Jim Bonus Features",
+        "track_number": 3,
+        "audio_commentary": []
+      }
+    ]
   },
   {
     "id": "hold-the-lion-please",
@@ -14137,8 +15936,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -14155,7 +15954,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Wabbits",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -14165,7 +15965,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 3,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated"
       }
     ]
   },
@@ -14185,8 +15986,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton"
     ],
@@ -14200,7 +16001,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Frantic Forties",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 3",
@@ -14208,7 +16010,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -14227,8 +16031,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Michael Maltese Adapted from the book by: Dr. Seuss",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -14242,7 +16046,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -14250,7 +16055,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Bob Clampett",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -14258,7 +16064,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -14278,8 +16086,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gil Turner"
     ],
@@ -14293,7 +16101,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -14301,6 +16110,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Friz Freleng",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "All Through the Night (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_all_through_the_night_blu_ray",
+        "film_title": "All Through the Night",
+        "film_year": 1942,
+        "disc_number": 1,
+        "disc_title": "All Through the Night Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -14321,8 +16143,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rudy Larriva"
     ],
@@ -14339,7 +16161,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Looney Tunes All-Stars",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -14347,7 +16170,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Chuck Jones",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -14357,7 +16181,19 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 18,
         "audio_commentary": [
           "Jerry Beck"
-        ]
+        ],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Bugs Bunny: Superstar",
+        "format": "DVD",
+        "type": "dedicated",
+        "set_id": "wac_superstar",
+        "disc_number": 1,
+        "disc_title": "Bugs Bunny: Superstar",
+        "track_number": 7,
+        "audio_commentary": []
       }
     ]
   },
@@ -14376,8 +16212,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross"
     ],
@@ -14405,8 +16241,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rudy Larriva"
     ],
@@ -14415,7 +16251,7 @@ window.LOONEY_TUNES_DATABASE = [
       "Porky Pig",
       "Conrad the Cat"
     ],
-    "synopsis": "Porky Pig serves as the waiter of his café, using mechanical gadgets to fix up a meal for his customer. Meanwhile, chef Conrad the Cat has to deal with an African pygmy ant invading the restaurant.",
+    "synopsis": "Porky Pig serves as the waiter of his caf\u00e9, using mechanical gadgets to fix up a meal for his customer. Meanwhile, chef Conrad the Cat has to deal with an African pygmy ant invading the restaurant.",
     "media_locations": [
       {
         "set_name": "Porky Pig 101",
@@ -14423,7 +16259,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -14443,8 +16281,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -14460,7 +16298,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -14480,8 +16320,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez"
     ],
@@ -14506,8 +16346,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -14523,7 +16363,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Chuck Jones",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -14531,6 +16372,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
+      },
+      {
+        "set_name": "The Bride Came C.O.D. (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_bride_came_c_o_d_blu_ray",
+        "film_title": "The Bride Came C.O.D.",
+        "film_year": 1941,
+        "disc_number": 1,
+        "disc_title": "The Bride Came C.O.D. Bonus Features",
+        "track_number": 4,
         "audio_commentary": []
       }
     ]
@@ -14550,8 +16405,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton"
     ],
@@ -14567,7 +16422,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -14587,8 +16444,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon"
     ],
@@ -14602,7 +16459,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -14610,7 +16468,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -14618,6 +16477,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Chuck Jones",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Gentleman Jim (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_gentleman_jim_blu_ray",
+        "film_title": "Gentleman Jim",
+        "film_year": 1942,
+        "disc_number": 1,
+        "disc_title": "Gentleman Jim Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -14638,8 +16510,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon"
     ],
@@ -14653,7 +16525,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -14661,7 +16534,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Chuck Jones",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -14680,8 +16554,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey"
     ],
@@ -14695,7 +16569,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -14715,8 +16590,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe"
     ],
@@ -14733,7 +16608,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Masterpieces",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
@@ -14741,7 +16617,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Bugs Bunny",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -14760,8 +16637,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -14777,7 +16654,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -14785,7 +16663,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -14793,7 +16672,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Bob Clampett",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -14812,8 +16692,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Don R. Christensen",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Vive Risto"
     ],
@@ -14829,7 +16709,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -14849,8 +16731,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gil Turner"
     ],
@@ -14866,7 +16748,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Friz Freleng",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 3",
@@ -14874,7 +16757,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 21,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -14894,8 +16779,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe"
     ],
@@ -14911,7 +16796,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Chuck Jones",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -14919,7 +16805,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -14939,8 +16827,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -14958,13 +16846,27 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Classics",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
         "format": "LaserDisc",
         "disc_number": 1,
         "disc_title": "Side 1: Bugs Bunny",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Man Who Came to Dinner (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_man_who_came_to_dinner_blu_ray",
+        "film_title": "The Man Who Came to Dinner",
+        "film_year": 1941,
+        "disc_number": 1,
+        "disc_title": "The Man Who Came to Dinner Bonus Features",
         "track_number": 1,
         "audio_commentary": []
       }
@@ -14985,8 +16887,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sid Sutherland"
     ],
@@ -15003,7 +16905,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Putting a Bob Clampett on It",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -15011,7 +16914,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Bob Clampett",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -15030,8 +16934,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Sid Sutherland"
     ],
@@ -15045,7 +16949,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -15064,8 +16969,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey"
     ],
@@ -15081,7 +16986,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
@@ -15100,8 +17007,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Frank Tashlin",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -15120,7 +17027,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -15128,7 +17036,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -15136,6 +17045,17 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Bob Clampett",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Bugs Bunny: Superstar",
+        "format": "DVD",
+        "type": "dedicated",
+        "set_id": "wac_superstar",
+        "disc_number": 1,
+        "disc_title": "Bugs Bunny: Superstar",
+        "track_number": 3,
         "audio_commentary": []
       }
     ]
@@ -15155,8 +17075,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -15175,7 +17095,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "All-Stars Cartoon Party",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -15183,7 +17104,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -15191,7 +17113,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Bob Clampett",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -15210,8 +17133,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner"
     ],
@@ -15235,8 +17158,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Don R. Christensen",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Izzy Ellis"
     ],
@@ -15252,13 +17175,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       }
     ]
   },
   {
     "id": "daffy-the-commando",
-    "title": "Daffy – The Commando",
+    "title": "Daffy \u2013 The Commando",
     "year": 1943,
     "release_date": "November 20, 1943",
     "series": "Looney Tunes",
@@ -15272,8 +17197,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin"
     ],
@@ -15289,7 +17214,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -15297,7 +17223,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: The Art of Daffy",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -15305,7 +17232,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -15324,8 +17253,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner"
     ],
@@ -15341,7 +17270,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "All-Stars Cartoon Party",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -15349,7 +17279,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -15357,7 +17288,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Tashlin/Clampett",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -15376,9 +17308,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -15392,7 +17324,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -15412,8 +17345,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam"
     ],
@@ -15429,7 +17362,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Chuck Jones",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -15437,7 +17371,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -15457,8 +17393,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rudy Larriva"
     ],
@@ -15474,7 +17410,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Chuck Jones",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -15494,8 +17431,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez"
     ],
@@ -15511,7 +17448,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Sports",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -15519,7 +17457,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -15539,8 +17479,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -15554,7 +17494,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Friz Freleng",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -15562,7 +17503,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -15581,8 +17524,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton"
     ],
@@ -15598,7 +17541,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -15618,8 +17563,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon"
     ],
@@ -15636,7 +17581,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Chuck Jones",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -15656,8 +17602,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Jack Bradbury"
     ],
@@ -15673,7 +17619,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Fables & Fairy Tales",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -15681,7 +17628,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -15701,8 +17649,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -15718,7 +17666,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -15726,7 +17675,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 21,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -15734,7 +17684,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Friz Freleng",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -15754,8 +17705,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe"
     ],
@@ -15773,7 +17724,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Disc 5",
         "track_number": 21,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_pp101"
       },
       {
         "set_name": "Looney Tunes Golden Collection: Volume 3",
@@ -15781,7 +17734,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -15789,7 +17743,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Ham on Wry: The Porky Pig Laser Collection",
@@ -15797,7 +17752,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -15817,8 +17773,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton"
     ],
@@ -15832,7 +17788,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "A Dash of Tashlin",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -15840,7 +17797,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -15860,8 +17819,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Don R. Christensen",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis"
     ],
@@ -15877,13 +17836,27 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Early Daze",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
         "format": "Blu-ray",
         "disc_number": 2,
         "disc_title": "Disc 2",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Hard Way (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_hard_way_blu_ray",
+        "film_title": "The Hard Way",
+        "film_year": 1943,
+        "disc_number": 1,
+        "disc_title": "The Hard Way Bonus Features",
         "track_number": 2,
         "audio_commentary": []
       }
@@ -15904,9 +17877,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles M. Jones",
       "Charles Jones"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -15920,7 +17893,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: Ben Hardaway & Cal Dalton (and Private Snafu)",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -15940,8 +17914,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -15957,7 +17931,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "All-Stars Cartoon Party",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -15965,7 +17940,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Bugs Bunny",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -15975,7 +17951,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 5,
         "audio_commentary": [
           "Paul Dini"
-        ]
+        ],
+        "type": "dedicated"
       }
     ]
   },
@@ -15995,8 +17972,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rudy Larriva"
     ],
@@ -16013,7 +17990,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -16021,6 +17999,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Chuck Jones",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Hard Way (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_hard_way_blu_ray",
+        "film_title": "The Hard Way",
+        "film_year": 1943,
+        "disc_number": 1,
+        "disc_title": "The Hard Way Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -16041,8 +18032,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin"
     ],
@@ -16056,7 +18047,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Freleng Follies",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16076,8 +18068,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon"
     ],
@@ -16093,7 +18085,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Variations on a Theme",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16112,8 +18105,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe"
     ],
@@ -16129,7 +18122,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Putting a Bob Clampett on It",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -16137,7 +18131,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -16145,7 +18140,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: The Art of Daffy",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16164,8 +18160,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner"
     ],
@@ -16190,8 +18186,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon"
     ],
@@ -16208,7 +18204,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Looney Tunes All-Stars",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -16216,7 +18213,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: The Art of Daffy",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16235,8 +18233,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Norman McCabe"
     ],
     "story": "Don R. Christensen",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Izzy Ellis"
     ],
@@ -16260,8 +18258,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -16278,7 +18276,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Looney Tunes All-Stars: Part 1",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -16286,7 +18285,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -16294,7 +18294,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: The Art of Bugs",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16314,8 +18315,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -16331,7 +18332,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Classics",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -16339,7 +18341,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Bugs Bunny",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16359,8 +18362,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -16377,7 +18380,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Best of Daffy & Porky",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -16385,7 +18389,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: The Art of Daffy",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16405,8 +18410,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Lou Lilly",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -16430,8 +18435,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Thomas McKimson"
     ],
@@ -16447,7 +18452,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -16455,7 +18461,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Tashlin/Clampett",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16475,8 +18482,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Izzy Ellis"
     ],
@@ -16490,7 +18497,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "A Dash of Tashlin",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -16498,7 +18506,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Tashlin/Clampett",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -16506,7 +18515,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -16524,9 +18535,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -16540,7 +18551,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: Ben Hardaway & Cal Dalton (and Private Snafu)",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16560,8 +18572,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis"
     ],
@@ -16577,7 +18589,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Frank Tashlin",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -16585,7 +18598,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -16604,8 +18619,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Lou Lilly",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manny Gould"
     ],
@@ -16621,7 +18636,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Putting a Bob Clampett on It",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -16629,7 +18645,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -16637,7 +18654,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Bob Clampett",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16657,8 +18675,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon"
     ],
@@ -16675,7 +18693,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Looney Tunes All-Stars: Part 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -16683,7 +18702,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Bugs Bunny",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -16693,7 +18713,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 8,
         "audio_commentary": [
           "Stan Freberg"
-        ]
+        ],
+        "type": "dedicated"
       }
     ]
   },
@@ -16713,8 +18734,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -16730,7 +18751,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Bugs Bunny by Each Director",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16750,8 +18772,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach"
     ],
@@ -16768,7 +18790,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Tweety and Sylvester and Friends",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -16776,7 +18799,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Friz Freleng",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -16784,7 +18808,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -16804,8 +18830,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ray Patin"
     ],
@@ -16821,7 +18847,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Chuck Jones",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -16829,7 +18856,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -16849,8 +18878,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin"
     ],
@@ -16877,8 +18906,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez"
     ],
@@ -16895,7 +18924,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Classics",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -16903,7 +18933,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Bugs Bunny",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -16922,8 +18953,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Lou Lilly",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -16939,7 +18970,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Putting a Bob Clampett on It",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -16947,7 +18979,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Bugs Bunny by Each Director",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 5",
@@ -16955,7 +18988,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: Supplement Material",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -16965,7 +18999,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 9,
         "audio_commentary": [
           "Constantine Nasr"
-        ]
+        ],
+        "type": "dedicated"
       }
     ]
   },
@@ -16985,8 +19020,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Izzy Ellis"
     ],
@@ -17000,7 +19035,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "A Dash of Tashlin",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -17008,7 +19044,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Tashlin/Clampett",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -17016,7 +19053,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -17036,8 +19075,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez"
     ],
@@ -17053,7 +19092,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Masterpieces",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -17061,7 +19101,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -17069,7 +19110,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Friz Freleng",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -17089,8 +19131,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam"
     ],
@@ -17106,7 +19148,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Chuck Jones",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -17126,8 +19169,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Jack Bradbury"
     ],
@@ -17141,7 +19184,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Frantic Forties",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 4",
@@ -17149,7 +19193,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -17169,8 +19215,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton"
     ],
@@ -17178,7 +19224,7 @@ window.LOONEY_TUNES_DATABASE = [
     "featured_characters": [
       "Daffy Duck"
     ],
-    "synopsis": "Daffy Duck is a messenger who battles a female Nazi spy and is eventually confronted with Adolf Hitler, Joseph Goebbels and Hermann Göring.",
+    "synopsis": "Daffy Duck is a messenger who battles a female Nazi spy and is eventually confronted with Adolf Hitler, Joseph Goebbels and Hermann G\u00f6ring.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Golden Collection: Volume 4",
@@ -17186,7 +19232,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "A Dash of Tashlin",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -17194,7 +19241,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -17202,7 +19250,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Frank Tashlin",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -17221,8 +19270,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Lou Lilly",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner"
     ],
@@ -17236,7 +19285,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -17244,7 +19294,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 24,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -17252,7 +19303,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Tashlin/Clampett",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -17272,8 +19324,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross"
     ],
@@ -17290,7 +19342,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Porky and Daffy",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -17298,7 +19351,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 21,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -17317,9 +19372,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -17333,7 +19388,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: Ben Hardaway & Cal Dalton (and Private Snafu)",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -17353,8 +19409,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Jack Bradbury"
     ],
@@ -17371,7 +19427,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -17379,7 +19436,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Bugs Bunny",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -17387,7 +19445,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 23,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -17407,8 +19467,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "George Cannata"
     ],
@@ -17424,7 +19484,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Hollywood Caricatures and Parodies",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -17432,7 +19493,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -17440,7 +19502,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Hooray for Hollywood",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -17459,8 +19522,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Michael Sasanoff",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -17477,7 +19540,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Putting a Bob Clampett on It",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -17485,7 +19549,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -17493,7 +19558,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: The Art of Bugs",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -17503,7 +19569,18 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 10,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Bugs Bunny: Superstar",
+        "format": "DVD",
+        "type": "dedicated",
+        "set_id": "wac_superstar",
+        "disc_number": 1,
+        "disc_title": "Bugs Bunny: Superstar",
+        "track_number": 9,
+        "audio_commentary": []
       }
     ]
   },
@@ -17523,8 +19600,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "George Cannata"
     ],
@@ -17541,7 +19618,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "A Dash of Tashlin",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -17549,7 +19627,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -17557,7 +19636,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: The Art of Daffy",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -17577,8 +19657,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam"
     ],
@@ -17592,7 +19672,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
@@ -17600,7 +19681,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Early Chuck Jones",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -17619,8 +19701,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Thomas McKimson"
     ],
@@ -17637,7 +19719,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Variations on a Theme",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Daffy Duck: Frustrated Fowl",
@@ -17645,7 +19728,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -17665,8 +19749,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce{{refn|group=n|Both credited as The Staff",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -17684,7 +19768,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Cartoon All-Stars",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -17692,7 +19777,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 23,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
         "set_name": "Looney Tunes Super Stars: Porky & Friends: Hilarious Ham",
@@ -17700,7 +19787,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -17719,8 +19807,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Michael Sasanoff",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -17736,7 +19824,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Hooray for Hollywood",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -17746,7 +19835,18 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 7,
         "audio_commentary": [
           "Jerry Beck"
-        ]
+        ],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Bugs Bunny: Superstar",
+        "format": "DVD",
+        "type": "dedicated",
+        "set_id": "wac_superstar",
+        "disc_number": 1,
+        "disc_title": "Bugs Bunny: Superstar",
+        "track_number": 1,
+        "audio_commentary": []
       }
     ]
   },
@@ -17765,8 +19865,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Manny Gould",
@@ -17786,7 +19886,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "All-Stars Cartoon Party",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -17794,7 +19895,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -17802,7 +19904,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Bob Clampett",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -17822,8 +19925,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -17839,7 +19942,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Porky and Daffy",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -17847,7 +19951,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -17862,8 +19968,8 @@ window.LOONEY_TUNES_DATABASE = [
     "directors": [],
     "director_aliases": [],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Izzy Ellis"
     ],
@@ -17877,7 +19983,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Frank Tashlin",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -17885,7 +19992,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -17904,8 +20013,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Lou Lilly",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner"
     ],
@@ -17921,7 +20030,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "All-Stars Cartoon Party",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -17929,7 +20039,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -17937,7 +20048,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Bob Clampett",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -17957,8 +20069,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Ken Harris",
@@ -17974,7 +20086,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -17982,7 +20095,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Chuck Jones",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -17992,7 +20106,9 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 10,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -18012,8 +20128,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -18032,7 +20148,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Masterpieces",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
@@ -18040,7 +20157,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Bugs Bunny",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -18048,7 +20166,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -18068,8 +20188,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Lloyd Vaughan",
@@ -18089,7 +20209,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Classics",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -18097,7 +20218,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -18105,7 +20227,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Bugs Bunny by Each Director",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18125,8 +20248,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -18146,7 +20269,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Looney Tunes All-Stars",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -18154,7 +20278,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Friz Freleng",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -18162,7 +20287,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -18182,8 +20309,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -18191,7 +20318,7 @@ window.LOONEY_TUNES_DATABASE = [
     "featured_characters": [
       "Bugs Bunny"
     ],
-    "synopsis": "Bugs Bunny faces off against Hermann Göring in Germany.",
+    "synopsis": "Bugs Bunny faces off against Hermann G\u00f6ring in Germany.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Golden Collection: Volume 6",
@@ -18199,7 +20326,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -18207,7 +20335,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Bugs Bunny",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -18217,7 +20346,9 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 12,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -18237,8 +20368,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross"
     ],
@@ -18254,7 +20385,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -18262,7 +20394,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Firsts",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18282,8 +20415,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Izzy Ellis",
@@ -18302,7 +20435,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -18310,7 +20444,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: 1940s Zanies",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Daffy Duck: Frustrated Fowl",
@@ -18318,7 +20453,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18338,17 +20474,17 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert Cannon"
     ],
     "voice_actors": [],
     "featured_characters": [
       "Claude Cat",
-      "Pepé Le Pew"
+      "Pep\u00e9 Le Pew"
     ],
-    "synopsis": "Claude Cat disguises himself as a skunk after suffering abuse from animals and humans alike, and becomes the object of unrequited love for Pepé Le Pew (in his debut cartoon).",
+    "synopsis": "Claude Cat disguises himself as a skunk after suffering abuse from animals and humans alike, and becomes the object of unrequited love for Pep\u00e9 Le Pew (in his debut cartoon).",
     "media_locations": [
       {
         "set_name": "Looney Tunes Golden Collection: Volume 3",
@@ -18356,7 +20492,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "All-Stars Cartoon Party",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -18364,7 +20501,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Firsts",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -18372,15 +20510,18 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18400,8 +20541,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -18421,7 +20562,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Friz Freleng",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 4",
@@ -18429,7 +20571,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 21,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -18449,8 +20593,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach",
       "Cal Dalton",
@@ -18469,7 +20613,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Frank Tashlin",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 1",
@@ -18477,7 +20622,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       }
     ]
   },
@@ -18496,8 +20643,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Michael Sasanoff",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -18513,7 +20660,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Putting a Bob Clampett on It",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -18521,7 +20669,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -18529,7 +20678,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: 1940s Zanies",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18547,9 +20697,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Bob McKimson"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -18563,7 +20713,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: Supplement Material",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18583,8 +20734,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Tish Tash"
     ],
     "story": "Melvin Millar",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton"
     ],
@@ -18601,7 +20752,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Bugs Bunny by Each Director",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 1",
@@ -18609,7 +20761,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       }
     ]
   },
@@ -18627,9 +20781,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_aliases": [
       "Robert Clampett"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -18643,7 +20797,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: Supplement Material",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18663,8 +20818,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam"
     ],
@@ -18683,6 +20838,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Variations on a Theme",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "San Antonio (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_san_antonio_blu_ray",
+        "film_title": "San Antonio",
+        "film_year": 1945,
+        "disc_number": 1,
+        "disc_title": "San Antonio Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -18702,8 +20870,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Izzy Ellis",
@@ -18724,7 +20892,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Putting a Bob Clampett on It",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -18732,7 +20901,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Porky and Daffy",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -18740,7 +20910,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 22,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Looney Tunes Super Stars: Porky & Friends: Hilarious Ham",
@@ -18748,7 +20920,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18767,8 +20940,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Cal Dalton",
@@ -18786,7 +20959,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Classics",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -18794,7 +20968,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -18802,7 +20977,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: McKimson & Davis",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18821,8 +20997,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Manny Gould",
@@ -18844,7 +21020,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Tweety and Sylvester and Friends",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -18852,7 +21029,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -18860,7 +21038,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: 1940s Zanies",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18881,8 +21060,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manny Gould",
       "Rod Scribner",
@@ -18899,7 +21078,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Putting a Bob Clampett on It",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -18907,7 +21087,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Bob Clampett",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -18927,8 +21108,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -18947,7 +21128,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Best of Bugs Bunny",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -18955,7 +21137,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -18963,7 +21146,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Sports",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -18973,7 +21157,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 11,
         "audio_commentary": [
           "Eric Goldberg"
-        ]
+        ],
+        "type": "dedicated"
       }
     ]
   },
@@ -18992,8 +21177,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Rod Scribner",
@@ -19012,7 +21197,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -19020,7 +21206,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -19028,7 +21215,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: 1940s Zanies",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -19047,8 +21235,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach",
       "Arthur Davis",
@@ -19068,7 +21256,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: 1940s Zanies",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 1",
@@ -19076,7 +21265,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       }
     ]
   },
@@ -19096,8 +21287,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Basil Davidovich",
       "Ben Washam",
@@ -19107,9 +21298,9 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Claude Cat",
-      "Pepé Le Pew"
+      "Pep\u00e9 Le Pew"
     ],
-    "synopsis": "A worm prepares to eat an apple with a knife and fork, but is chased by a crow, who is chased by a cat, who is chased by a bulldog, who is chased by a dog catcher, who is chased by his wife, who is chased by a mouse, who is chased by Pepé Le Pew.",
+    "synopsis": "A worm prepares to eat an apple with a knife and fork, but is chased by a crow, who is chased by a cat, who is chased by a bulldog, who is chased by a dog catcher, who is chased by his wife, who is chased by a mouse, who is chased by Pep\u00e9 Le Pew.",
     "media_locations": [
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -19117,7 +21308,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Chuck Jones",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -19125,7 +21317,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -19145,8 +21339,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Ken Harris",
@@ -19166,7 +21360,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Looney Tunes All-Stars: Part 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -19174,7 +21369,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -19182,7 +21378,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: 1940s Zanies",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -19193,7 +21390,30 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [
           "Greg Ford",
           "Michael Barrier"
-        ]
+        ],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Bugs Bunny: Superstar",
+        "format": "DVD",
+        "type": "dedicated",
+        "set_id": "wac_superstar",
+        "disc_number": 1,
+        "disc_title": "Bugs Bunny: Superstar",
+        "track_number": 8,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "The Verdict (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_verdict_blu_ray",
+        "film_title": "The Verdict",
+        "film_year": 1946,
+        "disc_number": 1,
+        "disc_title": "The Verdict Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
       }
     ]
   },
@@ -19215,8 +21435,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach",
       "Arthur Davis",
@@ -19237,7 +21457,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Classics",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -19245,7 +21466,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Frank Tashlin",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -19253,7 +21475,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -19273,8 +21497,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Manuel Perez",
@@ -19291,7 +21515,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
@@ -19299,7 +21524,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Friz Freleng",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -19307,7 +21533,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -19326,8 +21554,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton",
       "Don Williams",
@@ -19345,7 +21573,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -19353,7 +21582,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: McKimson & Davis",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -19370,8 +21600,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -19390,7 +21620,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -19398,7 +21629,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Hooray for Hollywood",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -19406,7 +21638,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -19426,8 +21660,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -19446,7 +21680,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Radio Daze",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -19465,8 +21700,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manny Gould",
       "Rod Scribner",
@@ -19485,7 +21720,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Tweety and Sylvester and Friends",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -19493,7 +21729,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -19501,7 +21738,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Bob Clampett",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -19520,8 +21758,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "George Hill",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manny Gould",
       "Don Williams",
@@ -19540,7 +21778,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: McKimson & Davis",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -19548,7 +21787,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Looney Tunes Super Stars: Porky & Friends: Hilarious Ham",
@@ -19556,7 +21797,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -19576,8 +21818,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -19594,7 +21836,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Friz Freleng",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -19602,7 +21845,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -19622,8 +21867,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Ken Harris",
@@ -19640,7 +21885,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Radio Daze",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 3",
@@ -19648,7 +21894,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -19668,8 +21916,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Manuel Perez",
@@ -19689,7 +21937,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Friz Freleng",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -19697,6 +21946,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Humoresque (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_humoresque_blu_ray",
+        "film_title": "Humoresque",
+        "film_year": 1946,
+        "disc_number": 1,
+        "disc_title": "Humoresque Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -19717,8 +21979,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce & Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -19737,7 +21999,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
@@ -19745,7 +22008,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Bugs Bunny",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -19753,6 +22017,30 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 21,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
+      },
+      {
+        "set_name": "Bugs Bunny: Superstar",
+        "format": "DVD",
+        "type": "dedicated",
+        "set_id": "wac_superstar",
+        "disc_number": 1,
+        "disc_title": "Bugs Bunny: Superstar",
+        "track_number": 5,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Humoresque (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_humoresque_blu_ray",
+        "film_title": "Humoresque",
+        "film_year": 1946,
+        "disc_number": 1,
+        "disc_title": "Humoresque Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -19773,8 +22061,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Basil Davidovich",
       "Ben Washam",
@@ -19794,7 +22082,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Best Supporting Players",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -19813,8 +22102,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Izzy Ellis",
@@ -19834,7 +22123,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Masterpieces",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -19842,7 +22132,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -19850,6 +22141,31 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Bob Clampett",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Nora Prentiss (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_nora_prentiss_blu_ray",
+        "film_title": "Nora Prentiss",
+        "film_year": 1947,
+        "disc_number": 1,
+        "disc_title": "Nora Prentiss Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Night and Day (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_night_and_day_blu_ray",
+        "film_title": "Night and Day",
+        "film_year": 1946,
+        "disc_number": 1,
+        "disc_title": "Night and Day Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -19870,8 +22186,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Basil Davidovich",
       "Ben Washam",
@@ -19888,7 +22204,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Chuck Jones",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -19896,7 +22213,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -19915,8 +22234,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Manny Gould",
@@ -19936,7 +22255,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Tweety and Sylvester and Friends",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -19944,7 +22264,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -19952,7 +22273,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Bob Clampett",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -19971,8 +22293,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach",
       "Cal Dalton",
@@ -19991,7 +22313,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: McKimson & Davis",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 4",
@@ -19999,7 +22322,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -20018,8 +22343,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach",
       "Arthur Davis",
@@ -20040,7 +22365,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "All-Stars Cartoon Party",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -20048,7 +22374,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 22,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -20056,6 +22383,17 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Firsts",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Bugs Bunny: Superstar",
+        "format": "DVD",
+        "type": "dedicated",
+        "set_id": "wac_superstar",
+        "disc_number": 1,
+        "disc_title": "Bugs Bunny: Superstar",
+        "track_number": 6,
         "audio_commentary": []
       }
     ]
@@ -20076,8 +22414,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -20097,7 +22435,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Classics",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -20105,7 +22444,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -20113,7 +22453,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Bugs Bunny by Each Director",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -20132,8 +22473,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Phil DeLara",
@@ -20153,7 +22494,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
@@ -20161,7 +22503,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Cartoon All-Stars",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -20181,8 +22524,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce & Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Ken Harris",
@@ -20202,7 +22545,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -20210,7 +22554,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -20218,7 +22563,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Variations on a Theme",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -20238,8 +22584,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -20259,7 +22605,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Porky and Daffy",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 4",
@@ -20267,7 +22614,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -20286,8 +22635,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Bickenbach",
       "Cal Dalton",
@@ -20306,7 +22655,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Looney Tunes All-Stars",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -20314,7 +22664,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: The Art of Daffy",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -20322,6 +22673,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
+      },
+      {
+        "set_name": "The Verdict (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_verdict_blu_ray",
+        "film_title": "The Verdict",
+        "film_year": 1946,
+        "disc_number": 1,
+        "disc_title": "The Verdict Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -20341,8 +22706,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Basil Davidovich",
       "Bill Melendez",
@@ -20362,7 +22727,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: McKimson & Davis",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 1",
@@ -20370,7 +22736,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       }
     ]
   },
@@ -20389,8 +22757,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manny Gould",
       "Charles McKimson",
@@ -20412,7 +22780,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Looney Tunes All-Stars",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -20420,7 +22789,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Best Supporting Players",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -20428,6 +22798,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
+      },
+      {
+        "set_name": "The Man I Love (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_man_i_love_blu_ray",
+        "film_title": "The Man I Love",
+        "film_year": 1947,
+        "disc_number": 1,
+        "disc_title": "The Man I Love Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -20447,8 +22831,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner & Bill Scott",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Basil Davidovich",
       "Bill Melendez",
@@ -20468,7 +22852,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Cartoon All-Stars",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 1",
@@ -20476,7 +22861,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       }
     ]
   },
@@ -20495,8 +22882,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Richard Bickenbach",
@@ -20515,7 +22902,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Classics",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -20523,7 +22911,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -20531,7 +22920,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2: Bugs Bunny",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -20552,8 +22942,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manny Gould",
       "Don Williams",
@@ -20573,7 +22963,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -20581,7 +22973,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Best Supporting Players",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -20600,8 +22993,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Richard Bickenbach",
@@ -20620,7 +23013,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Cartoon All-Stars",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 3",
@@ -20628,7 +23022,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -20648,8 +23044,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -20668,7 +23064,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Chuck Jones",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -20688,8 +23085,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Ken Harris",
@@ -20709,7 +23106,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 5: Chuck Jones",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -20729,8 +23127,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -20750,7 +23148,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: 1940s Zanies",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 1",
@@ -20758,7 +23157,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       }
     ]
   },
@@ -20777,8 +23178,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Don Williams",
       "Basil Davidovich",
@@ -20797,7 +23198,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: McKimson & Davis",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 3",
@@ -20805,7 +23207,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -20824,8 +23228,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Cal Dalton",
       "Richard Bickenbach",
@@ -20845,7 +23249,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: McKimson & Davis",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -20853,7 +23258,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 21,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       },
       {
         "set_name": "Looney Tunes Super Stars: Porky & Friends: Hilarious Ham",
@@ -20861,7 +23268,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -20881,8 +23289,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -20903,7 +23311,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Masterpieces",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -20911,7 +23320,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -20919,6 +23329,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: The Art of Bugs",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Man I Love (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_man_i_love_blu_ray",
+        "film_title": "The Man I Love",
+        "film_year": 1947,
+        "disc_number": 1,
+        "disc_title": "The Man I Love Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -20939,8 +23362,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -20949,9 +23372,9 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pepé Le Pew"
+      "Pep\u00e9 Le Pew"
     ],
-    "synopsis": "A Mexican hairless dog, who wants to be friends with other dogs, borrows a skunk pelt, frightens all of the other dogs, and attracts the unwanted attention of the actual skunk Pepé Le Pew.",
+    "synopsis": "A Mexican hairless dog, who wants to be friends with other dogs, borrows a skunk pelt, frightens all of the other dogs, and attracts the unwanted attention of the actual skunk Pep\u00e9 Le Pew.",
     "media_locations": [
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -20959,7 +23382,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Best Supporting Players",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -20967,15 +23391,18 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -20995,8 +23422,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce & Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -21016,7 +23443,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Masterpieces",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -21024,7 +23452,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -21032,7 +23461,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Hooray for Hollywood",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21051,8 +23481,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "George Hill",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manny Gould",
       "Don Williams",
@@ -21068,7 +23498,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Frantic Forties",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 1",
@@ -21076,6 +23507,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 16,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
+      },
+      {
+        "set_name": "The Beast with Five Fingers (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_beast_with_five_fingers_blu_ray",
+        "film_title": "The Beast with Five Fingers",
+        "film_year": 1946,
+        "disc_number": 1,
+        "disc_title": "The Beast with Five Fingers Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -21096,8 +23541,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -21114,7 +23559,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Friz Freleng",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -21122,6 +23568,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 8,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "The Beast with Five Fingers (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_beast_with_five_fingers_blu_ray",
+        "film_title": "The Beast with Five Fingers",
+        "film_year": 1946,
+        "disc_number": 1,
+        "disc_title": "The Beast with Five Fingers Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -21144,8 +23604,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Robert Clampett"
     ],
     "story": "Tedd Pierce & Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Manuel Perez",
@@ -21165,7 +23625,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Tweety and Sylvester and Friends",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -21173,7 +23634,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -21181,7 +23643,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Friz Freleng",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Tweety & Sylvester: Feline Fwenzy",
@@ -21189,7 +23652,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21209,8 +23673,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -21229,7 +23693,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Politically Incorrect",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -21237,7 +23702,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -21256,8 +23723,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner & Bill Scott",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bill Melendez",
       "Don Williams",
@@ -21274,7 +23741,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Frantic Forties",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 2",
@@ -21282,7 +23750,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -21301,8 +23771,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Manny Gould",
@@ -21322,7 +23792,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Wince Upon a Time: Foolhardy Fairy Tales and Looney Legends",
@@ -21330,7 +23802,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21350,8 +23823,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Manuel Perez",
@@ -21371,7 +23844,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -21379,7 +23853,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -21387,7 +23862,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Friz Freleng",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21406,8 +23882,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner & Bill Scott",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Don Williams",
       "Emery Hawkins",
@@ -21424,7 +23900,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Frantic Forties",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -21432,7 +23909,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -21452,8 +23931,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -21473,7 +23952,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -21481,7 +23961,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 4",
@@ -21489,6 +23970,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1: Bugs Bunny",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Spanish Main (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_spanish_main_blu_ray",
+        "film_title": "The Spanish Main",
+        "film_year": 1945,
+        "disc_number": 1,
+        "disc_title": "The Spanish Main Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -21509,8 +24003,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce & Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -21530,7 +24024,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Masterpieces",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -21538,7 +24033,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: The Art of Bugs",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -21548,7 +24044,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 14,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated"
       }
     ]
   },
@@ -21568,8 +24065,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -21589,7 +24086,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
         "set_name": "Looney Tunes Super Stars: Daffy Duck: Frustrated Fowl",
@@ -21597,7 +24096,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Daffy Duck's Screen Classics: Duck Victory",
@@ -21605,7 +24105,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21624,8 +24125,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manny Gould",
       "Charles McKimson",
@@ -21644,7 +24145,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -21652,7 +24154,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Variations on a Theme",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21671,8 +24174,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Basil Davidovich",
       "Bill Melendez",
@@ -21689,7 +24192,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -21697,7 +24201,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 25,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Guffaw and Order: Looney Tunes Fight Crime",
@@ -21705,7 +24210,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21724,8 +24230,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Manny Gould",
@@ -21744,7 +24250,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Masterpieces",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -21752,7 +24259,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -21760,7 +24268,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 7: Bugs Bunny by Each Director",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21780,8 +24289,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Manuel Perez",
@@ -21800,7 +24309,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21820,8 +24330,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -21843,7 +24353,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Looney Tunes All-Stars: Part 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -21851,7 +24362,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 1",
@@ -21859,7 +24371,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: The Art of Bugs",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -21869,7 +24382,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 15,
         "audio_commentary": [
           "Michael Barrier"
-        ]
+        ],
+        "type": "dedicated"
       }
     ]
   },
@@ -21888,8 +24402,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Manny Gould",
@@ -21909,7 +24423,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Best Supporting Players",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Sylvester & Hippety Hopper: Marsupial Mayhem",
@@ -21917,7 +24432,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21936,8 +24452,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manny Gould",
       "Charles McKimson",
@@ -21955,7 +24471,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -21975,8 +24492,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -21997,7 +24514,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Cartoon All-Stars",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -22005,6 +24523,18 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
+      },
+      {
+        "set_name": "Bugs Bunny: Superstar",
+        "format": "DVD",
+        "type": "dedicated",
+        "set_id": "wac_superstar",
+        "disc_number": 1,
+        "disc_title": "Bugs Bunny: Superstar",
+        "track_number": 4,
         "audio_commentary": []
       }
     ]
@@ -22025,8 +24555,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -22046,7 +24576,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: Part 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Sylvester & Tweety's Bad Ol' Putty Tat Blues",
@@ -22054,7 +24585,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22074,8 +24606,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -22094,7 +24626,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Best of Bugs Bunny",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Winner by a Hare: 14 of Bugs Bunny's Best",
@@ -22102,7 +24635,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22121,8 +24655,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bill Melendez",
       "Don Williams",
@@ -22141,7 +24675,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Porky and Daffy",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -22149,7 +24684,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -22168,8 +24705,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bill Melendez",
       "Don Williams",
@@ -22178,10 +24715,10 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pepé Le Pew",
+      "Pep\u00e9 Le Pew",
       "Wellington"
     ],
-    "synopsis": "Wellington the Dog, desperate to find shelter to warm himself up, enters Pepé Le Pew's house, and tries to get rid of him.",
+    "synopsis": "Wellington the Dog, desperate to find shelter to warm himself up, enters Pep\u00e9 Le Pew's house, and tries to get rid of him.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -22189,15 +24726,18 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22217,8 +24757,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe",
       "Ken Harris",
@@ -22238,7 +24778,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "All-Stars Cartoon Party",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -22246,7 +24787,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Chuck Jones",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -22254,6 +24796,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 19,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
+      },
+      {
+        "set_name": "Silver River (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_silver_river_blu_ray",
+        "film_title": "Silver River",
+        "film_year": 1948,
+        "disc_number": 1,
+        "disc_title": "Silver River Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -22273,8 +24829,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Bill Scott & Lloyd Turner",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Don Williams",
       "Emery Hawkins",
@@ -22294,7 +24850,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       },
       {
         "set_name": "Looney Tunes Super Stars: Porky & Friends: Hilarious Ham",
@@ -22302,7 +24860,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Guffaw and Order: Looney Tunes Fight Crime",
@@ -22310,7 +24869,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22330,8 +24890,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -22351,7 +24911,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Best of Daffy & Porky",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -22359,7 +24920,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: After Dark: Ghoul, Ghost and Goblin Cartoon Classics",
@@ -22367,7 +24929,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22386,8 +24949,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Manny Gould",
@@ -22409,7 +24972,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: Part 2",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -22417,7 +24981,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 22,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22436,8 +25001,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "George Hill",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey",
       "Basil Davidovich",
@@ -22456,7 +25021,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Looney Tunes Super Stars: Porky & Friends: Hilarious Ham",
@@ -22464,7 +25031,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Ham on Wry: The Porky Pig Laser Collection",
@@ -22472,7 +25040,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22491,8 +25060,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Dave Monahan",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Don Williams",
       "John Carey",
@@ -22509,7 +25078,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Frantic Forties",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -22517,7 +25087,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -22536,8 +25108,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Manny Gould",
@@ -22553,6 +25125,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Side 6: Frantic Forties",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Act of Violence (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_act_of_violence_blu_ray",
+        "film_title": "Act of Violence",
+        "film_year": 1948,
+        "disc_number": 1,
+        "disc_title": "Act of Violence Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -22572,8 +25157,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner & Bill Scott",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bill Melendez",
       "Don Williams",
@@ -22592,7 +25177,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -22600,7 +25186,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Guffaw and Order: Looney Tunes Fight Crime",
@@ -22608,7 +25195,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22627,8 +25215,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Manny Gould",
@@ -22648,7 +25236,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 3",
@@ -22656,7 +25245,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Porky and Daffy",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22675,8 +25265,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Bill Scott & Lloyd Turner",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Basil Davidovich",
       "Don Williams",
@@ -22695,7 +25285,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Cartoon All-Stars",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 1",
@@ -22703,6 +25294,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 17,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
+      },
+      {
+        "set_name": "Silver River (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_silver_river_blu_ray",
+        "film_title": "Silver River",
+        "film_year": 1948,
+        "disc_number": 1,
+        "disc_title": "Silver River Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -22722,9 +25327,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -22738,7 +25343,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: Supplement Material",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22757,8 +25363,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner & Bill Scott",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Basil Davidovich",
       "Bill Melendez",
@@ -22778,7 +25384,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "The Golden Age of Looney Tunes: Volume 2",
@@ -22786,7 +25393,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: The Art of Daffy",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22806,8 +25414,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -22826,7 +25434,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Chuck Jones",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Choice: Volume 1",
@@ -22834,7 +25443,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       }
     ]
   },
@@ -22854,8 +25465,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -22875,7 +25486,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -22885,7 +25497,9 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 25,
         "audio_commentary": [
           "Eric Goldberg"
-        ]
+        ],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -22904,8 +25518,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Phil DeLara",
@@ -22924,7 +25538,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Looney Tunes All-Stars",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -22932,7 +25547,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 22,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22952,8 +25568,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -22973,7 +25589,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Looney Tunes All-Stars: Part 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -22981,7 +25598,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Ham on Wry: The Porky Pig Laser Collection",
@@ -22989,7 +25608,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -23009,8 +25629,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Manuel Perez",
@@ -23030,7 +25650,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Tweety and Sylvester and Friends",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Tweety & Sylvester: Feline Fwenzy",
@@ -23038,7 +25659,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Sylvester & Tweety's Bad Ol' Putty Tat Blues",
@@ -23046,7 +25668,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -23066,8 +25689,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -23086,7 +25709,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Looney Tunes All-Stars",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
@@ -23094,7 +25718,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -23113,8 +25738,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner & Bill Scott",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Emery Hawkins",
       "Basil Davidovich",
@@ -23133,7 +25758,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Classics",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -23143,7 +25769,9 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 3,
         "audio_commentary": [
           "Michael Barrier"
-        ]
+        ],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -23162,8 +25790,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Sid Marcus",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Basil Davidovich",
       "Bill Melendez",
@@ -23182,7 +25810,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -23190,7 +25819,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
         "set_name": "Guffaw and Order: Looney Tunes Fight Crime",
@@ -23198,7 +25829,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -23218,8 +25850,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -23238,7 +25870,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Curtain Calls: Classic Music and Show Business Cartoons",
@@ -23246,6 +25879,31 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Flamingo Road (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_flamingo_road_blu_ray",
+        "film_title": "Flamingo Road",
+        "film_year": 1949,
+        "disc_number": 1,
+        "disc_title": "Flamingo Road Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Cats Don't Dance (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_cats_don_t_dance_blu_ray",
+        "film_title": "Cats Don't Dance",
+        "film_year": 1997,
+        "disc_number": 1,
+        "disc_title": "Cats Don't Dance Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -23265,8 +25923,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey",
       "Charles McKimson",
@@ -23287,7 +25945,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: Part 2",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Daffy Duck's Screen Classics: Duck Victory",
@@ -23295,7 +25954,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -23315,8 +25975,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -23331,7 +25991,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Best of Daffy & Porky",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Longitude & Looneytude: 14 Globetrotting Looney Tunes Favorites",
@@ -23339,7 +26000,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -23359,8 +26021,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -23379,7 +26041,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -23399,8 +26063,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -23420,7 +26084,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Looney Tunes All-Stars: Part 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -23428,7 +26093,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 21,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Road Runner Vs. Wile E. Coyote: If At First You Don't Succeed...",
@@ -23436,7 +26102,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -23456,8 +26123,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -23466,10 +26133,10 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pepé Le Pew",
+      "Pep\u00e9 Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "A Parisian perfume shop owner finds Pepé Le Pew the skunk sampling his fragrances and throws Penelope Pussycat (in her debut) into the store to chase him out. When Penelope gets a white stripe on her back and tail from a spilled bottle of hair dye, she is mistaken by Pepé as a female skunk. Note: Won the Academy Award for Best Animated Short Film in 1950.",
+    "synopsis": "A Parisian perfume shop owner finds Pep\u00e9 Le Pew the skunk sampling his fragrances and throws Penelope Pussycat (in her debut) into the store to chase him out. When Penelope gets a white stripe on her back and tail from a spilled bottle of hair dye, she is mistaken by Pep\u00e9 as a female skunk. Note: Won the Academy Award for Best Animated Short Film in 1950.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Golden Collection: Volume 1",
@@ -23477,7 +26144,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Looney Tunes All-Stars: Part 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -23485,14 +26153,28 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 24,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Gay Purr-ee (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_gay_purr_ee_blu_ray",
+        "film_title": "Gay Purr-ee",
+        "film_year": 1962,
+        "disc_number": 1,
+        "disc_title": "Gay Purr-ee Bonus Features",
+        "track_number": 3,
         "audio_commentary": []
       }
     ]
@@ -23513,8 +26195,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -23534,7 +26216,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Looney Tunes All-Stars: Part 1",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -23542,7 +26225,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Longitude & Looneytude: 14 Globetrotting Looney Tunes Favorites",
@@ -23550,7 +26235,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -23570,8 +26256,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -23591,7 +26277,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Classics",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Winner by a Hare: 14 of Bugs Bunny's Best",
@@ -23599,7 +26286,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -23618,8 +26306,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manny Gould",
       "John Carey",
@@ -23641,7 +26329,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -23661,8 +26351,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Manuel Perez",
@@ -23683,7 +26373,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Best of Bugs Bunny",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -23691,7 +26382,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Winner by a Hare: 14 of Bugs Bunny's Best",
@@ -23699,7 +26391,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -23718,8 +26411,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Pete Burness",
       "John Carey",
@@ -23740,7 +26433,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -23759,8 +26453,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Lloyd Turner",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Emery Hawkins",
       "Basil Davidovich",
@@ -23780,7 +26474,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -23800,8 +26496,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -23820,7 +26516,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Hare Beyond Compare: 14 More Bugs Bunny Classics",
@@ -23828,7 +26525,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -23848,8 +26546,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -23868,7 +26566,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Best of Bugs Bunny",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -23876,7 +26575,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Curtain Calls: Classic Music and Show Business Cartoons",
@@ -23884,6 +26584,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "For the First Time (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_for_the_first_time_blu_ray",
+        "film_title": "For the First Time",
+        "film_year": 1959,
+        "disc_number": 1,
+        "disc_title": "For the First Time Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -23904,8 +26617,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -23925,7 +26638,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -23935,7 +26649,9 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 16,
         "audio_commentary": [
           "Eric Goldberg"
-        ]
+        ],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       },
       {
         "set_name": "Bugs Bunny: Winner by a Hare: 14 of Bugs Bunny's Best",
@@ -23943,7 +26659,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -23963,8 +26680,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Ken Champin",
@@ -23983,7 +26700,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24003,8 +26721,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -24024,7 +26742,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
@@ -24032,7 +26751,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24051,9 +26771,9 @@ window.LOONEY_TUNES_DATABASE = [
       "Isadore Freleng",
       "I. Freleng"
     ],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -24068,7 +26788,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Side 8: Supplement Material",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24088,8 +26809,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -24109,7 +26830,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Looney Tunes All-Stars",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -24117,7 +26839,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Ham on Wry: The Porky Pig Laser Collection",
@@ -24125,7 +26849,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24144,8 +26869,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manny Gould",
       "John Carey",
@@ -24165,7 +26890,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Wince Upon a Time: Foolhardy Fairy Tales and Looney Legends",
@@ -24173,7 +26899,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24192,8 +26919,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "Bill Scott & Lloyd Turner",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Don Williams",
       "Emery Hawkins",
@@ -24212,7 +26939,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Best of Daffy & Porky",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -24220,7 +26948,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24240,8 +26969,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -24260,7 +26989,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -24268,7 +26998,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Winner by a Hare: 14 of Bugs Bunny's Best",
@@ -24276,7 +27007,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24295,8 +27027,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Phil DeLara",
@@ -24315,7 +27047,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Classics",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Hare Beyond Compare: 14 More Bugs Bunny Classics",
@@ -24323,7 +27056,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24342,8 +27076,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Pete Burness",
@@ -24363,7 +27097,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24383,8 +27118,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -24404,7 +27139,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       }
     ]
   },
@@ -24423,8 +27160,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "John Carey",
       "Charles McKimson",
@@ -24443,7 +27180,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24462,8 +27200,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Phil DeLara",
@@ -24482,7 +27220,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -24490,7 +27229,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 25,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       },
       {
         "set_name": "Wince Upon a Time: Foolhardy Fairy Tales and Looney Legends",
@@ -24498,7 +27239,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24518,8 +27260,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -24550,8 +27292,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Pete Burness",
@@ -24572,7 +27314,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 24,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Looney Tunes Super Stars: Daffy Duck: Frustrated Fowl",
@@ -24580,7 +27324,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24600,8 +27345,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -24622,7 +27367,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -24630,7 +27376,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -24640,7 +27387,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 20,
         "audio_commentary": [
           "Jerry Beck"
-        ]
+        ],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Hare Beyond Compare: 14 More Bugs Bunny Classics",
@@ -24648,7 +27396,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24667,8 +27416,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -24688,7 +27437,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       }
     ]
   },
@@ -24708,8 +27459,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -24731,7 +27482,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Tweety and Sylvester and Friends",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Tweety & Sylvester: Feline Fwenzy",
@@ -24739,7 +27491,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Sylvester & Tweety's Bad Ol' Putty Tat Blues",
@@ -24747,7 +27500,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24766,8 +27520,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Rod Scribner",
@@ -24788,7 +27542,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24808,8 +27563,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -24829,7 +27584,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Best of Bugs Bunny",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Winner by a Hare: 14 of Bugs Bunny's Best",
@@ -24837,6 +27593,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Caged! (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_caged_blu_ray",
+        "film_title": "Caged!",
+        "film_year": 1950,
+        "disc_number": 1,
+        "disc_title": "Caged! Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -24856,8 +27625,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Bill Melendez",
@@ -24878,7 +27647,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Best of Daffy & Porky",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -24886,7 +27656,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       },
       {
         "set_name": "Looney Tunes Super Stars: Porky & Friends: Hilarious Ham",
@@ -24894,7 +27666,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Ham on Wry: The Porky Pig Laser Collection",
@@ -24902,7 +27675,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -24922,8 +27696,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Ken Champin",
@@ -24943,7 +27717,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: Part 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Hare Beyond Compare: 14 More Bugs Bunny Classics",
@@ -24951,6 +27726,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Bright Leaf (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_bright_leaf_blu_ray",
+        "film_title": "Bright Leaf",
+        "film_year": 1950,
+        "disc_number": 1,
+        "disc_title": "Bright Leaf Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -24970,8 +27758,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Bill Melendez",
@@ -24992,7 +27780,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25012,8 +27801,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -25035,7 +27824,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: Part 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -25043,7 +27833,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Tweety & Sylvester: Feline Fwenzy",
@@ -25051,7 +27842,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25071,8 +27863,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -25102,8 +27894,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Rod Scribner",
@@ -25123,7 +27915,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Ham on Wry: The Porky Pig Laser Collection",
@@ -25131,6 +27924,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Rover Dangerfield (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_rover_dangerfield_blu_ray",
+        "film_title": "Rover Dangerfield",
+        "film_year": 1991,
+        "disc_number": 1,
+        "disc_title": "Rover Dangerfield Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -25151,8 +27957,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -25173,7 +27979,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Looney Tunes All-Stars",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -25181,7 +27988,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 23,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
@@ -25189,7 +27997,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25209,8 +28018,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -25232,7 +28041,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Best of Daffy & Porky",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Daffy Duck's Screen Classics: Duck Victory",
@@ -25240,7 +28050,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25259,8 +28070,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -25280,7 +28091,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Classics",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -25288,7 +28100,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Curtain Calls: Classic Music and Show Business Cartoons",
@@ -25296,6 +28109,31 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Bright Leaf (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_bright_leaf_blu_ray",
+        "film_title": "Bright Leaf",
+        "film_year": 1950,
+        "disc_number": 1,
+        "disc_title": "Bright Leaf Bonus Features",
+        "track_number": 2,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Colt .45 (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_colt_45_blu_ray",
+        "film_title": "Colt .45",
+        "film_year": 1950,
+        "disc_number": 1,
+        "disc_title": "Colt .45 Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -25316,8 +28154,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -25336,7 +28174,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       }
     ]
   },
@@ -25356,8 +28196,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -25378,7 +28218,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25398,8 +28239,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -25418,7 +28259,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Classics",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25437,8 +28279,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bill Melendez",
       "Emery Hawkins",
@@ -25459,7 +28301,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25478,8 +28321,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Bill Melendez",
@@ -25501,6 +28344,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Montana (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_montana_blu_ray",
+        "film_title": "Montana",
+        "film_year": 1950,
+        "disc_number": 1,
+        "disc_title": "Montana Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -25521,8 +28377,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Ken Champin",
@@ -25542,7 +28398,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       },
       {
         "set_name": "Looney Tunes Super Stars: Bugs Bunny: Hare Extraordinaire",
@@ -25550,7 +28408,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Hare Beyond Compare: 14 More Bugs Bunny Classics",
@@ -25558,7 +28417,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25577,8 +28437,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Rod Scribner",
@@ -25600,7 +28460,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Sylvester & Tweety's Bad Ol' Putty Tat Blues",
@@ -25608,7 +28469,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25628,8 +28490,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -25650,7 +28512,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Best of Bugs Bunny",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -25658,7 +28521,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -25668,7 +28532,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 1,
         "audio_commentary": [
           "Eric Goldberg"
-        ]
+        ],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Curtain Calls: Classic Music and Show Business Cartoons",
@@ -25676,7 +28541,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25696,8 +28562,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Emery Hawkins",
@@ -25718,7 +28584,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       },
       {
         "set_name": "Sylvester & Tweety's Bad Ol' Putty Tat Blues",
@@ -25726,7 +28594,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25745,8 +28614,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Emery Hawkins",
       "Charles McKimson",
@@ -25766,7 +28635,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
@@ -25774,7 +28644,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25794,8 +28665,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -25815,7 +28686,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Best of Daffy & Porky",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Ham on Wry: The Porky Pig Laser Collection",
@@ -25823,7 +28695,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25843,8 +28716,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -25864,13 +28737,27 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Looney Tunes All-Stars: Part 1",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
         "format": "LaserDisc",
         "disc_number": 1,
         "disc_title": "Side 2",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Brainstorm (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_brainstorm_blu_ray",
+        "film_title": "Brainstorm",
+        "film_year": 1965,
+        "disc_number": 1,
+        "disc_title": "Brainstorm Bonus Features",
         "track_number": 1,
         "audio_commentary": []
       }
@@ -25891,8 +28778,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Phil DeLara",
@@ -25914,7 +28801,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -25934,8 +28823,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -25956,7 +28845,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -25976,8 +28866,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -26002,7 +28892,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Best of Daffy & Porky",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -26010,7 +28901,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Curtain Calls: Classic Music and Show Business Cartoons",
@@ -26018,6 +28910,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Start the Revolution Without Me (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_start_the_revolution_without_me_blu_ray",
+        "film_title": "Start the Revolution Without Me",
+        "film_year": 1970,
+        "disc_number": 1,
+        "disc_title": "Start the Revolution Without Me Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -26038,8 +28943,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -26060,7 +28965,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 23,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -26079,8 +28986,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bill Melendez",
       "Charles McKimson",
@@ -26100,7 +29007,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Best of Bugs Bunny",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -26110,7 +29018,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 19,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Curtain Calls: Classic Music and Show Business Cartoons",
@@ -26118,6 +29027,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Cats Don't Dance (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_cats_don_t_dance_blu_ray",
+        "film_title": "Cats Don't Dance",
+        "film_year": 1997,
+        "disc_number": 1,
+        "disc_title": "Cats Don't Dance Bonus Features",
+        "track_number": 4,
         "audio_commentary": []
       }
     ]
@@ -26138,8 +29060,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -26158,7 +29080,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -26166,7 +29089,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 24,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
@@ -26174,7 +29098,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26194,8 +29119,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Ben Hardaway",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -26215,7 +29140,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -26234,8 +29161,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -26255,7 +29182,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -26275,8 +29204,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -26296,7 +29225,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
@@ -26304,7 +29235,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26324,8 +29256,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -26345,7 +29277,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Best of Bugs Bunny",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -26353,7 +29286,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       },
       {
         "set_name": "Bugs Bunny: Winner by a Hare: 14 of Bugs Bunny's Best",
@@ -26361,7 +29296,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26380,8 +29316,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Rod Scribner",
@@ -26400,7 +29336,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Best of Bugs Bunny",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Hare Beyond Compare: 14 More Bugs Bunny Classics",
@@ -26408,7 +29345,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26428,8 +29366,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -26449,7 +29387,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Masterpieces",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -26457,13 +29396,27 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Winner by a Hare: 14 of Bugs Bunny's Best",
         "format": "LaserDisc",
         "disc_number": 1,
         "disc_title": "Side 2",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Storm Warning (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_storm_warning_blu_ray",
+        "film_title": "Storm Warning",
+        "film_year": 1951,
+        "disc_number": 1,
+        "disc_title": "Storm Warning Bonus Features",
         "track_number": 1,
         "audio_commentary": []
       }
@@ -26485,8 +29438,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster & Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -26506,7 +29459,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: Part 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -26514,7 +29468,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Sylvester & Tweety's Bad Ol' Putty Tat Blues",
@@ -26522,7 +29477,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26542,8 +29498,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -26563,7 +29519,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26583,8 +29540,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe",
       "Ben Washam",
@@ -26601,7 +29558,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -26609,7 +29567,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
@@ -26617,7 +29576,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26636,8 +29596,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Rod Scribner",
@@ -26655,7 +29615,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26675,8 +29636,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil Monroe",
       "Lloyd Vaughan",
@@ -26697,7 +29658,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Best of Daffy & Porky",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -26705,7 +29667,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Daffy Duck's Screen Classics: Duck Victory",
@@ -26713,7 +29676,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26732,8 +29696,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Emery Hawkins",
@@ -26753,7 +29717,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: Part 2",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26772,8 +29737,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -26792,7 +29757,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Masterpieces",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Longitude & Looneytude: 14 Globetrotting Looney Tunes Favorites",
@@ -26800,6 +29766,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Gay Purr-ee (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_gay_purr_ee_blu_ray",
+        "film_title": "Gay Purr-ee",
+        "film_year": 1962,
+        "disc_number": 1,
+        "disc_title": "Gay Purr-ee Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -26819,8 +29798,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -26840,7 +29819,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Longitude & Looneytude: 14 Globetrotting Looney Tunes Favorites",
@@ -26848,7 +29828,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26868,8 +29849,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Manuel Perez",
@@ -26889,7 +29870,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26908,8 +29890,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Rod Scribner",
@@ -26931,7 +29913,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -26950,8 +29934,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -26972,7 +29956,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 23,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -26992,8 +29977,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -27014,7 +29999,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: Part 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Tweety & Sylvester: Feline Fwenzy",
@@ -27022,7 +30008,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27042,8 +30029,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Friz Freleng (uncredited)",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -27065,7 +30052,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 2,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Hare Beyond Compare: 14 More Bugs Bunny Classics",
@@ -27073,7 +30061,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27093,8 +30082,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -27115,7 +30104,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Best of Daffy & Porky",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -27123,7 +30113,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -27133,7 +30124,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 4,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Hare Beyond Compare: 14 More Bugs Bunny Classics",
@@ -27141,7 +30133,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27161,8 +30154,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster & Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -27184,7 +30177,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Tweety and Sylvester and Friends",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Tweety & Sylvester: Feline Fwenzy",
@@ -27192,7 +30186,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27212,8 +30207,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -27222,10 +30217,10 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pepé Le Pew",
+      "Pep\u00e9 Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Penelope Pussycat disguises herself as a skunk at a zoo in Paris. Unfortunately, it attracts the attention of the actual skunk Pepé Le Pew.",
+    "synopsis": "Penelope Pussycat disguises herself as a skunk at a zoo in Paris. Unfortunately, it attracts the attention of the actual skunk Pep\u00e9 Le Pew.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -27233,15 +30228,17 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 21,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27260,8 +30257,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Rod Scribner",
@@ -27279,7 +30276,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -27299,8 +30298,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -27323,7 +30322,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 3,
         "audio_commentary": [
           "Constantine Nasr"
-        ]
+        ],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Winner by a Hare: 14 of Bugs Bunny's Best",
@@ -27331,7 +30331,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27350,8 +30351,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -27371,7 +30372,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Ham on Wry: The Porky Pig Laser Collection",
@@ -27379,7 +30381,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27399,8 +30402,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -27419,7 +30422,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Best of Daffy & Porky",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: After Dark: Ghoul, Ghost and Goblin Cartoon Classics",
@@ -27427,7 +30431,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27447,8 +30452,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -27469,7 +30474,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Tweety and Sylvester and Friends",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Tweety & Sylvester: Feline Fwenzy",
@@ -27477,7 +30483,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27497,8 +30504,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -27519,7 +30526,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: Part 2",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Tweety & Sylvester: Feline Fwenzy",
@@ -27527,7 +30535,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Sylvester & Tweety's Bad Ol' Putty Tat Blues",
@@ -27535,7 +30544,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27555,8 +30565,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -27576,7 +30586,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Hare Beyond Compare: 14 More Bugs Bunny Classics",
@@ -27584,7 +30595,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27604,8 +30616,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -27625,7 +30637,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Tweety and Sylvester and Friends",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -27633,7 +30646,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Sylvester & Tweety's Bad Ol' Putty Tat Blues",
@@ -27641,7 +30656,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27661,8 +30677,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -27684,7 +30700,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Tweety and Sylvester and Friends",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -27692,7 +30709,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
         "set_name": "Looney Tunes Super Stars: Tweety & Sylvester: Feline Fwenzy",
@@ -27700,7 +30719,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27720,8 +30740,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Ken Harris",
@@ -27740,7 +30760,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -27748,7 +30769,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 22,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Road Runner Vs. Wile E. Coyote: If At First You Don't Succeed...",
@@ -27756,7 +30778,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27776,8 +30799,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -27797,7 +30820,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       },
       {
         "set_name": "Daffy Duck's Screen Classics: Duck Victory",
@@ -27805,6 +30830,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Iron Mistress (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_iron_mistress_blu_ray",
+        "film_title": "The Iron Mistress",
+        "film_year": 1952,
+        "disc_number": 1,
+        "disc_title": "The Iron Mistress Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -27825,8 +30863,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Phil Monroe",
@@ -27845,7 +30883,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Looney Tunes All-Stars: Part 1",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -27853,7 +30892,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 21,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
@@ -27861,6 +30901,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 8,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Springfield Rifle (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_springfield_rifle_blu_ray",
+        "film_title": "Springfield Rifle",
+        "film_year": 1952,
+        "disc_number": 1,
+        "disc_title": "Springfield Rifle Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -27880,8 +30933,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -27901,7 +30954,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27921,8 +30975,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -27942,7 +30996,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       },
       {
         "set_name": "Looney Tunes Super Stars: Bugs Bunny: Hare Extraordinaire",
@@ -27950,7 +31006,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27970,8 +31027,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -27993,7 +31050,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Tweety and Sylvester and Friends",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -28001,7 +31059,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Tweety & Sylvester: Feline Fwenzy",
@@ -28009,7 +31068,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Sylvester & Tweety's Bad Ol' Putty Tat Blues",
@@ -28017,7 +31077,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -28037,8 +31098,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ben Washam",
@@ -28056,7 +31117,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -28064,7 +31126,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Road Runner Vs. Wile E. Coyote: If At First You Don't Succeed...",
@@ -28072,7 +31135,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -28092,8 +31156,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -28113,13 +31177,27 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Hare Beyond Compare: 14 More Bugs Bunny Classics",
         "format": "LaserDisc",
         "disc_number": 1,
         "disc_title": "Side 1",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Iron Mistress (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_iron_mistress_blu_ray",
+        "film_title": "The Iron Mistress",
+        "film_year": 1952,
+        "disc_number": 1,
+        "disc_title": "The Iron Mistress Bonus Features",
         "track_number": 2,
         "audio_commentary": []
       }
@@ -28140,8 +31218,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Herman Cohen",
@@ -28161,7 +31239,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -28180,8 +31259,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -28199,13 +31278,14 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
   {
     "id": "little-beau-pep",
-    "title": "Little Beau Pepé",
+    "title": "Little Beau Pep\u00e9",
     "year": 1952,
     "release_date": "March 29, 1952",
     "series": "Merrie Melodies",
@@ -28219,8 +31299,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ben Washam",
@@ -28229,18 +31309,19 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pepé Le Pew",
+      "Pep\u00e9 Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Pepé Le Pew tries to join the French Foreign Legion, but every human in the fortress is immediately repulsed by his smell and flees. Penelope Pussycat, who's left behind and accidentally gets a white stripe down her back (making her look like a skunk), must deal with Pepé on her own.",
+    "synopsis": "Pep\u00e9 Le Pew tries to join the French Foreign Legion, but every human in the fortress is immediately repulsed by his smell and flees. Penelope Pussycat, who's left behind and accidentally gets a white stripe down her back (making her look like a skunk), must deal with Pep\u00e9 on her own.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Longitude & Looneytude: 14 Globetrotting Looney Tunes Favorites",
@@ -28248,7 +31329,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -28268,8 +31350,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -28289,7 +31371,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -28297,7 +31380,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Wince Upon a Time: Foolhardy Fairy Tales and Looney Legends",
@@ -28305,7 +31389,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -28325,8 +31410,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -28344,7 +31429,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -28363,8 +31450,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -28383,7 +31470,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -28403,8 +31491,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ben Washam",
@@ -28424,7 +31512,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -28432,7 +31521,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Road Runner Vs. Wile E. Coyote: If At First You Don't Succeed...",
@@ -28440,7 +31530,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -28460,8 +31551,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -28481,7 +31572,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Best of Bugs Bunny",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -28489,7 +31581,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Winner by a Hare: 14 of Bugs Bunny's Best",
@@ -28497,7 +31590,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -28516,8 +31610,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Herman Cohen",
@@ -28537,7 +31631,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Best of Bugs Bunny",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -28545,7 +31640,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 21,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
@@ -28553,6 +31650,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Springfield Rifle (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_springfield_rifle_blu_ray",
+        "film_title": "Springfield Rifle",
+        "film_year": 1952,
+        "disc_number": 1,
+        "disc_title": "Springfield Rifle Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -28572,8 +31682,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Rod Scribner",
@@ -28592,7 +31702,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 21,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -28612,8 +31724,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -28633,7 +31745,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -28652,8 +31766,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -28674,7 +31788,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -28694,8 +31810,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Lloyd Vaughan",
@@ -28715,7 +31831,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: After Dark: Ghoul, Ghost and Goblin Cartoon Classics",
@@ -28723,7 +31840,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -28742,8 +31860,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen",
       "Rod Scribner",
@@ -28763,7 +31881,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Daffy Duck's Screen Classics: Duck Victory",
@@ -28771,6 +31890,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Narrow Margin (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_narrow_margin_blu_ray",
+        "film_title": "The Narrow Margin",
+        "film_year": 1952,
+        "disc_number": 1,
+        "disc_title": "The Narrow Margin Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -28790,8 +31922,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -28808,7 +31940,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -28827,8 +31960,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -28848,7 +31981,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Ham on Wry: The Porky Pig Laser Collection",
@@ -28856,7 +31990,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -28876,8 +32011,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -28897,7 +32032,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Sylvester & Tweety's Bad Ol' Putty Tat Blues",
@@ -28905,7 +32041,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -28925,8 +32062,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Ken Harris",
@@ -28947,7 +32084,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Best of Bugs Bunny",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: After Dark: Ghoul, Ghost and Goblin Cartoon Classics",
@@ -28955,7 +32093,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -28974,8 +32113,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Emery Hawkins",
@@ -28996,7 +32135,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29016,8 +32156,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -29037,7 +32177,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       },
       {
         "set_name": "Sylvester & Tweety's Bad Ol' Putty Tat Blues",
@@ -29045,7 +32187,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29064,8 +32207,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen",
       "Rod Scribner",
@@ -29084,7 +32227,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29104,8 +32248,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -29127,7 +32271,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 22,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -29147,8 +32293,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -29167,7 +32313,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29187,8 +32334,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -29207,7 +32354,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Best of Bugs Bunny",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -29215,7 +32363,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Winner by a Hare: 14 of Bugs Bunny's Best",
@@ -29223,6 +32372,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Master of Ballantrae (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_master_of_ballantrae_blu_ray",
+        "film_title": "The Master of Ballantrae",
+        "film_year": 1953,
+        "disc_number": 1,
+        "disc_title": "The Master of Ballantrae Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -29242,8 +32404,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -29262,7 +32424,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Speedy Gonzales in a Flash",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -29270,7 +32433,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -29289,8 +32454,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -29311,7 +32476,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29331,8 +32497,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -29353,7 +32519,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       },
       {
         "set_name": "Guffaw and Order: Looney Tunes Fight Crime",
@@ -29361,7 +32529,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29381,8 +32550,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -29400,7 +32569,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Looney Tunes All-Stars: Part 1",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Guffaw and Order: Looney Tunes Fight Crime",
@@ -29408,7 +32578,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29428,8 +32599,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -29448,7 +32619,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Best of Daffy & Porky",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -29456,7 +32628,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Daffy Duck's Screen Classics: Duck Victory",
@@ -29464,13 +32637,14 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
   {
     "id": "duck-dodgers-in-the-24-th-century",
-    "title": "Duck Dodgers in the 24½th Century",
+    "title": "Duck Dodgers in the 24\u00bdth Century",
     "year": 1953,
     "release_date": "July 23, 1953",
     "series": "Merrie Melodies",
@@ -29484,8 +32658,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -29507,7 +32681,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Best of Daffy & Porky",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -29515,7 +32690,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Daffy Duck's Screen Classics: Duck Victory",
@@ -29523,7 +32699,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29543,8 +32720,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -29566,7 +32743,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Classics",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -29574,7 +32752,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Daffy Duck's Screen Classics: Duck Victory",
@@ -29582,6 +32761,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "A Lion Is in the Streets (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_a_lion_is_in_the_streets_blu_ray",
+        "film_title": "A Lion Is in the Streets",
+        "film_year": 1953,
+        "disc_number": 1,
+        "disc_title": "A Lion Is in the Streets Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -29601,8 +32793,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Herman Cohen",
@@ -29619,7 +32811,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -29639,8 +32833,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -29658,7 +32852,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29678,8 +32873,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -29701,7 +32896,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -29721,8 +32918,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -29743,7 +32940,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
         "set_name": "Looney Tunes Super Stars: Bugs Bunny: Hare Extraordinaire",
@@ -29751,7 +32950,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Winner by a Hare: 14 of Bugs Bunny's Best",
@@ -29759,6 +32959,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Beggar's Opera (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_beggar_s_opera_blu_ray",
+        "film_title": "The Beggar's Opera",
+        "film_year": 1953,
+        "disc_number": 1,
+        "disc_title": "The Beggar's Opera Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -29779,8 +32992,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -29798,7 +33011,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -29806,7 +33020,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 22,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29826,8 +33041,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -29847,7 +33062,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -29857,7 +33073,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 12,
         "audio_commentary": [
           "Jerry Beck"
-        ]
+        ],
+        "type": "dedicated"
       },
       {
         "set_name": "Wince Upon a Time: Foolhardy Fairy Tales and Looney Legends",
@@ -29865,7 +33082,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29885,8 +33103,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -29902,7 +33120,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -29910,6 +33129,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 15,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
+      },
+      {
+        "set_name": "The Beggar's Opera (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_beggar_s_opera_blu_ray",
+        "film_title": "The Beggar's Opera",
+        "film_year": 1953,
+        "disc_number": 1,
+        "disc_title": "The Beggar's Opera Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -29929,8 +33162,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -29949,7 +33182,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       },
       {
         "set_name": "Daffy Duck's Screen Classics: Duck Victory",
@@ -29957,7 +33192,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -29976,8 +33212,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen",
       "Rod Scribner",
@@ -29998,7 +33234,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -30017,8 +33255,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen",
       "Rod Scribner",
@@ -30038,6 +33276,20 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 14,
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
+      },
+      {
+        "set_name": "The Master of Ballantrae (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_master_of_ballantrae_blu_ray",
+        "film_title": "The Master of Ballantrae",
+        "film_year": 1953,
+        "disc_number": 1,
+        "disc_title": "The Master of Ballantrae Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -30058,8 +33310,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -30075,7 +33327,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -30095,8 +33349,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -30116,7 +33370,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Hare Beyond Compare: 14 More Bugs Bunny Classics",
@@ -30124,7 +33379,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30144,8 +33400,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -30166,7 +33422,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Tweety and Sylvester and Friends",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -30174,7 +33431,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 22,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
         "set_name": "Looney Tunes Super Stars: Tweety & Sylvester: Feline Fwenzy",
@@ -30182,7 +33441,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30202,8 +33462,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -30215,7 +33475,7 @@ window.LOONEY_TUNES_DATABASE = [
       "Bugs Bunny",
       "Yosemite Sam"
     ],
-    "synopsis": "Bugs Bunny leaves his desolate home to cross the Mason–Dixon line when he reads that down in Alabama a farmer grew a lot of carrots. Unfortunately for him, Yosemite Sam, who still think it is the Civil War (despite it ending over 90 years ago as of the cartoon's 1952 production), refuses to let any Yankees cross.",
+    "synopsis": "Bugs Bunny leaves his desolate home to cross the Mason\u2013Dixon line when he reads that down in Alabama a farmer grew a lot of carrots. Unfortunately for him, Yosemite Sam, who still think it is the Civil War (despite it ending over 90 years ago as of the cartoon's 1952 production), refuses to let any Yankees cross.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Golden Collection: Volume 4",
@@ -30223,7 +33483,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30242,8 +33503,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -30260,7 +33521,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 22,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -30280,8 +33543,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -30312,8 +33575,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Herman Cohen",
@@ -30333,7 +33596,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30353,8 +33617,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan",
@@ -30364,17 +33628,18 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pepé Le Pew"
+      "Pep\u00e9 Le Pew"
     ],
-    "synopsis": "In the Paris Exposition of 1900, a wildcat escapes from a Parisian zoo and paints herself to look like a skunk. The actual skunk Pepé Le Pew gets mauled when he tries to fall in love with her.",
+    "synopsis": "In the Paris Exposition of 1900, a wildcat escapes from a Parisian zoo and paints herself to look like a skunk. The actual skunk Pep\u00e9 Le Pew gets mauled when he tries to fall in love with her.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30394,8 +33659,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -30413,7 +33678,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -30421,7 +33687,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Road Runner Vs. Wile E. Coyote: If At First You Don't Succeed...",
@@ -30429,7 +33696,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30449,8 +33717,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Abe Levitow",
       "Lloyd Vaughan",
@@ -30469,7 +33737,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Masterpieces",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -30479,7 +33748,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 13,
         "audio_commentary": [
           "Constantine Nasr"
-        ]
+        ],
+        "type": "dedicated"
       },
       {
         "set_name": "Guffaw and Order: Looney Tunes Fight Crime",
@@ -30487,6 +33757,31 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "King Richard and the Crusaders (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_king_richard_and_the_crusaders_blu_ray",
+        "film_title": "King Richard and the Crusaders",
+        "film_year": 1954,
+        "disc_number": 1,
+        "disc_title": "King Richard and the Crusaders Bonus Features",
+        "track_number": 2,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Crime Wave (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_crime_wave_blu_ray",
+        "film_title": "Crime Wave",
+        "film_year": 1953,
+        "disc_number": 1,
+        "disc_title": "Crime Wave Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -30506,8 +33801,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Herman Cohen",
@@ -30527,7 +33822,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30547,8 +33843,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -30567,7 +33863,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -30575,7 +33872,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: After Dark: Ghoul, Ghost and Goblin Cartoon Classics",
@@ -30583,7 +33881,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30603,8 +33902,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -30624,7 +33923,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: Part 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -30632,7 +33932,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Guffaw and Order: Looney Tunes Fight Crime",
@@ -30640,7 +33941,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30660,8 +33962,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -30680,7 +33982,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30700,8 +34003,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -30721,7 +34024,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Winner by a Hare: 14 of Bugs Bunny's Best",
@@ -30729,6 +34033,31 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Spanish Main (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_spanish_main_blu_ray",
+        "film_title": "The Spanish Main",
+        "film_year": 1945,
+        "disc_number": 1,
+        "disc_title": "The Spanish Main Bonus Features",
+        "track_number": 2,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Captain Horatio Hornblower (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_captain_horatio_hornblower_blu_ray",
+        "film_title": "Captain Horatio Hornblower",
+        "film_year": 1951,
+        "disc_number": 1,
+        "disc_title": "Captain Horatio Hornblower Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -30749,8 +34078,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Lloyd Vaughan",
       "Ken Harris",
@@ -30771,7 +34100,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -30779,7 +34109,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Ham on Wry: The Porky Pig Laser Collection",
@@ -30787,7 +34119,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30806,8 +34139,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -30827,7 +34160,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30846,8 +34180,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen",
       "Rod Scribner",
@@ -30867,7 +34201,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: Part 2",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -30875,7 +34210,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30895,8 +34231,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Ken Champin",
@@ -30908,7 +34244,7 @@ window.LOONEY_TUNES_DATABASE = [
       "Tweety",
       "Sylvester",
       "Hector the Bulldog",
-      "Pepé Le Pew (cameo)"
+      "Pep\u00e9 Le Pew (cameo)"
     ],
     "synopsis": "Similar to Ain't She Tweet, but with Sylvester trying to avoid dogs in a city dog pound instead.",
     "media_locations": [
@@ -30918,15 +34254,17 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Sylvester & Tweety's Bad Ol' Putty Tat Blues",
@@ -30934,7 +34272,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -30954,8 +34293,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -30975,7 +34314,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -30995,8 +34336,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Abe Levitow"
@@ -31014,7 +34355,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 23,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
@@ -31022,7 +34364,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31042,8 +34385,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -31061,7 +34404,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 24,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
@@ -31069,6 +34413,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "By the Light of the Silvery Moon (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_by_the_light_of_the_silvery_moon_blu_ray",
+        "film_title": "By the Light of the Silvery Moon",
+        "film_year": 1953,
+        "disc_number": 1,
+        "disc_title": "By the Light of the Silvery Moon Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -31088,8 +34445,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus & Ben Washam",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Herman Cohen",
@@ -31108,7 +34465,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
@@ -31116,7 +34474,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31136,8 +34495,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -31156,7 +34515,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31176,8 +34536,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -31196,7 +34556,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -31215,8 +34577,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen",
       "Rod Scribner",
@@ -31237,7 +34599,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
         "set_name": "Looney Tunes Super Stars: Foghorn Leghorn & Friends: Barnyard Bigmouth",
@@ -31245,7 +34609,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31265,8 +34630,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Champin",
       "Virgil Ross",
@@ -31288,7 +34653,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -31308,8 +34675,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -31331,7 +34698,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Looney Tunes All-Stars",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -31339,7 +34707,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Guffaw and Order: Looney Tunes Fight Crime",
@@ -31347,7 +34716,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31367,8 +34737,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris"
     ],
@@ -31387,7 +34757,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "All-Stars Cartoon Party",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31406,8 +34777,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Herman Cohen",
       "Rod Scribner",
@@ -31426,7 +34797,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31445,8 +34817,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Phil DeLara",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Phil DeLara",
@@ -31466,7 +34838,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 22,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -31486,8 +34860,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -31508,7 +34882,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Looney Tunes All-Stars",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -31516,7 +34891,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Tweety & Sylvester: Feline Fwenzy",
@@ -31524,6 +34900,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 12,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "King Richard and the Crusaders (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_king_richard_and_the_crusaders_blu_ray",
+        "film_title": "King Richard and the Crusaders",
+        "film_year": 1954,
+        "disc_number": 1,
+        "disc_title": "King Richard and the Crusaders Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -31544,8 +34933,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Abe Levitow"
@@ -31563,7 +34952,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -31583,8 +34974,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Abe Levitow",
@@ -31602,7 +34993,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -31612,7 +35004,9 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 20,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Road Runner Vs. Wile E. Coyote: If At First You Don't Succeed...",
@@ -31620,7 +35014,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31640,26 +35035,27 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Lloyd Vaughan"
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pepé Le Pew",
+      "Pep\u00e9 Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Pepé Le Pew recounts a story of how he found the love of his life, Penelope Pussycat with a white stripe accidentally placed on her back.",
+    "synopsis": "Pep\u00e9 Le Pew recounts a story of how he found the love of his life, Penelope Pussycat with a white stripe accidentally placed on her back.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Longitude & Looneytude: 14 Globetrotting Looney Tunes Favorites",
@@ -31667,7 +35063,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31686,8 +35083,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -31704,7 +35101,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31723,8 +35121,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Rod Scribner",
       "Charles McKimson",
@@ -31741,7 +35139,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31761,8 +35160,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -31781,7 +35180,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31801,8 +35201,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -31821,7 +35221,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -31840,8 +35242,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Charles McKimson & Sid Marcus",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Richard Thompson",
@@ -31861,7 +35263,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31881,8 +35284,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -31903,7 +35306,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       },
       {
         "set_name": "Bugs Bunny: Hare Beyond Compare: 14 More Bugs Bunny Classics",
@@ -31911,7 +35316,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31930,8 +35336,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Keith Darling"
@@ -31949,7 +35355,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -31969,8 +35376,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Abe Levitow",
@@ -31989,7 +35396,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -31997,7 +35406,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -32016,8 +35427,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Charles McKimson",
       "Herman Cohen",
@@ -32038,7 +35449,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -32058,8 +35471,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -32078,7 +35491,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -32086,7 +35500,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Road Runner Vs. Wile E. Coyote: If At First You Don't Succeed...",
@@ -32094,7 +35509,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32114,8 +35530,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Arthur Davis",
@@ -32134,6 +35550,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 14,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "I Died a Thousand Times (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_i_died_a_thousand_times_blu_ray",
+        "film_title": "I Died a Thousand Times",
+        "film_year": 1955,
+        "disc_number": 1,
+        "disc_title": "I Died a Thousand Times Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -32154,8 +35583,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -32175,7 +35604,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32195,8 +35625,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -32215,7 +35645,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Masterpieces",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -32223,7 +35654,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Looney Tunes: After Dark: Ghoul, Ghost and Goblin Cartoon Classics",
@@ -32231,7 +35664,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32251,8 +35685,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Keith Darling",
@@ -32273,7 +35707,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Looney Tunes All-Stars",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -32281,7 +35716,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Looney Tunes: After Dark: Ghoul, Ghost and Goblin Cartoon Classics",
@@ -32289,7 +35726,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32309,8 +35747,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -32329,7 +35767,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32348,8 +35787,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Phil DeLara",
       "Charles McKimson",
@@ -32369,7 +35808,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32389,8 +35829,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -32409,7 +35849,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: Part 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32429,8 +35870,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -32449,7 +35890,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -32457,7 +35899,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Curtain Calls: Classic Music and Show Business Cartoons",
@@ -32465,7 +35908,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32485,8 +35929,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy"
     ],
@@ -32514,8 +35958,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -32523,10 +35967,10 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pepé Le Pew",
+      "Pep\u00e9 Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "In 1913 Paris, Pepé Le Pew chases Penelope Pussycat in a movie studio across various sets when she has a stripe placed on her back by a film director, who runs away from Pepé's stench.",
+    "synopsis": "In 1913 Paris, Pep\u00e9 Le Pew chases Penelope Pussycat in a movie studio across various sets when she has a stripe placed on her back by a film director, who runs away from Pep\u00e9's stench.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -32534,15 +35978,18 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32562,8 +36009,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -32583,7 +36030,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
@@ -32591,7 +36040,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32611,8 +36061,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Manuel Perez"
@@ -32627,7 +36077,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -32635,7 +36086,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -32655,8 +36108,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam"
     ],
@@ -32673,7 +36126,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 23,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -32693,8 +36148,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Abe Levitow",
@@ -32714,7 +36169,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -32722,7 +36178,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Road Runner Vs. Wile E. Coyote: If At First You Don't Succeed...",
@@ -32730,7 +36188,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32750,8 +36209,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -32771,7 +36230,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -32779,7 +36239,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
         "set_name": "Wince Upon a Time: Foolhardy Fairy Tales and Looney Legends",
@@ -32787,7 +36249,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32807,8 +36270,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -32827,7 +36290,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Longitude & Looneytude: 14 Globetrotting Looney Tunes Favorites",
@@ -32835,7 +36299,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32855,8 +36320,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Ted Bonnicksen",
@@ -32876,7 +36341,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Longitude & Looneytude: 14 Globetrotting Looney Tunes Favorites",
@@ -32884,6 +36350,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "I Died a Thousand Times (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_i_died_a_thousand_times_blu_ray",
+        "film_title": "I Died a Thousand Times",
+        "film_year": 1955,
+        "disc_number": 1,
+        "disc_title": "I Died a Thousand Times Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -32904,8 +36383,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Arthur Davis & Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Manuel Perez",
@@ -32925,7 +36404,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32945,8 +36425,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Ted Bonnicksen",
@@ -32965,7 +36445,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: Part 2",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -32973,7 +36454,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 25,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -32993,8 +36475,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -33013,7 +36495,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": "B2",
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       },
       {
         "set_name": "Looney Tunes Super Stars: Daffy Duck: Frustrated Fowl",
@@ -33021,7 +36505,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Daffy Duck's Screen Classics: Duck Victory",
@@ -33029,7 +36514,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33048,8 +36534,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson"
     ],
@@ -33063,7 +36549,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33083,8 +36570,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Arthur Davis"
@@ -33105,7 +36592,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -33113,7 +36601,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33133,8 +36622,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -33153,7 +36642,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 22,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
         "set_name": "Looney Tunes: Curtain Calls: Classic Music and Show Business Cartoons",
@@ -33161,7 +36652,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33181,8 +36673,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Keith Darling",
       "Richard Thompson",
@@ -33191,18 +36683,19 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pepé Le Pew",
+      "Pep\u00e9 Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "In the French Alps, a robber lures away Penelope Pussycat (named Fifi in this cartoon) from her home and paints her like a skunk to rob banks. But when a real skunk, Pepé Le Pew, drives him away with his scent, Pepé sets his eyes not on the money, but on Penelope herself.",
+    "synopsis": "In the French Alps, a robber lures away Penelope Pussycat (named Fifi in this cartoon) from her home and paints her like a skunk to rob banks. But when a real skunk, Pep\u00e9 Le Pew, drives him away with his scent, Pep\u00e9 sets his eyes not on the money, but on Penelope herself.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33222,8 +36715,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -33244,7 +36737,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -33252,7 +36746,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 24,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -33272,8 +36768,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -33292,7 +36788,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -33300,7 +36797,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33320,8 +36818,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -33341,7 +36839,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Masterpieces",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -33349,7 +36848,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: After Dark: Ghoul, Ghost and Goblin Cartoon Classics",
@@ -33357,7 +36857,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33377,8 +36878,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Abe Levitow",
@@ -33398,7 +36899,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33418,8 +36920,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -33439,7 +36941,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Best of Daffy & Porky",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -33447,7 +36950,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Ham on Wry: The Porky Pig Laser Collection",
@@ -33455,7 +36959,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33475,8 +36980,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Abe Levitow",
@@ -33495,7 +37000,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -33503,7 +37009,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
         "set_name": "Road Runner Vs. Wile E. Coyote: If At First You Don't Succeed...",
@@ -33511,7 +37019,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33530,10 +37039,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Russ Dyson",
       "Keith Darling",
       "Ted Bonnicksen"
@@ -33550,7 +37059,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33570,8 +37080,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -33580,10 +37090,10 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pepé Le Pew",
+      "Pep\u00e9 Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Tired of being bullied by dogs, Penelope Pussycat paints a stripe down her back to make them think she's a skunk to ward them off. While she succeeds in that, she also attracts Pepé Le Pew, an actual skunk.",
+    "synopsis": "Tired of being bullied by dogs, Penelope Pussycat paints a stripe down her back to make them think she's a skunk to ward them off. While she succeeds in that, she also attracts Pep\u00e9 Le Pew, an actual skunk.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Golden Collection: Volume 6",
@@ -33591,15 +37101,17 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Looney Tunes All-Stars",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33618,13 +37130,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Russ Dyson",
       "Keith Darling",
       "Ted Bonnicksen",
-      "George Grandpré"
+      "George Grandpr\u00e9"
     ],
     "voice_actors": [],
     "featured_characters": [],
@@ -33647,8 +37159,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -33667,7 +37179,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -33675,6 +37188,31 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 17,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Helen of Troy (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_helen_of_troy_blu_ray",
+        "film_title": "Helen of Troy",
+        "film_year": 1954,
+        "disc_number": 1,
+        "disc_title": "Helen of Troy Bonus Features",
+        "track_number": 1,
+        "audio_commentary": []
+      },
+      {
+        "set_name": "Start the Revolution Without Me (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_start_the_revolution_without_me_blu_ray",
+        "film_title": "Start the Revolution Without Me",
+        "film_year": 1970,
+        "disc_number": 1,
+        "disc_title": "Start the Revolution Without Me Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -33695,8 +37233,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -33715,7 +37253,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Wince Upon a Time: Foolhardy Fairy Tales and Looney Legends",
@@ -33723,7 +37262,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33742,12 +37282,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Russ Dyson",
       "Ted Bonnicksen",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Keith Darling"
     ],
     "voice_actors": [],
@@ -33762,7 +37302,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Looney Tunes All-Stars",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33782,8 +37323,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -33803,7 +37344,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Guffaw and Order: Looney Tunes Fight Crime",
@@ -33811,7 +37353,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33831,8 +37374,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Abe Levitow",
@@ -33849,7 +37392,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -33857,7 +37401,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 23,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33876,11 +37421,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Russ Dyson",
       "Keith Darling"
     ],
@@ -33896,7 +37441,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33915,8 +37461,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Russ Dyson",
@@ -33936,7 +37482,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 23,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33955,11 +37502,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Keith Darling",
       "Russ Dyson"
     ],
@@ -33978,7 +37525,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Hollywood Caricatures and Parodies",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -33997,11 +37545,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Keith Darling",
       "Russ Dyson"
     ],
@@ -34019,7 +37567,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34038,12 +37587,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Keith Darling",
       "Ted Bonnicksen",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Russ Dyson"
     ],
     "voice_actors": [],
@@ -34058,7 +37607,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34078,8 +37628,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -34099,7 +37649,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Road Runner Vs. Wile E. Coyote: If At First You Don't Succeed...",
@@ -34107,7 +37658,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34127,8 +37679,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Abe Levitow",
@@ -34148,7 +37700,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Hare Beyond Compare: 14 More Bugs Bunny Classics",
@@ -34156,7 +37709,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34175,8 +37729,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Robert McKimson",
       "Keith Darling"
@@ -34195,7 +37749,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34215,8 +37770,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -34235,7 +37790,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 23,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -34255,8 +37812,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -34276,7 +37833,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 23,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -34296,8 +37855,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -34318,7 +37877,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 25,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -34338,8 +37899,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis"
@@ -34356,7 +37917,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 24,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
         "set_name": "Looney Tunes Super Stars: Foghorn Leghorn & Friends: Barnyard Bigmouth",
@@ -34364,7 +37927,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34383,8 +37947,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Keith Darling",
       "Ted Bonnicksen",
@@ -34402,7 +37966,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34421,10 +37986,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Keith Darling",
       "Russ Dyson"
@@ -34442,7 +38007,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Hollywood Caricatures and Parodies",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34462,8 +38028,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -34482,7 +38048,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Patriotic Pals",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Wince Upon a Time: Foolhardy Fairy Tales and Looney Legends",
@@ -34490,7 +38057,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34510,8 +38078,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -34532,7 +38100,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -34540,7 +38109,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Daffy Duck's Screen Classics: Duck Victory",
@@ -34548,7 +38118,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34567,10 +38138,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Keith Darling"
     ],
@@ -34587,7 +38158,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Bugs Bunny: Hare Extraordinaire",
@@ -34595,7 +38167,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny: Hare Beyond Compare: 14 More Bugs Bunny Classics",
@@ -34603,7 +38176,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34623,8 +38197,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -34643,7 +38217,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "All-Stars Cartoon Party",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -34651,7 +38226,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Tweety & Sylvester: Feline Fwenzy",
@@ -34659,7 +38235,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Sylvester & Tweety's Bad Ol' Putty Tat Blues",
@@ -34667,7 +38244,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34686,10 +38264,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Keith Darling",
       "Russ Dyson"
@@ -34699,7 +38277,7 @@ window.LOONEY_TUNES_DATABASE = [
       "Daffy Duck",
       "Porky Pig"
     ],
-    "synopsis": "Secret agent Boston Quackie (Daffy Duck) has to recover a stolen attaché case to deliver to the Slobovian consulate in West Slobovia.",
+    "synopsis": "Secret agent Boston Quackie (Daffy Duck) has to recover a stolen attach\u00e9 case to deliver to the Slobovian consulate in West Slobovia.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -34707,7 +38285,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Guffaw and Order: Looney Tunes Fight Crime",
@@ -34715,7 +38295,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34735,8 +38316,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -34755,7 +38336,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 25,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
@@ -34763,7 +38345,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34783,8 +38366,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -34803,7 +38386,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Guffaw and Order: Looney Tunes Fight Crime",
@@ -34811,7 +38395,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34830,12 +38415,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Keith Darling",
-      "George Grandpré"
+      "George Grandpr\u00e9"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -34852,7 +38437,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34871,10 +38457,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -34890,7 +38476,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Daffy Duck: Frustrated Fowl",
@@ -34898,7 +38485,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34917,11 +38505,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Keith Darling",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -34937,7 +38525,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       },
       {
         "set_name": "Looney Tunes Super Stars: Foghorn Leghorn & Friends: Barnyard Bigmouth",
@@ -34945,7 +38535,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -34965,8 +38556,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Abe Levitow",
@@ -34982,7 +38573,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35002,8 +38594,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -35022,7 +38614,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "All-Stars Cartoon Party",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -35030,7 +38623,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -35050,8 +38645,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -35072,7 +38667,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       },
       {
         "set_name": "Sylvester & Tweety's Bad Ol' Putty Tat Blues",
@@ -35080,7 +38677,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35099,10 +38697,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -35119,7 +38717,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35139,8 +38738,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -35159,7 +38758,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35178,11 +38778,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
-      "George Grandpré"
+      "George Grandpr\u00e9"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -35197,7 +38797,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35217,8 +38818,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -35237,7 +38838,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Road Runner Vs. Wile E. Coyote: If At First You Don't Succeed...",
@@ -35245,7 +38847,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35265,8 +38868,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -35285,7 +38888,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -35293,7 +38897,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -35303,7 +38908,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 2,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Curtain Calls: Classic Music and Show Business Cartoons",
@@ -35311,6 +38917,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Cats Don't Dance (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_cats_don_t_dance_blu_ray",
+        "film_title": "Cats Don't Dance",
+        "film_year": 1997,
+        "disc_number": 1,
+        "disc_title": "Cats Don't Dance Bonus Features",
+        "track_number": 3,
         "audio_commentary": []
       }
     ]
@@ -35331,8 +38950,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -35350,7 +38969,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "All-Stars Cartoon Party",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -35358,7 +38978,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 25,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35377,11 +38998,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
-      "George Grandpré"
+      "George Grandpr\u00e9"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -35395,7 +39016,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Speedy Gonzales in a Flash",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -35403,7 +39025,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 24,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35423,8 +39046,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Bob Matz"
@@ -35439,7 +39062,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -35447,7 +39071,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Curtain Calls: Classic Music and Show Business Cartoons",
@@ -35455,13 +39080,14 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
   {
     "id": "touch-and-go",
-    "title": "Touché and Go",
+    "title": "Touch\u00e9 and Go",
     "year": 1957,
     "release_date": "October 12, 1957",
     "series": "Merrie Melodies",
@@ -35475,8 +39101,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -35484,18 +39110,19 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pepé Le Pew",
+      "Pep\u00e9 Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Penelope Pussycat runs under a paint tank and attracts Pepé Le Pew on a beach.",
+    "synopsis": "Penelope Pussycat runs under a paint tank and attracts Pep\u00e9 Le Pew on a beach.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35515,8 +39142,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -35546,8 +39173,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -35566,7 +39193,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Tweety & Sylvester: Feline Fwenzy",
@@ -35574,7 +39202,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Wince Upon a Time: Foolhardy Fairy Tales and Looney Legends",
@@ -35582,7 +39211,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35602,8 +39232,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Abe Levitow",
@@ -35622,7 +39252,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: On Stage and Screen",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -35630,7 +39261,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -35643,7 +39275,8 @@ window.LOONEY_TUNES_DATABASE = [
           "Chuck Jones",
           "Maurice Noble",
           "Michael Maltese"
-        ]
+        ],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Curtain Calls: Classic Music and Show Business Cartoons",
@@ -35651,7 +39284,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35671,8 +39305,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -35690,7 +39324,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 1",
@@ -35698,7 +39333,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 25,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
         "set_name": "Road Runner Vs. Wile E. Coyote: If At First You Don't Succeed...",
@@ -35706,7 +39343,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35726,8 +39364,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -35758,8 +39396,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -35779,7 +39417,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       },
       {
         "set_name": "Longitude & Looneytude: 14 Globetrotting Looney Tunes Favorites",
@@ -35787,7 +39427,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35807,8 +39448,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -35824,7 +39465,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 24,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -35844,8 +39487,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -35865,7 +39508,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35884,10 +39528,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray"
@@ -35915,11 +39559,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Tom Ray"
     ],
     "voice_actors": [],
@@ -35936,7 +39580,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       },
       {
         "set_name": "Daffy Duck's Screen Classics: Duck Victory",
@@ -35944,7 +39590,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -35963,12 +39610,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Tom Ray",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Warren Batchelder"
     ],
     "voice_actors": [],
@@ -35984,7 +39631,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -36003,12 +39652,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -36024,7 +39673,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36044,8 +39694,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -36063,7 +39713,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36083,8 +39734,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -36104,7 +39755,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: After Dark: Ghoul, Ghost and Goblin Cartoon Classics",
@@ -36112,7 +39764,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36132,8 +39785,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Ben Washam",
@@ -36154,7 +39807,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       }
     ]
   },
@@ -36174,8 +39829,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -36193,7 +39848,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Looney Tunes All-Stars",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36213,8 +39869,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -36233,7 +39889,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny Favorites",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -36241,7 +39898,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -36251,7 +39909,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 5,
         "audio_commentary": [
           "Jerry Beck"
-        ]
+        ],
+        "type": "dedicated"
       },
       {
         "set_name": "Wince Upon a Time: Foolhardy Fairy Tales and Looney Legends",
@@ -36259,7 +39918,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36278,11 +39938,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Tom Ray",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -36298,7 +39958,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36317,13 +39978,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpré"
+      "George Grandpr\u00e9"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -36338,7 +39999,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -36358,8 +40021,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -36378,7 +40041,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Porky and the Pigs",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -36386,7 +40050,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Daffy Duck's Screen Classics: Duck Victory",
@@ -36394,7 +40059,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36414,8 +40080,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Abe Levitow",
       "Richard Thompson",
@@ -36432,7 +40098,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 23,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -36451,17 +40119,17 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
     "featured_characters": [
       "Speedy Gonzales"
     ],
-    "synopsis": "While Speedy Gonzales is playing ping-pong, a hungry hawk named Señor Vulturo swoops down and tries to eat all of the mice, including Speedy himself.",
+    "synopsis": "While Speedy Gonzales is playing ping-pong, a hungry hawk named Se\u00f1or Vulturo swoops down and tries to eat all of the mice, including Speedy himself.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Golden Collection: Volume 4",
@@ -36469,7 +40137,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Speedy Gonzales in a Flash",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36488,12 +40157,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -36509,7 +40178,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36529,8 +40199,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Abe Levitow",
@@ -36549,7 +40219,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Road Runner and Friends",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -36557,7 +40228,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 23,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Road Runner Vs. Wile E. Coyote: If At First You Don't Succeed...",
@@ -36565,7 +40238,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36584,13 +40258,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpré"
+      "George Grandpr\u00e9"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -36605,7 +40279,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Looney Tunes All-Stars: Part 2",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Foghorn Leghorn & Friends: Barnyard Bigmouth",
@@ -36613,7 +40288,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36632,10 +40308,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray"
@@ -36652,7 +40328,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36669,8 +40346,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -36690,6 +40367,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 19,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "A Summer Place (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_a_summer_place_blu_ray",
+        "film_title": "A Summer Place",
+        "film_year": 1959,
+        "disc_number": 1,
+        "disc_title": "A Summer Place Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -36710,8 +40400,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -36731,7 +40421,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36750,12 +40441,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -36771,7 +40462,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36792,8 +40484,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -36811,7 +40503,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Looney Tunes All-Stars: Part 1",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Curtain Calls: Classic Music and Show Business Cartoons",
@@ -36819,7 +40512,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36838,11 +40532,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Tom Ray",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -36859,6 +40553,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 9,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Miracle (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_miracle_blu_ray",
+        "film_title": "The Miracle",
+        "film_year": 1959,
+        "disc_number": 1,
+        "disc_title": "The Miracle Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -36878,10 +40585,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray"
@@ -36899,7 +40606,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -36918,11 +40626,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Tom Ray",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -36939,7 +40647,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -36956,8 +40666,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Ken Harris"
@@ -36975,6 +40685,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "The Miracle (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_the_miracle_blu_ray",
+        "film_title": "The Miracle",
+        "film_year": 1959,
+        "disc_number": 1,
+        "disc_title": "The Miracle Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -36995,8 +40718,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -37015,7 +40738,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Speedy Gonzales in a Flash",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37035,8 +40759,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Ben Washam",
@@ -37054,7 +40778,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 1)",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc1"
       }
     ]
   },
@@ -37074,8 +40800,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -37095,7 +40821,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Speedy Gonzales in a Flash",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 2",
@@ -37103,7 +40830,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 25,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37122,13 +40850,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpré"
+      "George Grandpr\u00e9"
     ],
     "voice_actors": [],
     "featured_characters": [],
@@ -37140,7 +40868,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37159,13 +40888,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpré"
+      "George Grandpr\u00e9"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -37180,7 +40909,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -37188,7 +40918,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37205,8 +40936,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -37214,10 +40945,10 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pepé Le Pew",
+      "Pep\u00e9 Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Being born with white stripes on her back, Fabrette the cat falls in love with Pepé Le Pew the skunk in New Orleans, but has to overcome his stink.",
+    "synopsis": "Being born with white stripes on her back, Fabrette the cat falls in love with Pep\u00e9 Le Pew the skunk in New Orleans, but has to overcome his stink.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -37225,15 +40956,18 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 22,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       },
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37252,13 +40986,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpré"
+      "George Grandpr\u00e9"
     ],
     "voice_actors": [],
     "featured_characters": [],
@@ -37270,7 +41004,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Hollywood Caricatures and Parodies",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37290,8 +41025,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Virgil Ross",
@@ -37311,7 +41046,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 24,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -37331,8 +41068,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -37352,7 +41089,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 21,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -37372,8 +41111,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Friz Freleng & Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -37401,8 +41140,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Richard Thompson",
@@ -37429,8 +41168,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Abe Levitow",
@@ -37451,7 +41190,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 24,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -37471,8 +41212,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Gerry Chiniquy",
@@ -37491,7 +41232,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37510,12 +41252,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -37531,7 +41273,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37550,11 +41293,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Tom Ray"
     ],
@@ -37570,7 +41313,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37590,8 +41334,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -37610,7 +41354,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -37630,8 +41376,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Friz Freleng",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -37650,7 +41396,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -37660,7 +41407,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 13,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated"
       }
     ]
   },
@@ -37680,8 +41428,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -37700,7 +41448,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 3",
@@ -37708,7 +41457,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       },
       {
         "set_name": "Looney Tunes Super Stars: Sylvester & Hippety Hopper: Marsupial Mayhem",
@@ -37716,7 +41467,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Wince Upon a Time: Foolhardy Fairy Tales and Looney Legends",
@@ -37724,7 +41476,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37744,8 +41497,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Ken Harris"
@@ -37760,7 +41513,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 24,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Curtain Calls: Classic Music and Show Business Cartoons",
@@ -37768,7 +41522,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37788,8 +41543,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Tom Ray",
       "Ken Harris",
@@ -37808,7 +41563,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       },
       {
         "set_name": "Road Runner Vs. Wile E. Coyote: If At First You Don't Succeed...",
@@ -37816,6 +41573,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Sergeant Rutledge (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_sergeant_rutledge_blu_ray",
+        "film_title": "Sergeant Rutledge",
+        "film_year": 1960,
+        "disc_number": 1,
+        "disc_title": "Sergeant Rutledge Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -37836,8 +41606,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -37856,7 +41626,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -37876,8 +41648,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -37896,7 +41668,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       },
       {
         "set_name": "Looney Tunes: After Dark: Ghoul, Ghost and Goblin Cartoon Classics",
@@ -37904,7 +41678,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37924,8 +41699,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Friz Freleng",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -37944,7 +41719,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": "B1",
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       },
       {
         "set_name": "Looney Tunes Super Stars: Bugs Bunny: Hare Extraordinaire",
@@ -37952,7 +41729,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -37971,10 +41749,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray"
@@ -37994,7 +41772,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv3"
       }
     ]
   },
@@ -38014,8 +41794,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -38034,7 +41814,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Kitty Korner",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -38042,7 +41823,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38062,8 +41844,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Arthur Davis",
       "Gerry Chiniquy",
@@ -38083,7 +41865,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -38091,7 +41874,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38111,8 +41895,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Richard Thompson"
@@ -38132,7 +41916,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 12,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated"
       }
     ]
   },
@@ -38152,8 +41937,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -38171,7 +41956,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -38190,13 +41977,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpré"
+      "George Grandpr\u00e9"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -38211,7 +41998,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -38231,8 +42020,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -38252,7 +42041,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38271,11 +42061,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Tom Ray",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -38292,6 +42082,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Speedy Gonzales in a Flash",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Sergeant Rutledge (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_sergeant_rutledge_blu_ray",
+        "film_title": "Sergeant Rutledge",
+        "film_year": 1960,
+        "disc_number": 1,
+        "disc_title": "Sergeant Rutledge Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -38312,8 +42115,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Ken Harris",
@@ -38322,18 +42125,19 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pepé Le Pew",
+      "Pep\u00e9 Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Penelope Pussycat tries to sneak aboard a French ocean liner, getting a white stripe on her back as she goes under the fence. Pepé Le Pew, seeing her from the coast, races aboard to pursue her.",
+    "synopsis": "Penelope Pussycat tries to sneak aboard a French ocean liner, getting a white stripe on her back as she goes under the fence. Pep\u00e9 Le Pew, seeing her from the coast, races aboard to pursue her.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38352,10 +42156,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray"
@@ -38381,8 +42185,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Tom Ray",
       "Ken Harris",
@@ -38392,18 +42196,19 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pepé Le Pew",
+      "Pep\u00e9 Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Pepé Le Pew chases Penelope (who has a stripe placed on her back from a road painter rolling off course) through the Matterhorn. Note: Screen credits appear as French corruptions of actual names.",
+    "synopsis": "Pep\u00e9 Le Pew chases Penelope (who has a stripe placed on her back from a road painter rolling off course) through the Matterhorn. Note: Screen credits appear as French corruptions of actual names.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Longitude & Looneytude: 14 Globetrotting Looney Tunes Favorites",
@@ -38411,7 +42216,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38432,8 +42238,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn & Chuck Jones",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Bransford",
       "Tom Ray",
@@ -38452,7 +42258,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 21,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38471,11 +42278,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -38491,7 +42298,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38510,10 +42318,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
@@ -38533,7 +42341,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Speedy Gonzales in a Flash",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38554,8 +42363,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -38575,7 +42384,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38595,8 +42405,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Arthur Davis",
@@ -38615,7 +42425,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -38634,12 +42446,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
-      "George Grandpré"
+      "George Grandpr\u00e9"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -38654,7 +42466,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38673,13 +42486,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Harry Love (effects)"
     ],
     "voice_actors": [],
@@ -38695,7 +42508,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38716,8 +42530,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Bob Bransford",
@@ -38736,7 +42550,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -38758,8 +42574,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "David Detiege & Chuck Jones",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Ben Washam",
@@ -38776,7 +42592,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 25,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: Curtain Calls: Classic Music and Show Business Cartoons",
@@ -38784,7 +42601,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38805,8 +42623,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -38826,7 +42644,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38845,10 +42664,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Tom Ray"
@@ -38867,7 +42686,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38888,8 +42708,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -38910,7 +42730,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: After Dark: Ghoul, Ghost and Goblin Cartoon Classics",
@@ -38918,7 +42739,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38939,8 +42761,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn & David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -38962,7 +42784,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Hollywood Caricatures and Parodies",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -38970,7 +42793,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Looney Tunes Super Stars: Tweety & Sylvester: Feline Fwenzy",
@@ -38978,7 +42803,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -38998,8 +42824,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Michael Maltese",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -39015,7 +42841,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -39036,8 +42864,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -39056,7 +42884,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Speedy Gonzales in a Flash",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 3",
@@ -39064,7 +42893,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -39084,8 +42914,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Friz Freleng",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Arthur Davis",
@@ -39104,7 +42934,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 24,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -39123,11 +42955,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Keith Darling",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -39154,8 +42986,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Bob Bransford",
@@ -39174,7 +43006,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 25,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -39195,8 +43029,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Tom Ray",
       "Ken Harris",
@@ -39215,7 +43049,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       },
       {
         "set_name": "Looney Tunes: Assorted Nuts: Memorable Supporting Players and Cult Classics From the Looney Tunes Vault",
@@ -39223,7 +43059,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -39242,13 +43079,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Keith Darling",
       "Ted Bonnicksen",
       "Warren Batchelder",
-      "George Grandpré"
+      "George Grandpr\u00e9"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -39263,7 +43100,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -39284,8 +43122,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -39306,7 +43144,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -39325,11 +43164,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -39345,7 +43184,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -39364,11 +43204,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Keith Darling",
       "Ted Bonnicksen",
       "Harry Love (effects)"
@@ -39396,8 +43236,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -39417,7 +43257,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 19,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -39438,8 +43279,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Bob Bransford",
@@ -39448,17 +43289,30 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Pepé Le Pew",
+      "Pep\u00e9 Le Pew",
       "Penelope Pussycat"
     ],
-    "synopsis": "Pepé Le Pew chases Felice (whose stink from Pepé results in her flying through the air and getting a white stripe down her back from a freshly painted pole) through the Louvre. While Felice tries to get away, her boyfriend Pierre tries to stop Pepé from romantically pursuing his girlfriend.",
+    "synopsis": "Pep\u00e9 Le Pew chases Felice (whose stink from Pep\u00e9 results in her flying through the air and getting a white stripe down her back from a freshly painted pole) through the Louvre. While Felice tries to get away, her boyfriend Pierre tries to stop Pep\u00e9 from romantically pursuing his girlfriend.",
     "media_locations": [
       {
-        "set_name": "Looney Tunes Super Stars: Pepé Le Pew: Zee Best of Zee Best",
+        "set_name": "Looney Tunes Super Stars: Pep\u00e9 Le Pew: Zee Best of Zee Best",
         "format": "DVD",
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 17,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Gay Purr-ee (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_gay_purr_ee_blu_ray",
+        "film_title": "Gay Purr-ee",
+        "film_year": 1962,
+        "disc_number": 1,
+        "disc_title": "Gay Purr-ee Bonus Features",
+        "track_number": 1,
         "audio_commentary": []
       }
     ]
@@ -39481,8 +43335,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Carl Kolher & Chuck Jones",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Tom Ray",
       "Ken Harris",
@@ -39499,7 +43353,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -39520,8 +43375,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -39543,7 +43398,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Speedy Gonzales in a Flash",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -39553,7 +43409,9 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 13,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -39572,10 +43430,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Keith Darling",
       "Ted Bonnicksen",
       "Warren Batchelder"
@@ -39593,7 +43451,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -39612,8 +43472,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Arthur Davis"
     ],
     "story": "John Dunn & Carl Kolher",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -39633,7 +43493,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       }
     ]
   },
@@ -39653,8 +43515,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -39675,7 +43537,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -39695,8 +43558,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Friz Freleng",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -39728,12 +43591,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Keith Darling"
     ],
     "voice_actors": [],
@@ -39758,13 +43621,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
       "Ted Bonnicksen",
       "Keith Darling",
-      "George Grandpré"
+      "George Grandpr\u00e9"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -39779,7 +43642,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 25,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -39800,8 +43665,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "Chuck Jones",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -39820,7 +43685,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 26,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -39839,13 +43706,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Keith Darling",
       "Ted Bonnicksen",
       "Warren Batchelder",
-      "George Grandpré"
+      "George Grandpr\u00e9"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -39869,10 +43736,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Robert McKimson & Nick Bennion",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Keith Darling",
       "Ted Bonnicksen",
       "Warren Batchelder"
@@ -39890,7 +43757,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv1"
       },
       {
         "set_name": "Looney Tunes Super Stars: Foghorn Leghorn & Friends: Barnyard Bigmouth",
@@ -39898,7 +43767,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -39918,8 +43788,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -39940,7 +43810,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Speedy Gonzales in a Flash",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -39959,11 +43830,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -39979,7 +43850,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -39999,8 +43871,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "Friz Freleng & Warren Foster",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -40021,7 +43893,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
@@ -40041,13 +43915,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
       "Ted Bonnicksen",
       "Keith Darling",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Harry Love (effects)"
     ],
     "voice_actors": [],
@@ -40075,8 +43949,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Tom Ray",
       "Ken Harris",
@@ -40097,7 +43971,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 2)",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc2"
       }
     ]
   },
@@ -40118,8 +43994,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn & Chuck Jones",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Bransford",
       "Tom Ray",
@@ -40136,7 +44012,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -40157,8 +44035,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -40179,7 +44057,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Bugs Bunny: Hare Extraordinaire",
@@ -40187,7 +44066,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -40207,8 +44087,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -40241,8 +44121,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn & Chuck Jones",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ben Washam",
       "Bob Bransford"
@@ -40257,7 +44137,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -40276,12 +44157,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Keith Darling"
     ],
     "voice_actors": [],
@@ -40297,7 +44178,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -40305,7 +44187,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -40325,8 +44208,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -40347,7 +44230,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Disc 3",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -40368,8 +44252,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn & Chuck Jones",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Bob Bransford",
@@ -40388,7 +44272,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "All-Stars Cartoon Party",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Collector's Vault: Volume 2",
@@ -40396,7 +44281,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 21,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -40417,8 +44304,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Bransford",
       "Tom Ray",
@@ -40437,7 +44324,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Bugs Bunny and Daffy Duck",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes: After Dark: Ghoul, Ghost and Goblin Cartoon Classics",
@@ -40445,7 +44333,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -40463,8 +44352,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Chuck Jones",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Richard Thompson",
       "Bob Bransford",
@@ -40483,7 +44372,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 25,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cv2"
       }
     ]
   },
@@ -40502,10 +44393,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder",
       "Harry Love (effects)"
@@ -40524,7 +44415,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Speedy Gonzales in a Flash",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -40543,10 +44435,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -40570,10 +44462,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -40590,7 +44482,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Super Stars: Bugs Bunny: Hare Extraordinaire",
@@ -40598,7 +44491,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -40617,11 +44511,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen"
     ],
     "voice_actors": [],
@@ -40637,7 +44531,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -40647,7 +44542,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 19,
         "audio_commentary": [
           "Jerry Beck"
-        ]
+        ],
+        "type": "dedicated"
       }
     ]
   },
@@ -40666,12 +44562,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tedd Pierce",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Warren Batchelder",
-      "George Grandpré"
+      "George Grandpr\u00e9"
     ],
     "voice_actors": [],
     "featured_characters": [
@@ -40687,7 +44583,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -40704,8 +44601,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Tedd Pierce & Bill Danch",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Bob Matz",
@@ -40737,8 +44634,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Virgil Ross",
@@ -40759,7 +44656,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Speedy Gonzales in a Flash",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -40780,8 +44678,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Matz",
       "Norman McCabe",
@@ -40799,7 +44697,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Speedy Gonzales in a Flash",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -40820,8 +44719,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Norman McCabe",
       "Don Williams",
@@ -40840,13 +44739,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 4)",
         "track_number": 23,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc4"
       }
     ]
   },
   {
     "id": "se-orella-and-the-glass-huarache",
-    "title": "Señorella and the Glass Huarache",
+    "title": "Se\u00f1orella and the Glass Huarache",
     "year": 1964,
     "release_date": "August 1, 1964",
     "series": "Looney Tunes",
@@ -40857,8 +44758,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Gerry Chiniquy",
       "Bob Matz",
@@ -40875,7 +44776,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Fun-Filled Fairy Tales",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -40893,8 +44795,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Bransford",
       "Tom Ray",
@@ -40917,7 +44819,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -40938,8 +44841,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Charles Jones"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -40958,7 +44861,9 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Volume 3)",
         "track_number": 24,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated",
+        "set_id": "wac_cc3"
       }
     ]
   },
@@ -40977,8 +44882,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Warren Batchelder",
@@ -41008,8 +44913,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Len Janson",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Bob Bransford",
@@ -41027,7 +44932,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Supergenius Hijinks",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -41048,8 +44954,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Matz",
       "Norman McCabe",
@@ -41080,8 +44986,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Tom Dagenais",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Hank Smith",
       "Virgil Ross",
@@ -41099,7 +45005,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Supergenius Hijinks",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -41118,8 +45025,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Warren Batchelder",
@@ -41146,8 +45053,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Friz Freleng",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Warren Batchelder",
@@ -41167,7 +45074,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 12,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -41186,8 +45094,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
       "Bob Matz",
@@ -41214,8 +45122,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Nick Bennion",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Hank Smith",
       "Virgil Ross",
@@ -41233,7 +45141,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Supergenius Hijinks",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -41250,8 +45159,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Al Bertino",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Bob Bransford",
@@ -41269,7 +45178,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Supergenius Hijinks",
         "track_number": 13,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -41290,8 +45200,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Don Williams",
       "Bob Matz",
@@ -41320,8 +45230,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Don Jurwich",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Bransford",
       "Hank Smith",
@@ -41349,8 +45259,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Don Williams",
       "Manuel Perez",
@@ -41377,8 +45287,8 @@ window.LOONEY_TUNES_DATABASE = [
     "directors": [],
     "director_aliases": [],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -41406,8 +45316,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Rudy Larriva",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Hank Smith",
       "Tom McDonald"
@@ -41434,8 +45344,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Matz",
       "Manuel Perez",
@@ -41465,8 +45375,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Matz",
       "Manuel Perez",
@@ -41484,7 +45394,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -41503,8 +45414,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
       "Bob Matz",
@@ -41535,8 +45446,8 @@ window.LOONEY_TUNES_DATABASE = [
       "I. Freleng"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Norman McCabe",
       "Don Williams",
@@ -41558,7 +45469,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Speedy Gonzales in a Flash",
         "track_number": 14,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -41575,8 +45487,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Rudy Larriva",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Hank Smith",
       "Virgil Ross",
@@ -41604,8 +45516,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
       "Bob Matz",
@@ -41621,7 +45533,20 @@ window.LOONEY_TUNES_DATABASE = [
       "Jose"
     ],
     "synopsis": "Daffy Duck tries to stop Speedy Gonzales and his friends from getting water from his well.",
-    "media_locations": []
+    "media_locations": [
+      {
+        "set_name": "Brainstorm (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_brainstorm_blu_ray",
+        "film_title": "Brainstorm",
+        "film_year": 1965,
+        "disc_number": 1,
+        "disc_title": "Brainstorm Bonus Features",
+        "track_number": 2,
+        "audio_commentary": []
+      }
+    ]
   },
   {
     "id": "zip-zip-hooray-anchor",
@@ -41634,8 +45559,8 @@ window.LOONEY_TUNES_DATABASE = [
     "directors": [],
     "director_aliases": [],
     "story": "John Dunn",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ken Harris",
       "Richard Thompson",
@@ -41666,13 +45591,13 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Matz",
       "Manuel Perez",
       "Norman McCabe",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Warren Batchelder"
     ],
@@ -41699,14 +45624,14 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Michael O'Connor",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Bob Matz",
       "Manuel Perez",
       "Norman McCabe",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Warren Batchelder"
     ],
     "voice_actors": [],
@@ -41733,11 +45658,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Warren Batchelder",
       "Bob Matz"
     ],
@@ -41755,7 +45680,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Speedy Gonzales in a Flash",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       },
       {
         "set_name": "Looney Tunes Platinum Collection: Volume 1",
@@ -41763,7 +45689,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 20,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -41780,8 +45707,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Tom Dagenais",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Bransford",
       "Hank Smith",
@@ -41799,7 +45726,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Supergenius Hijinks",
         "track_number": 8,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -41818,12 +45746,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Michael O'Connor",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Matz",
       "Manuel Perez",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Norman McCabe"
     ],
     "voice_actors": [],
@@ -41849,12 +45777,12 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Michael O'Connor",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Norman McCabe",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Bob Matz",
       "Don Williams"
@@ -41882,10 +45810,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Bob Matz",
       "Manuel Perez"
     ],
@@ -41912,11 +45840,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Bob Matz"
     ],
     "voice_actors": [],
@@ -41941,8 +45869,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Dale Hale",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Bob Bransford",
@@ -41960,7 +45888,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Supergenius Hijinks",
         "track_number": 10,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -41977,8 +45906,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Nick Bennion",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Bransford",
       "Hank Smith",
@@ -41996,7 +45925,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Supergenius Hijinks",
         "track_number": 11,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -42015,10 +45945,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "David Detiege",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Bob Matz",
       "Manuel Perez",
       "Don Williams",
@@ -42047,8 +45977,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Tom Dagenais",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Matz",
       "Manuel Perez",
@@ -42068,7 +45998,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Supergenius Hijinks",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -42087,10 +46018,10 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Sid Marcus",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Ted Bonnicksen",
       "Bob Matz",
       "Manuel Perez"
@@ -42118,11 +46049,11 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "N/A",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Warren Batchelder",
-      "George Grandpré",
+      "George Grandpr\u00e9",
       "Bob Matz",
       "Norman McCabe",
       "Manuel Perez",
@@ -42149,8 +46080,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Don Jurwich",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Hank Smith",
       "Virgil Ross",
@@ -42168,7 +46099,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Supergenius Hijinks",
         "track_number": 9,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -42185,8 +46117,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Bob Kurtz",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Ed Solomon",
@@ -42216,8 +46148,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Michael O'Connor",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Manuel Perez",
       "Warren Batchelder",
@@ -42248,8 +46180,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42277,8 +46209,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Volus Jones",
       "Laverne Harding",
@@ -42306,8 +46238,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42336,8 +46268,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Tom Dagenais & Don Jurwich",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Virgil Ross",
       "Bob Bransford",
@@ -42364,8 +46296,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Volus Jones",
       "Laverne Harding",
@@ -42393,8 +46325,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Volus Jones",
       "Ed Solomon",
@@ -42422,8 +46354,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Tom Dagenais & Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Bob Bransford",
       "Ed Friedman",
@@ -42450,8 +46382,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Tom Dagenais & Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ed Friedman",
       "Virgil Ross",
@@ -42479,8 +46411,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42508,8 +46440,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42539,8 +46471,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Bob McKimson"
     ],
     "story": "Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42559,7 +46491,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 17,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -42576,8 +46509,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Don Jurwich",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42604,8 +46537,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42633,8 +46566,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42659,8 +46592,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Tony Benedict",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42688,8 +46621,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42714,9 +46647,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [],
     "voice_actors": [],
     "featured_characters": [
@@ -42730,7 +46663,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 4,
         "disc_title": "Most Requested Assorted Nuts and One-Shots",
         "track_number": 15,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -42747,8 +46681,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42776,8 +46710,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "director_aliases": [],
     "story": "Cal Howard",
-    "layout": "—",
-    "backgrounds": "—",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42802,9 +46736,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42828,9 +46762,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42856,9 +46790,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42881,9 +46815,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42909,9 +46843,9 @@ window.LOONEY_TUNES_DATABASE = [
     "director_credit": "Unknown",
     "directors": [],
     "director_aliases": [],
-    "story": "—",
-    "layout": "—",
-    "backgrounds": "—",
+    "story": "\u2014",
+    "layout": "\u2014",
+    "backgrounds": "\u2014",
     "animation": [
       "Ted Bonnicksen",
       "Laverne Harding",
@@ -42930,13 +46864,14 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1",
         "track_number": 18,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
   {
     "id": "duck-dodgers-and-the-return-of-the-24-1-2th-century",
-    "title": "Duck Dodgers and the Return of the 24½th Century",
+    "title": "Duck Dodgers and the Return of the 24\u00bdth Century",
     "year": 1980,
     "release_date": "November 20, 1980",
     "series": "Merrie Melodies",
@@ -42975,7 +46910,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bonus Shorts",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -43088,7 +47024,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bonus Shorts",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -43128,7 +47065,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -43155,7 +47093,7 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [
       "Mel Blanc",
-      "Mel Tormé"
+      "Mel Torm\u00e9"
     ],
     "featured_characters": [
       "Daffy Duck"
@@ -43168,7 +47106,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 1",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -43212,7 +47151,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 15,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated"
       },
       {
         "set_name": "Bugs Bunny 80th Anniversary Collection",
@@ -43222,7 +47162,8 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 20,
         "audio_commentary": [
           "Greg Ford"
-        ]
+        ],
+        "type": "dedicated"
       }
     ]
   },
@@ -43261,7 +47202,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Side 2",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -43336,7 +47278,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Supergenius Hijinks",
         "track_number": 5,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -43377,7 +47320,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bonus Shorts",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -43414,7 +47358,7 @@ window.LOONEY_TUNES_DATABASE = [
       "Sylvester the Cat",
       "Tweety",
       "Yosemite Sam",
-      "Pepé Le Pew",
+      "Pep\u00e9 Le Pew",
       "Foghorn Leghorn",
       "Porky Pig",
       "Penelope Pussycat"
@@ -43496,6 +47440,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bonus Shorts",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Joe's Apartment (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_joe_s_apartment_blu_ray",
+        "film_title": "Joe's Apartment",
+        "film_year": 1996,
+        "disc_number": 1,
+        "disc_title": "Joe's Apartment Bonus Features",
+        "track_number": 2,
         "audio_commentary": []
       }
     ]
@@ -43532,7 +47489,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bonus Shorts",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -43574,6 +47532,19 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bonus Shorts",
         "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Joe's Apartment (WAC BD Extra)",
+        "format": "Blu-ray",
+        "type": "feature_bonus",
+        "set_id": "wac_film_joe_s_apartment_blu_ray",
+        "film_title": "Joe's Apartment",
+        "film_year": 1996,
+        "disc_number": 1,
+        "disc_title": "Joe's Apartment Bonus Features",
+        "track_number": 3,
         "audio_commentary": []
       }
     ]
@@ -43642,7 +47613,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Supergenius Hijinks",
         "track_number": 6,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -43679,7 +47651,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Supergenius Hijinks",
         "track_number": 4,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -43772,7 +47745,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Best of Daffy and Porky",
         "track_number": 16,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -43841,7 +47815,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 3,
         "disc_title": "Bonus Shorts",
         "track_number": 7,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -43905,7 +47880,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Supergenius Hijinks",
         "track_number": 1,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -43942,7 +47918,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Supergenius Hijinks",
         "track_number": 2,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -43979,7 +47956,8 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Supergenius Hijinks",
         "track_number": 3,
-        "audio_commentary": []
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
