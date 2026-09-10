@@ -164,6 +164,7 @@
     .omnibox-token.species,
     .omnibox-token.format,
     .omnibox-token.era,
+    .omnibox-token.title,
     .omnibox-token.text {
       background: #e6fcf5;
       color: #087f5b;
@@ -4298,7 +4299,12 @@
 
   // --- Omnibox Token Handlers ---
   function addToken(token) {
-    if (activeTokens.some(t => t.id === token.id)) return;
+    if (activeTokens.some(t => t.id === token.id)) {
+      const searchInput = getOmniboxInput();
+      if (searchInput) searchInput.value = '';
+      hideSuggestions();
+      return;
+    }
     activeTokens.push(token);
     const searchInput = getOmniboxInput();
     if (searchInput) {
@@ -4380,7 +4386,7 @@
       searchInput.value = '';
       searchInput.focus();
     }
-    setBooleanMatchMode('AND');
+    if (typeof window.setBooleanMatchMode === 'function') window.setBooleanMatchMode('AND');
 
     const libToggle = document.getElementById('myLibraryOnlyToggle');
     if (libToggle) libToggle.checked = false;
@@ -4485,10 +4491,15 @@
         negated: isNegated
       });
     } else if (item.type === 'title') {
-      const searchInput = getOmniboxInput();
-      if (searchInput) searchInput.value = item.filterValue;
-      hideSuggestions();
-      render();
+      addToken({
+        id: `title_${item.id || item.filterValue || Date.now()}`,
+        type: 'title',
+        value: item.filterValue,
+        label: (isNegated ? 'NOT ' : '') + (item.displayName || item.name || item.filterValue),
+        icon: item.icon || '🎬',
+        negated: isNegated,
+        isExcluded: isNegated
+      });
     } else if (item.type === 'generic') {
       submitFreeformQuery(item.filterValue);
     }
@@ -4645,6 +4656,7 @@
         if (normTitle === q || normTitle.startsWith(q + ' ') || normTitle.startsWith(q)) subScore = 1;
         else if (normTitle.split(/\s+/).some(w => w.startsWith(q))) subScore = 2;
         titleMatches.push({
+          id: short.id,
           title: short.title,
           year: short.year,
           subScore
@@ -4652,10 +4664,11 @@
       }
     });
     titleMatches.sort((a, b) => a.subScore - b.subScore || (a.year || 0) - (b.year || 0));
-    titleMatches.slice(0, 2).forEach(t => {
-      const tokenId = 'title_' + t.title;
+    titleMatches.slice(0, 3).forEach(t => {
+      const tokenId = 'title_' + (t.id || t.title);
       if (!seenTokenIds.has(tokenId)) {
         suggestions.push({
+          id: t.id,
           type: 'title',
           name: t.title,
           displayName: t.title,
@@ -5272,7 +5285,9 @@
       }
 
       case 'title': {
-        return normalizeText(short.title).includes(normalizeText(token.value));
+        const target = (token.value || '').toLowerCase().trim();
+        const shortTitle = (short.title || '').toLowerCase().trim();
+        return shortTitle === target || normalizeText(shortTitle) === normalizeText(target);
       }
 
       case 'text': {
