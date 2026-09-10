@@ -1103,6 +1103,30 @@
       border-top: 1px dashed var(--border-color);
       font-size: 0.85rem;
       color: var(--text-muted);
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .expand-all-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 3px 10px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #2563eb;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      user-select: none;
+    }
+
+    .expand-all-btn:hover {
+      background: #dbeafe;
+      color: #1d4ed8;
+      border-color: #93c5fd;
     }
 
     .load-file-btn {
@@ -1116,46 +1140,159 @@
     .results-list {
       display: flex;
       flex-direction: column;
-      gap: 18px;
+      gap: 8px;
     }
 
     .card {
       background: var(--card-bg);
       border: 1px solid var(--border-color);
-      border-radius: 12px;
-      padding: 20px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      border-radius: 10px;
+      padding: 10px 16px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+      transition: box-shadow 0.15s ease, border-color 0.15s ease, padding 0.15s ease;
     }
 
     .card:hover {
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+      border-color: #cbd5e1;
+    }
+
+    .card.is-expanded {
+      padding: 18px 20px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+      border-color: #cbd5e1;
     }
 
     .card-header {
       display: flex;
       justify-content: space-between;
-      align-items: baseline;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .card.is-expanded .card-header {
       border-bottom: 1px solid var(--border-color);
-      padding-bottom: 8px;
-      margin-bottom: 12px;
+      padding-bottom: 10px;
+      margin-bottom: 14px;
+    }
+
+    .card-header-left {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      flex: 1 1 auto;
+      min-width: 0;
+    }
+
+    .card-expand-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+      color: #94a3b8;
+      font-size: 0.72rem;
+      transition: transform 0.18s ease, color 0.15s ease;
+      flex-shrink: 0;
+    }
+
+    .card-header:hover .card-expand-icon {
+      color: var(--primary-color);
+    }
+
+    .card.is-expanded .card-expand-icon {
+      transform: rotate(90deg);
+      color: var(--primary-color);
     }
 
     .card-title {
-      font-size: 1.35rem;
+      font-size: 1.15rem;
       font-weight: 700;
       color: var(--primary-dark);
+      line-height: 1.3;
+    }
+
+    .card.is-expanded .card-title {
+      font-size: 1.35rem;
     }
 
     .card-year {
       font-weight: 400;
       color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .card-date-badge {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #64748b;
+      white-space: nowrap;
     }
 
     .card-series {
       font-size: 0.9rem;
       font-style: italic;
       color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    /* Media Format Shorthand Badges (Header) */
+    .media-shorthand-badges {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      flex-wrap: wrap;
+      vertical-align: middle;
+    }
+
+    .badge-shorthand {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 1.5px 6px;
+      border-radius: 4px;
+      line-height: 1.3;
+      white-space: nowrap;
+      letter-spacing: 0.3px;
+    }
+
+    .badge-shorthand-bd {
+      background: #dbeafe;
+      color: #1e40af;
+      border: 1px solid #bfdbfe;
+    }
+
+    .badge-shorthand-dvd {
+      background: #fef3c7;
+      color: #92400e;
+      border: 1px solid #fde68a;
+    }
+
+    .badge-shorthand-ld {
+      background: #ede9fe;
+      color: #5b21b6;
+      border: 1px solid #ddd6fe;
+    }
+
+    .badge-shorthand-nodisc {
+      background: #f1f5f9;
+      color: #64748b;
+      border: 1px solid #e2e8f0;
+      font-weight: 600;
+    }
+
+    /* Collapsible Card Body */
+    .card-body {
+      display: none;
+    }
+
+    .card.is-expanded .card-body {
+      display: block;
     }
 
     /* Character Tags */
@@ -1797,7 +1934,12 @@
   </div>
 
   <div class="stats-bar">
-    <span id="resultsCount">Loading database...</span>
+    <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+      <span id="resultsCount">Loading database...</span>
+      <button type="button" class="expand-all-btn" id="expandAllBtn" onclick="toggleExpandAllCards()" title="Expand or collapse all visible cartoon cards">
+        <span id="expandAllIcon">▸</span> <span id="expandAllText">Expand All</span>
+      </button>
+    </div>
     <label class="load-file-btn">
       Load Local database.json
       <input type="file" id="filePicker" accept=".json" style="display: none;">
@@ -3048,6 +3190,75 @@
     return notes[shortId] || '';
   }
 
+  // --- Collapsible Cartoon Cards State & Helpers ---
+  const expandedCardIds = new Set();
+
+  window.toggleCardAccordion = function(shortId) {
+    const card = document.getElementById(`card_${shortId}`);
+    if (!card) return;
+    if (expandedCardIds.has(shortId)) {
+      expandedCardIds.delete(shortId);
+      card.classList.remove('is-expanded');
+    } else {
+      expandedCardIds.add(shortId);
+      card.classList.add('is-expanded');
+    }
+    updateExpandAllBtnState();
+  };
+
+  window.handleCardNoteClick = function(shortId) {
+    expandedCardIds.add(shortId);
+    const card = document.getElementById(`card_${shortId}`);
+    if (card) card.classList.add('is-expanded');
+    toggleNoteDrawer(shortId);
+  };
+
+  window.toggleExpandAllCards = function() {
+    const visibleCards = Array.from(document.querySelectorAll('.results-list .card'));
+    if (visibleCards.length === 0) return;
+
+    const allExpanded = visibleCards.every(c => c.classList.contains('is-expanded'));
+    if (allExpanded) {
+      visibleCards.forEach(c => {
+        c.classList.remove('is-expanded');
+        const id = c.id.replace('card_', '');
+        expandedCardIds.delete(id);
+      });
+    } else {
+      visibleCards.forEach(c => {
+        c.classList.add('is-expanded');
+        const id = c.id.replace('card_', '');
+        expandedCardIds.add(id);
+      });
+    }
+    updateExpandAllBtnState();
+  };
+
+  function updateExpandAllBtnState() {
+    const btn = document.getElementById('expandAllBtn');
+    const icon = document.getElementById('expandAllIcon');
+    const text = document.getElementById('expandAllText');
+    if (!btn || !icon || !text) return;
+
+    const visibleCards = Array.from(document.querySelectorAll('.results-list .card'));
+    if (visibleCards.length === 0) {
+      btn.style.display = 'none';
+      return;
+    }
+    btn.style.display = 'inline-flex';
+
+    const allExpanded = visibleCards.every(c => c.classList.contains('is-expanded'));
+    if (allExpanded) {
+      icon.textContent = '▴';
+      text.textContent = 'Collapse All';
+      btn.title = 'Collapse all visible cartoon cards';
+    } else {
+      icon.textContent = '▾';
+      text.textContent = 'Expand All';
+      btn.title = 'Expand all visible cartoon cards';
+    }
+  }
+
   window.toggleNoteDrawer = function(shortId) {
     if (openNoteDrawers.has(shortId)) {
       openNoteDrawers.delete(shortId);
@@ -3963,6 +4174,7 @@
     if (filtered.length === 0) {
       listEl.innerHTML = `<div class="no-results">No cartoons found matching your criteria.</div>`;
       updateActiveFilterChips();
+      updateExpandAllBtnState();
       return;
     }
 
@@ -3975,6 +4187,25 @@
       const userNote = getCartoonNote(short.id);
       const hasNote = Boolean(userNote && userNote.trim());
       const isNoteOpen = openNoteDrawers.has(short.id);
+
+      // Compute distinct physical media format badges for header
+      const locs = short.media_locations || [];
+      const hasBd = locs.some(loc => (loc.format || '').toLowerCase().includes('blu'));
+      const hasDvd = locs.some(loc => {
+        const lf = (loc.format || '').toLowerCase();
+        return lf.includes('dvd') && !lf.includes('blu');
+      });
+      const hasLd = locs.some(loc => (loc.format || '').toLowerCase().includes('laser'));
+
+      let shorthandBadgesHtml = '';
+      if (hasBd) shorthandBadgesHtml += `<span class="badge-shorthand badge-shorthand-bd" title="Available on Blu-ray">💿 BD</span>`;
+      if (hasDvd) shorthandBadgesHtml += `<span class="badge-shorthand badge-shorthand-dvd" title="Available on DVD">📀 DVD</span>`;
+      if (hasLd) shorthandBadgesHtml += `<span class="badge-shorthand badge-shorthand-ld" title="Available on LaserDisc">💽 LD</span>`;
+      if (!hasBd && !hasDvd && !hasLd) {
+        shorthandBadgesHtml += `<span class="badge-shorthand badge-shorthand-nodisc" title="Not available on home video disc">No Disc</span>`;
+      }
+
+      const isExpanded = expandedCardIds.has(short.id);
 
       const mediaHtml = (short.media_locations || []).map(loc => {
         const isBonus = (loc.type === 'feature_bonus');
@@ -4025,84 +4256,93 @@
       }).join("");
 
       return `
-        <article class="card" id="card_${short.id}">
-          <div class="card-header">
-            <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 6px;">
+        <article class="card ${isExpanded ? 'is-expanded' : ''}" id="card_${short.id}">
+          <div class="card-header" onclick="toggleCardAccordion('${short.id}')" title="Click to expand or collapse details">
+            <div class="card-header-left">
+              <span class="card-expand-icon">▶</span>
               <span class="card-title">${short.title}</span> 
               <span class="card-year">(${short.year || '?'})</span>
-              ${short.release_date ? `<span style="font-size: 0.82rem; font-weight: 500; color: #64748b;">📅 ${short.release_date}</span>` : ''}
+              ${short.release_date ? `<span class="card-date-badge">📅 ${short.release_date}</span>` : ''}
               
               <!-- Star Rating Widget -->
-              <div class="rating-container" title="Your private rating (saved to your browser)">
+              <div class="rating-container" onclick="event.stopPropagation()" title="Your private rating (saved to your browser)">
                 <div class="stars-row">
                   ${[1, 2, 3, 4, 5].map(star => {
                     const isFilled = userRating >= star;
-                    return `<span class="star-btn ${isFilled ? 'filled' : ''}" onclick="setCartoonRating('${short.id}', ${star})" title="${star} Star${star > 1 ? 's' : ''}">★</span>`;
+                    return `<span class="star-btn ${isFilled ? 'filled' : ''}" onclick="event.stopPropagation(); setCartoonRating('${short.id}', ${star})" title="${star} Star${star > 1 ? 's' : ''}">★</span>`;
                   }).join('')}
                 </div>
-                ${userRating > 0 ? `<button type="button" class="btn-clear-rating" onclick="clearCartoonRating('${short.id}')" title="Clear rating">&times;</button>` : ''}
+                ${userRating > 0 ? `<button type="button" class="btn-clear-rating" onclick="event.stopPropagation(); clearCartoonRating('${short.id}')" title="Clear rating">&times;</button>` : ''}
+              </div>
+
+              <!-- Media Format Shorthand Badges -->
+              <div class="media-shorthand-badges">
+                ${shorthandBadgesHtml}
               </div>
             </div>
 
             <div class="card-actions-row">
               <span class="card-series">${short.series || ''}</span>
-              <button type="button" class="btn-note-toggle ${hasNote ? 'has-note' : ''}" onclick="toggleNoteDrawer('${short.id}')" title="Add or view personal notes">
+              <button type="button" class="btn-note-toggle ${hasNote ? 'has-note' : ''}" onclick="event.stopPropagation(); handleCardNoteClick('${short.id}')" title="Add or view personal notes">
                 📝 ${hasNote ? 'Note (Saved)' : 'Note'}
               </button>
-              ${isAdminMode ? `<button class="btn-edit" onclick="openEditModal('${short.id}')" title="Edit cartoon entry (Admin Only)">✏️ Edit</button>` : ''}
+              ${isAdminMode ? `<button type="button" class="btn-edit" onclick="event.stopPropagation(); openEditModal('${short.id}')" title="Edit cartoon entry (Admin Only)">✏️ Edit</button>` : ''}
             </div>
           </div>
 
-          <!-- Personal Notes Drawer -->
-          <div id="note_drawer_${short.id}" class="card-note-drawer" style="display: ${isNoteOpen ? 'block' : 'none'};">
-            <textarea class="note-textarea" placeholder="Write your personal notes, review, or memories for this cartoon (auto-saved in your browser)..." oninput="handleNoteInput('${short.id}', this.value)">${userNote || ''}</textarea>
-            <div class="note-drawer-footer">
-              <span class="note-auto-save-label" id="note_saved_${short.id}">${hasNote ? '✓ Saved in browser' : ''}</span>
-              ${hasNote ? `<button type="button" class="btn-note-delete" onclick="clearCartoonNote('${short.id}')">Delete Note</button>` : '<span></span>'}
+          <div class="card-body" id="card_body_${short.id}">
+            <!-- Personal Notes Drawer -->
+            <div id="note_drawer_${short.id}" class="card-note-drawer" style="display: ${isNoteOpen ? 'block' : 'none'};">
+              <textarea class="note-textarea" placeholder="Write your personal notes, review, or memories for this cartoon (auto-saved in your browser)..." oninput="handleNoteInput('${short.id}', this.value)">${userNote || ''}</textarea>
+              <div class="note-drawer-footer">
+                <span class="note-auto-save-label" id="note_saved_${short.id}">${hasNote ? '✓ Saved in browser' : ''}</span>
+                ${hasNote ? `<button type="button" class="btn-note-delete" onclick="clearCartoonNote('${short.id}')">Delete Note</button>` : '<span></span>'}
+              </div>
             </div>
-          </div>
 
-          ${charBadges ? `
-            <div class="characters-row">
-              <span class="char-label">Featured:</span>
-              ${charBadges}
+            ${charBadges ? `
+              <div class="characters-row">
+                <span class="char-label">Featured:</span>
+                ${charBadges}
+              </div>
+            ` : ''}
+
+            ${short.synopsis ? `
+              <p style="font-size: 0.88rem; color: #334155; margin-bottom: 12px; line-height: 1.45; background: #f1f5f9; padding: 8px 12px; border-radius: 6px;">
+                ${short.synopsis}
+              </p>
+            ` : ''}
+
+            <div class="credits-grid">
+              <div class="credit-item"><span class="credit-label">Released:</span> <span class="credit-val">${short.release_date || (short.year ? String(short.year) : '—')}</span></div>
+              <div class="credit-item"><span class="credit-label">Director:</span> <span class="credit-val">${(() => {
+                let d = short.director_credit || short.director || '—';
+                if (short.director_aliases && short.director_aliases.length > 0) {
+                  const alts = short.director_aliases.filter(a => a && !d.toLowerCase().includes(a.toLowerCase()));
+                  if (alts.length > 0) d += ` <span style="color: #64748b; font-size: 0.8rem; font-weight: 400;">(aka ${alts.join(', ')})</span>`;
+                }
+                return d;
+              })()}</span></div>
+              <div class="credit-item"><span class="credit-label">Story:</span> <span class="credit-val">${short.story || '—'}</span></div>
+              <div class="credit-item"><span class="credit-label">Layout:</span> <span class="credit-val">${short.layout || '—'}</span></div>
+              <div class="credit-item"><span class="credit-label">Backgrounds:</span> <span class="credit-val">${short.backgrounds || '—'}</span></div>
+              <div class="credit-item" style="grid-column: 1 / -1;"><span class="credit-label">Animation:</span> <span class="credit-val">${animators}</span></div>
+              <div class="credit-item" style="grid-column: 1 / -1;"><span class="credit-label">Voice Cast:</span> <span class="credit-val">${voices}</span></div>
             </div>
-          ` : ''}
 
-          ${short.synopsis ? `
-            <p style="font-size: 0.88rem; color: #334155; margin-bottom: 12px; line-height: 1.45; background: #f1f5f9; padding: 8px 12px; border-radius: 6px;">
-              ${short.synopsis}
-            </p>
-          ` : ''}
-
-          <div class="credits-grid">
-            <div class="credit-item"><span class="credit-label">Released:</span> <span class="credit-val">${short.release_date || (short.year ? String(short.year) : '—')}</span></div>
-            <div class="credit-item"><span class="credit-label">Director:</span> <span class="credit-val">${(() => {
-              let d = short.director_credit || short.director || '—';
-              if (short.director_aliases && short.director_aliases.length > 0) {
-                const alts = short.director_aliases.filter(a => a && !d.toLowerCase().includes(a.toLowerCase()));
-                if (alts.length > 0) d += ` <span style="color: #64748b; font-size: 0.8rem; font-weight: 400;">(aka ${alts.join(', ')})</span>`;
-              }
-              return d;
-            })()}</span></div>
-            <div class="credit-item"><span class="credit-label">Story:</span> <span class="credit-val">${short.story || '—'}</span></div>
-            <div class="credit-item"><span class="credit-label">Layout:</span> <span class="credit-val">${short.layout || '—'}</span></div>
-            <div class="credit-item"><span class="credit-label">Backgrounds:</span> <span class="credit-val">${short.backgrounds || '—'}</span></div>
-            <div class="credit-item" style="grid-column: 1 / -1;"><span class="credit-label">Animation:</span> <span class="credit-val">${animators}</span></div>
-            <div class="credit-item" style="grid-column: 1 / -1;"><span class="credit-label">Voice Cast:</span> <span class="credit-val">${voices}</span></div>
-          </div>
-
-          <div class="media-box">
-            <div class="media-header">Home Media Releases & Track Info</div>
-            <ul class="media-list">
-              ${mediaHtml || '<li style="color: #64748b; font-size: 0.85rem; font-style: italic;">⚪ Not found on scanned DVD/Blu-ray/LaserDisc sets (or unreleased on disc).</li>'}
-            </ul>
+            <div class="media-box">
+              <div class="media-header">Home Media Releases & Track Info</div>
+              <ul class="media-list">
+                ${mediaHtml || '<li style="color: #64748b; font-size: 0.85rem; font-style: italic;">⚪ Not found on scanned DVD/Blu-ray/LaserDisc sets (or unreleased on disc).</li>'}
+              </ul>
+            </div>
           </div>
         </article>
       `;
     }).join("");
 
     updateActiveFilterChips();
+    updateExpandAllBtnState();
   }
   window.render = render;
 
