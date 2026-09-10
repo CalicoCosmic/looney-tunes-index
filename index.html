@@ -198,40 +198,15 @@
       to { opacity: 1; transform: scale(1); }
     }
 
-    .omnibox-token.character {
-      background: #fdf2f8;
-      color: #9d174d;
-      border: 1px solid #fbcfe8;
-    }
-
-    .omnibox-token.director {
-      background: #eff6ff;
-      color: #1e40af;
-      border: 1px solid #bfdbfe;
-    }
-
-    .omnibox-token.species {
-      background: #f3e8ff;
-      color: #6b21a8;
-      border: 1px solid #e9d5ff;
-    }
-
-    .omnibox-token.format {
-      background: #f0fdf4;
-      color: #166534;
-      border: 1px solid #bbf7d0;
-    }
-
-    .omnibox-token.era {
-      background: #fffbeb;
-      color: #92400e;
-      border: 1px solid #fde68a;
-    }
-
+    .omnibox-token.character,
+    .omnibox-token.director,
+    .omnibox-token.species,
+    .omnibox-token.format,
+    .omnibox-token.era,
     .omnibox-token.text {
-      background: #f1f5f9;
-      color: #1e293b;
-      border: 1px solid #cbd5e1;
+      background: #e6fcf5;
+      color: #087f5b;
+      border: 1px solid #96f2d7;
     }
 
     .omnibox-token-icon {
@@ -258,12 +233,13 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      transition: opacity 0.15s, transform 0.15s;
+      transition: opacity 0.15s, transform 0.15s, color 0.15s;
     }
 
     .omnibox-token-remove:hover {
       opacity: 1;
       transform: scale(1.15);
+      color: #0ca678;
     }
 
     .omnibox-token.is-negated {
@@ -730,109 +706,6 @@
       border-radius: 8px;
       padding: 8px;
       background: #f8fafc;
-    }
-
-    /* Active Filter Chips Container */
-    .active-chips-container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 10px;
-      padding-top: 10px;
-      border-top: 1px dashed #e2e8f0;
-    }
-
-    .active-chips-left {
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 6px;
-      flex: 1;
-    }
-
-    .active-chips-title {
-      font-size: 0.74rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      color: #64748b;
-      margin-right: 2px;
-    }
-
-    .active-chips-list {
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
-
-    .filter-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 3px 8px 3px 10px;
-      background: #f8fafc;
-      border: 1px solid #cbd5e1;
-      border-radius: 14px;
-      font-size: 0.76rem;
-      font-weight: 600;
-      color: #1e293b;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
-      transition: all 0.15s ease;
-    }
-
-    .filter-chip:hover {
-      background: #f1f5f9;
-      border-color: #94a3b8;
-    }
-
-    .filter-chip-remove,
-    .remove-chip-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 16px;
-      height: 16px;
-      border-radius: 50%;
-      background: #e2e8f0;
-      color: #475569;
-      border: none;
-      font-size: 0.76rem;
-      font-weight: 700;
-      cursor: pointer;
-      line-height: 1;
-      padding: 0;
-      transition: all 0.15s;
-    }
-
-    .filter-chip-remove:hover,
-    .remove-chip-btn:hover {
-      background: #ef4444;
-      color: #ffffff;
-    }
-
-    .clear-all-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 10px;
-      background: #fef2f2;
-      border: 1px solid #fecaca;
-      border-radius: 14px;
-      font-size: 0.75rem;
-      font-weight: 700;
-      color: #dc2626;
-      cursor: pointer;
-      white-space: nowrap;
-      transition: all 0.15s ease;
-    }
-
-    .clear-all-btn:hover {
-      background: #fee2e2;
-      border-color: #f87171;
-      color: #b91c1c;
     }
 
     /* Collapsible Secondary Panels */
@@ -2052,17 +1925,26 @@
 
       .subbar-left {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 8px;
-        width: 100%;
-      }
-
-      .subbar-right {
-        display: grid;
-        grid-template-columns: auto 1fr 1fr;
+        grid-template-columns: auto 1fr;
         gap: 8px;
         width: 100%;
         align-items: center;
+      }
+
+      .subbar-right {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        width: 100%;
+        align-items: center;
+      }
+
+      .subbar-right .library-toggle-pill {
+        flex: 1 1 100%;
+      }
+
+      .subbar-right .subbar-btn {
+        flex: 1 1 calc(50% - 4px);
       }
 
       .boolean-toggle-group {
@@ -2209,7 +2091,7 @@
         <span class="search-icon">🔍</span>
         <div id="activeTokensList" class="tokens-container"></div>
         <input type="text" id="omniboxInput" placeholder="Search characters, directors, formats, eras, or keywords..." autocomplete="off">
-        <button type="button" id="clearSearchBtn" class="clear-btn" onclick="clearAllOmnibox()" title="Clear all search text and tokens" hidden>&times;</button>
+        <button type="button" id="clearSearchBtn" class="clear-btn" onclick="clearAllOmnibox()" title="Clear all filters" hidden>&times;</button>
       </div>
       <div id="omniboxSuggestions" class="suggestions-dropdown" hidden></div>
     </div>
@@ -2217,6 +2099,17 @@
     <!-- Compact Sub-Bar Utility Controls (directly below Omnibox) -->
     <div class="subbar-controls" id="omniboxSubBar">
       <div class="subbar-left">
+        <!-- AND / OR Segmented Match Mode Toggle -->
+        <div class="boolean-toggle-group" id="booleanMatchToggle" title="Multi-token match logic: AND (all tokens must match) or OR (any token can match)">
+          <button type="button" class="boolean-toggle-btn active" id="boolModeAndBtn" onclick="setBooleanMatchMode('AND')" title="All active tokens must match">AND</button>
+          <button type="button" class="boolean-toggle-btn" id="boolModeOrBtn" onclick="setBooleanMatchMode('OR')" title="Any active token can match">OR</button>
+        </div>
+        <button type="button" class="subbar-btn expand-all-btn" id="expandAllBtn" onclick="toggleExpandAllCards()" title="Expand or collapse all visible cartoon cards">
+          <span id="expandAllIcon">▾</span> <span id="expandAllText">Expand All</span>
+        </button>
+      </div>
+
+      <div class="subbar-right">
         <label class="library-toggle-pill" title="Filter to cartoons appearing on at least one set in your owned library">
           <input type="checkbox" id="myLibraryOnlyToggle" onchange="render()">
           <span class="pill-label">📚 In My Library Only</span>
@@ -2224,34 +2117,12 @@
         <button type="button" class="subbar-btn" id="openLibraryModalBtn" onclick="openLibraryModal()" title="Customize your owned home media sets &amp; profiles">
           ⚙️ Customize Library (<span id="librarySubBarCount">0</span>/<span id="librarySubBarTotal">44</span>)
         </button>
-      </div>
-
-      <div class="subbar-right">
-        <!-- AND / OR Segmented Match Mode Toggle -->
-        <div class="boolean-toggle-group" id="booleanMatchToggle" title="Multi-token match logic: AND (all tokens must match) or OR (any token can match)">
-          <button type="button" class="boolean-toggle-btn active" id="boolModeAndBtn" onclick="setBooleanMatchMode('AND')" title="All active tokens must match">AND</button>
-          <button type="button" class="boolean-toggle-btn" id="boolModeOrBtn" onclick="setBooleanMatchMode('OR')" title="Any active token can match">OR</button>
-        </div>
         <button type="button" id="panelToggleBtn" class="subbar-btn panel-toggle-btn" onclick="toggleSecondaryPanels()" title="Show or hide Theatrical Era Timeline">
           <span id="panelToggleIcon">⏳</span>
           <span id="panelToggleText">Timeline</span>
           <span id="panelActiveBadge" class="panel-active-badge" style="display: none;"></span>
         </button>
-        <button type="button" class="subbar-btn expand-all-btn" id="expandAllBtn" onclick="toggleExpandAllCards()" title="Expand or collapse all visible cartoon cards">
-          <span id="expandAllIcon">▾</span> <span id="expandAllText">Expand All</span>
-        </button>
       </div>
-    </div>
-
-    <!-- Active Filter Chips (Preserved for auxiliary filters) -->
-    <div id="activeFilterChipsContainer" class="active-chips-container" style="display: none;">
-      <div class="active-chips-left">
-        <span class="active-chips-title">Active Filters:</span>
-        <div class="active-chips-list" id="activeChipsList"></div>
-      </div>
-      <button type="button" class="clear-all-btn" id="clearAllFiltersBtn" onclick="clearAllFilters()" title="Reset all filters to default">
-        ✕ Clear All Filters
-      </button>
     </div>
   </div>
 
@@ -4563,6 +4434,23 @@
       searchInput.value = '';
       searchInput.focus();
     }
+    setBooleanMatchMode('AND');
+
+    const libToggle = document.getElementById('myLibraryOnlyToggle');
+    if (libToggle) libToggle.checked = false;
+
+    document.querySelectorAll('.rating-chk').forEach(cb => cb.checked = false);
+    updateRatingsDropdownState();
+
+    activeNotesOnly = false;
+    const notesBtn = document.getElementById('notesOnlyFilterBtn');
+    if (notesBtn) notesBtn.classList.remove('active');
+
+    activeMinYear = 1929;
+    activeMaxYear = 2014;
+    activeEraKey = 'all';
+    updateEraButtonsState();
+
     updateOmniboxPlaceholder();
     renderTokens();
     hideSuggestions();
@@ -5215,95 +5103,18 @@
   };
 
   window.clearAllFilters = function() {
-    activeTokens = [];
-    const searchInput = getOmniboxInput();
-    if (searchInput) searchInput.value = '';
-    updateOmniboxPlaceholder();
-    renderTokens();
-    hideSuggestions();
-
-    const libToggle = document.getElementById('myLibraryOnlyToggle');
-    if (libToggle) libToggle.checked = false;
-
-    document.querySelectorAll('.rating-chk').forEach(cb => cb.checked = false);
-    updateRatingsDropdownState();
-
-    activeNotesOnly = false;
-    const notesBtn = document.getElementById('notesOnlyFilterBtn');
-    if (notesBtn) notesBtn.classList.remove('active');
-
-    activeMinYear = 1929;
-    activeMaxYear = 2014;
-    activeEraKey = 'all';
-    updateEraButtonsState();
-
-    render();
+    clearAllOmnibox();
   };
 
   function updateActiveFilterChips() {
-    const container = document.getElementById('activeFilterChipsContainer');
-    const listEl = document.getElementById('activeChipsList');
     const panelActiveBadge = document.getElementById('panelActiveBadge');
-    if (!container || !listEl) return;
-
-    const chips = [];
-
-    // 1. Omnibox active tokens (including type === 'text', entities, formats, eras)
-    activeTokens.forEach(token => {
-      let icon = token.icon || '🏷️';
-      let label = token.label;
-      if (token.type === 'text') {
-        icon = '🔍';
-        label = `Search: "${token.value}"`;
-      }
-      if (token.negated || token.isExcluded) {
-        label = `NOT ${label}`;
-      }
-      chips.push({
-        id: token.id,
-        isToken: true,
-        label: `${icon} ${label}`
-      });
-    });
-
-    // 2. In My Library Only
-    const libToggle = document.getElementById('myLibraryOnlyToggle');
-    if (libToggle && libToggle.checked) {
-      chips.push({ id: 'library', label: `📚 Library: In My Library Only (${selectedMediaSets.size} Sets)` });
-    }
-
-    // 3. Rating Checkboxes
-    const selectedRatings = getSelectedRatings();
-    if (selectedRatings.length > 0) {
-      const starVals = selectedRatings.filter(v => v !== 'unrated').sort((a, b) => Number(b) - Number(a));
-      const hasUnrated = selectedRatings.includes('unrated');
-      const parts = [];
-      if (starVals.length === 5) {
-        parts.push('1–5 Stars');
-      } else {
-        starVals.forEach(s => parts.push(`${s} Star${s === '1' ? '' : 's'}`));
-      }
-      if (hasUnrated) parts.push('Unrated');
-      chips.push({ id: 'rating', label: `⭐ My Ratings: ${parts.join(', ')}` });
-    }
-
-    // 4. Personal Notes
-    if (activeNotesOnly) {
-      chips.push({ id: 'notes', label: `📝 My Notes` });
-    }
-
-    // 5. Historical Era / Timeline Range
-    let secondaryCount = 0;
-    if (activeEraKey && activeEraKey !== 'all' && ERA_DEFINITIONS[activeEraKey]) {
-      secondaryCount++;
-      chips.push({ id: 'timeline', label: `⏳ Era: ${ERA_DEFINITIONS[activeEraKey].name}` });
-    } else if (activeMinYear > 1929 || activeMaxYear < 2014) {
-      secondaryCount++;
-      chips.push({ id: 'timeline', label: `⏳ Timeline: ${activeMinYear}–${activeMaxYear}` });
-    }
-
-    // Update panel active badge
     if (panelActiveBadge) {
+      let secondaryCount = 0;
+      if (activeEraKey && activeEraKey !== 'all' && ERA_DEFINITIONS[activeEraKey]) {
+        secondaryCount++;
+      } else if (activeMinYear > 1929 || activeMaxYear < 2014) {
+        secondaryCount++;
+      }
       if (secondaryCount > 0) {
         panelActiveBadge.textContent = `${secondaryCount}`;
         panelActiveBadge.style.display = 'inline-flex';
@@ -5311,21 +5122,6 @@
         panelActiveBadge.style.display = 'none';
       }
     }
-
-    // Show the ACTIVE FILTERS: row and the [✕ Clear All Filters] button whenever any token is active
-    if (chips.length === 0) {
-      container.style.display = 'none';
-      listEl.innerHTML = '';
-      return;
-    }
-
-    container.style.display = 'flex';
-    listEl.innerHTML = chips.map(chip => `
-      <span class="filter-chip" title="${escapeHtml(chip.label)}">
-        <span>${escapeHtml(chip.label)}</span>
-        <button type="button" class="filter-chip-remove remove-chip-btn" onclick="removeFilter('${chip.id}')" title="Remove filter" aria-label="Remove filter">&times;</button>
-      </span>
-    `).join('');
   }
 
   window.renderActiveFilters = updateActiveFilterChips;
