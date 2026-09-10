@@ -1252,6 +1252,108 @@
       font-weight: 600;
     }
 
+    /* Custom Year & Range Row inside Timeline Dropdown */
+    .timeline-custom-range {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid #e2e8f0;
+    }
+
+    .custom-range-label {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: #475569;
+      white-space: nowrap;
+    }
+
+    .custom-range-inputs {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .year-input {
+      width: 76px;
+      padding: 5px 8px;
+      font-size: 0.84rem;
+      font-weight: 600;
+      color: #1e293b;
+      background: #ffffff;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 6px;
+      text-align: center;
+      font-family: inherit;
+      transition: all 0.15s ease;
+    }
+
+    .year-input:focus {
+      border-color: #3b82f6;
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
+    }
+
+    .year-input::placeholder {
+      color: #94a3b8;
+      font-weight: normal;
+    }
+
+    .range-separator {
+      color: #94a3b8;
+      font-weight: 700;
+      font-size: 0.9rem;
+      user-select: none;
+    }
+
+    .btn-apply-year {
+      padding: 5px 12px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: #ffffff;
+      background: #2563eb;
+      border: 1px solid #1d4ed8;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      font-family: inherit;
+      line-height: 1.25;
+      user-select: none;
+    }
+
+    .btn-apply-year:hover {
+      background: #1d4ed8;
+      border-color: #1e40af;
+    }
+
+    .btn-clear-year {
+      padding: 5px 8px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: #64748b;
+      background: #ffffff;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      font-family: inherit;
+      line-height: 1.25;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+    }
+
+    .btn-clear-year:hover {
+      background: #f1f5f9;
+      color: #ef4444;
+      border-color: #fca5a5;
+    }
+
     /* Personal Notes Toggle Button */
     .notes-toggle-btn {
       display: inline-flex;
@@ -2322,7 +2424,7 @@
   <!-- Collapsible Secondary Panels (Default: Collapsed) -->
   <div id="collapsiblePanels" class="collapsible-panels" style="display: none;">
     <!-- Historical Era Timeline -->
-    <div class="timeline-container">
+    <div class="timeline-container" id="timelineDropdown">
       <div class="timeline-header">
         <div class="timeline-title-group">
           <span class="timeline-heading">⏳ Theatrical Era Timeline</span>
@@ -2355,6 +2457,35 @@
           <span class="era-card-title">Modern Revival</span>
           <span class="era-card-years">1979–Present</span>
         </button>
+      </div>
+
+      <div class="timeline-custom-range">
+        <span class="custom-range-label">Custom Year / Range:</span>
+        <div class="custom-range-inputs">
+          <input 
+            type="number" 
+            id="timelineYearFrom" 
+            class="year-input" 
+            placeholder="1930" 
+            min="1929" 
+            max="2026" 
+            aria-label="Start Year"
+            onkeydown="if(event.key==='Enter') applyCustomYearRange()"
+          />
+          <span class="range-separator">–</span>
+          <input 
+            type="number" 
+            id="timelineYearTo" 
+            class="year-input" 
+            placeholder="1969" 
+            min="1929" 
+            max="2026" 
+            aria-label="End Year"
+            onkeydown="if(event.key==='Enter') applyCustomYearRange()"
+          />
+          <button type="button" id="applyCustomYearBtn" class="btn-apply-year" onclick="applyCustomYearRange()">Apply</button>
+          <button type="button" id="clearCustomYearBtn" class="btn-clear-year" onclick="clearCustomYearRange()" title="Reset Years">✕</button>
+        </div>
       </div>
     </div>
   </div>
@@ -4343,6 +4474,58 @@
     render();
   };
 
+  window.applyCustomYearRange = function() {
+    const fromInput = document.getElementById('timelineYearFrom');
+    const toInput = document.getElementById('timelineYearTo');
+    const fromRaw = fromInput?.value?.trim();
+    const toRaw = toInput?.value?.trim();
+
+    if (!fromRaw && !toRaw) {
+      setEraPreset(1929, 2014, 'all');
+      return;
+    }
+
+    let minY = fromRaw ? parseInt(fromRaw, 10) : null;
+    let maxY = toRaw ? parseInt(toRaw, 10) : null;
+
+    if (isNaN(minY)) minY = null;
+    if (isNaN(maxY)) maxY = null;
+
+    if (minY === null && maxY === null) {
+      setEraPreset(1929, 2014, 'all');
+      return;
+    }
+
+    if (minY !== null && maxY === null) {
+      // Single year specified in "From"
+      maxY = minY;
+    } else if (minY === null && maxY !== null) {
+      // Single year specified in "To"
+      minY = maxY;
+    } else if (minY > maxY) {
+      const temp = minY;
+      minY = maxY;
+      maxY = temp;
+      if (fromInput) fromInput.value = minY;
+      if (toInput) toInput.value = maxY;
+    }
+
+    activeMinYear = minY;
+    activeMaxYear = maxY;
+    activeEraKey = 'custom';
+
+    updateEraButtonsState();
+    render();
+  };
+
+  window.clearCustomYearRange = function() {
+    const fromInput = document.getElementById('timelineYearFrom');
+    const toInput = document.getElementById('timelineYearTo');
+    if (fromInput) fromInput.value = '';
+    if (toInput) toInput.value = '';
+    setEraPreset(1929, 2014, 'all');
+  };
+
   function updateEraButtonsState() {
     if (!activeEraKey || activeEraKey === 'custom') {
       if (activeMinYear === 1929 && activeMaxYear === 2014) activeEraKey = 'all';
@@ -4363,13 +4546,41 @@
       }
     });
 
+    const yearFromInput = document.getElementById('timelineYearFrom');
+    const yearToInput = document.getElementById('timelineYearTo');
+    const activeEl = document.activeElement;
+    const isTyping = (activeEl === yearFromInput || activeEl === yearToInput);
+
+    if (yearFromInput && yearToInput && !isTyping) {
+      if (activeEraKey === 'all') {
+        yearFromInput.value = '';
+        yearToInput.value = '';
+      } else if (activeEraKey === 'custom') {
+        if (activeMinYear === activeMaxYear) {
+          yearFromInput.value = activeMinYear;
+          yearToInput.value = '';
+        } else {
+          yearFromInput.value = activeMinYear;
+          yearToInput.value = activeMaxYear;
+        }
+      } else if (ERA_DEFINITIONS[activeEraKey]) {
+        const def = ERA_DEFINITIONS[activeEraKey];
+        yearFromInput.value = def.minYear;
+        yearToInput.value = def.maxYear;
+      }
+    }
+
     const rangeText = document.getElementById('timelineRangeText');
     if (rangeText) {
       if (activeEraKey && ERA_DEFINITIONS[activeEraKey]) {
         const def = ERA_DEFINITIONS[activeEraKey];
         rangeText.textContent = `${def.name} (${def.rangeLabel})`;
-      } else if (activeMinYear > 1929 || activeMaxYear < 2014) {
-        rangeText.textContent = `${activeMinYear} – ${activeMaxYear}`;
+      } else if (activeMinYear > 1929 || activeMaxYear < 2014 || activeEraKey === 'custom') {
+        if (activeMinYear === activeMaxYear) {
+          rangeText.textContent = `Year ${activeMinYear}`;
+        } else {
+          rangeText.textContent = `${activeMinYear} – ${activeMaxYear}`;
+        }
       } else {
         rangeText.textContent = 'All Eras (1929–Present)';
       }
@@ -5367,7 +5578,7 @@
       let secondaryCount = 0;
       if (activeEraKey && activeEraKey !== 'all' && ERA_DEFINITIONS[activeEraKey]) {
         secondaryCount++;
-      } else if (activeMinYear > 1929 || activeMaxYear < 2014) {
+      } else if (activeEraKey === 'custom' || activeMinYear > 1929 || activeMaxYear < 2014) {
         secondaryCount++;
       }
       if (secondaryCount > 0) {
