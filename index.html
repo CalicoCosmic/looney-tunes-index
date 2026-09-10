@@ -589,36 +589,104 @@
       flex-wrap: wrap;
     }
 
-    .library-toggle-pill {
+    .library-toggle-pill,
+    .library-control-pill {
       display: inline-flex;
-      align-items: center;
-      gap: 6px;
+      align-items: stretch;
       background: #ffffff;
       border: 1.5px solid #cbd5e1;
       border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+      transition: all 0.15s ease;
+    }
+
+    .library-toggle-pill {
+      align-items: center;
+      gap: 6px;
       padding: 6px 12px;
       cursor: pointer;
       user-select: none;
       font-size: 0.84rem;
       font-weight: 600;
       color: #334155;
-      transition: all 0.15s ease;
-      white-space: nowrap;
       line-height: 1.25;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
     }
 
+    .library-control-pill:hover,
     .library-toggle-pill:hover {
-      background: #f8fafc;
       border-color: #94a3b8;
     }
 
+    .library-control-pill .pill-segment {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      font-size: 0.84rem;
+      font-weight: 600;
+      color: #334155;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      font-family: inherit;
+      line-height: 1.25;
+      white-space: nowrap;
+    }
+
+    .library-control-pill .pill-segment + .pill-segment {
+      border-left: 1px solid #cbd5e1;
+    }
+
+    .library-control-pill .toggle-btn:hover {
+      background: #f8fafc;
+    }
+
+    .library-control-pill .edit-btn:hover {
+      background: #f1f5f9;
+      color: #0f172a;
+    }
+
+    .library-control-pill .toggle-btn input {
+      margin: 0;
+      accent-color: #16a34a;
+      width: 14px;
+      height: 14px;
+      cursor: pointer;
+      pointer-events: none;
+    }
+
+    .library-control-pill .toggle-btn label {
+      margin: 0;
+      cursor: pointer;
+      font-weight: 600;
+      pointer-events: none;
+      user-select: none;
+    }
+
     .library-toggle-pill:has(input:checked),
-    .library-toggle-pill.active {
-      background: #f0fdf4;
+    .library-toggle-pill.active,
+    .library-control-pill:has(input:checked),
+    .library-control-pill.active {
       border-color: #86efac;
-      color: #166534;
       box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.12);
+    }
+
+    .library-control-pill:has(input:checked) .pill-segment + .pill-segment,
+    .library-control-pill.active .pill-segment + .pill-segment {
+      border-left-color: #bbf7d0;
+    }
+
+    .library-control-pill:has(input:checked) .toggle-btn,
+    .library-control-pill.active .toggle-btn {
+      background: #f0fdf4;
+      color: #166534;
+    }
+
+    .library-control-pill:has(input:checked) .toggle-btn:hover,
+    .library-control-pill.active .toggle-btn:hover {
+      background: #dcfce7;
     }
 
     .library-toggle-pill input {
@@ -2024,13 +2092,26 @@
         align-items: center;
       }
 
-      .subbar-right .library-toggle-pill {
+      .subbar-right .library-toggle-pill,
+      .subbar-right .library-control-pill {
         flex: 1 1 100%;
+        display: flex;
+        width: 100%;
+      }
+
+      .library-control-pill .pill-segment.toggle-btn {
+        flex: 1.2;
+        justify-content: center;
+      }
+
+      .library-control-pill .pill-segment.edit-btn {
+        flex: 1;
+        justify-content: center;
       }
 
       .subbar-right .subbar-btn,
       .subbar-right .btn-subbar {
-        flex: 1 1 calc(50% - 4px);
+        flex: 1 1 100%;
       }
 
       .format-toggle-group,
@@ -2069,6 +2150,7 @@
       }
 
       .library-toggle-pill,
+      .library-control-pill,
       .subbar-btn,
       .btn-subbar {
         width: 100%;
@@ -2219,13 +2301,15 @@
       </div>
 
       <div class="subbar-right">
-        <label class="library-toggle-pill" title="Filter to cartoons appearing on at least one set in your owned library">
-          <input type="checkbox" id="myLibraryOnlyToggle" onchange="render()">
-          <span class="pill-label">📚 In My Library Only</span>
-        </label>
-        <button type="button" class="subbar-btn btn-subbar" id="customizeLibraryBtn" onclick="openLibraryModal()" title="Customize Library">
-          ⚙️ ( <span id="librarySubBarCount">0</span> / <span id="librarySubBarTotal">51</span> )
-        </button>
+        <div class="library-control-pill" id="libraryControlPill">
+          <button type="button" id="toggleLibraryFilterBtn" class="pill-segment toggle-btn" onclick="toggleLibraryFilter(event)" title="Toggle My Library filter">
+            <input type="checkbox" id="inLibraryOnlyCheckbox" tabindex="-1" onchange="updateLibraryPillState(); render();">
+            <label for="inLibraryOnlyCheckbox">📚 My Library</label>
+          </button>
+          <button type="button" id="customizeLibraryBtn" class="pill-segment edit-btn" onclick="openLibraryModal()" title="Customize Owned Sets">
+            ⚙️ ( <span id="libraryCountDisplay"><span id="librarySubBarCount">0</span> / <span id="librarySubBarTotal">51</span></span> )
+          </button>
+        </div>
         <button type="button" id="panelToggleBtn" class="subbar-btn panel-toggle-btn" onclick="toggleSecondaryPanels()" title="Show or hide Theatrical Era Timeline">
           <span id="panelToggleIcon">⏳</span>
           <span id="panelToggleText">Timeline</span>
@@ -3606,6 +3690,30 @@
     });
   }
 
+  // --- Library Filter State & Toggle ---
+  window.toggleLibraryFilter = function(e) {
+    const chk = document.getElementById('inLibraryOnlyCheckbox') || document.getElementById('myLibraryOnlyToggle');
+    if (!chk) return;
+    chk.checked = !chk.checked;
+    updateLibraryPillState();
+    render();
+  };
+
+  function updateLibraryPillState() {
+    const pill = document.getElementById('libraryControlPill');
+    const chk = document.getElementById('inLibraryOnlyCheckbox') || document.getElementById('myLibraryOnlyToggle');
+    const toggleBtn = document.getElementById('toggleLibraryFilterBtn');
+    if (chk) {
+      const isChecked = Boolean(chk.checked);
+      if (pill) pill.classList.toggle('active', isChecked);
+      if (toggleBtn) {
+        toggleBtn.classList.toggle('active', isChecked);
+        toggleBtn.setAttribute('aria-pressed', isChecked ? 'true' : 'false');
+      }
+    }
+  }
+  window.updateLibraryPillState = updateLibraryPillState;
+
   // --- Data Backup & Restore (JSON) ---
   window.exportUserData = function() {
     const data = {
@@ -3778,6 +3886,8 @@
     if (subBarCount) subBarCount.textContent = primaryOwned;
     const subBarTotal = document.getElementById('librarySubBarTotal');
     if (subBarTotal) subBarTotal.textContent = primarySets.length || 51;
+    const countDisplay = document.getElementById('libraryCountDisplay');
+    if (countDisplay && !subBarCount) countDisplay.textContent = `${primaryOwned} / ${primarySets.length || 51}`;
     const libHeaderCount = document.getElementById('libraryHeaderCount');
     if (libHeaderCount) libHeaderCount.textContent = primaryOwned;
     const libHeaderTotal = document.getElementById('libraryHeaderTotal');
@@ -4566,8 +4676,9 @@
     }
     if (typeof window.setBooleanMatchMode === 'function') window.setBooleanMatchMode('AND');
 
-    const libToggle = document.getElementById('myLibraryOnlyToggle');
+    const libToggle = document.getElementById('inLibraryOnlyCheckbox') || document.getElementById('myLibraryOnlyToggle');
     if (libToggle) libToggle.checked = false;
+    if (typeof updateLibraryPillState === 'function') updateLibraryPillState();
 
     activeFormatFilters.clear();
     updateFormatToggleButtons();
@@ -5226,8 +5337,9 @@
       return;
     }
     if (filterType === 'library') {
-      const el = document.getElementById('myLibraryOnlyToggle');
+      const el = document.getElementById('inLibraryOnlyCheckbox') || document.getElementById('myLibraryOnlyToggle');
       if (el) el.checked = false;
+      if (typeof updateLibraryPillState === 'function') updateLibraryPillState();
     } else if (filterType === 'format') {
       activeFormatFilters.clear();
       updateFormatToggleButtons();
@@ -5486,7 +5598,10 @@
   function render() {
     const rawQuery = getOmniboxInput()?.value.trim() || '';
     const selectedRatings = getSelectedRatings();
-    const inMyLibOnly = Boolean(document.getElementById('myLibraryOnlyToggle')?.checked);
+    const inMyLibOnly = Boolean(
+      document.getElementById('inLibraryOnlyCheckbox')?.checked ||
+      document.getElementById('myLibraryOnlyToggle')?.checked
+    );
 
     const filtered = database.filter(short => {
       // 1. Omnibox active tokens Boolean evaluation (AND / OR / NOT)
