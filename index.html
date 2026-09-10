@@ -381,7 +381,7 @@
       border-bottom-right-radius: 10px;
       box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
       z-index: 1000;
-      max-height: 380px;
+      max-height: min(480px, 75vh);
       overflow-y: auto;
       padding: 4px 0;
     }
@@ -4915,7 +4915,7 @@
     // Sort suggestions strictly by Tier ascending, then subScore ascending, then count descending
     suggestions.sort((a, b) => a.tier - b.tier || a.subScore - b.subScore || b.count - a.count);
 
-    return suggestions.slice(0, 8);
+    return suggestions.slice(0, 20);
   }
 
   window.getSuggestions = getSuggestions;
