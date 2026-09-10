@@ -47,6 +47,7 @@
     }
 
     header {
+      position: relative;
       text-align: center;
       margin-bottom: 24px;
     }
@@ -59,11 +60,32 @@
       align-items: center;
       justify-content: center;
       gap: 10px;
+      text-align: center;
     }
 
     header p {
       color: var(--text-muted);
       font-size: 0.95rem;
+      max-width: 720px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .admin-header-badge-wrap {
+      position: absolute;
+      right: 0;
+      top: 0;
+      display: none;
+      align-items: center;
+      gap: 6px;
+    }
+
+    @media (max-width: 640px) {
+      .admin-header-badge-wrap {
+        position: static;
+        justify-content: center;
+        margin-bottom: 8px;
+      }
     }
 
     /* Sticky Controls Toolbar */
@@ -1462,16 +1484,12 @@
 
 <div class="container">
   <header>
-    <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap;">
-      <div>
-        <h1>🎬 Looney Tunes Shorts Index</h1>
-        <p>Search classic animated shorts, production credits, and home media track locations across Blu-ray, DVD, and LaserDisc.</p>
-      </div>
-      <div id="adminHeaderBadge" style="display: none; align-items: center; gap: 6px; margin-top: 4px;">
-        <span class="admin-badge">🛡️ Admin Active</span>
-        <button type="button" class="admin-exit-btn" onclick="toggleAdminMode(false)">Exit Admin</button>
-      </div>
+    <div id="adminHeaderBadge" class="admin-header-badge-wrap">
+      <span class="admin-badge">🛡️ Admin Active</span>
+      <button type="button" class="admin-exit-btn" onclick="toggleAdminMode(false)">Exit Admin</button>
     </div>
+    <h1>🎬 Looney Tunes Shorts Index</h1>
+    <p>Search classic animated shorts, production credits, and home media track locations across Blu-ray, DVD, and LaserDisc.</p>
   </header>
 
   <!-- Sticky Controls Toolbar: Search, Quick Filters & Active Chips -->
