@@ -28007,9 +28007,10 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Charlie Dog",
-      "Colonel Shuffle"
+      "Colonel Shuffle",
+      "Belvedere"
     ],
-    "synopsis": "Down south, Charlie Dog tries to get Colonel Shuffle to adopt him, even if it means sabotaging his relationship with his current dog to do it.",
+    "synopsis": "Down south, Charlie Dog tries to get Colonel Shuffle to adopt him, even if it means sabotaging his relationship with his current dog, Belvedere the bulldog, to do it.",
     "media_locations": [
       {
         "set_name": "Looney Tunes Golden Collection: Volume 6",
