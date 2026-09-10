@@ -71,21 +71,43 @@
       text-align: center;
     }
 
-    .admin-header-badge-wrap {
+    .header-actions-wrap {
       position: absolute;
       right: 0;
       top: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .header-library-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #ffffff;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #334155;
+      cursor: pointer;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+
+    .header-library-btn:hover {
+      background: #f8fafc;
+      border-color: #94a3b8;
+      color: #0f172a;
+      transform: translateY(-1px);
+    }
+
+    .admin-header-badge-wrap {
       display: none;
       align-items: center;
       gap: 6px;
-    }
-
-    @media (max-width: 640px) {
-      .admin-header-badge-wrap {
-        position: static;
-        justify-content: center;
-        margin-bottom: 8px;
-      }
     }
 
     /* Sticky Controls Toolbar */
@@ -104,25 +126,160 @@
       transition: box-shadow 0.2s ease, border-color 0.2s ease;
     }
 
-    .search-row {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-      flex-wrap: wrap;
+    /* Omnibox Tokenized Search Input */
+    .omnibox-wrapper {
+      position: relative;
+      width: 100%;
       margin-bottom: 10px;
     }
 
-    .search-box-wrap {
-      position: relative;
-      flex: 1 1 260px;
-      min-width: 220px;
+    .omnibox-container {
       display: flex;
       align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+      min-height: 44px;
+      padding: 5px 36px 5px 40px;
+      background-color: #ffffff;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 8px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+      position: relative;
+      cursor: text;
+      transition: border-color 0.2s, box-shadow 0.2s;
     }
 
-    .search-input,
-    #searchInput {
-      width: 100%;
+    .omnibox-container:focus-within {
+      border-color: #2563eb;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+
+    .omnibox-container::before {
+      content: '';
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 18px;
+      height: 18px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2364748b' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      pointer-events: none;
+    }
+
+    .omnibox-tokens {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .omnibox-token {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 3px 8px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      border-radius: 6px;
+      line-height: 1.25;
+      user-select: none;
+      white-space: nowrap;
+      animation: tokenIn 0.12s ease-out;
+    }
+
+    @keyframes tokenIn {
+      from { opacity: 0; transform: scale(0.92); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    .omnibox-token.character {
+      background: #fdf2f8;
+      color: #9d174d;
+      border: 1px solid #fbcfe8;
+    }
+
+    .omnibox-token.director {
+      background: #eff6ff;
+      color: #1e40af;
+      border: 1px solid #bfdbfe;
+    }
+
+    .omnibox-token.species {
+      background: #f3e8ff;
+      color: #6b21a8;
+      border: 1px solid #e9d5ff;
+    }
+
+    .omnibox-token.format {
+      background: #f0fdf4;
+      color: #166534;
+      border: 1px solid #bbf7d0;
+    }
+
+    .omnibox-token.era {
+      background: #fffbeb;
+      color: #92400e;
+      border: 1px solid #fde68a;
+    }
+
+    .omnibox-token-icon {
+      font-size: 0.95rem;
+      line-height: 1;
+    }
+
+    .omnibox-token-label {
+      max-width: 180px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .omnibox-token-remove {
+      background: transparent;
+      border: none;
+      padding: 0;
+      margin-left: 2px;
+      color: inherit;
+      opacity: 0.65;
+      font-size: 1.05rem;
+      line-height: 1;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.15s, transform 0.15s;
+    }
+
+    .omnibox-token-remove:hover {
+      opacity: 1;
+      transform: scale(1.15);
+    }
+
+    .omnibox-input {
+      flex: 1 1 160px;
+      min-width: 120px;
+      height: 32px;
+      border: none;
+      outline: none;
+      font-size: 0.98rem;
+      color: #0f172a;
+      background: transparent;
+      padding: 0;
+      margin: 0;
+    }
+
+    .omnibox-input::placeholder {
+      color: #94a3b8;
+    }
+
+    .omnibox-container .search-clear-btn {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
       height: 44px;
       min-height: 44px;
       padding: 0 36px 0 42px;
@@ -270,6 +427,24 @@
       border: 1px solid #bfdbfe;
     }
 
+    .suggestion-type-badge.species {
+      background: #f3e8ff;
+      color: #7e22ce;
+      border: 1px solid #e9d5ff;
+    }
+
+    .suggestion-type-badge.format {
+      background: #f0fdf4;
+      color: #166534;
+      border: 1px solid #bbf7d0;
+    }
+
+    .suggestion-type-badge.era {
+      background: #fffbeb;
+      color: #92400e;
+      border: 1px solid #fde68a;
+    }
+
     .suggestion-item.fallback-item {
       border-top: 1px solid #f1f5f9;
       color: #2563eb;
@@ -391,35 +566,45 @@
       line-height: 1.2;
     }
 
-    .quick-filters-row {
-      display: grid;
-      grid-template-columns: 1fr 1fr auto;
+    /* Quick Controls Row (below Omnibox) */
+    .quick-controls-row {
+      display: flex;
+      justify-content: space-between;
       align-items: center;
-      gap: 8px;
+      gap: 10px;
+      flex-wrap: wrap;
     }
 
-    @media (max-width: 900px) {
-      .quick-filters-row {
-        grid-template-columns: 1fr 1fr;
-      }
-      .format-toggles-group {
-        grid-column: 1 / -1;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .quick-filters-row {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    /* Personal User Activity Filters Row */
-    .user-filters-row {
+    .quick-controls-left,
+    .quick-controls-right {
       display: flex;
       align-items: center;
       gap: 8px;
-      margin-top: 8px;
       flex-wrap: wrap;
+    }
+
+    .quick-expand-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      height: 38px;
+      padding: 6px 12px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border-radius: 8px;
+      border: 1.5px solid #cbd5e1;
+      background: #f8fafc;
+      color: #334155;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      user-select: none;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
+
+    .quick-expand-btn:hover {
+      background: #eff6ff;
+      border-color: #93c5fd;
+      color: #1d4ed8;
     }
 
     /* Ratings Dropdown Popover */
@@ -572,82 +757,7 @@
       font-size: 0.86rem;
       border: 1px solid var(--border-color);
       border-radius: 6px;
-      background-color: #fff;
-      color: var(--text-main);
-      cursor: pointer;
-      transition: border-color 0.15s;
-    }
 
-    .filter-select:focus {
-      border-color: var(--primary-color);
-      outline: none;
-    }
-
-    /* Multi-select Format Checkboxes */
-    .format-toggles-group {
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 5px;
-      background: #f8fafc;
-      padding: 3px 6px;
-      border: 1px solid var(--border-color);
-      border-radius: 8px;
-      min-height: 36px;
-    }
-
-    .format-toggle-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      border-radius: 6px;
-      font-size: 0.77rem;
-      font-weight: 600;
-      cursor: pointer;
-      user-select: none;
-      border: 1px solid #cbd5e1;
-      background: #ffffff;
-      color: #475569;
-      transition: all 0.15s ease;
-    }
-
-    .format-toggle-chip:hover {
-      background: #f1f5f9;
-      border-color: #94a3b8;
-    }
-
-    .format-toggle-chip input {
-      margin: 0;
-      width: 13px;
-      height: 13px;
-      cursor: pointer;
-    }
-
-    .format-chip-bluray:has(input:checked) {
-      background: #dbeafe;
-      border-color: #93c5fd;
-      color: #1e40af;
-    }
-
-    .format-chip-dvd:has(input:checked) {
-      background: #fef3c7;
-      border-color: #fde047;
-      color: #92400e;
-    }
-
-    .format-chip-laserdisc:has(input:checked) {
-      background: #f3e8ff;
-      border-color: #d8b4fe;
-      color: #6b21a8;
-    }
-
-    .format-chip-unreleased:has(input:checked) {
-      background: #f1f5f9;
-      border-color: #94a3b8;
-      color: #0f172a;
-      box-shadow: 0 0 0 1px #94a3b8;
-    }
 
     .modal-media-list {
       max-height: 380px;
@@ -1929,16 +2039,17 @@
         overflow-x: hidden;
       }
 
-      .container {
-        max-width: 100%;
+      .header-actions-wrap {
+        position: static;
+        justify-content: center;
+        margin-bottom: 12px;
+        flex-wrap: wrap;
       }
 
-      header h1 {
-        font-size: 1.6rem;
-      }
-
-      header p {
-        font-size: 0.9rem;
+      .header-library-btn {
+        min-height: 44px;
+        padding: 8px 16px;
+        font-size: 0.92rem;
       }
 
       .sticky-controls-bar {
@@ -1947,92 +2058,61 @@
         border-radius: 10px;
       }
 
-      /* 2. Search Bar & Controls Stacking */
-      .search-row {
+      /* 2. Omnibox & Quick Controls Stacking */
+      .omnibox-wrapper {
+        width: 100%;
+        margin-bottom: 8px;
+      }
+
+      .omnibox-container {
+        width: 100%;
+        min-height: 44px;
+        padding: 5px 36px 5px 38px;
+        box-sizing: border-box;
+      }
+
+      .omnibox-input {
+        font-size: 16px; /* Prevents iOS auto-zoom on focus */
+        min-height: 36px;
+      }
+
+      .quick-controls-row {
         flex-direction: column;
         align-items: stretch;
         gap: 8px;
       }
 
-      .search-box-wrap,
-      .search-input-wrapper {
-        width: 100%;
-        min-width: 0;
-        margin-bottom: 0;
-      }
-
-      .search-input,
-      #searchInput {
-        width: 100%;
-        height: 44px;
-        font-size: 16px; /* Prevents iOS auto-zoom on focus */
-      }
-
-      .library-toggle-switch {
-        width: 100%;
-        min-height: 44px;
-        justify-content: center;
-        box-sizing: border-box;
-      }
-
-      .secondary-search-buttons {
+      .quick-controls-left,
+      .quick-controls-right {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 8px;
         width: 100%;
       }
 
-      .library-customize-btn,
+      .quick-controls-right .panel-toggle-btn {
+        grid-column: span 2;
+      }
+
+      .library-toggle-switch,
+      .quick-expand-btn,
+      .user-filter-btn,
+      .notes-toggle-btn,
       .panel-toggle-btn {
         width: 100%;
         min-height: 44px;
         justify-content: center;
         box-sizing: border-box;
-      }
-
-      /* Select dropdowns and user action buttons (44px height & 16px font to prevent iOS zoom) */
-      .filter-select {
-        width: 100%;
-        height: 44px;
-        min-height: 44px;
-        font-size: 16px;
-      }
-
-      .user-filters-row {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 8px;
-        width: 100%;
+        font-size: 15px;
       }
 
       .ratings-dropdown-wrap {
         width: 100%;
       }
 
-      .user-filter-btn,
-      .notes-toggle-btn {
-        width: 100%;
-        height: 44px;
+      .suggestion-item {
         min-height: 44px;
-        font-size: 15px;
-        justify-content: center;
-      }
-
-      /* Format chips 2x2 grid */
-      .format-toggles-group {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6px;
-        padding: 6px;
-      }
-
-      .format-toggle-chip {
-        flex: 1 1 calc(50% - 6px);
-        min-height: 42px;
-        justify-content: center;
-        padding: 6px 8px;
-        font-size: 0.8rem;
-        box-sizing: border-box;
+        padding: 10px 14px;
       }
 
       /* 3. Collapsed Cartoon Card Header (Two-Row Layout) */
@@ -2133,115 +2213,97 @@
 
 <div class="container">
   <header>
-    <div id="adminHeaderBadge" class="admin-header-badge-wrap">
-      <span class="admin-badge">🛡️ Admin Active</span>
-      <button type="button" class="admin-exit-btn" onclick="toggleAdminMode(false)">Exit Admin</button>
+    <div class="header-actions-wrap">
+      <div id="adminHeaderBadge" class="admin-header-badge-wrap">
+        <span class="admin-badge">🛡️ Admin Active</span>
+        <button type="button" class="admin-exit-btn" onclick="toggleAdminMode(false)">Exit Admin</button>
+      </div>
+      <button type="button" class="header-library-btn" id="openLibraryModal" onclick="openLibraryModal()" title="Customize your owned home media sets &amp; profiles">
+        📚 Library (<span id="libraryHeaderCount">0</span>/<span id="libraryHeaderTotal">44</span>)
+      </button>
     </div>
     <h1>🎬 Looney Tunes Shorts Index</h1>
     <p>A physical media search index for classic Looney Tunes &amp; Merrie Melodies shorts.</p>
   </header>
 
-  <!-- Sticky Controls Toolbar: Search, Quick Filters & Active Chips -->
+  <!-- Sticky Controls Toolbar: Unified Omnibox & Quick Controls -->
   <div class="sticky-controls-bar">
-    <div class="search-row">
-      <div class="search-box-wrap search-input-wrapper">
-        <input type="text" id="searchInput" class="search-input" placeholder="Search by title, director, character, or keywords..." autofocus autocomplete="off">
-        <button type="button" id="clearSearchBtn" class="search-clear-btn" onclick="clearSearchInput()" title="Clear search text" style="display: none;">✕</button>
-        <div id="searchSuggestions" class="search-suggestions-menu" hidden></div>
+    <div class="omnibox-wrapper search-input-wrapper">
+      <div class="omnibox-container" id="omniboxContainer" onclick="focusOmniboxInput(event)">
+        <div class="omnibox-tokens" id="omniboxTokens"></div>
+        <input type="text" id="searchInput" class="omnibox-input" placeholder="Search by title, character, director, format..." autofocus autocomplete="off">
+        <button type="button" id="clearSearchBtn" class="search-clear-btn" onclick="clearAllOmnibox()" title="Clear all search text and tokens" style="display: none;">✕</button>
       </div>
-      <label class="library-toggle-switch" title="Filter to cartoons appearing on at least one set in your owned library">
-        <input type="checkbox" id="myLibraryOnlyToggle" onchange="render()">
-        <span class="library-toggle-label">📚 In My Library Only</span>
-      </label>
-      <div class="secondary-search-buttons">
-        <button type="button" id="customizeLibraryBtn" class="library-customize-btn" onclick="openLibraryModal()" title="Customize your owned home media sets & profiles">
-          <span>⚙️ Customize Library (<span id="ownedCount">0</span>/<span id="totalSetsCount">43</span>)</span>
+      <div id="searchSuggestions" class="search-suggestions-menu" hidden></div>
+    </div>
+
+    <!-- Quick Controls Row -->
+    <div class="quick-controls-row">
+      <div class="quick-controls-left">
+        <label class="library-toggle-switch" title="Filter to cartoons appearing on at least one set in your owned library">
+          <input type="checkbox" id="myLibraryOnlyToggle" onchange="render()">
+          <span class="library-toggle-label">📚 In My Library Only</span>
+        </label>
+        <button type="button" class="expand-all-btn quick-expand-btn" id="expandAllBtn" onclick="toggleExpandAllCards()" title="Expand or collapse all visible cartoon cards">
+          <span id="expandAllIcon">▸</span> <span id="expandAllText">Expand All</span>
         </button>
+      </div>
+
+      <div class="quick-controls-right">
+        <!-- Personal Ratings Dropdown -->
+        <div class="ratings-dropdown-wrap" id="ratingsDropdownWrap">
+          <button type="button" class="user-filter-btn" id="ratingsDropdownBtn" onclick="toggleRatingsDropdown(event)" title="Filter by your personal star ratings">
+            <span id="ratingsDropdownBtnLabel">My Ratings</span>
+            <span class="ratings-dropdown-chevron">▾</span>
+          </button>
+          <div class="ratings-dropdown-menu" id="ratingsDropdownMenu" style="display: none;">
+            <div class="ratings-dropdown-header">
+              <span>My Ratings</span>
+              <button type="button" class="ratings-dropdown-clear-btn" onclick="clearRatingCheckboxes(event)">Clear</button>
+            </div>
+            <div class="ratings-dropdown-divider"></div>
+            <div class="ratings-dropdown-list">
+              <label class="ratings-dropdown-item">
+                <input type="checkbox" class="rating-chk" value="5" onchange="handleRatingCheckboxChange()">
+                <span class="rating-stars-text">⭐⭐⭐⭐⭐ 5 Stars</span>
+              </label>
+              <label class="ratings-dropdown-item">
+                <input type="checkbox" class="rating-chk" value="4" onchange="handleRatingCheckboxChange()">
+                <span class="rating-stars-text">⭐⭐⭐⭐ 4 Stars</span>
+              </label>
+              <label class="ratings-dropdown-item">
+                <input type="checkbox" class="rating-chk" value="3" onchange="handleRatingCheckboxChange()">
+                <span class="rating-stars-text">⭐⭐⭐ 3 Stars</span>
+              </label>
+              <label class="ratings-dropdown-item">
+                <input type="checkbox" class="rating-chk" value="2" onchange="handleRatingCheckboxChange()">
+                <span class="rating-stars-text">⭐⭐ 2 Stars</span>
+              </label>
+              <label class="ratings-dropdown-item">
+                <input type="checkbox" class="rating-chk" value="1" onchange="handleRatingCheckboxChange()">
+                <span class="rating-stars-text">⭐ 1 Star</span>
+              </label>
+            </div>
+            <div class="ratings-dropdown-divider"></div>
+            <div class="ratings-dropdown-list">
+              <label class="ratings-dropdown-item">
+                <input type="checkbox" class="rating-chk" value="unrated" onchange="handleRatingCheckboxChange()">
+                <span class="rating-stars-text">⚪ Unrated Shorts</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="notes-toggle-btn" id="notesOnlyFilterBtn" onclick="toggleNotesOnlyFilter(this)" title="Filter to shorts where you added personal notes">
+          📝 My Notes
+        </button>
+
         <button type="button" id="panelToggleBtn" class="panel-toggle-btn" onclick="toggleSecondaryPanels()" title="Show or hide Theatrical Era Timeline">
           <span id="panelToggleIcon">▾</span>
           <span id="panelToggleText">Timeline</span>
           <span id="panelActiveBadge" class="panel-active-badge" style="display: none;"></span>
         </button>
       </div>
-    </div>
-
-    <div class="quick-filters-row">
-      <select id="charFilter" class="filter-select">
-        <option value="">All Featured Characters</option>
-      </select>
-      <select id="directorFilter" class="filter-select">
-        <option value="">All Directors</option>
-      </select>
-
-      <!-- Multi-select Format Checkboxes -->
-      <div class="format-toggles-group" title="Filter by physical format or unreleased status (multi-select)">
-        <label class="format-toggle-chip format-chip-bluray" title="Include shorts released on Blu-ray">
-          <input type="checkbox" id="fmt_bluray" class="format-chk" value="Blu-ray" onchange="render()">
-          <span>💿 Blu-ray</span>
-        </label>
-        <label class="format-toggle-chip format-chip-dvd" title="Include shorts released on DVD">
-          <input type="checkbox" id="fmt_dvd" class="format-chk" value="DVD" onchange="render()">
-          <span>📀 DVD</span>
-        </label>
-        <label class="format-toggle-chip format-chip-laserdisc" title="Include shorts released on LaserDisc">
-          <input type="checkbox" id="fmt_laserdisc" class="format-chk" value="LaserDisc" onchange="render()">
-          <span>💽 LaserDisc</span>
-        </label>
-        <label class="format-toggle-chip format-chip-unreleased" title="Include shorts with zero disc releases">
-          <input type="checkbox" id="fmt_unreleased" class="format-chk" value="unreleased" onchange="render()">
-          <span>⚪ Unreleased / No Disc</span>
-        </label>
-      </div>
-    </div>
-
-    <!-- Personal Ratings & Notes Filters Row -->
-    <div class="user-filters-row">
-      <div class="ratings-dropdown-wrap" id="ratingsDropdownWrap">
-        <button type="button" class="user-filter-btn" id="ratingsDropdownBtn" onclick="toggleRatingsDropdown(event)" title="Filter by your personal star ratings">
-          <span id="ratingsDropdownBtnLabel">My Ratings</span>
-          <span class="ratings-dropdown-chevron">▾</span>
-        </button>
-        <div class="ratings-dropdown-menu" id="ratingsDropdownMenu" style="display: none;">
-          <div class="ratings-dropdown-header">
-            <span>My Ratings</span>
-            <button type="button" class="ratings-dropdown-clear-btn" onclick="clearRatingCheckboxes(event)">Clear</button>
-          </div>
-          <div class="ratings-dropdown-divider"></div>
-          <div class="ratings-dropdown-list">
-            <label class="ratings-dropdown-item">
-              <input type="checkbox" class="rating-chk" value="5" onchange="handleRatingCheckboxChange()">
-              <span class="rating-stars-text">⭐⭐⭐⭐⭐ 5 Stars</span>
-            </label>
-            <label class="ratings-dropdown-item">
-              <input type="checkbox" class="rating-chk" value="4" onchange="handleRatingCheckboxChange()">
-              <span class="rating-stars-text">⭐⭐⭐⭐ 4 Stars</span>
-            </label>
-            <label class="ratings-dropdown-item">
-              <input type="checkbox" class="rating-chk" value="3" onchange="handleRatingCheckboxChange()">
-              <span class="rating-stars-text">⭐⭐⭐ 3 Stars</span>
-            </label>
-            <label class="ratings-dropdown-item">
-              <input type="checkbox" class="rating-chk" value="2" onchange="handleRatingCheckboxChange()">
-              <span class="rating-stars-text">⭐⭐ 2 Stars</span>
-            </label>
-            <label class="ratings-dropdown-item">
-              <input type="checkbox" class="rating-chk" value="1" onchange="handleRatingCheckboxChange()">
-              <span class="rating-stars-text">⭐ 1 Star</span>
-            </label>
-          </div>
-          <div class="ratings-dropdown-divider"></div>
-          <div class="ratings-dropdown-list">
-            <label class="ratings-dropdown-item">
-              <input type="checkbox" class="rating-chk" value="unrated" onchange="handleRatingCheckboxChange()">
-              <span class="rating-stars-text">⚪ Unrated Shorts</span>
-            </label>
-          </div>
-        </div>
-      </div>
-
-      <button type="button" class="notes-toggle-btn" id="notesOnlyFilterBtn" onclick="toggleNotesOnlyFilter(this)" title="Filter to shorts where you added personal notes">
-        📝 My Notes
-      </button>
     </div>
 
     <!-- Active Filter Chips & Unified Clear All Action -->
@@ -2297,12 +2359,7 @@
   </div>
 
   <div class="stats-bar">
-    <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
-      <span id="resultsCount">Loading database...</span>
-      <button type="button" class="expand-all-btn" id="expandAllBtn" onclick="toggleExpandAllCards()" title="Expand or collapse all visible cartoon cards">
-        <span id="expandAllIcon">▸</span> <span id="expandAllText">Expand All</span>
-      </button>
-    </div>
+    <span id="resultsCount">Loading database...</span>
     <label class="load-file-btn">
       Load Local database.json
       <input type="file" id="filePicker" accept=".json" style="display: none;">
@@ -3844,6 +3901,10 @@
     if (countEl) countEl.textContent = count;
     const totalEl = document.getElementById('totalSetsCount');
     if (totalEl) totalEl.textContent = primarySets.length || 44;
+    const libHeaderCount = document.getElementById('libraryHeaderCount');
+    if (libHeaderCount) libHeaderCount.textContent = primaryOwned;
+    const libHeaderTotal = document.getElementById('libraryHeaderTotal');
+    if (libHeaderTotal) libHeaderTotal.textContent = primarySets.length || 44;
     const summaryEl = document.getElementById('modalOwnedSummary');
     if (summaryEl) {
       summaryEl.textContent = `${count} of ${total} Owned (${primaryOwned}/${primarySets.length} Primary${bonusOwned > 0 ? `, ${bonusOwned} Extras` : ''})`;
@@ -4033,8 +4094,11 @@
       }
     });
 
-    fillSelect(charSelect, Array.from(chars).sort((a, b) => a.localeCompare(b)), "All Featured Characters");
-    fillSelect(dirSelect, Array.from(directors).sort((a, b) => a.localeCompare(b)), "All Directors");
+    allCharacters = Array.from(chars).sort((a, b) => a.localeCompare(b));
+    allDirectors = Array.from(directors).sort((a, b) => a.localeCompare(b));
+
+    if (charSelect) fillSelect(charSelect, allCharacters, "All Featured Characters");
+    if (dirSelect) fillSelect(dirSelect, allDirectors, "All Directors");
 
     allMediaSets = Array.from(setsMap.entries()).map(([name, data]) => ({
       set_name: name,
@@ -4300,10 +4364,71 @@
       .replace(/"/g, '&quot;');
   }
 
-  // --- Autocomplete & Entity Disambiguation ---
+  // --- Omnibox Filter Tokens & Autocomplete Engine ---
+  let activeTokens = [];
   let selectedSuggestionIndex = -1;
   let currentSuggestions = [];
   let suggestionDebounceTimer = null;
+
+  const SPECIES_GROUPS = [
+    {
+      key: 'rabbit',
+      label: 'Rabbits / Bunnies',
+      icon: '🐰',
+      keywords: ['rabbit', 'bunny', 'hare', 'rabbits', 'bunnies', 'hares'],
+      chars: ['Bugs Bunny', 'Bunny', 'Clyde Bunny', 'Happy Rabbit', 'Jack Bunny', 'Peter Rabbit']
+    },
+    {
+      key: 'cat',
+      label: 'Cats / Felines',
+      icon: '🐱',
+      keywords: ['cat', 'feline', 'kitten', 'cats', 'felines', 'kittens', 'kitty', 'pussycat'],
+      chars: ['Sylvester', 'Claude Cat', 'Claude', 'Pussyfoot', 'Sylvester Jr.', 'Penelope Pussycat', 'Cool Cat', 'Sam Cat', 'Catstello', 'Conrad the Cat']
+    },
+    {
+      key: 'dog',
+      label: 'Dogs / Canines',
+      icon: '🐕',
+      keywords: ['dog', 'canine', 'hound', 'pup', 'puppy', 'dogs', 'canines', 'hounds', 'puppies', 'bulldog'],
+      chars: ['Hector the Bulldog', 'Barnyard Dawg', 'Charlie Dog', 'Frisky Puppy', 'Spike', 'Chester', 'Sam Sheepdog', 'The Talking Bulldog', 'The Two Curious Puppies']
+    },
+    {
+      key: 'bird',
+      label: 'Birds',
+      icon: '🐥',
+      keywords: ['bird', 'birds', 'canary', 'hawk', 'buzzard', 'rooster', 'chicken', 'fowl'],
+      chars: ['Tweety', 'Road Runner', 'Henery Hawk', 'Beaky Buzzard', 'Foghorn Leghorn', 'Minah Bird', 'Emily the Chicken', 'Ben Birdie']
+    },
+    {
+      key: 'duck',
+      label: 'Ducks',
+      icon: '🦆',
+      keywords: ['duck', 'ducks', 'mallard'],
+      chars: ['Daffy Duck', 'Melissa Duck', 'Dizzy Duck', 'Shapely Lady Duck']
+    },
+    {
+      key: 'pig',
+      label: 'Pigs',
+      icon: '🐷',
+      keywords: ['pig', 'pigs', 'porker', 'swine', 'piggy', 'ham'],
+      chars: ['Porky Pig', 'Petunia Pig', 'Ham', 'Ex', 'Ham and Ex', 'Piggy', 'Pinky Pig', 'Phineas Pig', 'Piggy Hamhock']
+    }
+  ];
+
+  const FORMAT_SUGGESTIONS = [
+    { key: 'Blu-ray', label: 'Blu-ray', icon: '💿', keywords: ['blu-ray', 'bluray', 'blu', 'bd', 'disc', 'hd'] },
+    { key: 'DVD', label: 'DVD', icon: '📀', keywords: ['dvd', 'dvds'] },
+    { key: 'LaserDisc', label: 'LaserDisc', icon: '💽', keywords: ['laserdisc', 'laser', 'ld'] },
+    { key: 'unreleased', label: 'Unreleased / No Disc', icon: '⚪', keywords: ['unreleased', 'no disc', 'none', 'undisc'] }
+  ];
+
+  const ERA_SUGGESTIONS = [
+    { key: 'bw', label: 'B&W Era (1929–1943)', icon: '⏳', keywords: ['b&w', 'bw', 'black and white', 'black', 'white', 'early'], minYear: 1929, maxYear: 1943 },
+    { key: 'war', label: 'War Years (1941–1945)', icon: '⏳', keywords: ['war', 'war years', 'wwii', 'military', 'patriotic'], minYear: 1941, maxYear: 1945 },
+    { key: 'gold', label: 'Golden Age (1946–1959)', icon: '⏳', keywords: ['golden age', 'golden', 'gold'], minYear: 1946, maxYear: 1959 },
+    { key: 'late', label: 'Late Theatrical (1960–1969)', icon: '⏳', keywords: ['late theatrical', 'late', 'depatie', 'seven arts', '60s', 'sixties'], minYear: 1960, maxYear: 1969 },
+    { key: 'revival', label: 'Modern Revival (1979–Present)', icon: '⏳', keywords: ['modern revival', 'revival', 'modern'], minYear: 1979, maxYear: 2014 }
+  ];
 
   function getCharacterIcon(charName) {
     const lower = (charName || '').toLowerCase();
@@ -4333,6 +4458,78 @@
     return '🎭';
   }
 
+  // --- Omnibox Token Handlers ---
+  function addToken(token) {
+    if (activeTokens.some(t => t.id === token.id)) return;
+    activeTokens.push(token);
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+      searchInput.value = '';
+    }
+    updateOmniboxPlaceholder();
+    renderTokens();
+    hideSuggestions();
+    render();
+    if (searchInput) searchInput.focus();
+  }
+
+  window.removeToken = function(tokenId) {
+    activeTokens = activeTokens.filter(t => t.id !== tokenId);
+    updateOmniboxPlaceholder();
+    renderTokens();
+    render();
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) searchInput.focus();
+  };
+
+  window.focusOmniboxInput = function(e) {
+    if (e.target.closest('.omnibox-token-remove')) return;
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) searchInput.focus();
+  };
+
+  function updateOmniboxPlaceholder() {
+    const searchInput = document.getElementById('searchInput');
+    if (!searchInput) return;
+    if (activeTokens.length > 0) {
+      searchInput.placeholder = 'Add filter or keyword...';
+    } else {
+      searchInput.placeholder = 'Search by title, character, director, format...';
+    }
+  }
+
+  function renderTokens() {
+    const container = document.getElementById('omniboxTokens');
+    if (!container) return;
+    container.innerHTML = activeTokens.map(token => `
+      <span class="omnibox-token ${token.type}" data-id="${token.id}">
+        <span class="omnibox-token-icon">${token.icon}</span>
+        <span class="omnibox-token-label">${escapeHtml(token.label)}</span>
+        <button type="button" class="omnibox-token-remove" onclick="removeToken('${token.id}')" aria-label="Remove ${escapeHtml(token.label)} filter">&times;</button>
+      </span>
+    `).join('');
+
+    const clearBtn = document.getElementById('clearSearchBtn');
+    const searchInput = document.getElementById('searchInput');
+    if (clearBtn) {
+      const hasText = Boolean(searchInput && searchInput.value.trim().length > 0);
+      clearBtn.style.display = (activeTokens.length > 0 || hasText) ? 'flex' : 'none';
+    }
+  }
+
+  window.clearAllOmnibox = function() {
+    activeTokens = [];
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+      searchInput.value = '';
+      searchInput.focus();
+    }
+    updateOmniboxPlaceholder();
+    renderTokens();
+    hideSuggestions();
+    render();
+  };
+
   function hideSuggestions() {
     const menu = document.getElementById('searchSuggestions');
     if (menu) {
@@ -4361,25 +4558,48 @@
     if (!item) return;
 
     if (item.type === 'character') {
-      const searchInput = document.getElementById('searchInput');
-      if (searchInput) searchInput.value = '';
-
-      const charFilter = document.getElementById('charFilter');
-      if (charFilter) {
-        charFilter.value = item.filterValue;
-      }
-      hideSuggestions();
-      render();
+      addToken({
+        id: 'char_' + item.filterValue,
+        type: 'character',
+        value: item.filterValue,
+        label: item.displayName,
+        icon: item.icon
+      });
     } else if (item.type === 'director') {
-      const searchInput = document.getElementById('searchInput');
-      if (searchInput) searchInput.value = '';
-
-      const dirFilter = document.getElementById('directorFilter');
-      if (dirFilter) {
-        dirFilter.value = item.filterValue;
-      }
-      hideSuggestions();
-      render();
+      addToken({
+        id: 'dir_' + item.filterValue,
+        type: 'director',
+        value: item.filterValue,
+        label: item.displayName,
+        icon: item.icon
+      });
+    } else if (item.type === 'species') {
+      addToken({
+        id: 'species_' + item.filterValue,
+        type: 'species',
+        value: item.filterValue,
+        label: item.displayName,
+        icon: item.icon,
+        chars: item.chars
+      });
+    } else if (item.type === 'format') {
+      addToken({
+        id: 'fmt_' + item.filterValue,
+        type: 'format',
+        value: item.filterValue,
+        label: item.displayName,
+        icon: item.icon
+      });
+    } else if (item.type === 'era') {
+      addToken({
+        id: 'era_' + item.filterValue,
+        type: 'era',
+        value: item.filterValue,
+        label: item.displayName,
+        icon: item.icon,
+        minYear: item.minYear,
+        maxYear: item.maxYear
+      });
     } else if (item.type === 'generic') {
       const searchInput = document.getElementById('searchInput');
       if (searchInput) searchInput.value = item.filterValue;
@@ -4401,7 +4621,82 @@
       return;
     }
 
-    // 1. Scan character roster
+    const suggestions = [];
+
+    // 1. Check Species / Animal Group Keywords
+    SPECIES_GROUPS.forEach(group => {
+      const tokenId = 'species_' + group.key;
+      if (activeTokens.some(t => t.id === tokenId)) return;
+
+      const matchesKeyword = group.keywords.some(kw => kw.includes(q) || q.includes(kw));
+      const matchesLabel = normalizeText(group.label).includes(q);
+
+      if (matchesKeyword || matchesLabel) {
+        const normChars = new Set(group.chars.map(c => normalizeText(c)));
+        const count = database.filter(s => (s.featured_characters || []).some(c => normChars.has(normalizeText(c)))).length;
+        suggestions.push({
+          type: 'species',
+          displayName: group.label,
+          filterValue: group.key,
+          icon: group.icon,
+          chars: group.chars,
+          count,
+          score: 1
+        });
+      }
+    });
+
+    // 2. Check Physical Formats
+    FORMAT_SUGGESTIONS.forEach(fmt => {
+      const tokenId = 'fmt_' + fmt.key;
+      if (activeTokens.some(t => t.id === tokenId)) return;
+
+      const matchesKeyword = fmt.keywords.some(kw => kw.includes(q) || q.includes(kw));
+      const matchesLabel = normalizeText(fmt.label).includes(q);
+
+      if (matchesKeyword || matchesLabel) {
+        let count = 0;
+        if (fmt.key === 'unreleased') {
+          count = database.filter(s => (s.media_locations || []).length === 0).length;
+        } else {
+          const lk = fmt.key.toLowerCase();
+          count = database.filter(s => (s.media_locations || []).some(m => (m.format || '').toLowerCase().includes(lk))).length;
+        }
+        suggestions.push({
+          type: 'format',
+          displayName: fmt.label,
+          filterValue: fmt.key,
+          icon: fmt.icon,
+          count,
+          score: 1
+        });
+      }
+    });
+
+    // 3. Check Theatrical Eras
+    ERA_SUGGESTIONS.forEach(era => {
+      const tokenId = 'era_' + era.key;
+      if (activeTokens.some(t => t.id === tokenId)) return;
+
+      const matchesKeyword = era.keywords.some(kw => kw.includes(q) || q.includes(kw));
+      const matchesLabel = normalizeText(era.label).includes(q);
+
+      if (matchesKeyword || matchesLabel) {
+        const count = database.filter(s => s.year >= era.minYear && s.year <= era.maxYear).length;
+        suggestions.push({
+          type: 'era',
+          displayName: era.label,
+          filterValue: era.key,
+          icon: era.icon,
+          minYear: era.minYear,
+          maxYear: era.maxYear,
+          count,
+          score: 1
+        });
+      }
+    });
+
+    // 4. Scan Character Roster
     const charCounts = new Map();
     database.forEach(short => {
       (short.featured_characters || []).forEach(c => {
@@ -4409,14 +4704,16 @@
       });
     });
 
-    const matchingChars = [];
     for (const [charName, count] of charCounts.entries()) {
+      const tokenId = 'char_' + charName;
+      if (activeTokens.some(t => t.id === tokenId)) continue;
+
       const normName = normalizeText(charName);
       if (normName.includes(q)) {
         let score = 3;
         if (normName.startsWith(q)) score = 1;
         else if (normName.split(/\s+/).some(w => w.startsWith(q))) score = 2;
-        matchingChars.push({
+        suggestions.push({
           type: 'character',
           displayName: charName,
           filterValue: charName,
@@ -4427,9 +4724,7 @@
       }
     }
 
-    matchingChars.sort((a, b) => a.score - b.score || b.count - a.count);
-
-    // 2. Scan director roster & known aliases
+    // 5. Scan Director Roster & Known Aliases
     const dirMap = new Map();
     database.forEach(short => {
       const dirs = (short.directors && short.directors.length ? short.directors : [short.director]).filter(Boolean);
@@ -4453,8 +4748,10 @@
       "Frank Tashlin": ['Tish Tash']
     };
 
-    const matchingDirs = [];
     for (const [dirName, info] of dirMap.entries()) {
+      const tokenId = 'dir_' + dirName;
+      if (activeTokens.some(t => t.id === tokenId)) continue;
+
       const normDir = normalizeText(dirName);
       const aliases = DIRECTOR_KNOWN_ALIASES[dirName] || [];
       const normAliases = aliases.map(a => normalizeText(a));
@@ -4474,7 +4771,7 @@
         if (normDir.startsWith(q) || normAliases.some(a => a.startsWith(q))) score = 1;
         else if (normDir.split(/\s+/).some(w => w.startsWith(q)) || normAliases.some(a => a.split(/\s+/).some(w => w.startsWith(q)))) score = 2;
 
-        matchingDirs.push({
+        suggestions.push({
           type: 'director',
           displayName,
           filterValue: dirName,
@@ -4485,38 +4782,24 @@
       }
     }
 
-    matchingDirs.sort((a, b) => a.score - b.score || b.count - a.count);
+    // Sort suggestions by score ascending, then by count descending
+    suggestions.sort((a, b) => a.score - b.score || b.count - a.count);
 
-    // 3. Take top 4-6 entity suggestions
-    const entityCandidates = [];
-    let cIdx = 0;
-    let dIdx = 0;
-    while (entityCandidates.length < 6 && (cIdx < matchingChars.length || dIdx < matchingDirs.length)) {
-      if (cIdx < matchingChars.length && dIdx < matchingDirs.length) {
-        if (matchingChars[cIdx].score <= matchingDirs[dIdx].score) {
-          entityCandidates.push(matchingChars[cIdx++]);
-        } else {
-          entityCandidates.push(matchingDirs[dIdx++]);
-        }
-      } else if (cIdx < matchingChars.length) {
-        entityCandidates.push(matchingChars[cIdx++]);
-      } else {
-        entityCandidates.push(matchingDirs[dIdx++]);
-      }
-    }
+    // Limit top matches to 7 items
+    const topSuggestions = suggestions.slice(0, 7);
 
-    // 4. Append generic fallback option
+    // Append fallback keyword option
     const fallbackItem = {
       type: 'generic',
-      displayName: `Search for "${rawVal}" across all fields`,
+      displayName: `Search for "${rawVal}" in titles & descriptions`,
       filterValue: rawVal,
       icon: '🔎'
     };
 
-    currentSuggestions = [...entityCandidates, fallbackItem];
+    currentSuggestions = [...topSuggestions, fallbackItem];
     selectedSuggestionIndex = -1;
 
-    // Render HTML
+    // Render Dropdown HTML
     menu.innerHTML = currentSuggestions.map((item, idx) => {
       if (item.type === 'generic') {
         return `
@@ -4528,6 +4811,14 @@
           </div>
         `;
       }
+
+      let badgeLabel = 'Filter';
+      if (item.type === 'character') badgeLabel = 'Character';
+      else if (item.type === 'director') badgeLabel = 'Director';
+      else if (item.type === 'species') badgeLabel = 'Group';
+      else if (item.type === 'format') badgeLabel = 'Format';
+      else if (item.type === 'era') badgeLabel = 'Era';
+
       return `
         <div class="suggestion-item" role="option" data-index="${idx}">
           <div class="suggestion-item-left">
@@ -4535,7 +4826,7 @@
             <span class="suggestion-name">${escapeHtml(item.displayName)}</span>
             <span class="suggestion-count">(${item.count})</span>
           </div>
-          <span class="suggestion-type-badge ${item.type}">${item.type === 'character' ? 'Character' : 'Director'}</span>
+          <span class="suggestion-type-badge ${item.type}">${badgeLabel}</span>
         </div>
       `;
     }).join('');
@@ -4557,6 +4848,7 @@
     if (!searchInput) return;
 
     searchInput.addEventListener('input', () => {
+      renderTokens();
       clearTimeout(suggestionDebounceTimer);
       suggestionDebounceTimer = setTimeout(updateSuggestions, 150);
     });
@@ -4569,7 +4861,20 @@
 
     searchInput.addEventListener('keydown', (e) => {
       const menu = document.getElementById('searchSuggestions');
-      if (!menu || menu.hidden) {
+      const isMenuVisible = menu && !menu.hidden && currentSuggestions.length > 0;
+
+      if (e.key === 'Backspace' && searchInput.value === '') {
+        if (activeTokens.length > 0) {
+          activeTokens.pop();
+          renderTokens();
+          updateOmniboxPlaceholder();
+          hideSuggestions();
+          render();
+        }
+        return;
+      }
+
+      if (!isMenuVisible) {
         if (e.key === 'ArrowDown' && searchInput.value.trim().length >= 2) {
           updateSuggestions();
         }
@@ -4590,6 +4895,7 @@
           selectSuggestion(currentSuggestions[selectedSuggestionIndex]);
         } else {
           hideSuggestions();
+          render();
         }
       } else if (e.key === 'Escape') {
         e.preventDefault();
@@ -4606,30 +4912,13 @@
 
   // --- Active Filter Management & Search Controls ---
   window.clearSearchInput = function() {
-    const input = document.getElementById('searchInput');
-    if (input) {
-      input.value = '';
-      input.focus();
-    }
-    hideSuggestions();
-    render();
+    clearAllOmnibox();
   };
 
   window.removeFilter = function(filterType) {
-    if (filterType === 'query') {
-      const el = document.getElementById('searchInput');
-      if (el) el.value = '';
-    } else if (filterType === 'library') {
+    if (filterType === 'library') {
       const el = document.getElementById('myLibraryOnlyToggle');
       if (el) el.checked = false;
-    } else if (filterType === 'character') {
-      const el = document.getElementById('charFilter');
-      if (el) el.value = '';
-    } else if (filterType === 'director') {
-      const el = document.getElementById('directorFilter');
-      if (el) el.value = '';
-    } else if (filterType === 'format') {
-      document.querySelectorAll('.format-chk').forEach(cb => cb.checked = false);
     } else if (filterType === 'rating') {
       document.querySelectorAll('.rating-chk').forEach(cb => cb.checked = false);
       updateRatingsDropdownState();
@@ -4645,16 +4934,12 @@
   };
 
   window.clearAllFilters = function() {
+    activeTokens = [];
     const searchInput = document.getElementById('searchInput');
     if (searchInput) searchInput.value = '';
-
-    const charFilter = document.getElementById('charFilter');
-    if (charFilter) charFilter.value = '';
-
-    const directorFilter = document.getElementById('directorFilter');
-    if (directorFilter) directorFilter.value = '';
-
-    document.querySelectorAll('.format-chk').forEach(cb => cb.checked = false);
+    updateOmniboxPlaceholder();
+    renderTokens();
+    hideSuggestions();
 
     const libToggle = document.getElementById('myLibraryOnlyToggle');
     if (libToggle) libToggle.checked = false;
@@ -4666,7 +4951,6 @@
     const notesBtn = document.getElementById('notesOnlyFilterBtn');
     if (notesBtn) notesBtn.classList.remove('active');
 
-    // Reset timeline without duplicate render
     activeMinYear = 1929;
     activeMaxYear = 2014;
     activeEraKey = 'all';
@@ -4678,52 +4962,21 @@
   function updateActiveFilterChips() {
     const container = document.getElementById('activeFilterChipsContainer');
     const listEl = document.getElementById('activeChipsList');
-    const clearSearchBtn = document.getElementById('clearSearchBtn');
     const panelActiveBadge = document.getElementById('panelActiveBadge');
     if (!container || !listEl) return;
 
     const chips = [];
 
-    // 1. Search Query
-    const searchEl = document.getElementById('searchInput');
-    const rawQuery = searchEl ? searchEl.value.trim() : '';
-    if (clearSearchBtn) {
-      clearSearchBtn.style.display = rawQuery ? 'flex' : 'none';
-    }
-    if (rawQuery) {
-      const dispQuery = rawQuery.length > 22 ? rawQuery.slice(0, 20) + '…' : rawQuery;
-      chips.push({ id: 'query', label: `Search: "${dispQuery}"` });
-    }
+    // Note: Omnibox tokens are visible directly inside the Omnibox.
+    // We surface auxiliary active filters here (Library, Ratings, Notes, Timeline)
 
-    // 2. In My Library Only
+    // 1. In My Library Only
     const libToggle = document.getElementById('myLibraryOnlyToggle');
     if (libToggle && libToggle.checked) {
       chips.push({ id: 'library', label: `Library: In My Library Only (${selectedMediaSets.size} Sets)` });
     }
 
-    // 3. Character
-    const charEl = document.getElementById('charFilter');
-    if (charEl && charEl.value) {
-      chips.push({ id: 'character', label: `Character: ${charEl.value}` });
-    }
-
-    // 4. Director
-    const dirEl = document.getElementById('directorFilter');
-    if (dirEl && dirEl.value) {
-      chips.push({ id: 'director', label: `Director: ${dirEl.value}` });
-    }
-
-    // 5. Multi-select Formats
-    const checkedFmtBoxes = Array.from(document.querySelectorAll('.format-chk:checked'));
-    if (checkedFmtBoxes.length > 0) {
-      const fmtLabels = checkedFmtBoxes.map(cb => {
-        if (cb.value === 'unreleased') return 'Unreleased';
-        return cb.value;
-      });
-      chips.push({ id: 'format', label: `Formats: ${fmtLabels.join(', ')}` });
-    }
-
-    // 6. Rating Checkboxes
+    // 2. Rating Checkboxes
     const selectedRatings = getSelectedRatings();
     if (selectedRatings.length > 0) {
       const starVals = selectedRatings.filter(v => v !== 'unrated').sort((a, b) => Number(b) - Number(a));
@@ -4738,12 +4991,12 @@
       chips.push({ id: 'rating', label: `My Ratings: ${parts.join(', ')}` });
     }
 
-    // 7. Personal Notes
+    // 3. Personal Notes
     if (activeNotesOnly) {
       chips.push({ id: 'notes', label: `My Notes` });
     }
 
-    // 8. Historical Era / Timeline Range
+    // 4. Historical Era / Timeline Range
     let secondaryCount = 0;
     if (activeEraKey && activeEraKey !== 'all' && ERA_DEFINITIONS[activeEraKey]) {
       secondaryCount++;
@@ -4764,7 +5017,16 @@
     }
 
     // Render chips or hide container
+    const searchInput = document.getElementById('searchInput');
+    const hasRawQuery = Boolean(searchInput && searchInput.value.trim().length > 0);
+    const hasAnyFilter = chips.length > 0 || activeTokens.length > 0 || hasRawQuery;
+
     if (chips.length === 0) {
+      if (activeTokens.length > 0) {
+        container.style.display = 'flex';
+        listEl.innerHTML = '';
+        return;
+      }
       container.style.display = 'none';
       listEl.innerHTML = '';
       return;
@@ -4787,7 +5049,6 @@
     const query = normalizeText(q);
     const queryTerms = query.split(/\s+/).filter(Boolean);
 
-    // Normalize and evaluate title, director, characters, synopsis, description, plot, notes, and media releases
     const searchable = normalizeText([
       short.title,
       short.series,
@@ -4815,54 +5076,69 @@
   }
 
   function render() {
-    const rawQuery = document.getElementById('searchInput').value.trim();
-    const selectedChar = document.getElementById('charFilter').value;
-    const selectedDir = document.getElementById('directorFilter').value;
+    const rawQuery = document.getElementById('searchInput')?.value.trim() || '';
     const selectedRatings = getSelectedRatings();
     const inMyLibOnly = Boolean(document.getElementById('myLibraryOnlyToggle')?.checked);
 
-    const checkedFmts = Array.from(document.querySelectorAll('.format-chk:checked')).map(cb => cb.value);
-    const hasUnreleased = checkedFmts.includes('unreleased');
-    const discFormats = checkedFmts.filter(f => f !== 'unreleased');
+    // Categorize active Omnibox tokens
+    const charTokens = activeTokens.filter(t => t.type === 'character');
+    const speciesTokens = activeTokens.filter(t => t.type === 'species');
+    const dirTokens = activeTokens.filter(t => t.type === 'director');
+    const fmtTokens = activeTokens.filter(t => t.type === 'format');
+    const eraTokens = activeTokens.filter(t => t.type === 'era');
+
+    // Aggregate character filter criteria (OR logic across selected character chips and species groups)
+    const targetCharNames = new Set(charTokens.map(t => normalizeText(t.value)));
+    const targetSpeciesChars = new Set();
+    speciesTokens.forEach(t => (t.chars || []).forEach(c => targetSpeciesChars.add(normalizeText(c))));
+    const hasCharCriteria = targetCharNames.size > 0 || targetSpeciesChars.size > 0;
+
+    // Aggregate director filter criteria (OR logic across selected directors)
+    const targetDirs = dirTokens.map(t => normalizeText(t.value));
+
+    // Aggregate format filter criteria (OR logic across selected formats)
+    const hasUnreleasedFmt = fmtTokens.some(t => t.value === 'unreleased');
+    const discFmts = fmtTokens.filter(t => t.value !== 'unreleased').map(t => t.value.toLowerCase());
 
     const filtered = database.filter(short => {
-      // 1. Year range filtering
+      // 1. Era Tokens & Timeline Era filtering
+      if (eraTokens.length > 0) {
+        const yr = short.year;
+        const matchesAnyEra = eraTokens.some(t => yr >= t.minYear && yr <= t.maxYear);
+        if (!matchesAnyEra) return false;
+      }
       if (short.year && (short.year < activeMinYear || short.year > activeMaxYear)) return false;
 
       // 2. "In My Library Only" filtering
-      // - If toggle is active, ONLY include shorts that appear on at least one owned set!
-      // - If no sets are marked owned, 0 shorts match.
       if (inMyLibOnly) {
         if (selectedMediaSets.size === 0) return false;
         const hasOwnedSet = (short.media_locations || []).some(loc => selectedMediaSets.has(loc.set_name));
         if (!hasOwnedSet) return false;
       }
 
-      // 3. Character filtering
-      if (selectedChar) {
-        const normChar = normalizeText(selectedChar);
-        const hasChar = (short.featured_characters || []).some(c => normalizeText(c) === normChar);
-        if (!hasChar) return false;
+      // 3. Character & Species filtering (OR logic across selected characters and groups)
+      if (hasCharCriteria) {
+        const shortChars = (short.featured_characters || []).map(c => normalizeText(c));
+        const matchesChar = shortChars.some(c => targetCharNames.has(c) || targetSpeciesChars.has(c));
+        if (!matchesChar) return false;
       }
 
-      // 4. Director filtering
-      if (selectedDir) {
-        const normDir = normalizeText(selectedDir);
-        const allDirs = (short.directors || [short.director]).concat(short.director_aliases || []);
-        const matchesDir = allDirs.some(d => d && normalizeText(d) === normDir) ||
-                           (normalizeText(short.director_credit || short.director || '').includes(normDir));
+      // 4. Director filtering (OR logic across selected directors, AND with characters)
+      if (targetDirs.length > 0) {
+        const allDirs = (short.directors || [short.director]).concat(short.director_aliases || []).map(d => normalizeText(d));
+        const dirCredit = normalizeText(short.director_credit || short.director || '');
+        const matchesDir = targetDirs.some(td => allDirs.includes(td) || dirCredit.includes(td));
         if (!matchesDir) return false;
       }
 
-      // 5. Multi-select Format filtering:
-      // If 1+ formats selected, match if short exists on ANY selected disc format or is unreleased if checked
-      if (checkedFmts.length > 0) {
+      // 5. Format filtering (OR logic across selected formats)
+      if (fmtTokens.length > 0) {
         const locs = short.media_locations || [];
-        const matchesDisc = discFormats.length > 0 && locs.some(loc => {
+        const matchesDisc = discFmts.length > 0 && locs.some(loc => {
           const lf = (loc.format || '').toLowerCase();
-          return discFormats.some(f => lf.includes(f.toLowerCase()));
+          return discFmts.some(f => lf.includes(f));
         });
-        const matchesUnreleased = hasUnreleased && locs.length === 0;
+        const matchesUnreleased = hasUnreleasedFmt && locs.length === 0;
         if (!matchesDisc && !matchesUnreleased) return false;
       }
 
@@ -4882,7 +5158,7 @@
         if (!n || !n.trim()) return false;
       }
 
-      // 8. Text query filtering (title, director, character, synopses, descriptions, keywords)
+      // 8. Text query filtering (title, synopses, descriptions, keywords)
       if (!matchesSearch(short, rawQuery)) return false;
 
       return true;
