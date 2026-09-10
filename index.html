@@ -4197,33 +4197,77 @@
   let currentSuggestions = [];
   let suggestionDebounceTimer = null;
 
-  // --- Animal Synonyms & Species Dictionaries ---
-  const ANIMAL_SYNONYMS = {
-    // Rabbits
-    'bunny': 'rabbit', 'bunnies': 'rabbit', 'rabbit': 'rabbit', 'rabbits': 'rabbit', 'hare': 'rabbit', 'hares': 'rabbit',
-    // Cats
-    'cat': 'cat', 'cats': 'cat', 'kitten': 'cat', 'kittens': 'cat', 'kitty': 'cat', 'kitties': 'cat', 'pussy': 'cat', 'pussycat': 'cat', 'pussycats': 'cat', 'feline': 'cat', 'felines': 'cat',
-    // Dogs
-    'dog': 'dog', 'dogs': 'dog', 'puppy': 'dog', 'puppies': 'dog', 'pup': 'dog', 'pups': 'dog', 'hound': 'dog', 'hounds': 'dog', 'canine': 'dog', 'canines': 'dog',
-    // Birds
-    'bird': 'bird', 'birds': 'bird', 'canary': 'bird', 'canaries': 'bird', 'hawk': 'bird', 'hawks': 'bird', 'buzzard': 'bird', 'buzzards': 'bird',
-    // Ducks
-    'duck': 'duck', 'ducks': 'duck',
-    // Pigs
-    'pig': 'pig', 'pigs': 'pig', 'porker': 'pig', 'porkers': 'pig', 'swine': 'pig',
-    // Mice
-    'mouse': 'mouse', 'mice': 'mouse', 'rodent': 'mouse', 'rodents': 'mouse'
+  // --- Centralized Search Synonym & Species Groups ---
+  const SEARCH_SYNONYM_GROUPS = {
+    rabbit: {
+      aliases: ['rabbit', 'bunny', 'bunnies', 'hare', 'hares'],
+      characters: ['Bugs Bunny', 'Honey Bunny']
+    },
+    cat: {
+      aliases: ['cat', 'cats', 'kitten', 'kittens', 'kitty', 'pussy', 'pussycat', 'feline'],
+      characters: ['Sylvester', 'Claude Cat', 'Pussyfoot', 'Dodsworth', 'Penelope Pussycat', 'Sylvester Jr.']
+    },
+    dog: {
+      aliases: ['dog', 'dogs', 'puppy', 'puppies', 'pup', 'hound', 'hounds', 'canine', 'mutt'],
+      characters: ['Hector the Bulldog', 'Barnyard Dawg', 'Charlie Dog', 'Frisky Puppy', 'Marc Antony', 'Sam Sheepdog', 'Spike the Bulldog']
+    },
+    bird: {
+      aliases: ['bird', 'birds', 'canary', 'hawk', 'buzzard', 'vulture'],
+      characters: ['Tweety', 'Road Runner', 'Henery Hawk', 'Beaky Buzzard']
+    },
+    duck: {
+      aliases: ['duck', 'ducks', 'drake', 'duckling'],
+      characters: ['Daffy Duck', 'Melissa Duck']
+    },
+    pig: {
+      aliases: ['pig', 'pigs', 'piglet', 'porker', 'swine', 'hog'],
+      characters: ['Porky Pig', 'Petunia Pig']
+    },
+    mouse: {
+      aliases: ['mouse', 'mice', 'rodent'],
+      characters: ['Speedy Gonzales', 'Hubie', 'Bertie', 'Sniffles', 'Slowpoke Rodriguez']
+    }
   };
 
-  const SPECIES_CHARACTERS = {
-    rabbit: ['Bugs Bunny', 'Happy Rabbit', 'Honey Bunny'],
-    cat: ['Sylvester', 'Claude Cat', 'Pussyfoot', 'Dodsworth', 'Penelope Pussycat', 'Sylvester Jr.'],
-    dog: ['Hector the Bulldog', 'Barnyard Dawg', 'Charlie Dog', 'Frisky Puppy', 'Marc Antony', 'Sam Sheepdog', 'Spike the Bulldog'],
-    bird: ['Tweety', 'Road Runner', 'Henery Hawk', 'Beaky Buzzard'],
-    duck: ['Daffy Duck', 'Melissa Duck'],
-    pig: ['Porky Pig', 'Petunia Pig'],
-    mouse: ['Speedy Gonzales', 'Hubie', 'Bertie', 'Sniffles', 'Slowpoke Rodriguez']
-  };
+  // Backwards compatibility mappings derived from SEARCH_SYNONYM_GROUPS
+  const ANIMAL_SYNONYMS = {};
+  const SPECIES_CHARACTERS = {};
+  for (const [key, grp] of Object.entries(SEARCH_SYNONYM_GROUPS)) {
+    ANIMAL_SYNONYMS[key] = key;
+    grp.aliases.forEach(a => { ANIMAL_SYNONYMS[a] = key; });
+    SPECIES_CHARACTERS[key] = [...grp.characters];
+  }
+
+  // Bidirectional resolution: maps a term to canonical family group keys
+  function getSynonymGroupsForTerm(term) {
+    const normTerm = normalizeText(term);
+    if (!normTerm || normTerm.length < 2) return [];
+    const matched = new Set();
+    for (const [groupKey, group] of Object.entries(SEARCH_SYNONYM_GROUPS)) {
+      if (groupKey === normTerm || groupKey.startsWith(normTerm) || (normTerm.length >= 3 && groupKey.includes(normTerm))) {
+        matched.add(groupKey);
+        continue;
+      }
+      const matchAlias = group.aliases.some(a => {
+        const na = normalizeText(a);
+        return na === normTerm || na.startsWith(normTerm) || (normTerm.length >= 3 && na.includes(normTerm)) || (na.length >= 3 && normTerm.includes(na));
+      });
+      if (matchAlias) {
+        matched.add(groupKey);
+        continue;
+      }
+      const matchChar = group.characters.some(c => {
+        const nc = normalizeText(c);
+        if (normTerm === 'honey' && nc.includes('bunny')) return false;
+        const words = nc.split(/\s+/);
+        return nc === normTerm || words.includes(normTerm) || (normTerm.length >= 4 && nc.includes(normTerm));
+      });
+      if (matchChar) {
+        matched.add(groupKey);
+      }
+    }
+    return Array.from(matched);
+  }
 
   const SPECIES_CONFIG = {
     rabbit: { label: 'Rabbits / Bunnies', icon: '🐰' },
@@ -4252,18 +4296,18 @@
 
   function getCharacterIcon(charName) {
     const lower = (charName || '').toLowerCase();
-    if (lower.includes('bugs') || lower.includes('honey')) return '🐰';
-    if (lower.includes('daffy') || lower.includes('melissa')) return '🦆';
-    if (lower.includes('porky') || lower.includes('petunia') || lower.includes('ham') || lower.includes('ex')) return '🐷';
+    if (lower.includes('bugs') || lower.includes('honey') || lower.includes('rabbit') || lower.includes('bunny') || lower.includes('hare')) return '🐰';
+    if (lower.includes('daffy') || lower.includes('melissa') || lower.includes('duck')) return '🦆';
+    if (lower.includes('porky') || lower.includes('petunia') || lower.includes('pig') || lower.includes('ham') || lower.includes('ex')) return '🐷';
     if (lower.includes('tweety')) return '🐥';
-    if (lower.includes('sylvester') || lower.includes('pussyfoot') || lower.includes('claude cat') || lower.includes('dodsworth')) return '🐱';
+    if (lower.includes('sylvester') || lower.includes('pussyfoot') || lower.includes('claude') || lower.includes('dodsworth') || lower.includes('cat') || lower.includes('kitty') || lower.includes('feline')) return '🐱';
     if (lower.includes('coyote') || lower.includes('wile e.') || lower.includes('ralph wolf')) return '🐺';
     if (lower.includes('road runner')) return '⚡';
     if (lower.includes('foghorn') || lower.includes('leghorn') || lower.includes('rooster')) return '🐔';
-    if (lower.includes('speedy') || lower.includes('gonzales') || lower.includes('hubie') || lower.includes('bertie') || lower.includes('sniffles') || lower.includes('slowpoke') || lower.includes('babbit') || lower.includes('catstello')) return '🐭';
+    if (lower.includes('speedy') || lower.includes('gonzales') || lower.includes('hubie') || lower.includes('bertie') || lower.includes('sniffles') || lower.includes('slowpoke') || lower.includes('mouse') || lower.includes('mice') || lower.includes('babbit') || lower.includes('catstello')) return '🐭';
     if (lower.includes('pepe') || lower.includes('le pew') || lower.includes('skunk')) return '🦨';
     if (lower.includes('fudd') || lower.includes('elmer')) return '🎯';
-    if (lower.includes('sam sheepdog') || lower.includes('hector') || lower.includes('charlie dog') || lower.includes('spike') || lower.includes('chester') || lower.includes('marc antony') || lower.includes('frisky')) return '🐕';
+    if (lower.includes('sam sheepdog') || lower.includes('hector') || lower.includes('charlie dog') || lower.includes('spike') || lower.includes('chester') || lower.includes('marc antony') || lower.includes('frisky') || lower.includes('dog') || lower.includes('puppy') || lower.includes('hound') || lower.includes('canine') || lower.includes('mutt')) return '🐕';
     if (lower.includes('sam') || lower.includes('yosemite')) return '🤠';
     if (lower.includes('marvin') || lower.includes('martian')) return '🚀';
     if (lower.includes('taz') || lower.includes('tasmanian')) return '🌪️';
@@ -4459,26 +4503,37 @@
     const suggestions = [];
     const seenTokenIds = new Set(activeTokens.map(t => t.id));
 
-    // 1. Resolve animal synonym matches & relevant species characters
-    const matchedSpecies = new Set();
+    // 1. Resolve bidirectional species & synonym matches
+    const matchedSpeciesKeys = getSynonymGroupsForTerm(q);
+    const matchedSpecies = new Set(matchedSpeciesKeys);
 
-    // Check exact synonym match or partial match
-    for (const [synonym, species] of Object.entries(ANIMAL_SYNONYMS)) {
-      if (synonym === q || synonym.startsWith(q) || (q.length >= 3 && synonym.includes(q))) {
-        matchedSpecies.add(species);
-      }
-    }
-    // Also check species group name / key
+    // Also check species config label
     for (const [speciesKey, conf] of Object.entries(SPECIES_CONFIG)) {
-      if (speciesKey.includes(q) || normalizeText(conf.label).includes(q)) {
+      if (normalizeText(conf.label).includes(q)) {
         matchedSpecies.add(speciesKey);
       }
     }
 
     matchedSpecies.forEach(species => {
       const conf = SPECIES_CONFIG[species];
-      const charList = SPECIES_CHARACTERS[species] || [];
-      if (!conf) return;
+      const group = SEARCH_SYNONYM_GROUPS[species];
+      if (!conf || !group) return;
+
+      // Group characters: configured canonical characters + any matching characters from the active database
+      const charListSet = new Set(group.characters);
+      database.forEach(s => {
+        (s.featured_characters || []).forEach(c => {
+          const nc = normalizeText(c);
+          if (nc === 'honey') return; // Bosko's sweetheart
+          if (group.aliases.some(a => {
+            const words = nc.split(/[^a-z0-9]+/);
+            return words.includes(a) || (a.length >= 4 && nc.includes(a));
+          })) {
+            charListSet.add(c);
+          }
+        });
+      });
+      const charList = Array.from(charListSet);
 
       // Group token suggestion
       const groupTokenId = 'species_' + species;
@@ -4973,18 +5028,28 @@
     const shortChars = (short.featured_characters || []).map(c => normalizeText(c));
 
     return queryTerms.every(term => {
+      // Direct text match in title, description, credits, or characters
       if (searchable.includes(term)) return true;
 
-      const species = ANIMAL_SYNONYMS[term];
-      if (species && SPECIES_CHARACTERS[species]) {
-        const charList = SPECIES_CHARACTERS[species];
-        return charList.some(sc => {
-          const nsc = normalizeText(sc);
-          return shortChars.some(c => {
-            if (c === 'honey' && nsc.includes('bunny')) return false;
-            return c === nsc || c.includes(nsc) || (nsc.includes(c) && c.length > 5);
+      // Bidirectional synonym and species expansion
+      const matchedGroupKeys = getSynonymGroupsForTerm(term);
+      if (matchedGroupKeys.length > 0) {
+        for (const gk of matchedGroupKeys) {
+          const group = SEARCH_SYNONYM_GROUPS[gk];
+          if (!group) continue;
+          // Match any alias of the group in searchable text (e.g. query 'rabbit' matches 'bunny'/'hare' in title, synopsis, etc.)
+          if (group.aliases.some(alias => searchable.includes(alias))) return true;
+
+          // Match any character in the group against the short's featured characters
+          const charMatch = group.characters.some(sc => {
+            const nsc = normalizeText(sc);
+            return shortChars.some(c => {
+              if (c === 'honey' && nsc.includes('bunny')) return false;
+              return c === nsc || c.includes(nsc) || (nsc.includes(c) && c.length > 5);
+            });
           });
-        });
+          if (charMatch) return true;
+        }
       }
       return false;
     });
