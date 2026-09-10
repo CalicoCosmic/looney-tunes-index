@@ -4389,7 +4389,7 @@
   };
 
   const SPECIES_CHARACTERS = {
-    rabbit: ['Bugs Bunny', 'Honey Bunny'],
+    rabbit: ['Bugs Bunny', 'Happy Rabbit', 'Honey Bunny'],
     cat: ['Sylvester', 'Claude Cat', 'Pussyfoot', 'Dodsworth', 'Penelope Pussycat', 'Sylvester Jr.'],
     dog: ['Hector the Bulldog', 'Barnyard Dawg', 'Charlie Dog', 'Frisky Puppy', 'Marc Antony', 'Sam Sheepdog', 'Spike the Bulldog'],
     bird: ['Tweety', 'Road Runner', 'Henery Hawk', 'Beaky Buzzard'],
@@ -4645,7 +4645,10 @@
           const sChars = (s.featured_characters || []).map(c => normalizeText(c));
           return charList.some(sc => {
             const nsc = normalizeText(sc);
-            return sChars.some(c => c === nsc || c.includes(nsc) || nsc.includes(c));
+            return sChars.some(c => {
+              if (c === 'honey' && nsc.includes('bunny')) return false;
+              return c === nsc || c.includes(nsc) || (nsc.includes(c) && c.length > 5);
+            });
           });
         }).length;
 
@@ -4670,7 +4673,8 @@
         database.forEach(s => {
           (s.featured_characters || []).forEach(c => {
             const nc = normalizeText(c);
-            if (nc === nsc || nc.includes(nsc) || nsc.includes(nc)) {
+            if (nc === 'honey' && nsc.includes('bunny')) return;
+            if (nc === nsc || nc.includes(nsc) || (nsc.includes(nc) && nc.length > 5)) {
               if (c === charName || canonicalName === charName) {
                 canonicalName = c;
               }
@@ -5134,7 +5138,10 @@
         const charList = SPECIES_CHARACTERS[species];
         return charList.some(sc => {
           const nsc = normalizeText(sc);
-          return shortChars.some(c => c === nsc || c.includes(nsc) || nsc.includes(c));
+          return shortChars.some(c => {
+            if (c === 'honey' && nsc.includes('bunny')) return false;
+            return c === nsc || c.includes(nsc) || (nsc.includes(c) && c.length > 5);
+          });
         });
       }
       return false;
@@ -5187,10 +5194,11 @@
         const shortChars = (short.featured_characters || []).map(c => normalizeText(c));
         const matchesChar = shortChars.some(c => {
           for (const tc of targetCharNames) {
-            if (c === tc || c.includes(tc) || tc.includes(c)) return true;
+            if (c === tc || c.includes(tc) || (tc.includes(c) && c.length > 5)) return true;
           }
           for (const sc of targetSpeciesChars) {
-            if (c === sc || c.includes(sc) || sc.includes(c)) return true;
+            if (c === 'honey' && sc.includes('bunny')) continue;
+            if (c === sc || c.includes(sc) || (sc.includes(c) && c.length > 5)) return true;
           }
           return false;
         });
