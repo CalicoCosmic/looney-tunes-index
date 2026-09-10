@@ -84,14 +84,16 @@
 
     .search-row {
       display: flex;
-      gap: 10px;
+      gap: 8px;
       align-items: center;
+      flex-wrap: wrap;
       margin-bottom: 10px;
     }
 
     .search-box-wrap {
       position: relative;
-      flex: 1;
+      flex: 1 1 260px;
+      min-width: 220px;
       display: flex;
       align-items: center;
     }
@@ -99,7 +101,7 @@
     .search-input {
       width: 100%;
       padding: 10px 36px 10px 14px;
-      font-size: 1rem;
+      font-size: 0.96rem;
       border: 1.5px solid var(--border-color);
       border-radius: 8px;
       outline: none;
@@ -135,12 +137,74 @@
       color: #0f172a;
     }
 
-    .panel-toggle-btn {
+    /* In My Library Only Toggle Switch */
+    .library-toggle-switch {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: #f8fafc;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 7px 11px;
+      cursor: pointer;
+      user-select: none;
+      font-size: 0.84rem;
+      font-weight: 600;
+      color: #334155;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+
+    .library-toggle-switch:hover {
+      background: #f1f5f9;
+      border-color: #94a3b8;
+    }
+
+    .library-toggle-switch.active,
+    .library-toggle-switch:has(input:checked) {
+      background: #f0fdf4;
+      border-color: #86efac;
+      color: #166534;
+      box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.12);
+    }
+
+    .library-toggle-switch input {
+      margin: 0;
+      cursor: pointer;
+      accent-color: #16a34a;
+      width: 15px;
+      height: 15px;
+    }
+
+    .library-customize-btn {
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      padding: 9px 13px;
-      font-size: 0.85rem;
+      padding: 8px 12px;
+      font-size: 0.84rem;
+      font-weight: 600;
+      color: #334155;
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+      user-select: none;
+    }
+
+    .library-customize-btn:hover {
+      background: #e2e8f0;
+      color: #0f172a;
+      border-color: #94a3b8;
+    }
+
+    .panel-toggle-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 8px 11px;
+      font-size: 0.84rem;
       font-weight: 600;
       color: #334155;
       background: #f1f5f9;
@@ -179,17 +243,21 @@
 
     .quick-filters-row {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: 1fr 1fr auto 1fr;
+      align-items: center;
       gap: 8px;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       .quick-filters-row {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
+      }
+      .format-toggles-group {
+        grid-column: 1 / -1;
       }
     }
 
-    @media (max-width: 440px) {
+    @media (max-width: 480px) {
       .quick-filters-row {
         grid-template-columns: 1fr;
       }
@@ -211,6 +279,81 @@
     .filter-select:focus {
       border-color: var(--primary-color);
       outline: none;
+    }
+
+    /* Multi-select Format Checkboxes */
+    .format-toggles-group {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 5px;
+      background: #f8fafc;
+      padding: 3px 6px;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      min-height: 36px;
+    }
+
+    .format-toggle-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 0.77rem;
+      font-weight: 600;
+      cursor: pointer;
+      user-select: none;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      color: #475569;
+      transition: all 0.15s ease;
+    }
+
+    .format-toggle-chip:hover {
+      background: #f1f5f9;
+      border-color: #94a3b8;
+    }
+
+    .format-toggle-chip input {
+      margin: 0;
+      width: 13px;
+      height: 13px;
+      cursor: pointer;
+    }
+
+    .format-chip-bluray:has(input:checked) {
+      background: #dbeafe;
+      border-color: #93c5fd;
+      color: #1e40af;
+    }
+
+    .format-chip-dvd:has(input:checked) {
+      background: #fef3c7;
+      border-color: #fde047;
+      color: #92400e;
+    }
+
+    .format-chip-laserdisc:has(input:checked) {
+      background: #f3e8ff;
+      border-color: #d8b4fe;
+      color: #6b21a8;
+    }
+
+    .format-chip-unreleased:has(input:checked) {
+      background: #f1f5f9;
+      border-color: #94a3b8;
+      color: #0f172a;
+      box-shadow: 0 0 0 1px #94a3b8;
+    }
+
+    .modal-media-list {
+      max-height: 380px;
+      overflow-y: auto;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 8px;
+      background: #f8fafc;
     }
 
     /* Active Filter Chips Container */
@@ -1387,12 +1530,19 @@
   <div class="sticky-controls-bar">
     <div class="search-row">
       <div class="search-box-wrap">
-        <input type="text" id="searchInput" class="search-input" placeholder="Search by title, director, character, format (Blu-ray/DVD/LaserDisc), set, or track..." autofocus>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by title, director, character, format, set, or track..." autofocus>
         <button type="button" id="clearSearchBtn" class="search-clear-btn" onclick="clearSearchInput()" title="Clear search text" style="display: none;">✕</button>
       </div>
-      <button type="button" id="panelToggleBtn" class="panel-toggle-btn" onclick="toggleSecondaryPanels()" title="Show or hide Era Timeline & Home Media Sets">
+      <label class="library-toggle-switch" title="Filter to cartoons appearing on at least one set in your owned library">
+        <input type="checkbox" id="myLibraryOnlyToggle" onchange="render()">
+        <span class="library-toggle-label">📚 In My Library Only</span>
+      </label>
+      <button type="button" id="customizeLibraryBtn" class="library-customize-btn" onclick="openLibraryModal()" title="Customize your owned home media sets & profiles">
+        <span>⚙️ Customize Library (<span id="ownedCount">0</span>/30)</span>
+      </button>
+      <button type="button" id="panelToggleBtn" class="panel-toggle-btn" onclick="toggleSecondaryPanels()" title="Show or hide Theatrical Era Timeline">
         <span id="panelToggleIcon">▾</span>
-        <span id="panelToggleText">Timeline & Media</span>
+        <span id="panelToggleText">Timeline</span>
         <span id="panelActiveBadge" class="panel-active-badge" style="display: none;"></span>
       </button>
     </div>
@@ -1404,9 +1554,27 @@
       <select id="directorFilter" class="filter-select">
         <option value="">All Directors</option>
       </select>
-      <select id="formatFilter" class="filter-select">
-        <option value="">All Formats (Blu-ray, DVD, LaserDisc)</option>
-      </select>
+
+      <!-- Multi-select Format Checkboxes -->
+      <div class="format-toggles-group" title="Filter by physical format or unreleased status (multi-select)">
+        <label class="format-toggle-chip format-chip-bluray" title="Include shorts released on Blu-ray">
+          <input type="checkbox" id="fmt_bluray" class="format-chk" value="Blu-ray" onchange="render()">
+          <span>💿 Blu-ray</span>
+        </label>
+        <label class="format-toggle-chip format-chip-dvd" title="Include shorts released on DVD">
+          <input type="checkbox" id="fmt_dvd" class="format-chk" value="DVD" onchange="render()">
+          <span>📀 DVD</span>
+        </label>
+        <label class="format-toggle-chip format-chip-laserdisc" title="Include shorts released on LaserDisc">
+          <input type="checkbox" id="fmt_laserdisc" class="format-chk" value="LaserDisc" onchange="render()">
+          <span>💽 LaserDisc</span>
+        </label>
+        <label class="format-toggle-chip format-chip-unreleased" title="Include shorts with zero disc releases">
+          <input type="checkbox" id="fmt_unreleased" class="format-chk" value="unreleased" onchange="render()">
+          <span>⚪ Unreleased / No Disc</span>
+        </label>
+      </div>
+
       <select id="ratingFilter" class="filter-select" onchange="render()" title="Filter by your personal star rating">
         <option value="">All Ratings (Any)</option>
         <option value="any">⭐ Rated by Me (1–5★)</option>
@@ -1431,43 +1599,6 @@
 
   <!-- Collapsible Secondary Panels (Default: Collapsed) -->
   <div id="collapsiblePanels" class="collapsible-panels" style="display: none;">
-    <!-- Home Media Sets / My Collection -->
-    <div class="secondary-panel-card" id="mediaSetDropdownContainer">
-      <div class="secondary-panel-header">
-        <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-          <span class="timeline-heading">📀 Home Media Sets / My Collection</span>
-          <span class="media-set-summary-badge" id="mediaSetTriggerText">🎬 All Database Titles (1,039 Shorts)</span>
-        </div>
-        <span style="font-size: 0.78rem; color: #64748b;" id="popoverCountLabel">0 of 30 (searching all 1,039)</span>
-      </div>
-
-      <!-- User Library Profiles Bar -->
-      <div class="popover-user-row">
-        <div class="user-select-wrap">
-          <span class="user-label">👤 Profile:</span>
-          <select id="userLibraryProfileSelect" class="user-profile-select" onchange="handleUserProfileChange(this.value)" title="Switch active user library profile">
-          </select>
-          <button type="button" class="popover-mini-btn" onclick="promptNewUserProfile()" title="Create a new user profile">➕ New Profile</button>
-        </div>
-        <div class="user-save-wrap">
-          <button type="button" class="popover-btn popover-btn-save-lib" onclick="saveCurrentUserLibrary()" title="Save current checkmarks to this user profile">
-            💾 Save as My Library
-          </button>
-          <span id="saveLibFeedback" class="save-feedback" style="display: none;">✓ Saved!</span>
-        </div>
-      </div>
-
-      <div class="popover-actions">
-        <button type="button" class="popover-btn popover-btn-primary" onclick="loadCurrentUserLibrary()" title="Select sets in your saved library">📚 My Library</button>
-        <button type="button" class="popover-btn" onclick="selectAllSets(true)" title="Check all 30 sets (searches only released cartoons)">Select All (Released Only)</button>
-        <button type="button" class="popover-btn" onclick="selectAllSets(false)" title="Uncheck all sets to search the entire 1,039 cartoon database including unreleased shorts">Clear All (Search All 1,039)</button>
-        <button type="button" class="popover-btn" onclick="selectOnlyFormat('Blu-ray')">Only Blu-ray</button>
-        <button type="button" class="popover-btn" onclick="selectOnlyFormat('DVD')">Only DVD</button>
-        <button type="button" class="popover-btn" onclick="selectOnlyFormat('LaserDisc')">Only LaserDisc</button>
-      </div>
-      <div class="popover-list embedded-media-list" id="mediaSetCheckboxList"></div>
-    </div>
-
     <!-- Interactive Era Timeline Slider -->
     <div class="timeline-container">
       <div class="timeline-header">
@@ -1635,6 +1766,51 @@
         <button type="submit" class="modal-btn-save" id="saveBtn">💾 Save Changes</button>
       </div>
     </form>
+  </div>
+</div>
+
+<!-- Customize Library Modal Overlay -->
+<div id="libraryModalOverlay" class="modal-overlay" style="display: none;">
+  <div class="modal-box" style="max-width: 640px;">
+    <div class="modal-header">
+      <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+        <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">⚙️ Customize My Owned Media Sets</h2>
+        <span class="media-set-summary-badge" id="modalOwnedSummary">0 of 30 Owned</span>
+      </div>
+      <button type="button" class="modal-close" onclick="closeLibraryModal()">&times;</button>
+    </div>
+
+    <!-- User Library Profiles Bar -->
+    <div class="popover-user-row" style="margin-bottom: 12px;">
+      <div class="user-select-wrap">
+        <span class="user-label">👤 Profile:</span>
+        <select id="userLibraryProfileSelect" class="user-profile-select" onchange="handleUserProfileChange(this.value)" title="Switch active user library profile">
+        </select>
+        <button type="button" class="popover-mini-btn" onclick="promptNewUserProfile()" title="Create a new user profile">➕ New Profile</button>
+      </div>
+      <div class="user-save-wrap">
+        <button type="button" class="popover-btn popover-btn-save-lib" onclick="saveCurrentUserLibrary()" title="Save current checkmarks to this user profile">
+          💾 Save as My Library
+        </button>
+        <span id="saveLibFeedback" class="save-feedback" style="display: none;">✓ Saved!</span>
+      </div>
+    </div>
+
+    <div class="popover-actions" style="margin-bottom: 12px;">
+      <button type="button" class="popover-btn popover-btn-primary" onclick="loadCurrentUserLibrary()" title="Select sets in your saved library">📚 My Saved Library</button>
+      <button type="button" class="popover-btn" onclick="selectAllSets(true)" title="Check all 30 sets">Select All (30 Sets)</button>
+      <button type="button" class="popover-btn" onclick="selectAllSets(false)" title="Uncheck all sets">Clear All (0 Sets)</button>
+      <button type="button" class="popover-btn" onclick="selectOnlyFormat('Blu-ray')">Only Blu-ray</button>
+      <button type="button" class="popover-btn" onclick="selectOnlyFormat('DVD')">Only DVD</button>
+      <button type="button" class="popover-btn" onclick="selectOnlyFormat('LaserDisc')">Only LaserDisc</button>
+    </div>
+
+    <div class="popover-list modal-media-list" id="mediaSetCheckboxList"></div>
+
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 12px; border-top: 1px solid #e2e8f0; flex-wrap: wrap; gap: 8px;">
+      <span style="font-size: 0.82rem; color: #64748b;" id="popoverCountLabel">0 of 30 sets marked owned</span>
+      <button type="button" class="modal-btn-save" onclick="closeLibraryModal()">✓ Done & Apply</button>
+    </div>
   </div>
 </div>
 
@@ -2839,7 +3015,7 @@
         fb.style.display = 'none';
       }, 2000);
     }
-    updateMediaSetTriggerLabel();
+    updateOwnedCount();
   };
 
   window.loadCurrentUserLibrary = function() {
@@ -2849,8 +3025,42 @@
 
     selectedMediaSets = new Set(savedSets.filter(s => allMediaSets.some(m => m.set_name === s)));
     renderMediaSetCheckboxes();
-    updateMediaSetTriggerLabel();
+    updateOwnedCount();
     render();
+  };
+
+  function updateOwnedCount() {
+    const count = selectedMediaSets.size;
+    const total = allMediaSets.length || 30;
+    const countEl = document.getElementById('ownedCount');
+    if (countEl) countEl.textContent = count;
+    const summaryEl = document.getElementById('modalOwnedSummary');
+    if (summaryEl) summaryEl.textContent = `${count} of ${total} Owned`;
+    const popLabel = document.getElementById('popoverCountLabel');
+    if (popLabel) popLabel.textContent = `${count} of ${total} sets marked owned`;
+  }
+
+  window.openLibraryModal = function() {
+    const modal = document.getElementById('libraryModalOverlay');
+    if (modal) {
+      populateUserProfileSelect();
+      renderMediaSetCheckboxes();
+      updateOwnedCount();
+      modal.style.display = 'flex';
+    }
+  };
+
+  window.closeLibraryModal = function() {
+    const modal = document.getElementById('libraryModalOverlay');
+    if (modal) {
+      modal.style.display = 'none';
+      const data = getUserProfilesData();
+      const currentProf = data.activeProfile || "My Library";
+      data.profiles[currentProf] = Array.from(selectedMediaSets);
+      saveUserProfilesData(data);
+      updateOwnedCount();
+      render();
+    }
   };
 
   // --- Timeline State ---
@@ -2870,11 +3080,9 @@
   function populateFilters() {
     const charSelect = document.getElementById('charFilter');
     const dirSelect = document.getElementById('directorFilter');
-    const fmtSelect = document.getElementById('formatFilter');
 
     const chars = new Set();
     const directors = new Set();
-    const formats = new Set();
     const setsMap = new Map();
 
     database.forEach(item => {
@@ -2891,9 +3099,6 @@
       if (item.media_locations) {
         const seenInShort = new Set();
         item.media_locations.forEach(loc => {
-          if (loc.format && loc.format.toLowerCase() !== 'vhs') {
-            formats.add(loc.format);
-          }
           if (loc.set_name && (!loc.format || loc.format.toLowerCase() !== 'vhs') && !seenInShort.has(loc.set_name)) {
             seenInShort.add(loc.set_name);
             const current = setsMap.get(loc.set_name) || { format: loc.format || 'DVD', count: 0 };
@@ -2906,13 +3111,6 @@
 
     fillSelect(charSelect, Array.from(chars).sort(), "All Featured Characters");
     fillSelect(dirSelect, Array.from(directors).sort(), "All Directors");
-    const sortedFormats = Array.from(formats).sort((a, b) => {
-      const ordA = getFormatOrder(a);
-      const ordB = getFormatOrder(b);
-      if (ordA !== ordB) return ordA - ordB;
-      return a.localeCompare(b);
-    });
-    fillSelect(fmtSelect, sortedFormats, "All Formats (Blu-ray, DVD, LaserDisc)");
 
     // Populate Media Sets sorted by format (Blu-ray -> DVD -> LaserDisc) then alphabetically
     allMediaSets = Array.from(setsMap.entries()).map(([name, data]) => ({
@@ -2929,12 +3127,14 @@
     // Populate user profile dropdown
     populateUserProfileSelect();
 
-    // Default starting condition is "Clear All" (0 sets selected)
-    // so you can search the entire database of all 1,039 shorts right when you get started!
-    selectedMediaSets = new Set();
+    // Initialize owned sets from active profile
+    const profileData = getUserProfilesData();
+    const activeProf = profileData.activeProfile || "My Library";
+    const savedSets = profileData.profiles[activeProf] || [];
+    selectedMediaSets = new Set(savedSets.filter(s => allMediaSets.some(m => m.set_name === s)));
 
     renderMediaSetCheckboxes();
-    updateMediaSetTriggerLabel();
+    updateOwnedCount();
   }
 
   function renderMediaSetCheckboxes() {
@@ -2974,17 +3174,7 @@
       `;
     });
     listEl.innerHTML = html;
-
-    const countLabel = document.getElementById('popoverCountLabel');
-    if (countLabel) {
-      if (selectedMediaSets.size === 0) {
-        countLabel.textContent = `0 of ${allMediaSets.length} (searching all 1,039)`;
-      } else if (selectedMediaSets.size === allMediaSets.length) {
-        countLabel.textContent = `All ${allMediaSets.length} selected (released only)`;
-      } else {
-        countLabel.textContent = `${selectedMediaSets.size} of ${allMediaSets.length} selected`;
-      }
-    }
+    updateOwnedCount();
   }
 
   window.handleMediaSetToggle = function(encodedSetName, isChecked) {
@@ -2994,17 +3184,7 @@
     } else {
       selectedMediaSets.delete(setName);
     }
-    updateMediaSetTriggerLabel();
-    const countLabel = document.getElementById('popoverCountLabel');
-    if (countLabel) {
-      if (selectedMediaSets.size === 0) {
-        countLabel.textContent = `0 of ${allMediaSets.length} (searching all 1,039)`;
-      } else if (selectedMediaSets.size === allMediaSets.length) {
-        countLabel.textContent = `All ${allMediaSets.length} selected (released only)`;
-      } else {
-        countLabel.textContent = `${selectedMediaSets.size} of ${allMediaSets.length} selected`;
-      }
-    }
+    updateOwnedCount();
     render();
   };
 
@@ -3015,7 +3195,7 @@
       selectedMediaSets.clear();
     }
     renderMediaSetCheckboxes();
-    updateMediaSetTriggerLabel();
+    updateOwnedCount();
     render();
   };
 
@@ -3027,32 +3207,9 @@
       }
     });
     renderMediaSetCheckboxes();
-    updateMediaSetTriggerLabel();
+    updateOwnedCount();
     render();
   };
-
-  function updateMediaSetTriggerLabel() {
-    const triggerText = document.getElementById('mediaSetTriggerText');
-    if (!triggerText) return;
-    const total = allMediaSets.length;
-    const count = selectedMediaSets.size;
-    const data = getUserProfilesData();
-    const profName = data.activeProfile || "My Library";
-
-    if (count === 0) {
-      triggerText.textContent = `🎬 All Database Titles (1,039 Shorts)`;
-    } else if (count === total) {
-      triggerText.textContent = `📀 All Scanned Media (${total}/${total} Sets)`;
-    } else {
-      const saved = data.profiles[profName] || [];
-      const isExactMatch = saved.length === count && saved.every(s => selectedMediaSets.has(s));
-      if (isExactMatch) {
-        triggerText.textContent = `📚 ${profName} (${count}/${total} Sets)`;
-      } else {
-        triggerText.textContent = `⭐ Selected Media (${count}/${total} Sets)`;
-      }
-    }
-  }
 
   // --- Collapsible Secondary Panels State ---
   const PANELS_STORAGE_KEY = 'looney_tunes_panels_expanded';
@@ -3084,12 +3241,12 @@
       panels.style.display = 'block';
       if (toggleBtn) toggleBtn.classList.add('active');
       if (toggleIcon) toggleIcon.textContent = '▴';
-      if (toggleText) toggleText.textContent = 'Hide Panels';
+      if (toggleText) toggleText.textContent = 'Timeline';
     } else {
       panels.style.display = 'none';
       if (toggleBtn) toggleBtn.classList.remove('active');
       if (toggleIcon) toggleIcon.textContent = '▾';
-      if (toggleText) toggleText.textContent = 'Timeline & Media';
+      if (toggleText) toggleText.textContent = 'Timeline';
     }
   }
 
@@ -3198,6 +3355,9 @@
     if (filterType === 'query') {
       const el = document.getElementById('searchInput');
       if (el) el.value = '';
+    } else if (filterType === 'library') {
+      const el = document.getElementById('myLibraryOnlyToggle');
+      if (el) el.checked = false;
     } else if (filterType === 'character') {
       const el = document.getElementById('charFilter');
       if (el) el.value = '';
@@ -3205,8 +3365,7 @@
       const el = document.getElementById('directorFilter');
       if (el) el.value = '';
     } else if (filterType === 'format') {
-      const el = document.getElementById('formatFilter');
-      if (el) el.value = '';
+      document.querySelectorAll('.format-chk').forEach(cb => cb.checked = false);
     } else if (filterType === 'rating') {
       const el = document.getElementById('ratingFilter');
       if (el) el.value = '';
@@ -3216,9 +3375,6 @@
       if (btn) btn.classList.remove('active');
     } else if (filterType === 'timeline') {
       setEraPreset(1929, 2014);
-      return;
-    } else if (filterType === 'mediaSets') {
-      selectAllSets(false);
       return;
     }
     render();
@@ -3234,8 +3390,10 @@
     const directorFilter = document.getElementById('directorFilter');
     if (directorFilter) directorFilter.value = '';
 
-    const formatFilter = document.getElementById('formatFilter');
-    if (formatFilter) formatFilter.value = '';
+    document.querySelectorAll('.format-chk').forEach(cb => cb.checked = false);
+
+    const libToggle = document.getElementById('myLibraryOnlyToggle');
+    if (libToggle) libToggle.checked = false;
 
     const ratingFilter = document.getElementById('ratingFilter');
     if (ratingFilter) ratingFilter.value = '';
@@ -3262,11 +3420,6 @@
     if (rangeText) rangeText.textContent = '1929 – 2014';
     updateEraPillsState();
 
-    // Reset media sets
-    selectedMediaSets.clear();
-    renderMediaSetCheckboxes();
-    updateMediaSetTriggerLabel();
-
     render();
   };
 
@@ -3290,25 +3443,35 @@
       chips.push({ id: 'query', label: `Search: "${dispQuery}"` });
     }
 
-    // 2. Character
+    // 2. In My Library Only
+    const libToggle = document.getElementById('myLibraryOnlyToggle');
+    if (libToggle && libToggle.checked) {
+      chips.push({ id: 'library', label: `Library: In My Library Only (${selectedMediaSets.size} Sets)` });
+    }
+
+    // 3. Character
     const charEl = document.getElementById('charFilter');
     if (charEl && charEl.value) {
       chips.push({ id: 'character', label: `Character: ${charEl.value}` });
     }
 
-    // 3. Director
+    // 4. Director
     const dirEl = document.getElementById('directorFilter');
     if (dirEl && dirEl.value) {
       chips.push({ id: 'director', label: `Director: ${dirEl.value}` });
     }
 
-    // 4. Format
-    const fmtEl = document.getElementById('formatFilter');
-    if (fmtEl && fmtEl.value) {
-      chips.push({ id: 'format', label: `Format: ${fmtEl.value}` });
+    // 5. Multi-select Formats
+    const checkedFmtBoxes = Array.from(document.querySelectorAll('.format-chk:checked'));
+    if (checkedFmtBoxes.length > 0) {
+      const fmtLabels = checkedFmtBoxes.map(cb => {
+        if (cb.value === 'unreleased') return 'Unreleased';
+        return cb.value;
+      });
+      chips.push({ id: 'format', label: `Formats: ${fmtLabels.join(', ')}` });
     }
 
-    // 5. Rating
+    // 6. Rating
     const ratingEl = document.getElementById('ratingFilter');
     if (ratingEl && ratingEl.value) {
       let rLabel = ratingEl.value;
@@ -3320,27 +3483,16 @@
       chips.push({ id: 'rating', label: `Rating: ${rLabel}` });
     }
 
-    // 6. Personal Notes
+    // 7. Personal Notes
     if (activeNotesOnly) {
       chips.push({ id: 'notes', label: `Notes: Has Notes` });
     }
 
-    // 7. Timeline Range
+    // 8. Timeline Range
     let secondaryCount = 0;
     if (activeMinYear > 1929 || activeMaxYear < 2014) {
       secondaryCount++;
       chips.push({ id: 'timeline', label: `Timeline: ${activeMinYear}–${activeMaxYear}` });
-    }
-
-    // 8. Media Sets
-    if (selectedMediaSets && selectedMediaSets.size > 0) {
-      secondaryCount++;
-      const count = selectedMediaSets.size;
-      const label = count === 1
-        ? `Media Set: ${Array.from(selectedMediaSets)[0]}`
-        : `Media Sets: ${count} selected`;
-      const dispLabel = label.length > 28 ? label.slice(0, 26) + '…' : label;
-      chips.push({ id: 'mediaSets', label: dispLabel });
     }
 
     // Update panel active badge
@@ -3374,9 +3526,13 @@
     const query = normalizeText(rawQuery);
     const selectedChar = document.getElementById('charFilter').value;
     const selectedDir = document.getElementById('directorFilter').value;
-    const selectedFormat = document.getElementById('formatFilter').value;
     const ratingSelect = document.getElementById('ratingFilter');
     const selectedRating = ratingSelect ? ratingSelect.value : '';
+    const inMyLibOnly = Boolean(document.getElementById('myLibraryOnlyToggle')?.checked);
+
+    const checkedFmts = Array.from(document.querySelectorAll('.format-chk:checked')).map(cb => cb.value);
+    const hasUnreleased = checkedFmts.includes('unreleased');
+    const discFormats = checkedFmts.filter(f => f !== 'unreleased');
 
     const queryTerms = query ? query.split(/\s+/).filter(Boolean) : [];
 
@@ -3384,12 +3540,13 @@
       // 1. Year range filtering
       if (short.year && (short.year < activeMinYear || short.year > activeMaxYear)) return false;
 
-      // 2. Media Sets / "My Collection" filtering
-      // - If sets are checked (selectedMediaSets.size > 0): ONLY include shorts that appear on at least one checked set!
-      // - If NO sets are checked (selectedMediaSets.size === 0, e.g. "Clear All"): search the entire database of 1,039 titles (including unreleased shorts)!
-      if (selectedMediaSets.size > 0) {
-        const inSelectedSets = (short.media_locations || []).some(loc => selectedMediaSets.has(loc.set_name));
-        if (!inSelectedSets) return false;
+      // 2. "In My Library Only" filtering
+      // - If toggle is active, ONLY include shorts that appear on at least one owned set!
+      // - If no sets are marked owned, 0 shorts match.
+      if (inMyLibOnly) {
+        if (selectedMediaSets.size === 0) return false;
+        const hasOwnedSet = (short.media_locations || []).some(loc => selectedMediaSets.has(loc.set_name));
+        if (!hasOwnedSet) return false;
       }
 
       // 3. Character filtering
@@ -3408,10 +3565,16 @@
         if (!matchesDir) return false;
       }
 
-      // 5. Format filtering
-      if (selectedFormat) {
-        const hasFormat = (short.media_locations || []).some(m => m.format === selectedFormat);
-        if (!hasFormat) return false;
+      // 5. Multi-select Format filtering:
+      // If 1+ formats selected, match if short exists on ANY selected disc format or is unreleased if checked
+      if (checkedFmts.length > 0) {
+        const locs = short.media_locations || [];
+        const matchesDisc = discFormats.length > 0 && locs.some(loc => {
+          const lf = (loc.format || '').toLowerCase();
+          return discFormats.some(f => lf.includes(f.toLowerCase()));
+        });
+        const matchesUnreleased = hasUnreleased && locs.length === 0;
+        if (!matchesDisc && !matchesUnreleased) return false;
       }
 
       // 6. Personal Star Rating filtering
@@ -3672,19 +3835,25 @@
     render();
   };
 
-  // Close modal on escape key or clicking overlay background
+  // Close modals on escape key or clicking overlay background
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') closeEditModal();
+    if (e.key === 'Escape') {
+      closeEditModal();
+      closeLibraryModal();
+    }
   });
-  document.getElementById('editModalOverlay').addEventListener('click', e => {
+  document.getElementById('editModalOverlay')?.addEventListener('click', e => {
     if (e.target === document.getElementById('editModalOverlay')) closeEditModal();
+  });
+  document.getElementById('libraryModalOverlay')?.addEventListener('click', e => {
+    if (e.target === document.getElementById('libraryModalOverlay')) closeLibraryModal();
   });
 
   // Event Listeners for instant filtering
-  document.getElementById('searchInput').addEventListener('input', render);
-  document.getElementById('charFilter').addEventListener('change', render);
-  document.getElementById('directorFilter').addEventListener('change', render);
-  document.getElementById('formatFilter').addEventListener('change', render);
+  document.getElementById('searchInput')?.addEventListener('input', render);
+  document.getElementById('charFilter')?.addEventListener('change', render);
+  document.getElementById('directorFilter')?.addEventListener('change', render);
+  document.getElementById('ratingFilter')?.addEventListener('change', render);
 
   // Initialize
   initDatabase();
