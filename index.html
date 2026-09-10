@@ -629,7 +629,8 @@
       height: 14px;
     }
 
-    .subbar-btn {
+    .subbar-btn,
+    .btn-subbar {
       display: inline-flex;
       align-items: center;
       gap: 6px;
@@ -648,16 +649,86 @@
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
     }
 
-    .subbar-btn:hover {
+    .subbar-btn:hover,
+    .btn-subbar:hover {
       background: #f1f5f9;
       color: #0f172a;
       border-color: #94a3b8;
     }
 
-    .subbar-btn.active {
+    .subbar-btn.active,
+    .btn-subbar.active {
       background: #eff6ff;
       color: #1d4ed8;
       border-color: #93c5fd;
+    }
+
+    /* Centered Physical Media Format Toggle Group */
+    .format-toggle-group {
+      display: inline-flex;
+      align-items: center;
+      background: #f1f5f9;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 20px;
+      padding: 2px;
+      gap: 2px;
+      user-select: none;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
+
+    .format-toggle-btn {
+      border: 1px solid transparent;
+      background: transparent;
+      padding: 4px 10px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #64748b;
+      border-radius: 16px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      line-height: 1.25;
+      user-select: none;
+    }
+
+    .format-toggle-btn:hover {
+      color: #1e293b;
+      background: rgba(255, 255, 255, 0.7);
+    }
+
+    .format-toggle-btn.active {
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+    }
+
+    .format-toggle-btn.active[data-format="BD"] {
+      background: #e7f5ff;
+      color: #1971c2;
+      border-color: #a5d8ff;
+    }
+
+    .format-toggle-btn.active[data-format="DVD"] {
+      background: #fff9db;
+      color: #b45309;
+      border-color: #ffe066;
+    }
+
+    .format-toggle-btn.active[data-format="LD"] {
+      background: #f3f0ff;
+      color: #6741d9;
+      border-color: #d0bfff;
+    }
+
+    .format-toggle-btn.active[data-format="WAC"] {
+      background: #e6fcf5;
+      color: #087f5b;
+      border-color: #96f2d7;
+    }
+
+    @media (max-width: 820px) and (min-width: 641px) {
+      .format-toggle-group {
+        order: 3;
+        width: auto;
+        margin: 4px auto 0;
+      }
     }
 
 
@@ -1938,8 +2009,27 @@
         flex: 1 1 100%;
       }
 
-      .subbar-right .subbar-btn {
+      .subbar-right .subbar-btn,
+      .subbar-right .btn-subbar {
         flex: 1 1 calc(50% - 4px);
+      }
+
+      .format-toggle-group {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        min-height: 40px;
+        padding: 3px;
+      }
+
+      .format-toggle-btn {
+        flex: 1;
+        min-height: 34px;
+        font-size: 13px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
       }
 
       .boolean-toggle-group {
@@ -1958,7 +2048,8 @@
       }
 
       .library-toggle-pill,
-      .subbar-btn {
+      .subbar-btn,
+      .btn-subbar {
         width: 100%;
         min-height: 44px;
         justify-content: center;
@@ -2099,13 +2190,20 @@
         </button>
       </div>
 
+      <div class="format-toggle-group" id="formatToggleGroup" title="Filter by physical media format availability">
+        <button type="button" class="format-toggle-btn" data-format="BD" onclick="toggleFormatFilter('BD')" title="Filter by Blu-ray availability">BD</button>
+        <button type="button" class="format-toggle-btn" data-format="DVD" onclick="toggleFormatFilter('DVD')" title="Filter by DVD availability">DVD</button>
+        <button type="button" class="format-toggle-btn" data-format="LD" onclick="toggleFormatFilter('LD')" title="Filter by LaserDisc availability">LD</button>
+        <button type="button" class="format-toggle-btn" data-format="WAC" onclick="toggleFormatFilter('WAC')" title="Filter by Warner Archive Collection bonus extras">WAC</button>
+      </div>
+
       <div class="subbar-right">
         <label class="library-toggle-pill" title="Filter to cartoons appearing on at least one set in your owned library">
           <input type="checkbox" id="myLibraryOnlyToggle" onchange="render()">
           <span class="pill-label">📚 In My Library Only</span>
         </label>
-        <button type="button" class="subbar-btn" id="openLibraryModalBtn" onclick="openLibraryModal()" title="Customize your owned home media sets &amp; profiles">
-          ⚙️ Customize Library (<span id="librarySubBarCount">0</span>/<span id="librarySubBarTotal">51</span>)
+        <button type="button" class="subbar-btn btn-subbar" id="customizeLibraryBtn" onclick="openLibraryModal()" title="Customize Library">
+          ⚙️ ( <span id="librarySubBarCount">0</span> / <span id="librarySubBarTotal">51</span> )
         </button>
         <button type="button" id="panelToggleBtn" class="subbar-btn panel-toggle-btn" onclick="toggleSecondaryPanels()" title="Show or hide Theatrical Era Timeline">
           <span id="panelToggleIcon">⏳</span>
@@ -3479,6 +3577,30 @@
     render();
   };
 
+  // --- Physical Media Format Toggles State ---
+  let activeFormatFilters = new Set();
+
+  window.toggleFormatFilter = function(fmt) {
+    if (!fmt) return;
+    if (activeFormatFilters.has(fmt)) {
+      activeFormatFilters.delete(fmt);
+    } else {
+      activeFormatFilters.add(fmt);
+    }
+    updateFormatToggleButtons();
+    render();
+  };
+
+  function updateFormatToggleButtons() {
+    const buttons = document.querySelectorAll('.format-toggle-btn');
+    buttons.forEach(btn => {
+      const f = btn.dataset.format;
+      const isActive = activeFormatFilters.has(f);
+      btn.classList.toggle('active', isActive);
+      btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+    });
+  }
+
   // --- Data Backup & Restore (JSON) ---
   window.exportUserData = function() {
     const data = {
@@ -4391,6 +4513,9 @@
     const libToggle = document.getElementById('myLibraryOnlyToggle');
     if (libToggle) libToggle.checked = false;
 
+    activeFormatFilters.clear();
+    updateFormatToggleButtons();
+
     document.querySelectorAll('.rating-chk').forEach(cb => cb.checked = false);
     updateRatingsDropdownState();
 
@@ -5047,6 +5172,9 @@
     if (filterType === 'library') {
       const el = document.getElementById('myLibraryOnlyToggle');
       if (el) el.checked = false;
+    } else if (filterType === 'format') {
+      activeFormatFilters.clear();
+      updateFormatToggleButtons();
     } else if (filterType === 'rating') {
       document.querySelectorAll('.rating-chk').forEach(cb => cb.checked = false);
       updateRatingsDropdownState();
@@ -5329,7 +5457,32 @@
       // 2. Timeline Era filter presets
       if (short.year && (short.year < activeMinYear || short.year > activeMaxYear)) return false;
 
-      // 3. "In My Library Only" filtering
+      // 3. Physical Media Format toggle filters (BD, DVD, LD, WAC)
+      if (activeFormatFilters.size > 0) {
+        const locs = short.media_locations || [];
+        const hasBd = locs.some(loc => (loc.format || '').toLowerCase().includes('blu')) ||
+                      (short.formats || []).some(f => (typeof f === 'string' ? f : '').toLowerCase().includes('blu'));
+        const hasDvd = locs.some(loc => {
+          const lf = (loc.format || '').toLowerCase();
+          return lf.includes('dvd') && !lf.includes('blu');
+        }) || (short.formats || []).some(f => {
+          const lf = (typeof f === 'string' ? f : '').toLowerCase();
+          return lf.includes('dvd') && !lf.includes('blu');
+        });
+        const hasLd = locs.some(loc => (loc.format || '').toLowerCase().includes('laser')) ||
+                      (short.formats || []).some(f => (typeof f === 'string' ? f : '').toLowerCase().includes('laser'));
+        const hasWac = locs.some(loc => loc.type === 'feature_bonus');
+
+        const matchesFormat =
+          (activeFormatFilters.has('BD') && hasBd) ||
+          (activeFormatFilters.has('DVD') && hasDvd) ||
+          (activeFormatFilters.has('LD') && hasLd) ||
+          (activeFormatFilters.has('WAC') && hasWac);
+
+        if (!matchesFormat) return false;
+      }
+
+      // 4. "In My Library Only" filtering
       if (inMyLibOnly) {
         if (selectedMediaSets.size === 0) return false;
         const hasOwnedSet = (short.media_locations || []).some(loc => selectedMediaSets.has(loc.set_name));
