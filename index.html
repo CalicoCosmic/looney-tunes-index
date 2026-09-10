@@ -295,7 +295,7 @@
     }
 
     .user-filter-select {
-      width: auto;
+      width: auto !important;
       min-width: 155px;
       height: 38px;
       padding: 6px 12px;
@@ -308,6 +308,7 @@
       cursor: pointer;
       box-sizing: border-box;
       transition: all 0.15s ease-in-out;
+      flex: 0 0 auto;
     }
 
     .user-filter-select:hover {
@@ -326,6 +327,10 @@
       border-color: #2563eb;
       color: #1d4ed8;
       box-shadow: 0 0 0 1.5px #2563eb;
+    }
+
+    .user-filters-row .notes-toggle-btn {
+      flex: 0 0 auto;
     }
 
     .filter-select {
@@ -1587,8 +1592,8 @@
 
     <!-- Personal Ratings & Notes Filters Row -->
     <div class="user-filters-row">
-      <select id="ratingFilter" class="filter-select user-filter-select" onchange="render()" title="Filter by your personal star rating">
-        <option value="">My Ratings</option>
+      <select id="ratingFilter" class="user-filter-select" onchange="render()" title="Filter by your personal star rating">
+        <option value="">⭐ My Ratings</option>
         <option value="any">⭐ Rated by Me (1–5★)</option>
         <option value="5">⭐⭐⭐⭐⭐ 5 Stars Only</option>
         <option value="4">⭐⭐⭐⭐ 4+ Stars</option>
