@@ -66,52 +66,304 @@
       font-size: 0.95rem;
     }
 
-    /* Control Panel */
-    .controls {
-      background: var(--card-bg);
+    /* Sticky Controls Toolbar */
+    .sticky-controls-bar {
+      position: sticky;
+      top: 8px;
+      z-index: 90;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
       border: 1px solid var(--border-color);
       border-radius: 12px;
-      padding: 18px;
-      margin-bottom: 24px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+      padding: 12px 16px;
+      margin-bottom: 12px;
+      box-shadow: 0 4px 18px rgba(15, 23, 42, 0.08);
+      transition: box-shadow 0.2s ease, border-color 0.2s ease;
     }
 
     .search-row {
       display: flex;
-      gap: 12px;
-      margin-bottom: 14px;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .search-box-wrap {
+      position: relative;
+      flex: 1;
+      display: flex;
+      align-items: center;
     }
 
     .search-input {
-      flex: 1;
-      padding: 12px 16px;
-      font-size: 1.05rem;
+      width: 100%;
+      padding: 10px 36px 10px 14px;
+      font-size: 1rem;
       border: 1.5px solid var(--border-color);
       border-radius: 8px;
       outline: none;
-      transition: border-color 0.2s;
+      background: #ffffff;
+      transition: border-color 0.2s, box-shadow 0.2s;
     }
 
     .search-input:focus {
       border-color: var(--primary-color);
+      box-shadow: 0 0 0 3px rgba(224, 36, 36, 0.12);
     }
 
-    .filter-grid {
+    .search-clear-btn {
+      position: absolute;
+      right: 10px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: none;
+      background: #e2e8f0;
+      color: #64748b;
+      font-size: 0.72rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s;
+    }
+
+    .search-clear-btn:hover {
+      background: #cbd5e1;
+      color: #0f172a;
+    }
+
+    .panel-toggle-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 13px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #334155;
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+      user-select: none;
+    }
+
+    .panel-toggle-btn:hover {
+      background: #e2e8f0;
+      color: #0f172a;
+      border-color: #94a3b8;
+    }
+
+    .panel-toggle-btn.active {
+      background: #eff6ff;
+      color: #1d4ed8;
+      border-color: #93c5fd;
+    }
+
+    .panel-active-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #2563eb;
+      color: #ffffff;
+      font-size: 0.68rem;
+      font-weight: 700;
+      border-radius: 10px;
+      padding: 1px 6px;
+      line-height: 1.2;
+    }
+
+    .quick-filters-row {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-      gap: 10px;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .quick-filters-row {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 440px) {
+      .quick-filters-row {
+        grid-template-columns: 1fr;
+      }
     }
 
     .filter-select {
       width: 100%;
-      height: 38px;
-      padding: 8px 10px;
-      font-size: 0.88rem;
+      height: 36px;
+      padding: 6px 10px;
+      font-size: 0.86rem;
       border: 1px solid var(--border-color);
       border-radius: 6px;
       background-color: #fff;
       color: var(--text-main);
       cursor: pointer;
+      transition: border-color 0.15s;
+    }
+
+    .filter-select:focus {
+      border-color: var(--primary-color);
+      outline: none;
+    }
+
+    /* Active Filter Chips Container */
+    .active-chips-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px dashed #e2e8f0;
+    }
+
+    .active-chips-left {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+      flex: 1;
+    }
+
+    .active-chips-title {
+      font-size: 0.74rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #64748b;
+      margin-right: 2px;
+    }
+
+    .active-chips-list {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .filter-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 3px 8px 3px 10px;
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 14px;
+      font-size: 0.76rem;
+      font-weight: 600;
+      color: #1e293b;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+      transition: all 0.15s ease;
+    }
+
+    .filter-chip:hover {
+      background: #f1f5f9;
+      border-color: #94a3b8;
+    }
+
+    .filter-chip-remove {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #e2e8f0;
+      color: #475569;
+      border: none;
+      font-size: 0.76rem;
+      font-weight: 700;
+      cursor: pointer;
+      line-height: 1;
+      padding: 0;
+      transition: all 0.15s;
+    }
+
+    .filter-chip-remove:hover {
+      background: #ef4444;
+      color: #ffffff;
+    }
+
+    .clear-all-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 10px;
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      border-radius: 14px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #dc2626;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+    }
+
+    .clear-all-btn:hover {
+      background: #fee2e2;
+      border-color: #f87171;
+      color: #b91c1c;
+    }
+
+    /* Collapsible Secondary Panels */
+    .collapsible-panels {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+      animation: fadeInPanels 0.2s ease-out;
+    }
+
+    @keyframes fadeInPanels {
+      from { opacity: 0; transform: translateY(-4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .secondary-panel-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin-bottom: 12px;
+    }
+
+    .secondary-panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+
+    .media-set-summary-badge {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #2563eb;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      padding: 2px 8px;
+      border-radius: 12px;
+    }
+
+    .embedded-media-list {
+      max-height: 220px;
+      overflow-y: auto;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 8px;
+      background: #f8fafc;
     }
 
     /* Multi-select Collection Dropdown */
@@ -1131,12 +1383,21 @@
     </div>
   </header>
 
-  <div class="controls">
+  <!-- Sticky Controls Toolbar: Search, Quick Filters & Active Chips -->
+  <div class="sticky-controls-bar">
     <div class="search-row">
-      <input type="text" id="searchInput" class="search-input" placeholder="Search by title, director, character, format (Blu-ray/DVD/LaserDisc), set, or track..." autofocus>
+      <div class="search-box-wrap">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by title, director, character, format (Blu-ray/DVD/LaserDisc), set, or track..." autofocus>
+        <button type="button" id="clearSearchBtn" class="search-clear-btn" onclick="clearSearchInput()" title="Clear search text" style="display: none;">✕</button>
+      </div>
+      <button type="button" id="panelToggleBtn" class="panel-toggle-btn" onclick="toggleSecondaryPanels()" title="Show or hide Era Timeline & Home Media Sets">
+        <span id="panelToggleIcon">▾</span>
+        <span id="panelToggleText">Timeline & Media</span>
+        <span id="panelActiveBadge" class="panel-active-badge" style="display: none;"></span>
+      </button>
     </div>
 
-    <div class="filter-grid">
+    <div class="quick-filters-row">
       <select id="charFilter" class="filter-select">
         <option value="">All Featured Characters</option>
       </select>
@@ -1154,46 +1415,57 @@
         <option value="3">⭐⭐⭐ 3+ Stars</option>
         <option value="unrated">⚪ Unrated Shorts</option>
       </select>
+    </div>
 
-      <!-- Home Media Sets / My Collection Dropdown with Checkmarks -->
-      <div class="custom-multiselect-container" id="mediaSetDropdownContainer">
-        <button type="button" class="multiselect-trigger" id="mediaSetTriggerBtn" onclick="toggleMediaSetDropdown(event)">
-          <span id="mediaSetTriggerText">🎬 All Database Titles (1,039 Shorts)</span>
-          <span class="dropdown-caret">▼</span>
-        </button>
-        <div class="multiselect-popover" id="mediaSetPopover" style="display: none;">
-          <div class="popover-header">
-            <span style="font-weight: 600; color: #0f172a; font-size: 0.88rem;">Home Media Sets / My Collection</span>
-            <span style="font-size: 0.78rem; color: #64748b;" id="popoverCountLabel">0 of 30 (searching all 1,039)</span>
-          </div>
+    <!-- Active Filter Chips & Unified Clear All Action -->
+    <div id="activeFilterChipsContainer" class="active-chips-container" style="display: none;">
+      <div class="active-chips-left">
+        <span class="active-chips-title">Active Filters:</span>
+        <div class="active-chips-list" id="activeChipsList"></div>
+      </div>
+      <button type="button" class="clear-all-btn" id="clearAllFiltersBtn" onclick="clearAllFilters()" title="Reset all filters to default">
+        ✕ Clear All Filters
+      </button>
+    </div>
+  </div>
 
-          <!-- User Library Profiles Bar -->
-          <div class="popover-user-row">
-            <div class="user-select-wrap">
-              <span class="user-label">👤 Profile:</span>
-              <select id="userLibraryProfileSelect" class="user-profile-select" onchange="handleUserProfileChange(this.value)" title="Switch active user library profile">
-              </select>
-              <button type="button" class="popover-mini-btn" onclick="promptNewUserProfile()" title="Create a new user profile">➕ New Profile</button>
-            </div>
-            <div class="user-save-wrap">
-              <button type="button" class="popover-btn popover-btn-save-lib" onclick="saveCurrentUserLibrary()" title="Save current checkmarks to this user profile">
-                💾 Save as My Library
-              </button>
-              <span id="saveLibFeedback" class="save-feedback" style="display: none;">✓ Saved!</span>
-            </div>
-          </div>
+  <!-- Collapsible Secondary Panels (Default: Collapsed) -->
+  <div id="collapsiblePanels" class="collapsible-panels" style="display: none;">
+    <!-- Home Media Sets / My Collection -->
+    <div class="secondary-panel-card" id="mediaSetDropdownContainer">
+      <div class="secondary-panel-header">
+        <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+          <span class="timeline-heading">📀 Home Media Sets / My Collection</span>
+          <span class="media-set-summary-badge" id="mediaSetTriggerText">🎬 All Database Titles (1,039 Shorts)</span>
+        </div>
+        <span style="font-size: 0.78rem; color: #64748b;" id="popoverCountLabel">0 of 30 (searching all 1,039)</span>
+      </div>
 
-          <div class="popover-actions">
-            <button type="button" class="popover-btn popover-btn-primary" onclick="loadCurrentUserLibrary()" title="Select sets in your saved library">📚 My Library</button>
-            <button type="button" class="popover-btn" onclick="selectAllSets(true)" title="Check all 30 sets (searches only released cartoons)">Select All (Released Only)</button>
-            <button type="button" class="popover-btn" onclick="selectAllSets(false)" title="Uncheck all sets to search the entire 1,039 cartoon database including unreleased shorts">Clear All (Search All 1,039)</button>
-            <button type="button" class="popover-btn" onclick="selectOnlyFormat('Blu-ray')">Only Blu-ray</button>
-            <button type="button" class="popover-btn" onclick="selectOnlyFormat('DVD')">Only DVD</button>
-            <button type="button" class="popover-btn" onclick="selectOnlyFormat('LaserDisc')">Only LaserDisc</button>
-          </div>
-          <div class="popover-list" id="mediaSetCheckboxList"></div>
+      <!-- User Library Profiles Bar -->
+      <div class="popover-user-row">
+        <div class="user-select-wrap">
+          <span class="user-label">👤 Profile:</span>
+          <select id="userLibraryProfileSelect" class="user-profile-select" onchange="handleUserProfileChange(this.value)" title="Switch active user library profile">
+          </select>
+          <button type="button" class="popover-mini-btn" onclick="promptNewUserProfile()" title="Create a new user profile">➕ New Profile</button>
+        </div>
+        <div class="user-save-wrap">
+          <button type="button" class="popover-btn popover-btn-save-lib" onclick="saveCurrentUserLibrary()" title="Save current checkmarks to this user profile">
+            💾 Save as My Library
+          </button>
+          <span id="saveLibFeedback" class="save-feedback" style="display: none;">✓ Saved!</span>
         </div>
       </div>
+
+      <div class="popover-actions">
+        <button type="button" class="popover-btn popover-btn-primary" onclick="loadCurrentUserLibrary()" title="Select sets in your saved library">📚 My Library</button>
+        <button type="button" class="popover-btn" onclick="selectAllSets(true)" title="Check all 30 sets (searches only released cartoons)">Select All (Released Only)</button>
+        <button type="button" class="popover-btn" onclick="selectAllSets(false)" title="Uncheck all sets to search the entire 1,039 cartoon database including unreleased shorts">Clear All (Search All 1,039)</button>
+        <button type="button" class="popover-btn" onclick="selectOnlyFormat('Blu-ray')">Only Blu-ray</button>
+        <button type="button" class="popover-btn" onclick="selectOnlyFormat('DVD')">Only DVD</button>
+        <button type="button" class="popover-btn" onclick="selectOnlyFormat('LaserDisc')">Only LaserDisc</button>
+      </div>
+      <div class="popover-list embedded-media-list" id="mediaSetCheckboxList"></div>
     </div>
 
     <!-- Interactive Era Timeline Slider -->
@@ -1250,14 +1522,14 @@
         <span>2014</span>
       </div>
     </div>
+  </div>
 
-    <div class="stats-bar">
-      <span id="resultsCount">Loading database...</span>
-      <label class="load-file-btn">
-        Load Local database.json
-        <input type="file" id="filePicker" accept=".json" style="display: none;">
-      </label>
-    </div>
+  <div class="stats-bar">
+    <span id="resultsCount">Loading database...</span>
+    <label class="load-file-btn">
+      Load Local database.json
+      <input type="file" id="filePicker" accept=".json" style="display: none;">
+    </label>
   </div>
 
   <main id="resultsList" class="results-list"></main>
@@ -2235,6 +2507,7 @@
         database = fallbackData;
       }
     }
+    initCollapsiblePanels();
     updateAdminUI();
     populateFilters();
     render();
@@ -2781,22 +3054,48 @@
     }
   }
 
-  window.toggleMediaSetDropdown = function(event) {
-    if (event) event.stopPropagation();
-    const popover = document.getElementById('mediaSetPopover');
-    if (!popover) return;
-    const isShowing = popover.style.display !== 'none';
-    popover.style.display = isShowing ? 'none' : 'block';
+  // --- Collapsible Secondary Panels State ---
+  const PANELS_STORAGE_KEY = 'looney_tunes_panels_expanded';
+
+  function initCollapsiblePanels() {
+    const isExpanded = localStorage.getItem(PANELS_STORAGE_KEY) === 'true';
+    applyPanelState(isExpanded);
+  }
+
+  window.toggleSecondaryPanels = function() {
+    const panels = document.getElementById('collapsiblePanels');
+    if (!panels) return;
+    const isCurrentlyHidden = (panels.style.display === 'none' || getComputedStyle(panels).display === 'none');
+    const newState = isCurrentlyHidden;
+    try {
+      localStorage.setItem(PANELS_STORAGE_KEY, newState ? 'true' : 'false');
+    } catch (e) {}
+    applyPanelState(newState);
   };
 
-  // Close media popover on outside click
-  document.addEventListener('click', e => {
-    const container = document.getElementById('mediaSetDropdownContainer');
-    if (container && !container.contains(e.target)) {
-      const popover = document.getElementById('mediaSetPopover');
-      if (popover) popover.style.display = 'none';
+  function applyPanelState(isExpanded) {
+    const panels = document.getElementById('collapsiblePanels');
+    const toggleBtn = document.getElementById('panelToggleBtn');
+    const toggleIcon = document.getElementById('panelToggleIcon');
+    const toggleText = document.getElementById('panelToggleText');
+    if (!panels) return;
+
+    if (isExpanded) {
+      panels.style.display = 'block';
+      if (toggleBtn) toggleBtn.classList.add('active');
+      if (toggleIcon) toggleIcon.textContent = '▴';
+      if (toggleText) toggleText.textContent = 'Hide Panels';
+    } else {
+      panels.style.display = 'none';
+      if (toggleBtn) toggleBtn.classList.remove('active');
+      if (toggleIcon) toggleIcon.textContent = '▾';
+      if (toggleText) toggleText.textContent = 'Timeline & Media';
     }
-  });
+  }
+
+  window.toggleMediaSetDropdown = function() {
+    // Retained for backward compatibility
+  };
 
   // --- Timeline Dual Slider Functions ---
   window.handleSliderChange = function() {
@@ -2883,6 +3182,191 @@
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
       .toLowerCase();
+  }
+
+  // --- Active Filter Management & Search Controls ---
+  window.clearSearchInput = function() {
+    const input = document.getElementById('searchInput');
+    if (input) {
+      input.value = '';
+      input.focus();
+    }
+    render();
+  };
+
+  window.removeFilter = function(filterType) {
+    if (filterType === 'query') {
+      const el = document.getElementById('searchInput');
+      if (el) el.value = '';
+    } else if (filterType === 'character') {
+      const el = document.getElementById('charFilter');
+      if (el) el.value = '';
+    } else if (filterType === 'director') {
+      const el = document.getElementById('directorFilter');
+      if (el) el.value = '';
+    } else if (filterType === 'format') {
+      const el = document.getElementById('formatFilter');
+      if (el) el.value = '';
+    } else if (filterType === 'rating') {
+      const el = document.getElementById('ratingFilter');
+      if (el) el.value = '';
+    } else if (filterType === 'notes') {
+      activeNotesOnly = false;
+      const btn = document.getElementById('notesOnlyFilterBtn');
+      if (btn) btn.classList.remove('active');
+    } else if (filterType === 'timeline') {
+      setEraPreset(1929, 2014);
+      return;
+    } else if (filterType === 'mediaSets') {
+      selectAllSets(false);
+      return;
+    }
+    render();
+  };
+
+  window.clearAllFilters = function() {
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) searchInput.value = '';
+
+    const charFilter = document.getElementById('charFilter');
+    if (charFilter) charFilter.value = '';
+
+    const directorFilter = document.getElementById('directorFilter');
+    if (directorFilter) directorFilter.value = '';
+
+    const formatFilter = document.getElementById('formatFilter');
+    if (formatFilter) formatFilter.value = '';
+
+    const ratingFilter = document.getElementById('ratingFilter');
+    if (ratingFilter) ratingFilter.value = '';
+
+    activeNotesOnly = false;
+    const notesBtn = document.getElementById('notesOnlyFilterBtn');
+    if (notesBtn) notesBtn.classList.remove('active');
+
+    // Reset timeline without duplicate render
+    activeMinYear = 1929;
+    activeMaxYear = 2014;
+    const sMin = document.getElementById('sliderMin');
+    const sMax = document.getElementById('sliderMax');
+    if (sMin && sMax) {
+      sMin.value = 1929;
+      sMax.value = 2014;
+    }
+    const highlight = document.getElementById('sliderHighlight');
+    if (highlight) {
+      highlight.style.left = '0%';
+      highlight.style.width = '100%';
+    }
+    const rangeText = document.getElementById('timelineRangeText');
+    if (rangeText) rangeText.textContent = '1929 – 2014';
+    updateEraPillsState();
+
+    // Reset media sets
+    selectedMediaSets.clear();
+    renderMediaSetCheckboxes();
+    updateMediaSetTriggerLabel();
+
+    render();
+  };
+
+  function updateActiveFilterChips() {
+    const container = document.getElementById('activeFilterChipsContainer');
+    const listEl = document.getElementById('activeChipsList');
+    const clearSearchBtn = document.getElementById('clearSearchBtn');
+    const panelActiveBadge = document.getElementById('panelActiveBadge');
+    if (!container || !listEl) return;
+
+    const chips = [];
+
+    // 1. Search Query
+    const searchEl = document.getElementById('searchInput');
+    const rawQuery = searchEl ? searchEl.value.trim() : '';
+    if (clearSearchBtn) {
+      clearSearchBtn.style.display = rawQuery ? 'flex' : 'none';
+    }
+    if (rawQuery) {
+      const dispQuery = rawQuery.length > 22 ? rawQuery.slice(0, 20) + '…' : rawQuery;
+      chips.push({ id: 'query', label: `Search: "${dispQuery}"` });
+    }
+
+    // 2. Character
+    const charEl = document.getElementById('charFilter');
+    if (charEl && charEl.value) {
+      chips.push({ id: 'character', label: `Character: ${charEl.value}` });
+    }
+
+    // 3. Director
+    const dirEl = document.getElementById('directorFilter');
+    if (dirEl && dirEl.value) {
+      chips.push({ id: 'director', label: `Director: ${dirEl.value}` });
+    }
+
+    // 4. Format
+    const fmtEl = document.getElementById('formatFilter');
+    if (fmtEl && fmtEl.value) {
+      chips.push({ id: 'format', label: `Format: ${fmtEl.value}` });
+    }
+
+    // 5. Rating
+    const ratingEl = document.getElementById('ratingFilter');
+    if (ratingEl && ratingEl.value) {
+      let rLabel = ratingEl.value;
+      if (rLabel === 'any') rLabel = 'Rated (1–5★)';
+      else if (rLabel === '5') rLabel = '5 Stars';
+      else if (rLabel === '4') rLabel = '4+ Stars';
+      else if (rLabel === '3') rLabel = '3+ Stars';
+      else if (rLabel === 'unrated') rLabel = 'Unrated';
+      chips.push({ id: 'rating', label: `Rating: ${rLabel}` });
+    }
+
+    // 6. Personal Notes
+    if (activeNotesOnly) {
+      chips.push({ id: 'notes', label: `Notes: Has Notes` });
+    }
+
+    // 7. Timeline Range
+    let secondaryCount = 0;
+    if (activeMinYear > 1929 || activeMaxYear < 2014) {
+      secondaryCount++;
+      chips.push({ id: 'timeline', label: `Timeline: ${activeMinYear}–${activeMaxYear}` });
+    }
+
+    // 8. Media Sets
+    if (selectedMediaSets && selectedMediaSets.size > 0) {
+      secondaryCount++;
+      const count = selectedMediaSets.size;
+      const label = count === 1
+        ? `Media Set: ${Array.from(selectedMediaSets)[0]}`
+        : `Media Sets: ${count} selected`;
+      const dispLabel = label.length > 28 ? label.slice(0, 26) + '…' : label;
+      chips.push({ id: 'mediaSets', label: dispLabel });
+    }
+
+    // Update panel active badge
+    if (panelActiveBadge) {
+      if (secondaryCount > 0) {
+        panelActiveBadge.textContent = `${secondaryCount}`;
+        panelActiveBadge.style.display = 'inline-flex';
+      } else {
+        panelActiveBadge.style.display = 'none';
+      }
+    }
+
+    // Render chips or hide container
+    if (chips.length === 0) {
+      container.style.display = 'none';
+      listEl.innerHTML = '';
+      return;
+    }
+
+    container.style.display = 'flex';
+    listEl.innerHTML = chips.map(chip => `
+      <span class="filter-chip" title="${chip.label}">
+        <span>${chip.label}</span>
+        <button type="button" class="filter-chip-remove" onclick="removeFilter('${chip.id}')" title="Remove filter" aria-label="Remove filter">&times;</button>
+      </span>
+    `).join('');
   }
 
   function render() {
@@ -2978,6 +3462,7 @@
     const listEl = document.getElementById('resultsList');
     if (filtered.length === 0) {
       listEl.innerHTML = `<div class="no-results">No cartoons found matching your criteria.</div>`;
+      updateActiveFilterChips();
       return;
     }
 
@@ -3100,7 +3585,10 @@
         </article>
       `;
     }).join("");
+
+    updateActiveFilterChips();
   }
+  window.render = render;
 
   // --- Modal Edit Functions ---
   window.openEditModal = function(id) {
