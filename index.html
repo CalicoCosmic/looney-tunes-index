@@ -165,6 +165,7 @@
     .omnibox-token.format,
     .omnibox-token.era,
     .omnibox-token.title,
+    .omnibox-token.topic,
     .omnibox-token.text {
       background: #e6fcf5;
       color: #087f5b;
@@ -447,6 +448,12 @@
       background: #f8fafc;
       color: #334155;
       border: 1px solid #cbd5e1;
+    }
+
+    .suggestion-type-badge.topic {
+      background: #fef2f2;
+      color: #991b1b;
+      border: 1px solid #fecaca;
     }
 
     .suggestion-item.fallback-item {
@@ -4755,6 +4762,24 @@
     { key: 'revival', label: 'Modern Revival (1979–Present)', icon: '⏳', keywords: ['modern revival', 'revival', 'modern'], minYear: 1979, maxYear: 2014 }
   ];
 
+  const TOPIC_SUGGESTIONS = [
+    {
+      id: 'censored_eleven',
+      type: 'topic',
+      name: 'Censored Eleven',
+      displayName: 'Censored Eleven',
+      filterValue: 'censored 11',
+      icon: '🚫',
+      keywords: ['censored 11', 'censored eleven', 'censored', 'censored 11s', 'banned 11', 'banned eleven'],
+      count: 11
+    }
+  ];
+
+  const WORD_SYNONYMS = {
+    '11': ['eleven'],
+    'eleven': ['11']
+  };
+
   function getCharacterIcon(charName) {
     const lower = (charName || '').toLowerCase();
     if (lower.includes('bugs') || lower.includes('honey') || lower.includes('rabbit') || lower.includes('bunny') || lower.includes('hare')) return '🐰';
@@ -5003,6 +5028,16 @@
         negated: isNegated,
         isExcluded: isNegated
       });
+    } else if (item.type === 'topic') {
+      addToken({
+        id: `topic_${item.id || item.filterValue}`,
+        type: 'topic',
+        value: item.filterValue,
+        label: (isNegated ? 'NOT ' : '') + item.displayName,
+        icon: item.icon || '🚫',
+        negated: isNegated,
+        isExcluded: isNegated
+      });
     } else if (item.type === 'generic') {
       submitFreeformQuery(item.filterValue);
     }
@@ -5245,6 +5280,36 @@
       }
     });
 
+    // 6. Curated Topics & Historical Collections (e.g. Censored Eleven)
+    TOPIC_SUGGESTIONS.forEach(topic => {
+      const tokenId = 'topic_' + topic.id;
+      if (seenTokenIds.has(tokenId)) return;
+
+      const normName = normalizeText(topic.name);
+      const matchesKeyword = topic.keywords.some(kw => kw.includes(q) || q.includes(kw));
+      const matchesName = normName.includes(q);
+
+      if (matchesKeyword || matchesName) {
+        let subScore = 3;
+        if (normName === q || q === 'censored 11' || q === 'censored eleven') subScore = 1;
+        else if (normName.startsWith(q) || q.startsWith('censored')) subScore = 2;
+
+        suggestions.push({
+          type: 'topic',
+          id: topic.id,
+          name: topic.name,
+          displayName: topic.displayName,
+          filterValue: topic.filterValue,
+          value: topic.filterValue,
+          icon: topic.icon,
+          count: topic.count,
+          tier: 1,
+          subScore
+        });
+        seenTokenIds.add(tokenId);
+      }
+    });
+
     // ==========================================
     // TIER 2: SYNONYM & RELATED CHARACTER MATCHES
     // Characters associated via alias/synonym expansion whose names do not contain q
@@ -5421,6 +5486,7 @@
       else if (item.type === 'format') badgeLabel = '🟦 Physical Format';
       else if (item.type === 'era') badgeLabel = '⏳ Historical Era';
       else if (item.type === 'title') badgeLabel = '🎬 Cartoon Title';
+      else if (item.type === 'topic') badgeLabel = '📜 Collection / Topic';
 
       const countText = item.type === 'title' ? (item.year ? `(${item.year})` : '') : `(${item.count})`;
 
@@ -5599,7 +5665,7 @@
     const q = rawQuery.trim();
     if (!q) return true;
     const query = normalizeText(q);
-    const queryTerms = query.split(/\s+/).filter(Boolean);
+    const queryTerms = query.replace(/["'“”]/g, '').split(/[\s-]+/).filter(Boolean);
 
     const searchable = normalizeText([
       short.title,
@@ -5629,6 +5695,10 @@
     return queryTerms.every(term => {
       // Direct text match in title, description, credits, or characters
       if (searchable.includes(term)) return true;
+
+      // Word-level synonyms (e.g. 11 <-> eleven)
+      const wordSyns = typeof WORD_SYNONYMS !== 'undefined' ? WORD_SYNONYMS[term] : null;
+      if (wordSyns && wordSyns.some(syn => searchable.includes(syn))) return true;
 
       // Bidirectional synonym and species expansion
       const matchedGroupKeys = getSynonymGroupsForTerm(term);
@@ -5671,7 +5741,7 @@
       short.notes
     ].join(" "));
 
-    const queryTerms = q.split(/\s+/).filter(Boolean);
+    const queryTerms = q.replace(/["'“”]/g, '').split(/[\s-]+/).filter(Boolean);
     const matchedGroups = new Set();
     queryTerms.forEach(t => {
       getSynonymGroupsForTerm(t).forEach(gk => matchedGroups.add(gk));
@@ -5717,7 +5787,13 @@
     }
 
     // 4. Score: 30 (Direct Synopsis / Plot Hit): The raw query string appears inside the cartoon's synopsis or description text
-    if (synopsisText.includes(q) || queryTerms.some(t => t.length > 2 && synopsisText.includes(t))) {
+    const expandedQ = q.replace(/\b11\b/g, 'eleven');
+    const expandedQRev = q.replace(/\beleven\b/g, '11');
+    if (synopsisText.includes(q) || synopsisText.includes(expandedQ) || synopsisText.includes(expandedQRev) || queryTerms.some(t => {
+      if (t.length > 2 && synopsisText.includes(t)) return true;
+      const syns = typeof WORD_SYNONYMS !== 'undefined' ? WORD_SYNONYMS[t] : null;
+      return syns && syns.some(s => synopsisText.includes(s));
+    })) {
       score += 30;
     } else {
       // 5. Score: 10 (Synonym Synopsis Hit): An alias/synonym appears inside the synopsis
@@ -5797,6 +5873,7 @@
         return shortTitle === target || normalizeText(shortTitle) === normalizeText(target);
       }
 
+      case 'topic':
       case 'text': {
         return matchesSearch(short, token.value);
       }
@@ -5894,7 +5971,7 @@
     });
 
     let results = [];
-    const activeTextTokens = activeTokens.filter(t => t.type === 'text' && !t.negated && !t.isExcluded);
+    const activeTextTokens = activeTokens.filter(t => (t.type === 'text' || t.type === 'topic') && !t.negated && !t.isExcluded);
     const effectiveQuery = rawQuery || activeTextTokens.map(t => t.value).join(' ');
     const hasQuery = Boolean(effectiveQuery && effectiveQuery.trim().length > 0);
 
