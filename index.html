@@ -3734,6 +3734,31 @@
     "💽 LaserDisc Collections"
   ];
 
+  function sanitizeCharacter(c) {
+    if (!c || typeof c !== 'string') return [];
+    let s = c.trim();
+    if (s.includes('|')) s = s.split('|').pop();
+    s = s.replace(/\[\[/g, '').replace(/\]\]/g, '').trim();
+    if (!s || ['N/A', 'NONE', 'UNKNOWN', 'NULL', '—', '-'].includes(s.toUpperCase())) return [];
+    if (s === 'Sylvester the Cat') s = 'Sylvester';
+
+    // Duo splitting
+    if (s.includes('Babbit') && s.includes('Catstello')) return ['Babbit', 'Catstello'];
+    if (s === 'Wile E. Coyote and the Road Runner') return ['Wile E. Coyote', 'Road Runner'];
+    if (s === 'Ralph Wolf and Sam Sheepdog') return ['Ralph Wolf', 'Sam Sheepdog'];
+    if (s === 'Hubie and Bertie') return ['Hubie', 'Bertie'];
+    if (s === 'Marc Antony and Pussyfoot') return ['Marc Antony', 'Pussyfoot'];
+    if (s === 'Rocky and Mugsy') return ['Rocky', 'Mugsy'];
+    if (s === 'Spike and Chester') return ['Spike', 'Chester'];
+    if (s === 'Jose and Manuel') return ['Jose', 'Manuel'];
+    if (s === 'Pappy and Elvis') return ['Pappy', 'Elvis'];
+    if (s === 'Ham and Ex') return ['Ham', 'Ex'];
+    if (s === 'Bunny and Claude') return ['Bunny', 'Claude'];
+    if (s.includes(' and ')) return s.split(' and ').map(p => p.trim()).filter(Boolean);
+    if (s.includes(' & ')) return s.split(' & ').map(p => p.trim()).filter(Boolean);
+    return [s];
+  }
+
   function populateFilters() {
     const charSelect = document.getElementById('charFilter');
     const dirSelect = document.getElementById('directorFilter');
@@ -3744,7 +3769,14 @@
 
     database.forEach(item => {
       if (item.featured_characters) {
-        item.featured_characters.forEach(c => chars.add(c));
+        const cleanChars = [];
+        item.featured_characters.forEach(c => {
+          sanitizeCharacter(c).forEach(sc => {
+            if (!cleanChars.includes(sc)) cleanChars.push(sc);
+            chars.add(sc);
+          });
+        });
+        item.featured_characters = cleanChars;
       }
       if (item.directors && Array.isArray(item.directors)) {
         item.directors.forEach(d => {
@@ -3772,8 +3804,8 @@
       }
     });
 
-    fillSelect(charSelect, Array.from(chars).sort(), "All Featured Characters");
-    fillSelect(dirSelect, Array.from(directors).sort(), "All Directors");
+    fillSelect(charSelect, Array.from(chars).sort((a, b) => a.localeCompare(b)), "All Featured Characters");
+    fillSelect(dirSelect, Array.from(directors).sort((a, b) => a.localeCompare(b)), "All Directors");
 
     allMediaSets = Array.from(setsMap.entries()).map(([name, data]) => ({
       set_name: name,
@@ -4048,27 +4080,27 @@
     const lower = (charName || '').toLowerCase();
     if (lower.includes('bugs')) return '🐰';
     if (lower.includes('daffy')) return '🦆';
-    if (lower.includes('porky')) return '🐷';
+    if (lower.includes('porky') || lower.includes('ham') || lower.includes('ex') || lower.includes('petunia')) return '🐷';
     if (lower.includes('tweety')) return '🐥';
-    if (lower.includes('sylvester')) return '🐱';
-    if (lower.includes('coyote') || lower.includes('wile e.')) return '🐺';
+    if (lower.includes('sylvester') || lower.includes('pussyfoot') || lower.includes('claude cat')) return '🐱';
+    if (lower.includes('coyote') || lower.includes('wile e.') || lower.includes('ralph wolf')) return '🐺';
     if (lower.includes('road runner')) return '⚡';
     if (lower.includes('foghorn') || lower.includes('leghorn') || lower.includes('rooster')) return '🐔';
-    if (lower.includes('speedy') || lower.includes('gonzales') || lower.includes('hubie') || lower.includes('bertie')) return '🐭';
+    if (lower.includes('speedy') || lower.includes('gonzales') || lower.includes('hubie') || lower.includes('bertie') || lower.includes('sniffles') || lower.includes('babbit') || lower.includes('catstello')) return '🐭';
     if (lower.includes('pepe') || lower.includes('le pew') || lower.includes('skunk')) return '🦨';
     if (lower.includes('fudd') || lower.includes('elmer')) return '🎯';
+    if (lower.includes('sam sheepdog') || lower.includes('hector') || lower.includes('charlie dog') || lower.includes('spike') || lower.includes('chester')) return '🐕';
     if (lower.includes('sam') || lower.includes('yosemite')) return '🤠';
     if (lower.includes('marvin') || lower.includes('martian')) return '🚀';
     if (lower.includes('taz') || lower.includes('tasmanian')) return '🌪️';
     if (lower.includes('bosko')) return '🎩';
-    if (lower.includes('ralph wolf') || lower.includes('sam sheepdog')) return '🐕';
     if (lower.includes('witch hazel')) return '🧙‍♀️';
-    if (lower.includes('henery hawk')) return '🦅';
+    if (lower.includes('henery hawk') || lower.includes('buzzard')) return '🦅';
     if (lower.includes('hippety hopper')) return '🦘';
-    if (lower.includes('sniffles')) return '🐭';
     if (lower.includes('penelope')) return '🐈‍⬛';
     if (lower.includes('mac') || lower.includes('tosh') || lower.includes('gophers')) return '🐹';
     if (lower.includes('gremlin')) return '😈';
+    if (lower.includes('rocky') || lower.includes('mugsy')) return '🕶️';
     return '🎭';
   }
 

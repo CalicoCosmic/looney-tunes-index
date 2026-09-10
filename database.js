@@ -4264,7 +4264,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Porky Pig",
       "Beans",
       "Little Kitty",
-      "Ham and Ex",
+      "Ham",
+      "Ex",
       "Oliver Owl"
     ],
     "synopsis": "In a parody of the Our Gang live-action series of shorts, schoolteacher Miss Cud introduces a school musical and recital, including Porky Pig (in his debut) stuttering Paul Revere's Ride, Little Kitty forgetting her lines to Mary Had a Little Lamb, and Ham and Ex singing I Haven't Got a Hat. Meanwhile, Beans the Cat gets furious over Oliver Owl, including putting an unnamed dog and cat inside the piano. Musical Score by Bernard Brown",
@@ -5802,7 +5803,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Beans",
-      "Ham and Ex"
+      "Ham",
+      "Ex"
     ],
     "synopsis": "Ham and Ex play at a fire station. Musical Score by Norman Spencer",
     "media_locations": []
@@ -5829,7 +5831,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Beans",
-      "Ham and Ex"
+      "Ham",
+      "Ex"
     ],
     "synopsis": "Beans the Cat flies to the Arctic with Ham and Ex on an aircraft. While exploring a frozen ship, Beans finds and defrosts a couple of frozen buccaneers who chase him and Ham and Ex who land back in the plane and take off. Beans then dodges an explosive powder keg and is launched into the air and caught by Ham and Ex before they fly home. Musical Score by Bernard Brown",
     "media_locations": [
@@ -5960,7 +5963,8 @@ window.LOONEY_TUNES_DATABASE = [
       "Porky Pig",
       "Beans",
       "Little Kitty",
-      "Ham and Ex"
+      "Ham",
+      "Ex"
     ],
     "synopsis": "A Western adaptation of The Boy Who Cried Wolf where Ham and Ex make Indian charge calls and Native Americans come out of the woods. Musical Score by Norman Spencer",
     "media_locations": [
@@ -15194,7 +15198,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Tweety",
-      "Babbit and Catstello"
+      "Babbit",
+      "Catstello"
     ],
     "synopsis": "Babbit and Catstello are cats who attempt to catch a bird named Tweety Pie (in his debut cartoon).",
     "media_locations": [
@@ -16750,7 +16755,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Ralph Wolf and Sam Sheepdog"
+      "Ralph Wolf",
+      "Sam Sheepdog"
     ],
     "synopsis": "A sheepdog watching a flock of sheep attempts to capture a wolf wearing a sheep costume.",
     "media_locations": [
@@ -17326,9 +17332,7 @@ window.LOONEY_TUNES_DATABASE = [
     "backgrounds": "—",
     "animation": [],
     "voice_actors": [],
-    "featured_characters": [
-      "N/A"
-    ],
+    "featured_characters": [],
     "synopsis": "",
     "media_locations": [
       {
@@ -17993,7 +17997,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Claude Cat",
-      "Hubie and Bertie"
+      "Hubie",
+      "Bertie"
     ],
     "synopsis": "A pampered and spoiled Claude Cat (in his debut), who has never seen a mouse before, is tricked by Hubie and Bertie (also their debuts) into mistaking Rover the bulldog for a mouse.",
     "media_locations": [
@@ -20628,7 +20633,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Babbit and Catstello (mice versions)"
+      "Babbit",
+      "Catstello"
     ],
     "synopsis": "Babbit and Catstello are mice who attempt to steal cheese guarded by a cat.",
     "media_locations": [
@@ -20852,7 +20858,8 @@ window.LOONEY_TUNES_DATABASE = [
     "featured_characters": [
       "Porky Pig",
       "Claude Cat",
-      "Hubie and Bertie",
+      "Hubie",
+      "Bertie",
       "Hector the Bulldog"
     ],
     "synopsis": "Hubie and Bertie invade Uncle Tom's Cabin while Porky Pig is sleeping.",
@@ -21588,7 +21595,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Babbit and Catstello (dog versions)"
+      "Babbit",
+      "Catstello"
     ],
     "synopsis": "A series of vignettes involving dog-styled caricatures of Hollywood celebrities at a nightclub.",
     "media_locations": [
@@ -22097,7 +22105,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Claude Cat",
-      "Hubie and Bertie"
+      "Hubie",
+      "Bertie"
     ],
     "synopsis": "Hubie and Bertie shave Claude Cat to convince him that he is a lion.",
     "media_locations": [
@@ -22328,7 +22337,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Babbit and Catstello (mice versions)"
+      "Babbit",
+      "Catstello"
     ],
     "synopsis": "Babbit and Catstello hypnotize each other to chase a cat away.",
     "media_locations": [
@@ -23079,7 +23089,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Hubie and Bertie"
+      "Hubie",
+      "Bertie"
     ],
     "synopsis": "Hubie and Bertie explore the Super House - The House of Tomorrow.",
     "media_locations": [
@@ -26099,7 +26110,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "In their first cartoon, Wile E. Coyote attempts to catch the Road Runner through many traps and products across 12 different plans.",
     "media_locations": [
@@ -26757,7 +26769,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Claude Cat",
-      "Hubie and Bertie"
+      "Hubie",
+      "Bertie"
     ],
     "synopsis": "Hubie and Bertie attempt to move into a new home by chasing Claude Cat out. Note: Nominated for the Academy Award for Best Animated Short Film in 1949.",
     "media_locations": [
@@ -28752,7 +28765,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Claude Cat",
-      "Hubie and Bertie"
+      "Hubie",
+      "Bertie"
     ],
     "synopsis": "Hubie and Bertie gaslight Claude Cat into thinking he's very sick.",
     "media_locations": [
@@ -29534,7 +29548,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Claude Cat",
-      "Hubie and Bertie"
+      "Hubie",
+      "Bertie"
     ],
     "synopsis": "Hubie and Bertie beg Claude Cat to eat them after they stuffed themselves with cheese the night before. When Claude Cat refuses, they give chase.",
     "media_locations": [
@@ -30775,7 +30790,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote attempts to catch the Road Runner again.",
     "media_locations": [
@@ -30898,7 +30914,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Marc Antony and Pussyfoot"
+      "Marc Antony",
+      "Pussyfoot"
     ],
     "synopsis": "A big dog named Marc Antony tries to hide his new little kitten friend from his owner.",
     "media_locations": [
@@ -31132,7 +31149,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote once again tries to catch the Road Runner.",
     "media_locations": [
@@ -32046,7 +32064,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Spike and Chester",
+      "Spike",
+      "Chester",
       "Sylvester"
     ],
     "synopsis": "Spike and Chester decide to bully Sylvester...at the same time a black panther has escaped from the local zoo, who constantly hurts Spike.",
@@ -32584,7 +32603,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Ralph Wolf and Sam Sheepdog"
+      "Ralph Wolf",
+      "Sam Sheepdog"
     ],
     "synopsis": "In the first entry in the Ralph Wolf and Sam Sheepdog series, a sheepdog named Ralph works a 9-to-5 job where he stops a (then unnamed) wolf from stealing sheep.",
     "media_locations": [
@@ -33026,7 +33046,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Marc Antony and Pussyfoot"
+      "Marc Antony",
+      "Pussyfoot"
     ],
     "synopsis": "Marc Antony tries to teach Pussyfoot how to catch mice in order to keep his stay in his owners' house.",
     "media_locations": [
@@ -33693,7 +33714,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote tries to catch the Road Runner yet again.",
     "media_locations": [
@@ -33938,7 +33960,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Bugs Bunny",
-      "Rocky and Mugsy"
+      "Rocky",
+      "Mugsy"
     ],
     "synopsis": "Bugs Bunny mistakes the getaway car of bank robbers Rocky and Mugsy for a taxi and enters it uninvited, being taken hostage as a result.",
     "media_locations": [
@@ -34328,7 +34351,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Spike and Chester",
+      "Spike",
+      "Chester",
       "Sylvester"
     ],
     "synopsis": "Spike and Chester again agitate Sylvester, who hides in the house of Dr. Jerkyl and Mr. Hyde. He drinks soda pop that turns him into a stronger monster cat who effortlessly beats up Spike.",
@@ -34370,7 +34394,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Claude Cat",
-      "Marc Antony and Pussyfoot"
+      "Marc Antony",
+      "Pussyfoot"
     ],
     "synopsis": "Claude Cat, tired of both Pussyfoot stealing his pillow and getting beaten up by Marc Antony, manages to convince his owners Marc Antony was trying to eat Pussyfoot, which gets him kicked out of the house. Marc Antony now must work his way back inside to protect Pussyfoot from Claude.",
     "media_locations": [
@@ -34966,7 +34991,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Ralph Wolf and Sam Sheepdog",
+      "Ralph Wolf",
+      "Sam Sheepdog",
       "Wile E. Coyote (cameo)"
     ],
     "synopsis": "Fred Sheepdog once again tries to stop George Wolf from stealing sheep from 9 a.m. to 5 p.m.",
@@ -35008,7 +35034,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "A famished Wile E. Coyote sets his eyes on the Road Runner.",
     "media_locations": [
@@ -35411,7 +35438,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Ralph Wolf and Sam Sheepdog"
+      "Ralph Wolf",
+      "Sam Sheepdog"
     ],
     "synopsis": "Ralph Wolf and Sam Sheepdog (their first cartoon with their proper names) yet again go about their 9-to-5 job: Ralph trying to get sheep, and Sam stopping him every step of the way.",
     "media_locations": [
@@ -35506,7 +35534,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote once more tries to catch the Road Runner.",
     "media_locations": [
@@ -36184,7 +36213,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "The never-ending chase between Wile E. Coyote and the Road Runner continues.",
     "media_locations": [
@@ -37015,7 +37045,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "More of the never-ending chase between Wile E. Coyote and the Road Runner.",
     "media_locations": [
@@ -37537,9 +37568,9 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "[[The Honeymooners#Cast and characters|Ralph Crumden",
+      "Ralph Crumden",
       "Ned Morton",
-      "Alice Crumden]]",
+      "Alice Crumden",
       "Sam Cat"
     ],
     "synopsis": "A mouse-themed parody of The Honeymooners.",
@@ -37664,7 +37695,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "And off Wile E. Coyote and the Road Runner go in another series of gags.",
     "media_locations": [
@@ -37932,7 +37964,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Jose and Manuel"
+      "Jose",
+      "Manuel"
     ],
     "synopsis": "In Mexico, Jose and Manuel are crows who try to capture a grasshopper.",
     "media_locations": [
@@ -38401,7 +38434,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Bugs Bunny",
-      "Rocky and Mugsy"
+      "Rocky",
+      "Mugsy"
     ],
     "synopsis": "Bugs Bunny discovers that Rocky and Mugsy are hiding out on the floor above him, and plays them off against each other.",
     "media_locations": [
@@ -38853,7 +38887,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote and the Road Runner continue their never-ending chase.",
     "media_locations": [
@@ -38984,7 +39019,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Ralph Wolf and Sam Sheepdog"
+      "Ralph Wolf",
+      "Sam Sheepdog"
     ],
     "synopsis": "Sam Sheepdog once more tries to stop Ralph Wolf from stealing sheep from 9 a.m. to 5 p.m.",
     "media_locations": [
@@ -39339,7 +39375,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote continues to pursue the Road Runner.",
     "media_locations": [
@@ -39523,7 +39560,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Claude Cat",
-      "Marc Antony and Pussyfoot"
+      "Marc Antony",
+      "Pussyfoot"
     ],
     "synopsis": "Marc Antony tries to protect Pussyfoot from Claude Cat, who wants to eat a sausage that Marc offered her.",
     "media_locations": [
@@ -39822,7 +39860,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote continues his pursuit of the Road Runner.",
     "media_locations": [
@@ -39863,7 +39902,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "The familiar chase between Wile E. Coyote and the Road Runner continues.",
     "media_locations": [
@@ -40234,7 +40274,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote and the Road Runner continue their game of cat and mouse.",
     "media_locations": [
@@ -40477,7 +40518,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Bugs Bunny",
-      "Pappy and Elvis"
+      "Pappy",
+      "Elvis"
     ],
     "synopsis": "Bugs Bunny confronts a buzzard named Elvis, who plans to capture Bugs, while his father Pappy passively watches.",
     "media_locations": [
@@ -40793,7 +40835,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "The never-ending chase between Wile E. Coyote and the Road Runner goes on.",
     "media_locations": [
@@ -40835,7 +40878,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Speedy Gonzales",
-      "Jose and Manuel",
+      "Jose",
+      "Manuel",
       "Slowpoke Rodriguez"
     ],
     "synopsis": "Jose and Manuel are cats who try to catch Speedy Gonzales, and later Speedy's cousin Slowpoke Rodriguez. Note: Nominated for the Academy Award for Best Animated Short Film in 1960.",
@@ -41205,7 +41249,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote's pursuit of the Road Runner continues.",
     "media_locations": [
@@ -41369,7 +41414,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "The eternal chase between Wile E. Coyote and the Road Runner continues.",
     "media_locations": [
@@ -41578,7 +41624,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote will never give up his chase to capture the Road Runner.",
     "media_locations": [
@@ -41784,10 +41831,10 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "[[The Honeymooners#Cast and characters|Ralph Crumden",
+      "Ralph Crumden",
       "Ned Morton",
       "Alice Crumden",
-      "Trixie Morton]]"
+      "Trixie Morton"
     ],
     "synopsis": "Another mouse-themed parody of The Honeymooners.",
     "media_locations": [
@@ -41971,7 +42018,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Ralph Wolf and Sam Sheepdog"
+      "Ralph Wolf",
+      "Sam Sheepdog"
     ],
     "synopsis": "Ralph Wolf and Sam Sheepdog go about their usual 9-to-5 job of capturing sheep and stopping the capture of sheep respectively.",
     "media_locations": [
@@ -42013,7 +42061,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Foghorn Leghorn",
-      "Pappy and Elvis"
+      "Pappy",
+      "Elvis"
     ],
     "synopsis": "Foghorn Leghorn goes up against a father-son chickenhawk duo when he goes south for the winter.",
     "media_locations": [
@@ -42273,7 +42322,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "No amount of setbacks will stop Wile E. Coyote from stopping his capture of the Road Runner. Note: Nominated for the Academy Award for Best Animated Short Film in 1962.",
     "media_locations": [
@@ -42356,7 +42406,8 @@ window.LOONEY_TUNES_DATABASE = [
     "featured_characters": [
       "Speedy Gonzales",
       "Sylvester",
-      "Jose and Manuel"
+      "Jose",
+      "Manuel"
     ],
     "synopsis": "Mayor Raton is re-running for mayor, and hosts a fiesta to get people interested. But his cheese supply is caught off by the arrival of Sylvester guarding it, so Jose and Manuel summon Speedy Gonzales to get cheese for them.",
     "media_locations": [
@@ -42565,7 +42616,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote is still in pursuit of the Road Runner, but during most of his schemes, he is plagued by needle-nosed dart bombs.",
     "media_locations": [
@@ -43021,7 +43073,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote keeps trying (and failing) to catch the Road Runner.",
     "media_locations": [
@@ -43064,7 +43117,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Ralph Wolf and Sam Sheepdog"
+      "Ralph Wolf",
+      "Sam Sheepdog"
     ],
     "synopsis": "No amount of setbacks will stop Ralph Wolf from trying to steal sheep that Sam Sheepdog is guarding.",
     "media_locations": [
@@ -43159,7 +43213,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Elmer Fudd",
-      "Jose and Manuel"
+      "Jose",
+      "Manuel"
     ],
     "synopsis": "Jose and Manuel try to eat in a cornfield, but Elmer Fudd is two steps ahead.",
     "media_locations": [
@@ -43700,7 +43755,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "There are no setbacks that will stop Wile E. Coyote from trying to catch the Road Runner.",
     "media_locations": [
@@ -44245,7 +44301,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Bugs Bunny",
-      "Rocky and Mugsy"
+      "Rocky",
+      "Mugsy"
     ],
     "synopsis": "Bugs Bunny, disguised as Agent Elegant Mess, encounters Rocky and Mugsy while trying to penetrate the criminal underworld of Chicago.",
     "media_locations": [
@@ -44287,7 +44344,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "A cartoon consisting entirely of the original animation from Adventures of the Road Runner, but with new music cues.",
     "media_locations": [
@@ -44387,7 +44445,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Ralph Wolf and Sam Sheepdog"
+      "Ralph Wolf",
+      "Sam Sheepdog"
     ],
     "synopsis": "There are no setbacks that will stop Sam Sheepdog from stopping Ralph Wolf's capture of sheep.",
     "media_locations": [
@@ -44876,7 +44935,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote once again pursues the Road Runner.",
     "media_locations": [
@@ -44947,7 +45007,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote tries to get over a gorge to catch the Road Runner.",
     "media_locations": [
@@ -45020,7 +45081,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote tries to capture the Road Runner while also dealing with the intense desert heat, which is making him very thirsty and even hallucinate.",
     "media_locations": [
@@ -45156,7 +45218,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote tries to use an assortment of Acme gadgets to catch the Road Runner.",
     "media_locations": [
@@ -45193,7 +45256,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote attempts to capture the Road Runner on a highway.",
     "media_locations": [
@@ -45264,7 +45328,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote tries to use a bi-plane to capture the Road Runner.",
     "media_locations": []
@@ -45323,7 +45388,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Another cartoon consisting entirely of the original footage from Adventures of the Road Runner.",
     "media_locations": []
@@ -45349,7 +45415,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote creates a female Road Runner decoy.",
     "media_locations": []
@@ -45380,7 +45447,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote tries to use dangerous and explosive traps to get the Road Runner.",
     "media_locations": []
@@ -45484,7 +45552,8 @@ window.LOONEY_TUNES_DATABASE = [
     "featured_characters": [
       "Speedy Gonzales",
       "Sylvester",
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "A race between Speedy Gonzales and the Road Runner is underway, but their rivals (Sylvester and Wile E. Coyote respectively) together try to capture them.",
     "media_locations": [
@@ -45521,7 +45590,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote continues to fall in his own traps while trying to capture the Road Runner.",
     "media_locations": []
@@ -45600,7 +45670,8 @@ window.LOONEY_TUNES_DATABASE = [
     "voice_actors": [],
     "featured_characters": [
       "Ralph Phillips",
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "A cartoon consisting entirely of the original footage from Adventures of the Road Runner.",
     "media_locations": []
@@ -45745,7 +45816,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote receives a chemistry set and tries to use different chemical solutions to catch the Road Runner.",
     "media_locations": [
@@ -45907,7 +45979,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote tries to use various sets of schemes and objects involving speed to capture the Road Runner.",
     "media_locations": [
@@ -45944,7 +46017,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote keeps suffering from falls and explosions while trying to catch the Road Runner.",
     "media_locations": [
@@ -46017,7 +46091,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote tries to use spy-themed gadgets to capture the Road Runner.",
     "media_locations": [
@@ -46118,7 +46193,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Wile E. Coyote and the Road Runner"
+      "Wile E. Coyote",
+      "Road Runner"
     ],
     "synopsis": "Wile E. Coyote invents a coyote robot to capture the Road Runner.",
     "media_locations": [
@@ -46510,7 +46586,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Bunny and Claude"
+      "Bunny",
+      "Claude"
     ],
     "synopsis": "Bunny outlaws Bunny and Claude, who rob carrot patches, are chased by the Sheriff as he attempts to disguise himself as a big carrot to catch the duo.",
     "media_locations": [
@@ -46883,7 +46960,8 @@ window.LOONEY_TUNES_DATABASE = [
     ],
     "voice_actors": [],
     "featured_characters": [
-      "Bunny and Claude"
+      "Bunny",
+      "Claude"
     ],
     "synopsis": "Bunny and Claude attempt to steal carrots from a train called the Carrot Express.",
     "media_locations": [
@@ -47384,7 +47462,7 @@ window.LOONEY_TUNES_DATABASE = [
     "featured_characters": [
       "Bugs Bunny",
       "Daffy Duck",
-      "Sylvester the Cat",
+      "Sylvester",
       "Tweety",
       "Yosemite Sam",
       "Pepé Le Pew",
@@ -47508,7 +47586,7 @@ window.LOONEY_TUNES_DATABASE = [
       "Joe Alaskey"
     ],
     "featured_characters": [
-      "Sylvester the Cat"
+      "Sylvester"
     ],
     "synopsis": "A newborn orphaned fledgling imprints on Sylvester as its father; Sylvester struggles between his feline hunger and unexpected parental tenderness.",
     "media_locations": [
@@ -47832,7 +47910,7 @@ window.LOONEY_TUNES_DATABASE = [
       "June Foray"
     ],
     "featured_characters": [
-      "Sylvester the Cat",
+      "Sylvester",
       "Tweety",
       "Granny"
     ],
@@ -48013,7 +48091,7 @@ window.LOONEY_TUNES_DATABASE = [
       "June Foray"
     ],
     "featured_characters": [
-      "Sylvester the Cat",
+      "Sylvester",
       "Tweety",
       "Granny"
     ],
