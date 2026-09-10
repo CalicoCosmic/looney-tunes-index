@@ -127,50 +127,53 @@
     }
 
     /* Omnibox Tokenized Search Input */
+    /* Omnibox 100% Full-Width Tokenized Search Input */
     .omnibox-wrapper {
       position: relative;
       width: 100%;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
 
+    .omnibox-input-box,
     .omnibox-container {
       display: flex;
       align-items: center;
       flex-wrap: wrap;
       gap: 6px;
-      min-height: 44px;
-      padding: 5px 36px 5px 40px;
+      width: 100%;
+      min-height: 48px;
+      padding: 6px 40px 6px 42px;
       background-color: #ffffff;
       border: 1.5px solid #cbd5e1;
-      border-radius: 8px;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+      border-radius: 10px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
       position: relative;
       cursor: text;
+      box-sizing: border-box;
       transition: border-color 0.2s, box-shadow 0.2s;
     }
 
+    .omnibox-input-box:focus-within,
     .omnibox-container:focus-within {
       border-color: #2563eb;
       box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
     }
 
-    .omnibox-container::before {
-      content: '';
+    .omnibox-input-box .search-icon {
       position: absolute;
       left: 14px;
       top: 50%;
       transform: translateY(-50%);
-      width: 18px;
-      height: 18px;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2364748b' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z'/%3E%3C/svg%3E");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
+      font-size: 1.05rem;
+      color: #64748b;
       pointer-events: none;
+      user-select: none;
+      line-height: 1;
     }
 
+    .tokens-container,
     .omnibox-tokens {
-      display: flex;
+      display: inline-flex;
       align-items: center;
       flex-wrap: wrap;
       gap: 6px;
@@ -257,82 +260,59 @@
       transform: scale(1.15);
     }
 
+    #omniboxInput,
     .omnibox-input {
-      flex: 1 1 160px;
-      min-width: 120px;
-      height: 32px;
+      flex: 1 1 200px;
+      min-width: 140px;
+      height: 34px;
       border: none;
       outline: none;
       font-size: 0.98rem;
       color: #0f172a;
       background: transparent;
-      padding: 0;
+      padding: 0 4px;
       margin: 0;
     }
 
+    #omniboxInput::placeholder,
     .omnibox-input::placeholder {
       color: #94a3b8;
     }
 
-    .omnibox-container .search-clear-btn {
-      position: absolute;
-      right: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-      height: 44px;
-      min-height: 44px;
-      padding: 0 36px 0 42px;
-      font-size: 1rem;
-      border: 1.5px solid #cbd5e1;
-      border-radius: 8px;
-      outline: none;
-      background-color: #ffffff;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2364748b' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z'/%3E%3C/svg%3E");
-      background-repeat: no-repeat;
-      background-position: 14px center;
-      background-size: 18px 18px;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-      transition: border-color 0.2s, box-shadow 0.2s;
-    }
-
-    .search-input:focus,
-    #searchInput:focus {
-      outline: none;
-      border-color: #2563eb;
-      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-    }
-
+    .clear-btn,
     .search-clear-btn {
       position: absolute;
       right: 12px;
       top: 50%;
       transform: translateY(-50%);
-      width: 22px;
-      height: 22px;
+      width: 24px;
+      height: 24px;
       border-radius: 50%;
       border: none;
       background: #e2e8f0;
       color: #64748b;
-      font-size: 0.72rem;
-      font-weight: 700;
+      font-size: 1.05rem;
+      line-height: 1;
       cursor: pointer;
       display: flex;
       align-items: center;
       justify-content: center;
-      transition: all 0.15s;
+      transition: background 0.15s, color 0.15s;
     }
 
+    .clear-btn:hover,
     .search-clear-btn:hover {
       background: #cbd5e1;
       color: #0f172a;
     }
 
-    /* Autocomplete Suggestions Dropdown */
-    .search-input-wrapper {
-      position: relative;
+    .clear-btn[hidden],
+    .search-clear-btn[hidden] {
+      display: none !important;
     }
 
+    /* Autocomplete Suggestions Dropdown */
+    .suggestions-dropdown,
     .search-suggestions-menu {
       position: absolute;
       top: 100%;
@@ -342,15 +322,16 @@
       background: #ffffff;
       border: 1px solid #cbd5e1;
       border-top: none;
-      border-bottom-left-radius: 8px;
-      border-bottom-right-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
       z-index: 1000;
-      max-height: 320px;
+      max-height: 380px;
       overflow-y: auto;
       padding: 4px 0;
     }
 
+    .suggestions-dropdown[hidden],
     .search-suggestions-menu[hidden] {
       display: none !important;
     }
@@ -566,197 +547,95 @@
       line-height: 1.2;
     }
 
-    /* Quick Controls Row (below Omnibox) */
-    .quick-controls-row {
+    /* Compact Sub-Bar Utility Controls (directly below Omnibox) */
+    .subbar-controls {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
       flex-wrap: wrap;
+      width: 100%;
+      padding-top: 4px;
     }
 
-    .quick-controls-left,
-    .quick-controls-right {
+    .subbar-left,
+    .subbar-right {
       display: flex;
       align-items: center;
       gap: 8px;
       flex-wrap: wrap;
     }
 
-    .quick-expand-btn {
+    .library-toggle-pill {
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      height: 38px;
-      padding: 6px 12px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      border-radius: 8px;
+      background: #ffffff;
       border: 1.5px solid #cbd5e1;
-      background: #f8fafc;
-      color: #334155;
+      border-radius: 20px;
+      padding: 6px 12px;
       cursor: pointer;
-      transition: all 0.15s ease;
       user-select: none;
+      font-size: 0.84rem;
+      font-weight: 600;
+      color: #334155;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+      line-height: 1.25;
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
     }
 
-    .quick-expand-btn:hover {
-      background: #eff6ff;
-      border-color: #93c5fd;
-      color: #1d4ed8;
+    .library-toggle-pill:hover {
+      background: #f8fafc;
+      border-color: #94a3b8;
     }
 
-    /* Ratings Dropdown Popover */
-    .ratings-dropdown-wrap {
-      position: relative;
-      display: inline-flex;
-      flex: 0 0 auto;
+    .library-toggle-pill:has(input:checked),
+    .library-toggle-pill.active {
+      background: #f0fdf4;
+      border-color: #86efac;
+      color: #166534;
+      box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.12);
     }
 
-    .user-filter-btn {
+    .library-toggle-pill input {
+      margin: 0;
+      cursor: pointer;
+      accent-color: #16a34a;
+      width: 14px;
+      height: 14px;
+    }
+
+    .subbar-btn {
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      height: 38px;
-      padding: 6px 12px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      border: 1px solid #cbd5e1;
-      border-radius: 8px;
-      background-color: #ffffff;
-      color: #475569;
-      cursor: pointer;
-      box-sizing: border-box;
-      transition: all 0.15s ease-in-out;
-      user-select: none;
-      white-space: nowrap;
-    }
-
-    .user-filter-btn:hover {
-      background-color: #f8fafc;
-      border-color: #94a3b8;
-      color: #1e293b;
-    }
-
-    .user-filter-btn.active {
-      background-color: #eff6ff;
-      border-color: #2563eb;
-      color: #1d4ed8;
-      box-shadow: 0 0 0 1.5px #2563eb;
-    }
-
-    .user-filter-btn.menu-open {
-      border-color: #2563eb;
-    }
-
-    .ratings-dropdown-chevron {
-      font-size: 0.72rem;
-      color: #64748b;
-      margin-left: 2px;
-      transition: transform 0.15s ease;
-    }
-
-    .user-filter-btn.menu-open .ratings-dropdown-chevron {
-      transform: rotate(180deg);
-    }
-
-    .ratings-dropdown-menu {
-      position: absolute;
-      top: calc(100% + 6px);
-      left: 0;
-      z-index: 120;
-      background: #ffffff;
-      border: 1px solid #cbd5e1;
-      border-radius: 10px;
-      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.18), 0 8px 10px -6px rgba(15, 23, 42, 0.1);
-      padding: 8px 10px;
-      min-width: 220px;
-    }
-
-    .ratings-dropdown-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      padding: 7px 12px;
       font-size: 0.84rem;
-      font-weight: 700;
-      color: #1e293b;
-      padding: 4px 6px 6px 6px;
-    }
-
-    .ratings-dropdown-clear-btn {
-      background: none;
-      border: none;
-      color: #2563eb;
-      font-size: 0.75rem;
       font-weight: 600;
+      color: #334155;
+      background: #ffffff;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 8px;
       cursor: pointer;
-      padding: 2px 6px;
-      border-radius: 4px;
-      transition: all 0.15s;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+      user-select: none;
+      line-height: 1.25;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
     }
 
-    .ratings-dropdown-clear-btn:hover {
+    .subbar-btn:hover {
+      background: #f1f5f9;
+      color: #0f172a;
+      border-color: #94a3b8;
+    }
+
+    .subbar-btn.active {
       background: #eff6ff;
       color: #1d4ed8;
+      border-color: #93c5fd;
     }
-
-    .ratings-dropdown-divider {
-      height: 1px;
-      background: #e2e8f0;
-      margin: 4px 0 6px 0;
-    }
-
-    .ratings-dropdown-list {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
-
-    .ratings-dropdown-item {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      padding: 6px 8px;
-      border-radius: 6px;
-      font-size: 0.85rem;
-      color: #334155;
-      cursor: pointer;
-      user-select: none;
-      transition: background 0.12s;
-    }
-
-    .ratings-dropdown-item:hover {
-      background: #f8fafc;
-      color: #0f172a;
-    }
-
-    .ratings-dropdown-item input[type="checkbox"] {
-      width: 15px;
-      height: 15px;
-      accent-color: #2563eb;
-      cursor: pointer;
-      margin: 0;
-    }
-
-    .rating-stars-text {
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-      font-weight: 500;
-    }
-
-    .user-filters-row .notes-toggle-btn {
-      flex: 0 0 auto;
-    }
-
-    .filter-select {
-      width: 100%;
-      height: 36px;
-      padding: 6px 10px;
-      font-size: 0.86rem;
-      border: 1px solid var(--border-color);
-      border-radius: 6px;
 
 
     .modal-media-list {
@@ -2058,56 +1937,47 @@
         border-radius: 10px;
       }
 
-      /* 2. Omnibox & Quick Controls Stacking */
+      /* 2. Omnibox & Sub-Bar Stacking */
       .omnibox-wrapper {
         width: 100%;
         margin-bottom: 8px;
       }
 
+      .omnibox-input-box,
       .omnibox-container {
         width: 100%;
         min-height: 44px;
-        padding: 5px 36px 5px 38px;
+        padding: 6px 36px 6px 38px;
         box-sizing: border-box;
       }
 
+      #omniboxInput,
       .omnibox-input {
         font-size: 16px; /* Prevents iOS auto-zoom on focus */
         min-height: 36px;
       }
 
-      .quick-controls-row {
+      .subbar-controls {
         flex-direction: column;
         align-items: stretch;
         gap: 8px;
       }
 
-      .quick-controls-left,
-      .quick-controls-right {
+      .subbar-left,
+      .subbar-right {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 8px;
         width: 100%;
       }
 
-      .quick-controls-right .panel-toggle-btn {
-        grid-column: span 2;
-      }
-
-      .library-toggle-switch,
-      .quick-expand-btn,
-      .user-filter-btn,
-      .notes-toggle-btn,
-      .panel-toggle-btn {
+      .library-toggle-pill,
+      .subbar-btn {
         width: 100%;
         min-height: 44px;
         justify-content: center;
         box-sizing: border-box;
-        font-size: 15px;
-      }
-
-      .ratings-dropdown-wrap {
-        width: 100%;
+        font-size: 14px;
       }
 
       .suggestion-item {
@@ -2218,95 +2088,48 @@
         <span class="admin-badge">🛡️ Admin Active</span>
         <button type="button" class="admin-exit-btn" onclick="toggleAdminMode(false)">Exit Admin</button>
       </div>
-      <button type="button" class="header-library-btn" id="openLibraryModal" onclick="openLibraryModal()" title="Customize your owned home media sets &amp; profiles">
-        📚 Library (<span id="libraryHeaderCount">0</span>/<span id="libraryHeaderTotal">44</span>)
-      </button>
     </div>
     <h1>🎬 Looney Tunes Shorts Index</h1>
     <p>A physical media search index for classic Looney Tunes &amp; Merrie Melodies shorts.</p>
   </header>
 
-  <!-- Sticky Controls Toolbar: Unified Omnibox & Quick Controls -->
+  <!-- Sticky Controls Toolbar: 100% Full-Width Omnibox & Compact Sub-Bar -->
   <div class="sticky-controls-bar">
-    <div class="omnibox-wrapper search-input-wrapper">
-      <div class="omnibox-container" id="omniboxContainer" onclick="focusOmniboxInput(event)">
-        <div class="omnibox-tokens" id="omniboxTokens"></div>
-        <input type="text" id="searchInput" class="omnibox-input" placeholder="Search by title, character, director, format..." autofocus autocomplete="off">
-        <button type="button" id="clearSearchBtn" class="search-clear-btn" onclick="clearAllOmnibox()" title="Clear all search text and tokens" style="display: none;">✕</button>
+    <div class="omnibox-wrapper">
+      <div class="omnibox-input-box" onclick="focusOmniboxInput(event)">
+        <span class="search-icon">🔍</span>
+        <div id="activeTokensList" class="tokens-container"></div>
+        <input type="text" id="omniboxInput" placeholder="Search characters, directors, formats, eras, or keywords..." autocomplete="off">
+        <button type="button" id="clearSearchBtn" class="clear-btn" onclick="clearAllOmnibox()" title="Clear all search text and tokens" hidden>&times;</button>
       </div>
-      <div id="searchSuggestions" class="search-suggestions-menu" hidden></div>
+      <div id="omniboxSuggestions" class="suggestions-dropdown" hidden></div>
     </div>
 
-    <!-- Quick Controls Row -->
-    <div class="quick-controls-row">
-      <div class="quick-controls-left">
-        <label class="library-toggle-switch" title="Filter to cartoons appearing on at least one set in your owned library">
+    <!-- Compact Sub-Bar Utility Controls (directly below Omnibox) -->
+    <div class="subbar-controls" id="omniboxSubBar">
+      <div class="subbar-left">
+        <label class="library-toggle-pill" title="Filter to cartoons appearing on at least one set in your owned library">
           <input type="checkbox" id="myLibraryOnlyToggle" onchange="render()">
-          <span class="library-toggle-label">📚 In My Library Only</span>
+          <span class="pill-label">📚 In My Library Only</span>
         </label>
-        <button type="button" class="expand-all-btn quick-expand-btn" id="expandAllBtn" onclick="toggleExpandAllCards()" title="Expand or collapse all visible cartoon cards">
-          <span id="expandAllIcon">▸</span> <span id="expandAllText">Expand All</span>
+        <button type="button" class="subbar-btn" id="openLibraryModalBtn" onclick="openLibraryModal()" title="Customize your owned home media sets &amp; profiles">
+          ⚙️ Customize Library (<span id="librarySubBarCount">0</span>/<span id="librarySubBarTotal">44</span>)
         </button>
       </div>
 
-      <div class="quick-controls-right">
-        <!-- Personal Ratings Dropdown -->
-        <div class="ratings-dropdown-wrap" id="ratingsDropdownWrap">
-          <button type="button" class="user-filter-btn" id="ratingsDropdownBtn" onclick="toggleRatingsDropdown(event)" title="Filter by your personal star ratings">
-            <span id="ratingsDropdownBtnLabel">My Ratings</span>
-            <span class="ratings-dropdown-chevron">▾</span>
-          </button>
-          <div class="ratings-dropdown-menu" id="ratingsDropdownMenu" style="display: none;">
-            <div class="ratings-dropdown-header">
-              <span>My Ratings</span>
-              <button type="button" class="ratings-dropdown-clear-btn" onclick="clearRatingCheckboxes(event)">Clear</button>
-            </div>
-            <div class="ratings-dropdown-divider"></div>
-            <div class="ratings-dropdown-list">
-              <label class="ratings-dropdown-item">
-                <input type="checkbox" class="rating-chk" value="5" onchange="handleRatingCheckboxChange()">
-                <span class="rating-stars-text">⭐⭐⭐⭐⭐ 5 Stars</span>
-              </label>
-              <label class="ratings-dropdown-item">
-                <input type="checkbox" class="rating-chk" value="4" onchange="handleRatingCheckboxChange()">
-                <span class="rating-stars-text">⭐⭐⭐⭐ 4 Stars</span>
-              </label>
-              <label class="ratings-dropdown-item">
-                <input type="checkbox" class="rating-chk" value="3" onchange="handleRatingCheckboxChange()">
-                <span class="rating-stars-text">⭐⭐⭐ 3 Stars</span>
-              </label>
-              <label class="ratings-dropdown-item">
-                <input type="checkbox" class="rating-chk" value="2" onchange="handleRatingCheckboxChange()">
-                <span class="rating-stars-text">⭐⭐ 2 Stars</span>
-              </label>
-              <label class="ratings-dropdown-item">
-                <input type="checkbox" class="rating-chk" value="1" onchange="handleRatingCheckboxChange()">
-                <span class="rating-stars-text">⭐ 1 Star</span>
-              </label>
-            </div>
-            <div class="ratings-dropdown-divider"></div>
-            <div class="ratings-dropdown-list">
-              <label class="ratings-dropdown-item">
-                <input type="checkbox" class="rating-chk" value="unrated" onchange="handleRatingCheckboxChange()">
-                <span class="rating-stars-text">⚪ Unrated Shorts</span>
-              </label>
-            </div>
-          </div>
-        </div>
-
-        <button type="button" class="notes-toggle-btn" id="notesOnlyFilterBtn" onclick="toggleNotesOnlyFilter(this)" title="Filter to shorts where you added personal notes">
-          📝 My Notes
-        </button>
-
-        <button type="button" id="panelToggleBtn" class="panel-toggle-btn" onclick="toggleSecondaryPanels()" title="Show or hide Theatrical Era Timeline">
-          <span id="panelToggleIcon">▾</span>
+      <div class="subbar-right">
+        <button type="button" id="panelToggleBtn" class="subbar-btn panel-toggle-btn" onclick="toggleSecondaryPanels()" title="Show or hide Theatrical Era Timeline">
+          <span id="panelToggleIcon">⏳</span>
           <span id="panelToggleText">Timeline</span>
           <span id="panelActiveBadge" class="panel-active-badge" style="display: none;"></span>
         </button>
+        <button type="button" class="subbar-btn expand-all-btn" id="expandAllBtn" onclick="toggleExpandAllCards()" title="Expand or collapse all visible cartoon cards">
+          <span id="expandAllIcon">▾</span> <span id="expandAllText">Expand All</span>
+        </button>
       </div>
     </div>
 
-    <!-- Active Filter Chips & Unified Clear All Action -->
+    <!-- Active Filter Chips (Preserved for auxiliary filters) -->
     <div id="activeFilterChipsContainer" class="active-chips-container" style="display: none;">
       <div class="active-chips-left">
         <span class="active-chips-title">Active Filters:</span>
@@ -3901,6 +3724,10 @@
     if (countEl) countEl.textContent = count;
     const totalEl = document.getElementById('totalSetsCount');
     if (totalEl) totalEl.textContent = primarySets.length || 44;
+    const subBarCount = document.getElementById('librarySubBarCount');
+    if (subBarCount) subBarCount.textContent = primaryOwned;
+    const subBarTotal = document.getElementById('librarySubBarTotal');
+    if (subBarTotal) subBarTotal.textContent = primarySets.length || 44;
     const libHeaderCount = document.getElementById('libraryHeaderCount');
     if (libHeaderCount) libHeaderCount.textContent = primaryOwned;
     const libHeaderTotal = document.getElementById('libraryHeaderTotal');
@@ -4451,11 +4278,24 @@
     return '🎭';
   }
 
+  // --- Omnibox Element Helpers ---
+  function getOmniboxInput() {
+    return document.getElementById('omniboxInput') || document.getElementById('searchInput');
+  }
+
+  function getOmniboxTokensContainer() {
+    return document.getElementById('activeTokensList') || document.getElementById('omniboxTokens');
+  }
+
+  function getOmniboxSuggestionsMenu() {
+    return document.getElementById('omniboxSuggestions') || document.getElementById('searchSuggestions');
+  }
+
   // --- Omnibox Token Handlers ---
   function addToken(token) {
     if (activeTokens.some(t => t.id === token.id)) return;
     activeTokens.push(token);
-    const searchInput = document.getElementById('searchInput');
+    const searchInput = getOmniboxInput();
     if (searchInput) {
       searchInput.value = '';
     }
@@ -4471,28 +4311,28 @@
     updateOmniboxPlaceholder();
     renderTokens();
     render();
-    const searchInput = document.getElementById('searchInput');
+    const searchInput = getOmniboxInput();
     if (searchInput) searchInput.focus();
   };
 
   window.focusOmniboxInput = function(e) {
-    if (e.target.closest('.omnibox-token-remove')) return;
-    const searchInput = document.getElementById('searchInput');
+    if (e.target.closest('.omnibox-token-remove') || e.target.closest('#clearSearchBtn') || e.target.closest('.clear-btn')) return;
+    const searchInput = getOmniboxInput();
     if (searchInput) searchInput.focus();
   };
 
   function updateOmniboxPlaceholder() {
-    const searchInput = document.getElementById('searchInput');
+    const searchInput = getOmniboxInput();
     if (!searchInput) return;
     if (activeTokens.length > 0) {
       searchInput.placeholder = 'Add filter or keyword...';
     } else {
-      searchInput.placeholder = 'Search by title, character, director, format...';
+      searchInput.placeholder = 'Search characters, directors, formats, eras, or keywords...';
     }
   }
 
   function renderTokens() {
-    const container = document.getElementById('omniboxTokens');
+    const container = getOmniboxTokensContainer();
     if (!container) return;
     container.innerHTML = activeTokens.map(token => `
       <span class="omnibox-token ${token.type}" data-id="${token.id}">
@@ -4503,16 +4343,18 @@
     `).join('');
 
     const clearBtn = document.getElementById('clearSearchBtn');
-    const searchInput = document.getElementById('searchInput');
+    const searchInput = getOmniboxInput();
     if (clearBtn) {
       const hasText = Boolean(searchInput && searchInput.value.trim().length > 0);
-      clearBtn.style.display = (activeTokens.length > 0 || hasText) ? 'flex' : 'none';
+      const isVisible = (activeTokens.length > 0 || hasText);
+      clearBtn.hidden = !isVisible;
+      clearBtn.style.display = isVisible ? 'flex' : 'none';
     }
   }
 
   window.clearAllOmnibox = function() {
     activeTokens = [];
-    const searchInput = document.getElementById('searchInput');
+    const searchInput = getOmniboxInput();
     if (searchInput) {
       searchInput.value = '';
       searchInput.focus();
@@ -4524,7 +4366,7 @@
   };
 
   function hideSuggestions() {
-    const menu = document.getElementById('searchSuggestions');
+    const menu = getOmniboxSuggestionsMenu();
     if (menu) {
       menu.hidden = true;
       menu.innerHTML = '';
@@ -4534,7 +4376,7 @@
   }
 
   function updateFocusedSuggestion() {
-    const menu = document.getElementById('searchSuggestions');
+    const menu = getOmniboxSuggestionsMenu();
     if (!menu) return;
     const items = menu.querySelectorAll('.suggestion-item');
     items.forEach((el, idx) => {
@@ -4594,7 +4436,7 @@
         maxYear: item.maxYear
       });
     } else if (item.type === 'generic') {
-      const searchInput = document.getElementById('searchInput');
+      const searchInput = getOmniboxInput();
       if (searchInput) searchInput.value = item.filterValue;
       hideSuggestions();
       render();
@@ -4602,8 +4444,8 @@
   }
 
   function updateSuggestions() {
-    const searchInput = document.getElementById('searchInput');
-    const menu = document.getElementById('searchSuggestions');
+    const searchInput = getOmniboxInput();
+    const menu = getOmniboxSuggestionsMenu();
     if (!searchInput || !menu) return;
 
     const rawVal = searchInput.value.trim();
@@ -4899,8 +4741,8 @@
   }
 
   function initAutocomplete() {
-    const searchInput = document.getElementById('searchInput');
-    const searchWrapper = document.querySelector('.search-input-wrapper');
+    const searchInput = getOmniboxInput();
+    const searchWrapper = document.querySelector('.omnibox-wrapper') || document.querySelector('.search-input-wrapper');
     if (!searchInput) return;
 
     searchInput.addEventListener('input', () => {
@@ -4916,7 +4758,7 @@
     });
 
     searchInput.addEventListener('keydown', (e) => {
-      const menu = document.getElementById('searchSuggestions');
+      const menu = getOmniboxSuggestionsMenu();
       const isMenuVisible = menu && !menu.hidden && currentSuggestions.length > 0;
 
       if (e.key === 'Backspace' && searchInput.value === '') {
@@ -4991,7 +4833,7 @@
 
   window.clearAllFilters = function() {
     activeTokens = [];
-    const searchInput = document.getElementById('searchInput');
+    const searchInput = getOmniboxInput();
     if (searchInput) searchInput.value = '';
     updateOmniboxPlaceholder();
     renderTokens();
@@ -5149,7 +4991,7 @@
   }
 
   function render() {
-    const rawQuery = document.getElementById('searchInput')?.value.trim() || '';
+    const rawQuery = getOmniboxInput()?.value.trim() || '';
     const selectedRatings = getSelectedRatings();
     const inMyLibOnly = Boolean(document.getElementById('myLibraryOnlyToggle')?.checked);
 
@@ -5535,9 +5377,7 @@
   });
 
   // Event Listeners for instant filtering
-  document.getElementById('searchInput')?.addEventListener('input', render);
-  document.getElementById('charFilter')?.addEventListener('change', render);
-  document.getElementById('directorFilter')?.addEventListener('change', render);
+  getOmniboxInput()?.addEventListener('input', render);
 
   // Initialize
   initDatabase();
