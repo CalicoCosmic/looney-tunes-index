@@ -294,9 +294,17 @@
       flex-wrap: wrap;
     }
 
-    .user-filter-select {
-      width: auto !important;
-      min-width: 155px;
+    /* Ratings Dropdown Popover */
+    .ratings-dropdown-wrap {
+      position: relative;
+      display: inline-flex;
+      flex: 0 0 auto;
+    }
+
+    .user-filter-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
       height: 38px;
       padding: 6px 12px;
       font-size: 0.85rem;
@@ -308,25 +316,121 @@
       cursor: pointer;
       box-sizing: border-box;
       transition: all 0.15s ease-in-out;
-      flex: 0 0 auto;
+      user-select: none;
+      white-space: nowrap;
     }
 
-    .user-filter-select:hover {
+    .user-filter-btn:hover {
       background-color: #f8fafc;
       border-color: #94a3b8;
       color: #1e293b;
     }
 
-    .user-filter-select:focus {
-      border-color: #2563eb;
-      outline: none;
-    }
-
-    .user-filter-select.active {
+    .user-filter-btn.active {
       background-color: #eff6ff;
       border-color: #2563eb;
       color: #1d4ed8;
       box-shadow: 0 0 0 1.5px #2563eb;
+    }
+
+    .user-filter-btn.menu-open {
+      border-color: #2563eb;
+    }
+
+    .ratings-dropdown-chevron {
+      font-size: 0.72rem;
+      color: #64748b;
+      margin-left: 2px;
+      transition: transform 0.15s ease;
+    }
+
+    .user-filter-btn.menu-open .ratings-dropdown-chevron {
+      transform: rotate(180deg);
+    }
+
+    .ratings-dropdown-menu {
+      position: absolute;
+      top: calc(100% + 6px);
+      left: 0;
+      z-index: 120;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.18), 0 8px 10px -6px rgba(15, 23, 42, 0.1);
+      padding: 8px 10px;
+      min-width: 220px;
+    }
+
+    .ratings-dropdown-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.84rem;
+      font-weight: 700;
+      color: #1e293b;
+      padding: 4px 6px 6px 6px;
+    }
+
+    .ratings-dropdown-clear-btn {
+      background: none;
+      border: none;
+      color: #2563eb;
+      font-size: 0.75rem;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 2px 6px;
+      border-radius: 4px;
+      transition: all 0.15s;
+    }
+
+    .ratings-dropdown-clear-btn:hover {
+      background: #eff6ff;
+      color: #1d4ed8;
+    }
+
+    .ratings-dropdown-divider {
+      height: 1px;
+      background: #e2e8f0;
+      margin: 4px 0 6px 0;
+    }
+
+    .ratings-dropdown-list {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .ratings-dropdown-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 8px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      color: #334155;
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.12s;
+    }
+
+    .ratings-dropdown-item:hover {
+      background: #f8fafc;
+      color: #0f172a;
+    }
+
+    .ratings-dropdown-item input[type="checkbox"] {
+      width: 15px;
+      height: 15px;
+      accent-color: #2563eb;
+      cursor: pointer;
+      margin: 0;
+    }
+
+    .rating-stars-text {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-weight: 500;
     }
 
     .user-filters-row .notes-toggle-btn {
@@ -1592,14 +1696,48 @@
 
     <!-- Personal Ratings & Notes Filters Row -->
     <div class="user-filters-row">
-      <select id="ratingFilter" class="user-filter-select" onchange="render()" title="Filter by your personal star rating">
-        <option value="">⭐ My Ratings</option>
-        <option value="any">⭐ Rated by Me (1–5★)</option>
-        <option value="5">⭐⭐⭐⭐⭐ 5 Stars Only</option>
-        <option value="4">⭐⭐⭐⭐ 4+ Stars</option>
-        <option value="3">⭐⭐⭐ 3+ Stars</option>
-        <option value="unrated">⚪ Unrated Shorts</option>
-      </select>
+      <div class="ratings-dropdown-wrap" id="ratingsDropdownWrap">
+        <button type="button" class="user-filter-btn" id="ratingsDropdownBtn" onclick="toggleRatingsDropdown(event)" title="Filter by your personal star ratings">
+          <span id="ratingsDropdownBtnLabel">My Ratings</span>
+          <span class="ratings-dropdown-chevron">▾</span>
+        </button>
+        <div class="ratings-dropdown-menu" id="ratingsDropdownMenu" style="display: none;">
+          <div class="ratings-dropdown-header">
+            <span>My Ratings</span>
+            <button type="button" class="ratings-dropdown-clear-btn" onclick="clearRatingCheckboxes(event)">Clear</button>
+          </div>
+          <div class="ratings-dropdown-divider"></div>
+          <div class="ratings-dropdown-list">
+            <label class="ratings-dropdown-item">
+              <input type="checkbox" class="rating-chk" value="5" onchange="handleRatingCheckboxChange()">
+              <span class="rating-stars-text">⭐⭐⭐⭐⭐ 5 Stars</span>
+            </label>
+            <label class="ratings-dropdown-item">
+              <input type="checkbox" class="rating-chk" value="4" onchange="handleRatingCheckboxChange()">
+              <span class="rating-stars-text">⭐⭐⭐⭐ 4 Stars</span>
+            </label>
+            <label class="ratings-dropdown-item">
+              <input type="checkbox" class="rating-chk" value="3" onchange="handleRatingCheckboxChange()">
+              <span class="rating-stars-text">⭐⭐⭐ 3 Stars</span>
+            </label>
+            <label class="ratings-dropdown-item">
+              <input type="checkbox" class="rating-chk" value="2" onchange="handleRatingCheckboxChange()">
+              <span class="rating-stars-text">⭐⭐ 2 Stars</span>
+            </label>
+            <label class="ratings-dropdown-item">
+              <input type="checkbox" class="rating-chk" value="1" onchange="handleRatingCheckboxChange()">
+              <span class="rating-stars-text">⭐ 1 Star</span>
+            </label>
+          </div>
+          <div class="ratings-dropdown-divider"></div>
+          <div class="ratings-dropdown-list">
+            <label class="ratings-dropdown-item">
+              <input type="checkbox" class="rating-chk" value="unrated" onchange="handleRatingCheckboxChange()">
+              <span class="rating-stars-text">⚪ Unrated Shorts</span>
+            </label>
+          </div>
+        </div>
+      </div>
 
       <button type="button" class="notes-toggle-btn" id="notesOnlyFilterBtn" onclick="toggleNotesOnlyFilter(this)" title="Filter to shorts where you added personal notes">
         📝 My Notes
@@ -2826,6 +2964,70 @@
     render();
   };
 
+  function getSelectedRatings() {
+    return Array.from(document.querySelectorAll('.rating-chk:checked')).map(cb => cb.value);
+  }
+
+  function updateRatingsDropdownState() {
+    const checked = getSelectedRatings();
+    const btn = document.getElementById('ratingsDropdownBtn');
+    const labelEl = document.getElementById('ratingsDropdownBtnLabel');
+    if (!btn || !labelEl) return;
+
+    if (checked.length === 0) {
+      labelEl.textContent = 'My Ratings';
+      btn.classList.remove('active');
+    } else {
+      btn.classList.add('active');
+      const starVals = checked.filter(v => v !== 'unrated').sort((a, b) => Number(b) - Number(a));
+      const hasUnrated = checked.includes('unrated');
+
+      if (starVals.length === 5 && !hasUnrated) {
+        labelEl.textContent = 'My Ratings (1–5★)';
+      } else if (starVals.length === 5 && hasUnrated) {
+        labelEl.textContent = 'My Ratings (All)';
+      } else if (starVals.length > 0 && !hasUnrated) {
+        if (starVals.length <= 2) {
+          labelEl.textContent = `My Ratings (${starVals.map(s => s + '★').join(', ')})`;
+        } else {
+          labelEl.textContent = `My Ratings (${starVals.length} ratings)`;
+        }
+      } else if (starVals.length === 0 && hasUnrated) {
+        labelEl.textContent = 'My Ratings (Unrated)';
+      } else {
+        labelEl.textContent = `My Ratings (${checked.length} selected)`;
+      }
+    }
+  }
+
+  window.toggleRatingsDropdown = function(e) {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    const menu = document.getElementById('ratingsDropdownMenu');
+    const btn = document.getElementById('ratingsDropdownBtn');
+    if (!menu) return;
+    const isVisible = menu.style.display === 'block';
+    menu.style.display = isVisible ? 'none' : 'block';
+    if (btn) btn.classList.toggle('menu-open', !isVisible);
+  };
+
+  window.clearRatingCheckboxes = function(e) {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    document.querySelectorAll('.rating-chk').forEach(cb => cb.checked = false);
+    updateRatingsDropdownState();
+    render();
+  };
+
+  window.handleRatingCheckboxChange = function() {
+    updateRatingsDropdownState();
+    render();
+  };
+
   function getVisitorNotes() {
     try {
       const raw = localStorage.getItem(NOTES_STORAGE_KEY);
@@ -3509,11 +3711,8 @@
     } else if (filterType === 'format') {
       document.querySelectorAll('.format-chk').forEach(cb => cb.checked = false);
     } else if (filterType === 'rating') {
-      const el = document.getElementById('ratingFilter');
-      if (el) {
-        el.value = '';
-        el.classList.remove('active');
-      }
+      document.querySelectorAll('.rating-chk').forEach(cb => cb.checked = false);
+      updateRatingsDropdownState();
     } else if (filterType === 'notes') {
       activeNotesOnly = false;
       const btn = document.getElementById('notesOnlyFilterBtn');
@@ -3540,11 +3739,8 @@
     const libToggle = document.getElementById('myLibraryOnlyToggle');
     if (libToggle) libToggle.checked = false;
 
-    const ratingFilter = document.getElementById('ratingFilter');
-    if (ratingFilter) {
-      ratingFilter.value = '';
-      ratingFilter.classList.remove('active');
-    }
+    document.querySelectorAll('.rating-chk').forEach(cb => cb.checked = false);
+    updateRatingsDropdownState();
 
     activeNotesOnly = false;
     const notesBtn = document.getElementById('notesOnlyFilterBtn');
@@ -3607,16 +3803,19 @@
       chips.push({ id: 'format', label: `Formats: ${fmtLabels.join(', ')}` });
     }
 
-    // 6. Rating
-    const ratingEl = document.getElementById('ratingFilter');
-    if (ratingEl && ratingEl.value) {
-      let rLabel = ratingEl.value;
-      if (rLabel === 'any') rLabel = 'Rated (1–5★)';
-      else if (rLabel === '5') rLabel = '5 Stars';
-      else if (rLabel === '4') rLabel = '4+ Stars';
-      else if (rLabel === '3') rLabel = '3+ Stars';
-      else if (rLabel === 'unrated') rLabel = 'Unrated';
-      chips.push({ id: 'rating', label: `My Rating: ${rLabel}` });
+    // 6. Rating Checkboxes
+    const selectedRatings = getSelectedRatings();
+    if (selectedRatings.length > 0) {
+      const starVals = selectedRatings.filter(v => v !== 'unrated').sort((a, b) => Number(b) - Number(a));
+      const hasUnrated = selectedRatings.includes('unrated');
+      const parts = [];
+      if (starVals.length === 5) {
+        parts.push('1–5 Stars');
+      } else {
+        starVals.forEach(s => parts.push(`${s} Star${s === '1' ? '' : 's'}`));
+      }
+      if (hasUnrated) parts.push('Unrated');
+      chips.push({ id: 'rating', label: `My Ratings: ${parts.join(', ')}` });
     }
 
     // 7. Personal Notes
@@ -3665,11 +3864,7 @@
     const query = normalizeText(rawQuery);
     const selectedChar = document.getElementById('charFilter').value;
     const selectedDir = document.getElementById('directorFilter').value;
-    const ratingSelect = document.getElementById('ratingFilter');
-    const selectedRating = ratingSelect ? ratingSelect.value : '';
-    if (ratingSelect) {
-      ratingSelect.classList.toggle('active', !!selectedRating);
-    }
+    const selectedRatings = getSelectedRatings();
     const inMyLibOnly = Boolean(document.getElementById('myLibraryOnlyToggle')?.checked);
 
     const checkedFmts = Array.from(document.querySelectorAll('.format-chk:checked')).map(cb => cb.value);
@@ -3719,14 +3914,14 @@
         if (!matchesDisc && !matchesUnreleased) return false;
       }
 
-      // 6. Personal Star Rating filtering
-      if (selectedRating) {
+      // 6. Personal Star Rating filtering (Multi-select)
+      if (selectedRatings.length > 0) {
         const r = getCartoonRating(short.id);
-        if (selectedRating === 'any' && r < 1) return false;
-        if (selectedRating === '5' && r !== 5) return false;
-        if (selectedRating === '4' && r < 4) return false;
-        if (selectedRating === '3' && r < 3) return false;
-        if (selectedRating === 'unrated' && r > 0) return false;
+        const matchesRating = selectedRatings.some(val => {
+          if (val === 'unrated') return r === 0;
+          return r === parseInt(val, 10);
+        });
+        if (!matchesRating) return false;
       }
 
       // 7. Personal Notes filtering
@@ -4007,11 +4202,21 @@
     if (e.target === document.getElementById('libraryModalOverlay')) closeLibraryModal();
   });
 
+  // Close ratings dropdown when clicking outside
+  document.addEventListener('click', e => {
+    const wrap = document.getElementById('ratingsDropdownWrap');
+    const menu = document.getElementById('ratingsDropdownMenu');
+    const btn = document.getElementById('ratingsDropdownBtn');
+    if (wrap && menu && !wrap.contains(e.target)) {
+      menu.style.display = 'none';
+      if (btn) btn.classList.remove('menu-open');
+    }
+  });
+
   // Event Listeners for instant filtering
   document.getElementById('searchInput')?.addEventListener('input', render);
   document.getElementById('charFilter')?.addEventListener('change', render);
   document.getElementById('directorFilter')?.addEventListener('change', render);
-  document.getElementById('ratingFilter')?.addEventListener('change', render);
 
   // Initialize
   initDatabase();
