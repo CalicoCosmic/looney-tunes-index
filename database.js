@@ -4501,6 +4501,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2 (Bonus Cartoons)",
+        "track_number": 1,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -7588,6 +7597,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2 (Bonus Cartoons)",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -9323,6 +9341,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Jezebel Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2 (Bonus Cartoons)",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -10457,6 +10484,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 2,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -10533,6 +10569,17 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Side 9: Sniffles",
         "track_number": 1,
         "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 1,
+        "audio_commentary": [
+          "Jerry Beck"
+        ],
         "type": "dedicated"
       }
     ]
@@ -11310,6 +11357,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 3,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -11873,6 +11929,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 3,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12395,6 +12460,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv2"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2 (Bonus Cartoons)",
+        "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12831,6 +12905,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2 (Bonus Cartoons)",
+        "track_number": 5,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -12916,6 +12999,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 1,
         "disc_title": "Disc 1 (Special Feature)",
         "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 4,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -13134,6 +13226,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Sniffles",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 5,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -14597,6 +14698,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 5,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -14719,6 +14829,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Sniffles",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 9,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -15280,6 +15399,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 9: Sniffles",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 8,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -18373,6 +18501,18 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 3,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 1,
+        "audio_commentary": [
+          "Eddie Fitzgerald",
+          "Greg Ford and Chuck Jones"
+        ],
+        "type": "dedicated"
       }
     ]
   },
@@ -18445,6 +18585,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 5,
         "disc_title": "Side 10: Variations on a Theme",
         "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 10,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -19583,6 +19732,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 4: Chuck Jones",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 11,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -21343,6 +21501,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "San Antonio Bonus Features",
         "track_number": 1,
         "audio_commentary": []
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 2,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22228,6 +22395,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 1,
+        "disc_title": "Disc 1",
+        "track_number": 12,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -22646,6 +22822,15 @@ window.LOONEY_TUNES_DATABASE = [
         "format": "LaserDisc",
         "disc_number": 5,
         "disc_title": "Side 9: Best Supporting Players",
+        "track_number": 3,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
         "track_number": 3,
         "audio_commentary": [],
         "type": "dedicated"
@@ -23685,6 +23870,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Side 3: Chuck Jones",
         "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 4,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -27558,6 +27752,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 1,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2 (Bonus Cartoons)",
+        "track_number": 6,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -27609,6 +27812,17 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_title": "Side 1",
         "track_number": 5,
         "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 5,
+        "audio_commentary": [
+          "Greg Ford"
+        ],
         "type": "dedicated"
       }
     ]
@@ -29763,6 +29977,17 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 9,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 6,
+        "audio_commentary": [
+          "Jerry Beck"
+        ],
+        "type": "dedicated"
       }
     ]
   },
@@ -30559,6 +30784,15 @@ window.LOONEY_TUNES_DATABASE = [
         "disc_number": 2,
         "disc_title": "Disc 2",
         "track_number": 4,
+        "audio_commentary": [],
+        "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2",
+        "track_number": 7,
         "audio_commentary": [],
         "type": "dedicated"
       }
@@ -32619,6 +32853,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cc4"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2 (Bonus Cartoons)",
+        "track_number": 7,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -40444,6 +40687,15 @@ window.LOONEY_TUNES_DATABASE = [
         "track_number": 11,
         "audio_commentary": [],
         "type": "dedicated"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2 (Bonus Cartoons)",
+        "track_number": 8,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -43648,6 +43900,15 @@ window.LOONEY_TUNES_DATABASE = [
         "audio_commentary": [],
         "type": "dedicated",
         "set_id": "wac_cv3"
+      },
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2 (Bonus Cartoons)",
+        "track_number": 9,
+        "audio_commentary": [],
+        "type": "dedicated"
       }
     ]
   },
@@ -47188,7 +47449,17 @@ window.LOONEY_TUNES_DATABASE = [
       "Granny"
     ],
     "synopsis": "Granny hires Daffy Duck to capture Speedy Gonzales.",
-    "media_locations": []
+    "media_locations": [
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2 (Bonus Cartoons)",
+        "track_number": 10,
+        "audio_commentary": [],
+        "type": "dedicated"
+      }
+    ]
   },
   {
     "id": "just-plane-beep",
@@ -48242,7 +48513,17 @@ window.LOONEY_TUNES_DATABASE = [
       "Sam Cat"
     ],
     "synopsis": "Merlin the Magic Mouse tries to put on a magic show with the help of Second Banana, but Sam Cat, the only audience member, tells Merlin that there will be trouble if the cat finds out that Merlin's a mouse.",
-    "media_locations": []
+    "media_locations": [
+      {
+        "set_name": "Looney Tunes Mouse Chronicles: The Chuck Jones Collection",
+        "format": "Blu-ray",
+        "disc_number": 2,
+        "disc_title": "Disc 2 (Bonus Cartoons)",
+        "track_number": 11,
+        "audio_commentary": [],
+        "type": "dedicated"
+      }
+    ]
   },
   {
     "id": "quacker-tracker",

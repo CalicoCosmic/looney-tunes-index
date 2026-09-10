@@ -2307,7 +2307,7 @@
             <label for="inLibraryOnlyCheckbox">📚 My Library</label>
           </button>
           <button type="button" id="customizeLibraryBtn" class="pill-segment edit-btn" onclick="openLibraryModal()" title="Customize Owned Sets">
-            ⚙️ ( <span id="libraryCountDisplay"><span id="librarySubBarCount">0</span> / <span id="librarySubBarTotal">51</span></span> )
+            ⚙️ ( <span id="libraryCountDisplay"><span id="librarySubBarCount">0</span> / <span id="librarySubBarTotal">52</span></span> )
           </button>
         </div>
         <button type="button" id="panelToggleBtn" class="subbar-btn panel-toggle-btn" onclick="toggleSecondaryPanels()" title="Show or hide Theatrical Era Timeline">
@@ -2388,7 +2388,7 @@
     <div class="modal-header">
       <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
         <h2 style="margin: 0; font-size: 1.25rem; color: #0f172a;">⚙️ Customize My Owned Media Sets</h2>
-        <span class="media-set-summary-badge" id="modalOwnedSummary">0 of 51 Owned</span>
+        <span class="media-set-summary-badge" id="modalOwnedSummary">0 of 52 Owned</span>
       </div>
       <button type="button" class="modal-close" onclick="closeLibraryModal()">&times;</button>
     </div>
@@ -2412,7 +2412,7 @@
     <div class="popover-actions" style="margin-bottom: 12px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
       <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap;">
         <button type="button" class="popover-btn popover-btn-primary" onclick="loadCurrentUserLibrary()" title="Select sets in your saved library">📚 My Saved Library</button>
-        <button type="button" class="popover-btn" id="selectAllSetsBtn" onclick="selectAllSets(true)" title="Check all sets">Select All (146 Sets)</button>
+        <button type="button" class="popover-btn" id="selectAllSetsBtn" onclick="selectAllSets(true)" title="Check all sets">Select All (147 Sets)</button>
         <button type="button" class="popover-btn" onclick="selectAllSets(false)" title="Uncheck all sets">Clear All</button>
       </div>
       <div class="media-capsule-toggle" id="modalCapsuleToggleGroup" title="Filter releases by media format">
@@ -2441,7 +2441,7 @@
     </div>
 
     <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 12px; border-top: 1px solid #e2e8f0; flex-wrap: wrap; gap: 8px;">
-      <span style="font-size: 0.82rem; color: #64748b;" id="popoverCountLabel">0 of 51 sets marked owned</span>
+      <span style="font-size: 0.82rem; color: #64748b;" id="popoverCountLabel">0 of 52 sets marked owned</span>
       <button type="button" class="modal-btn-save" onclick="closeLibraryModal()">✓ Done & Apply</button>
     </div>
   </div>
@@ -3872,7 +3872,7 @@
 
   function updateOwnedCount() {
     const count = selectedMediaSets.size;
-    const total = allMediaSets.length || 146;
+    const total = allMediaSets.length || 147;
     const primarySets = allMediaSets.filter(s => s.type !== 'feature_bonus');
     const bonusSets = allMediaSets.filter(s => s.type === 'feature_bonus');
     const primaryOwned = primarySets.filter(s => selectedMediaSets.has(s.set_name)).length;
@@ -3881,17 +3881,17 @@
     const countEl = document.getElementById('ownedCount');
     if (countEl) countEl.textContent = count;
     const totalEl = document.getElementById('totalSetsCount');
-    if (totalEl) totalEl.textContent = primarySets.length || 51;
+    if (totalEl) totalEl.textContent = primarySets.length || 52;
     const subBarCount = document.getElementById('librarySubBarCount');
     if (subBarCount) subBarCount.textContent = primaryOwned;
     const subBarTotal = document.getElementById('librarySubBarTotal');
-    if (subBarTotal) subBarTotal.textContent = primarySets.length || 51;
+    if (subBarTotal) subBarTotal.textContent = primarySets.length || 52;
     const countDisplay = document.getElementById('libraryCountDisplay');
-    if (countDisplay && !subBarCount) countDisplay.textContent = `${primaryOwned} / ${primarySets.length || 51}`;
+    if (countDisplay && !subBarCount) countDisplay.textContent = `${primaryOwned} / ${primarySets.length || 52}`;
     const libHeaderCount = document.getElementById('libraryHeaderCount');
     if (libHeaderCount) libHeaderCount.textContent = primaryOwned;
     const libHeaderTotal = document.getElementById('libraryHeaderTotal');
-    if (libHeaderTotal) libHeaderTotal.textContent = primarySets.length || 51;
+    if (libHeaderTotal) libHeaderTotal.textContent = primarySets.length || 52;
     const summaryEl = document.getElementById('modalOwnedSummary');
     if (summaryEl) {
       summaryEl.textContent = `${count} of ${total} Owned (${primaryOwned}/${primarySets.length} Primary${bonusOwned > 0 ? `, ${bonusOwned} Extras` : ''})`;
