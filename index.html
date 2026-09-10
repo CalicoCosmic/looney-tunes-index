@@ -1279,6 +1279,12 @@
       border: 1px solid #ddd6fe;
     }
 
+    .badge-shorthand-wac {
+      background: #dcfce7;
+      color: #15803d;
+      border: 1px solid #86efac;
+    }
+
     .badge-shorthand-nodisc {
       background: #f1f5f9;
       color: #64748b;
@@ -4196,12 +4202,14 @@
         return lf.includes('dvd') && !lf.includes('blu');
       });
       const hasLd = locs.some(loc => (loc.format || '').toLowerCase().includes('laser'));
+      const hasWacBonus = locs.some(loc => loc.type === 'feature_bonus');
 
       let shorthandBadgesHtml = '';
       if (hasBd) shorthandBadgesHtml += `<span class="badge-shorthand badge-shorthand-bd" title="Available on Blu-ray">💿 BD</span>`;
       if (hasDvd) shorthandBadgesHtml += `<span class="badge-shorthand badge-shorthand-dvd" title="Available on DVD">📀 DVD</span>`;
       if (hasLd) shorthandBadgesHtml += `<span class="badge-shorthand badge-shorthand-ld" title="Available on LaserDisc">💽 LD</span>`;
-      if (!hasBd && !hasDvd && !hasLd) {
+      if (hasWacBonus) shorthandBadgesHtml += `<span class="badge-shorthand badge-shorthand-wac" title="Available as Warner Archive Collection (WAC) feature film bonus extra">🎁 WAC</span>`;
+      if (!hasBd && !hasDvd && !hasLd && !hasWacBonus) {
         shorthandBadgesHtml += `<span class="badge-shorthand badge-shorthand-nodisc" title="Not available on home video disc">No Disc</span>`;
       }
 
